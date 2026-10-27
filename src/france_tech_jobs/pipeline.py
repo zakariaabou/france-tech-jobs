@@ -112,6 +112,7 @@ def update(root, today=None, fetcher=None, classifier=None):
     """Fetch every configured source, then publish only after a successful fetch."""
     from .classify import classify
     from .connectors import fetch_source
+    from .feeds import generate_feeds
     from .render import render_all
 
     root = Path(root)
@@ -154,7 +155,7 @@ def update(root, today=None, fetcher=None, classifier=None):
     jobs = retain_records(merge_observations(previous, successful, failed_ids, today), today, failed_ids)
     public_jobs = deduplicate([job for job in jobs if job.get("status") == "active" and job.get("eligible")])
     review_jobs = select_review_jobs(jobs, public_jobs)
-    outputs = {"data/jobs.json": json.dumps(jobs, ensure_ascii=False, indent=2, sort_keys=True) + "\n", **render_all(public_jobs, today, review_jobs=review_jobs, review_limit=review_limit)}
+    outputs = {"data/jobs.json": json.dumps(jobs, ensure_ascii=False, indent=2, sort_keys=True) + "\n", **render_all(public_jobs, today, review_jobs=review_jobs, review_limit=review_limit), **generate_feeds(public_jobs)}
     for path, content in outputs.items():
         destination = root / path
         destination.parent.mkdir(parents=True, exist_ok=True)

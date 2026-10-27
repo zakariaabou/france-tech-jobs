@@ -2,6 +2,11 @@
 
 Research date: 2026-10-27. This record distinguishes employer-site rules from the third-party job-board API actually queried by the pipeline. It is an evidence inventory, not a legal opinion or proof that a source is authorized for aggregation or republication.
 
+This audit covers the first 20 configured employer feeds. Eight additional
+employers were subsequently added; their source-specific reuse conditions have
+not yet been individually audited. See `docs/sources.md` for their access and
+provider-documentation status.
+
 ## Provider-level information
 
 The [Lever Postings API documentation](https://github.com/lever/postings-api) says published postings are publicly viewable and may be scraped by third parties. This is a provider statement, not verification of an individual employer's rights or restrictions. The [Greenhouse Job Board API documentation](https://docs.greenhouse.io/job-board.html#authentication) says its GET endpoints do not require authentication, and the [SmartRecruiters Posting API documentation](https://developers.smartrecruiters.com/docs/posting-api) describes access to public postings and customer career-site use. Technical access alone does not verify third-party republication rights.

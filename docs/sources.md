@@ -35,6 +35,14 @@ because company boards can contain listings in more than one country.
 | [Doctolib](https://job-boards.greenhouse.io/Doctolib) | Greenhouse | French health technology product | [Board JSON](https://boards-api.greenhouse.io/v1/boards/Doctolib/jobs?content=true) | 150 postings; includes French software and AI roles, many senior or internships |
 | [Shift Technology](https://job-boards.greenhouse.io/shifttechnology) | Greenhouse | French AI/insurance software product | [Board JSON](https://boards-api.greenhouse.io/v1/boards/shifttechnology/jobs?content=true) | 18 postings; French AI roles, some outside target experience scope |
 | [Mirakl Labs](https://job-boards.greenhouse.io/mirakllabs) | Greenhouse | French commerce software product | [Board JSON](https://boards-api.greenhouse.io/v1/boards/mirakllabs/jobs?content=true) | 30 postings; French software and AI roles, many senior or internships |
+| [Pigment](https://jobs.lever.co/pigment) | Lever | French planning software | [Board JSON](https://api.lever.co/v0/postings/pigment?mode=json&limit=100) | 100 postings in first page; [junior backend](https://jobs.lever.co/pigment/dad6777e-77e7-4885-b8cc-751ad141df6a) and [data engineer](https://jobs.lever.co/pigment/0aede960-d9cd-45c1-92e4-82e3cb3b2ae2) in Paris |
+| [Scaleway](https://jobs.lever.co/scaleway) | Lever | French cloud infrastructure provider | [Board JSON](https://api.lever.co/v0/postings/scaleway?mode=json&limit=100) | 30 postings in first page; [backend software role in Paris](https://jobs.lever.co/scaleway/ad74cfd6-edb5-4ea7-a998-52cf8945112b) |
+| [VO2 Group](https://jobs.lever.co/vo2-group) | Lever | French technology consultancy | [Board JSON](https://api.lever.co/v0/postings/vo2-group?mode=json&limit=100) | 42 postings in first page; [AI engineer role in Paris](https://jobs.lever.co/vo2-group/5325c5b9-0e1d-44f0-8e09-0f226cba2d8b) |
+| [Malt](https://jobs.lever.co/malt) | Lever | French freelance marketplace | [Board JSON](https://api.lever.co/v0/postings/malt?mode=json&limit=100) | 26 postings in first page; [engineering role in Paris](https://jobs.lever.co/malt/977db4c4-b876-40db-b36e-71a9ad93a78e), senior and excluded by current scope |
+| [Outsight](https://jobs.lever.co/outsight) | Lever | French spatial analytics product | [Board JSON](https://api.lever.co/v0/postings/outsight?mode=json&limit=100) | 13 postings in first page; [algorithm engineer in Paris](https://jobs.lever.co/outsight/9006eaa9-9c8e-4c2d-8dd3-1e08e6065243) |
+| [Perion Network](https://job-boards.greenhouse.io/perionnetworkltd) | Greenhouse | International advertising technology product | [Board JSON](https://boards-api.greenhouse.io/v1/boards/perionnetworkltd/jobs?content=true) | 6 postings; [machine-learning role in Paris](https://job-boards.greenhouse.io/perionnetworkltd/jobs/4699316006) |
+| [Beacon Biosignals](https://job-boards.greenhouse.io/beaconbiosignals) | Greenhouse | International neurotechnology product | [Board JSON](https://boards-api.greenhouse.io/v1/boards/beaconbiosignals/jobs?content=true) | 27 postings; [senior algorithm role in Paris](https://job-boards.greenhouse.io/beaconbiosignals/jobs/4361222009), excluded by current scope |
+| [Teads](https://job-boards.greenhouse.io/teads1) | Greenhouse | International advertising technology product | [Board JSON](https://boards-api.greenhouse.io/v1/boards/teads1/jobs?content=true) | 59 postings; [engineering role in Montpellier](https://job-boards.eu.greenhouse.io/teads1/jobs/4673150101), senior and excluded by current scope |
 
 Examples on these boards: [Decathlon Data Engineer in France](https://job-boards.greenhouse.io/decathlontechnology/jobs/4794463101),
 [SFEIR Data Engineer in Strasbourg](https://jobs.lever.co/sfeir/256e267c-525f-49b4-8400-781ad1b8d6bb), and
@@ -79,8 +87,8 @@ documents access to public postings and its [endpoints](https://developers.smart
 describe listing and detail requests. Public access or a provider statement
 does not by itself establish an individual employer's redistribution terms.
 
-For the 20-source snapshot, a normal complete update makes six Greenhouse GETs,
-at least 13 Lever GETs plus extra pages, and roughly 139 Meritis SmartRecruiters
+For the 28-source snapshot, a normal complete update makes nine Greenhouse GETs,
+at least 18 Lever GETs plus extra pages, and roughly 139 Meritis SmartRecruiters
 GETs (two listing pages plus 137 details). Actual counts vary with feed size and
 retryable errors; these are planning estimates, not rate limits or hard caps.
 The connector throttles SmartRecruiters detail fetches to about 10 per second
@@ -97,6 +105,10 @@ treated as complete snapshots for closure detection.
 | HelloWork | No connector enabled. Its [recruiter terms](https://recruteur.hellowork.com/cgv-abo-lib) describe automated users of the job database as non-legitimate and restrict systematic extraction. Their applicability depends on the service and agreement; investigate an authorized feed or partnership before integration. |
 | Apec | No connector enabled. [Apec's site terms](https://www.apec.fr/infos-legales/infos-cgu.html) prohibit automated navigation and capturing content from its site and job database. Obtain suitable authorized access before integrating. |
 | France Travail | No connector enabled. [The official API listing](https://www.data.gouv.fr/dataservices/api-offres-demploi) states the job-offers API is not currently exposed while distribution and reuse are reviewed; access inquiries go through France Travail. Recheck before adding. |
+| Choisir le service public | No connector enabled. Its [open-licensed weekly dataset](https://www.data.gouv.fr/datasets/les-offres-diffusees-sur-choisir-le-service-public) includes historical postings and no job URL field; its limited RSS feed is not a complete snapshot. See [issue #18](https://github.com/zakariaabou/france-tech-jobs/issues/18) for the work needed to verify links and handle incremental updates safely. |
+| EURES | No connector enabled. The [official Find a Job terms](https://europa.eu/eures/portal/jv-se/home?lang=en) prohibit extraction and republication through scraping and reserve API data extraction to recognized EURES partners. |
+| Adzuna | No connector enabled. [Official API terms](https://developer.adzuna.com/docs/terms_of_service) permit some listing publication, but require a registered API key; licensing and restrictions depend on usage. Account access and conditions for this project are unverified. |
+| Remotive | No connector enabled. Its [public API terms](https://remotive.com/remote-jobs/api) require explicit Remotive attribution and a link to each Remotive posting; data is delayed 24 hours and submission to third-party job sites is restricted. Its [general site terms](https://remotive.com/terms-of-use) also contain scraping and redistribution restrictions. The interaction between those terms and this repository's use should be confirmed before integration. |
 
 Other researched boards, such as Sopra Steria and Devoteam on SmartRecruiters,
 returned non-empty listings but are substantially larger; they are not yet in

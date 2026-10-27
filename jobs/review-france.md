@@ -2,7 +2,7 @@
 
 Last pipeline run: 2026-10-27 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
-Showing 100 of 100 candidates (limit: 100). Region: france.
+Showing 100 of 112 candidates (limit: 100). Region: france.
 
 [Home](../README.md)
 
@@ -10,6 +10,9 @@ Showing 100 of 100 candidates (limit: 100). Region: france.
 
 | Company | Role | Categories | Location | Experience | Review reason | Sources | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| VO2 Group | \[VO2 Finance\] - Développeur C# Confirmé – Trading Électronique / Front-Office CIB | Software Engineering | Paris, France | unknown | Experience level not confirmed | vo2-group | [Apply](https://jobs.lever.co/vo2-group/81b24104-5bc3-4650-9085-1a65179479d8/apply) |
+| VO2 Group | \[VO2 Brand Experience\] - Développeur Fullstack Shopify | Software Engineering | Paris, France | unknown | Experience level not confirmed | vo2-group | [Apply](https://jobs.lever.co/vo2-group/2a140d31-127f-4759-ad58-2981178cd28e/apply) |
+| VO2 Group | \[ VO2 FORCE \] - Développeur(se) IA / AI Engineer | AI Engineering, Software Engineering | Paris, France | unknown | Experience level not confirmed | vo2-group | [Apply](https://jobs.lever.co/vo2-group/5325c5b9-0e1d-44f0-8e09-0f226cba2d8b/apply) |
 | Theodo | Software Engineer Node/React - CDI Paris - Theodo Extend | Software Engineering | Paris | unknown | Experience level not confirmed | theodo | [Apply](https://jobs.lever.co/theodo/1a30709c-3bc1-48cc-b9a2-554e164bd618/apply) |
 | Theodo | Software Engineer Fullstack Secteur Public - CDI Paris - Theodo GovTech | Software Engineering | Paris | unknown | Experience level not confirmed | theodo | [Apply](https://jobs.lever.co/theodo/86f6912f-70aa-4b62-8933-da41e85c61e7/apply) |
 | Theodo | Software Engineer Fullstack Expérimenté - CDI Paris - Theodo | Software Engineering | Paris | unknown | Experience level not confirmed | theodo | [Apply](https://jobs.lever.co/theodo/ab27737f-4012-48c8-9673-81a7b01e201c/apply) |
@@ -26,6 +29,11 @@ Showing 100 of 100 candidates (limit: 100). Region: france.
 | Theodo | AI-Native Software Engineer - CDI Paris - Theodo Fintech | Software Engineering | Paris | unknown | Experience level not confirmed | theodo | [Apply](https://jobs.lever.co/theodo/d51fd8f5-83ab-4223-bd05-6459640ff11c/apply) |
 | Theodo | AI-Native Software Engineer - CDI Paris - Theodo | Software Engineering | Paris | unknown | Experience level not confirmed | theodo | [Apply](https://jobs.lever.co/theodo/9a2863cd-96b8-49f6-b17e-0de2a266917e/apply) |
 | Theodo | AI Engineer - CDI Paris - Theodo Data &amp; AI | AI Engineering | Paris | unknown | Experience level not confirmed | theodo | [Apply](https://jobs.lever.co/theodo/afcb1d81-a231-4955-9ce2-d733a3bbc8fb/apply) |
+| Teads | Software Engineer | Software Engineering | Montpellier | unknown | Experience level not confirmed | teads | [Apply](https://job-boards.eu.greenhouse.io/teads1/jobs/4846467101) |
+| Scaleway | Software Engineer – Cloud Security | Software Engineering | Paris | unknown | Experience level not confirmed | scaleway | [Apply](https://jobs.lever.co/scaleway/5daef5f1-b2ef-4eb0-8fb6-f8fdaa0070ba/apply) |
+| Scaleway | Software Engineer - Developer | Software Engineering | Paris | unknown | Experience level not confirmed | scaleway | [Apply](https://jobs.lever.co/scaleway/934a115a-a248-415f-8637-7aa8c0476b2c/apply) |
+| Scaleway | Full Stack Software Engineer (Python / React) | Software Engineering | Paris | unknown | Experience level not confirmed | scaleway | [Apply](https://jobs.lever.co/scaleway/3034a4ec-22e3-4406-a983-5e3d1a1b3d39/apply) |
+| Scaleway | Backend Software Engineer (Python / DevOps) | Software Engineering | Paris | unknown | Experience level not confirmed | scaleway | [Apply](https://jobs.lever.co/scaleway/ad74cfd6-edb5-4ea7-a998-52cf8945112b/apply) |
 | SFEIR | Software Engineer Python / FastAPI | Software Engineering | Paris | unknown | Experience level not confirmed | sfeir | [Apply](https://jobs.lever.co/sfeir/196a47f2-7f02-4dab-91ae-1d40e496853f/apply) |
 | SFEIR | Software Engineer Java / Angular | Software Engineering | Strasbourg | unknown | Experience level not confirmed | sfeir | [Apply](https://jobs.lever.co/sfeir/89ee42fc-ca44-41cc-8cfc-8b97b7626107/apply) |
 | SFEIR | Software Engineer C#.Net | Software Engineering | Strasbourg | unknown | Experience level not confirmed | sfeir | [Apply](https://jobs.lever.co/sfeir/90fd23a7-20d8-44ef-863e-32b56bdb2101/apply) |
@@ -44,6 +52,10 @@ Showing 100 of 100 candidates (limit: 100). Region: france.
 | SFEIR | Cloud &amp; Data Engineer | Data Engineering | Paris | unknown | Experience level not confirmed | sfeir | [Apply](https://jobs.lever.co/sfeir/f9d756ca-f8c3-453b-a83d-0016bd9749aa/apply) |
 | SFEIR | AI Software Engineer / Développeur Augmenté (H/F) | AI Engineering, Software Engineering | Paris | unknown | Experience level not confirmed | sfeir | [Apply](https://jobs.lever.co/sfeir/005ff876-b2a7-4782-a999-cd9c037535c4/apply) |
 | SFEIR | AI Engineer | AI Engineering | Strasbourg | unknown | Experience level not confirmed | sfeir | [Apply](https://jobs.lever.co/sfeir/f5bae950-7a3c-46c3-a4c2-3ffd980484ed/apply) |
+| Pigment | Data Engineer (Growth Team) | Data Engineering | Paris | unknown | Experience level not confirmed | pigment | [Apply](https://jobs.lever.co/pigment/0aede960-d9cd-45c1-92e4-82e3cb3b2ae2/apply) |
+| Perion Network | Machine Learning Engineer, Outmax | AI Engineering | Paris, France | unknown | Experience level not confirmed | perion | [Apply](https://job-boards.greenhouse.io/perionnetworkltd/jobs/4699316006) |
+| Perion Network | Machine Learning Engineer, Outmax | AI Engineering | FR-Montpellier | unknown | Experience level not confirmed | perion | [Apply](https://job-boards.greenhouse.io/perionnetworkltd/jobs/4716234006) |
+| Outsight | Unity Software Engineer | Software Engineering | Paris | unknown | Experience level not confirmed | outsight | [Apply](https://jobs.lever.co/outsight/a93f1fe9-8bf0-4908-8e9f-6ed53e5919bb/apply) |
 | Odaseva | Front-end Developer Junior | Software Engineering | Paris | unknown | Experience level not confirmed | odaseva | [Apply](https://jobs.lever.co/odaseva/5fa5b26d-a0f2-4135-9559-e63feb2213f1/apply) |
 | Meritis | Quantitative Développeur (H/F) | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000150304639-quantitative-developpeur-h-f-) |
 | Meritis | Ingénieur IA (H/F) | AI Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000140480991-ingenieur-ia-h-f-) |
@@ -98,15 +110,3 @@ Showing 100 of 100 candidates (limit: 100). Region: france.
 | MARGO | AI Engineer - Spécialiste AI4Code &amp; Agents IA (H/F) | AI Engineering | Paris | unknown | Experience level not confirmed | margo-group | [Apply](https://jobs.lever.co/margo-group/9b45e9fb-ac2d-40ad-9103-2bbb2b10ad4e/apply) |
 | MARGO | AI Engineer (GenAI &amp; LLM) – Practice IA MARGO | AI Engineering | Paris | unknown | Experience level not confirmed | margo-group | [Apply](https://jobs.lever.co/margo-group/722035eb-386a-4875-aa60-20ef0fdf9a24/apply) |
 | Kpler | ML Engineer - Power | AI Engineering | Paris | unknown | Experience level not confirmed | kpler | [Apply](https://jobs.lever.co/kpler/10105b9b-ed9c-4ebe-8f3b-76b18edeccb8/apply) |
-| INFINIT | Software Engineer - B2B Lending &amp; Payments | Software Engineering | Paris | unknown | Experience level not confirmed | infinit | [Apply](https://jobs.lever.co/infinit/bb2b0d9e-dc5c-49a3-904b-ee0750e65ae1/apply) |
-| Doctrine | Experienced Machine Learning Engineer - Spain 🇪🇸 (Spanish speaking) | AI Engineering | Paris | unknown | Experience level not confirmed | doctrine | [Apply](https://jobs.lever.co/doctrine/49453c9c-6cfd-4c5c-9585-e6718e2f8e2e/apply) |
-| Doctolib | Workday Integration &amp; Analytics Engineer - Paris (x/f/m) | Data Engineering | Paris, Paris, France | unknown | Experience level not confirmed | doctolib | [Apply](https://job-boards.greenhouse.io/doctolib/jobs/7795798003) |
-| Doctolib | Software Engineer Fullstack Kotlin / React (x/f/m) | Software Engineering | Paris, Paris, France | unknown | Experience level not confirmed | doctolib | [Apply](https://job-boards.greenhouse.io/doctolib/jobs/7809464003) |
-| Decathlon Digital | Software Engineer - OneCheckout (f/m/d) | Software Engineering | Lille, Upline, Nord, France | unknown | Experience level not confirmed | decathlon-digital | [Apply](https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4994617101) |
-| Decathlon Digital | Software Engineer | Software Engineering | Lille, Upline, Nord, France | unknown | Experience level not confirmed | decathlon-digital | [Apply](https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4646688101) |
-| Decathlon Digital | Software Development Engineer - Signeasy (f/m/d) | Software Engineering | Nantes, Loire-Atlantique, France | unknown | Experience level not confirmed | decathlon-digital | [Apply](https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/5009546101) |
-| Decathlon Digital | Android Software Engineer | Software Engineering | Lille - Btwin Village, Nord, France | unknown | Experience level not confirmed | decathlon-digital | [Apply](https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4983376101) |
-| Decathlon Digital | AI/ML Engineer - Product Info &amp; Content (f/m/d) | AI Engineering | Lille - Btwin Village, Nord, France | unknown | Experience level not confirmed | decathlon-digital | [Apply](https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4997303101) |
-| Decathlon Digital | AI Engineer (AI &amp; GenAI) - Finance Domain | AI Engineering | Lille - Jardin des Plantes, Nord, France; Paris, Paris, France | unknown | Experience level not confirmed | decathlon-digital | [Apply](https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/5011607101) |
-| Beamy | Applied AI Engineer | AI Engineering | Paris | unknown | Experience level not confirmed | beamy | [Apply](https://jobs.lever.co/Beamy/5defdfbe-8ec1-4279-94d7-279c840c2c29/apply) |
-| Agicap | AI Software Engineer (Forward Deployment Engineer) | AI Engineering, Software Engineering | Lyon 🇫🇷 | unknown | Experience level not confirmed | agicap | [Apply](https://jobs.lever.co/agicap/8f6a3de6-0956-4a7d-8f0a-ddf363b5b153/apply) |
