@@ -60,7 +60,7 @@ class ConnectorTests(unittest.TestCase):
     def test_network_error_is_visible_to_orchestrator(self):
         source = {'id': 'a', 'type': 'lever', 'company': 'A', 'board': 'a'}
         error = HTTPError('https://example.com', 503, 'service down', None, None)
-        with patch('urllib.request.urlopen', side_effect=error):
+        with patch('urllib.request.urlopen', side_effect=error), patch('time.sleep'):
             with self.assertRaises(HTTPError):
                 fetch_source(source)
 
@@ -145,3 +145,51 @@ class EmploymentTypeTests(unittest.TestCase):
             job = fetch_source(source)[0]
         self.assertEqual(job['contract'], 'CDI')
         self.assertEqual(job['employment_type'], '')
+
+class ConnectorTransientRetryTests(unittest.TestCase):
+    def setUp(self):
+        self.source = {'id': 'a', 'type': 'greenhouse', 'company': 'A', 'board': 'a'}
+
+    def test_timeout_then_success_retries_with_backoff(self):
+        with patch('urllib.request.urlopen', side_effect=[TimeoutError('read timed out'), response({'jobs': []})]) as request, patch('time.sleep') as sleep:
+            self.assertEqual(fetch_source(self.source), [])
+        self.assertEqual(request.call_count, 2)
+        sleep.assert_called_once_with(1)
+
+    def test_urlerror_timeout_then_success_is_retried(self):
+        from urllib.error import URLError
+        with patch('urllib.request.urlopen', side_effect=[URLError(TimeoutError('timed out')), response({'jobs': []})]) as request, patch('time.sleep'):
+            self.assertEqual(fetch_source(self.source), [])
+        self.assertEqual(request.call_count, 2)
+
+    def test_transient_http_failure_recovers_after_backoff(self):
+        for code in (500, 502, 503, 504):
+            with self.subTest(code=code):
+                error = HTTPError('https://example.com', code, 'server error', None, None)
+                with patch('urllib.request.urlopen', side_effect=[error, response({'jobs': []})]) as request, patch('time.sleep'):
+                    self.assertEqual(fetch_source(self.source), [])
+                self.assertEqual(request.call_count, 2)
+
+    def test_exhausted_timeout_reraises_after_three_attempts(self):
+        with patch('urllib.request.urlopen', side_effect=TimeoutError('read timed out')) as request, patch('time.sleep') as sleep:
+            with self.assertRaises(TimeoutError):
+                fetch_source(self.source)
+        self.assertEqual(request.call_count, 3)
+        self.assertEqual([x.args[0] for x in sleep.call_args_list], [1, 2])
+
+    def test_permanent_http_error_is_not_retried(self):
+        error = HTTPError('https://example.com', 404, 'not found', None, None)
+        with patch('urllib.request.urlopen', side_effect=error) as request, patch('time.sleep') as sleep:
+            with self.assertRaises(HTTPError):
+                fetch_source(self.source)
+        self.assertEqual(request.call_count, 1)
+        sleep.assert_not_called()
+
+    def test_non_timeout_urlerror_is_not_retried(self):
+        from urllib.error import URLError
+        error = URLError('name resolution failed')
+        with patch('urllib.request.urlopen', side_effect=error) as request, patch('time.sleep') as sleep:
+            with self.assertRaises(URLError):
+                fetch_source(self.source)
+        self.assertEqual(request.call_count, 1)
+        sleep.assert_not_called()

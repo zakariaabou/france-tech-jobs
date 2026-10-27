@@ -37,13 +37,23 @@ def _json(url, timeout):
             with urllib.request.urlopen(request, timeout=timeout) as response:
                 return json.load(response)
         except urllib.error.HTTPError as exc:
-            if exc.code != 429 or attempt == 2:
+            if exc.code not in (429, 500, 502, 503, 504) or attempt == 2:
                 raise
-            try:
-                delay = float(exc.headers.get('Retry-After', '1')) if exc.headers else 1.0
-            except (TypeError, ValueError):
-                delay = 1.0
+            delay = 2 ** attempt
+            if exc.code == 429:
+                try:
+                    delay = float(exc.headers.get('Retry-After', '1')) if exc.headers else 1.0
+                except (TypeError, ValueError):
+                    delay = 1.0
             time.sleep(min(max(delay, 0.0), 10.0))
+        except urllib.error.URLError as exc:
+            if not isinstance(exc.reason, TimeoutError) or attempt == 2:
+                raise
+            time.sleep(2 ** attempt)
+        except TimeoutError:
+            if attempt == 2:
+                raise
+            time.sleep(2 ** attempt)
     raise RuntimeError('Unreachable retry state')
 
 
