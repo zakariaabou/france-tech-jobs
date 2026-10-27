@@ -25,6 +25,7 @@
   {
     "application_url": "https://jobs.lever.co/agicap/8f6a3de6-0956-4a7d-8f0a-ddf363b5b153/apply",
     "categories": [
+      "ai",
       "software"
     ],
     "company": "Agicap",
@@ -50,6 +51,7 @@
     "categories": [
       "software"
     ],
+    "closed_since": "2026-10-27",
     "company": "Algolia",
     "contract": "",
     "eligible": false,
@@ -65,7 +67,7 @@
     "seniority": "excluded",
     "source_id": "algolia",
     "source_url": "https://job-boards.greenhouse.io/algolia/jobs/5256159004",
-    "status": "active",
+    "status": "closed",
     "title": "Senior Software Engineer - Search Infrastructure"
   },
   {
@@ -73,6 +75,7 @@
     "categories": [
       "software"
     ],
+    "closed_since": "2026-10-27",
     "company": "Algolia",
     "contract": "",
     "eligible": false,
@@ -88,7 +91,7 @@
     "seniority": "excluded",
     "source_id": "algolia",
     "source_url": "https://job-boards.greenhouse.io/algolia/jobs/5601402004",
-    "status": "active",
+    "status": "closed",
     "title": "Senior Software Engineer - Search Platform"
   },
   {
@@ -209,6 +212,7 @@
   {
     "application_url": "https://jobs.lever.co/Beamy/6a6bd63d-18f0-41bb-b3e8-2a52f4e6fbdd/apply",
     "categories": [
+      "ai",
       "software"
     ],
     "company": "Beamy",
@@ -1586,6 +1590,29 @@
     "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7814944003",
     "status": "active",
     "title": "Staff Machine Learning Engineer - Retrieval (x/f/m)"
+  },
+  {
+    "application_url": "https://job-boards.greenhouse.io/doctolib/jobs/7985189003",
+    "categories": [
+      "software"
+    ],
+    "company": "Doctolib",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-27",
+    "geography": "international",
+    "job_id": "7985189003",
+    "last_checked": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "location": "Milano, Milan, Italy",
+    "published_at": "2026-09-07T06:01:41-04:00",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "doctolib",
+    "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7985189003",
+    "status": "active",
+    "title": "Senior Software Engineer - Java (x/f/m)"
   },
   {
     "application_url": "https://job-boards.greenhouse.io/doctolib/jobs/7990890003",
@@ -4395,6 +4422,75 @@
     "title": "DevOps Cloud/IA générative engineer (H/F)"
   },
   {
+    "application_url": "https://jobs.smartrecruiters.com/Meritis/744000158000690-developpeur-c-h-f-",
+    "categories": [
+      "software"
+    ],
+    "company": "Meritis",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-27",
+    "geography": "france",
+    "job_id": "744000158000690",
+    "last_checked": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "location": "Valbonne, , France",
+    "published_at": "2026-10-27T09:46:03.394Z",
+    "remote": "hybrid",
+    "seniority": "unknown",
+    "source_id": "meritis",
+    "source_url": "https://jobs.smartrecruiters.com/Meritis/744000158000690-developpeur-c-h-f-",
+    "status": "active",
+    "title": "Développeur C++  (H/F)"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/Meritis/744000158003594-lead-data-engineer-gcp-h-f-",
+    "categories": [
+      "data"
+    ],
+    "company": "Meritis",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-27",
+    "geography": "france",
+    "job_id": "744000158003594",
+    "last_checked": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "location": "Valbonne, Provence-Alpes-Côte d'Azur, France",
+    "published_at": "2026-10-27T10:00:43.560Z",
+    "remote": "hybrid",
+    "seniority": "excluded",
+    "source_id": "meritis",
+    "source_url": "https://jobs.smartrecruiters.com/Meritis/744000158003594-lead-data-engineer-gcp-h-f-",
+    "status": "active",
+    "title": "Lead Data engineer GCP (H/F)"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/Meritis/744000158004000-developpeur-c-go-embarque-h-f-",
+    "categories": [
+      "software"
+    ],
+    "company": "Meritis",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-27",
+    "geography": "france",
+    "job_id": "744000158004000",
+    "last_checked": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "location": "Valbonne, , France",
+    "published_at": "2026-10-27T10:03:38.686Z",
+    "remote": "hybrid",
+    "seniority": "unknown",
+    "source_id": "meritis",
+    "source_url": "https://jobs.smartrecruiters.com/Meritis/744000158004000-developpeur-c-go-embarque-h-f-",
+    "status": "active",
+    "title": "Développeur C++/GO embarqué  (H/F) "
+  },
+  {
     "application_url": "https://job-boards.greenhouse.io/mirakllabs/jobs/5850877004",
     "categories": [
       "ai"
@@ -4742,6 +4838,7 @@
   {
     "application_url": "https://jobs.lever.co/sfeir/005ff876-b2a7-4782-a999-cd9c037535c4/apply",
     "categories": [
+      "ai",
       "software"
     ],
     "company": "SFEIR",
@@ -4765,6 +4862,7 @@
   {
     "application_url": "https://jobs.lever.co/sfeir/14293460-d40d-44a2-affc-4a3a1a4c26de/apply",
     "categories": [
+      "ai",
       "software"
     ],
     "company": "SFEIR",
@@ -5317,6 +5415,7 @@
   {
     "application_url": "https://jobs.lever.co/sfeir/bae94bc1-9731-4084-bd60-6d2a4eae93e1/apply",
     "categories": [
+      "ai",
       "software"
     ],
     "company": "SFEIR",
