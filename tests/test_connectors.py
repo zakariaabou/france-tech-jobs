@@ -12,6 +12,14 @@ def response(value):
 
 
 class ConnectorTests(unittest.TestCase):
+    def test_smartrecruiters_links_to_posting_when_apply_redirect_exists(self):
+        source = {'id': 'acme-sr', 'type': 'smartrecruiters', 'company': 'Acme', 'board': 'Acme'}
+        listing = {'content': [{'id': '1'}], 'totalFound': 1}
+        detail = {'id': '1', 'name': 'Data Engineer', 'location': {'fullLocation': 'Paris, France'}, 'postingUrl': 'https://jobs.smartrecruiters.com/Acme/1-job', 'applyUrl': 'https://jobs.smartrecruiters.com/Acme/1-job?oga=true'}
+        with patch('urllib.request.urlopen', side_effect=[response(listing), response(detail)]), patch('time.sleep'):
+            result = fetch_source(source)
+        self.assertEqual(result[0]['application_url'], 'https://jobs.smartrecruiters.com/Acme/1-job')
+
     def test_greenhouse_maps_published_job(self):
         source = {'id': 'acme-gh', 'type': 'greenhouse', 'company': 'Acme', 'board': 'acme'}
         payload = {'jobs': [{'id': 2, 'title': 'Data Engineer', 'location': {'name': 'Paris, France'}, 'absolute_url': 'https://example.com/job/2', 'updated_at': '2026-10-01T00:00:00Z', 'content': '<p>Build pipelines</p>'}]}

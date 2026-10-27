@@ -29,6 +29,12 @@ because company boards can contain listings in more than one country.
 | [Datadog](https://job-boards.greenhouse.io/datadog) | Greenhouse | International cloud software product | [Board JSON](https://boards-api.greenhouse.io/v1/boards/datadog/jobs) | 429 postings; [AI role in Paris](https://careers.datadoghq.com/detail/7194969/?gh_jid=7194969) |
 | [Ekimetrics](https://jobs.lever.co/ekimetrics) | Lever | International data/AI consultancy | [Board JSON](https://api.lever.co/v0/postings/ekimetrics?mode=json&limit=100) | 32 postings in first page; [junior software role in Hong Kong](https://jobs.lever.co/ekimetrics/d741727e-f25f-452a-8e40-e6d04c3395ea) |
 | [Mendix](https://jobs.lever.co/mendix) | Lever | International software product | [Board JSON](https://api.lever.co/v0/postings/mendix?mode=json&limit=100) | 44 postings in first page; [junior software role in Rotterdam](https://jobs.lever.co/mendix/7cbae919-1705-4737-9b0e-a942dd1451b3) |
+| [Doctrine](https://jobs.lever.co/doctrine) | Lever | French legal AI product | [Board JSON](https://api.lever.co/v0/postings/doctrine?mode=json&limit=100) | 38 postings; [confirmed ML/NLP role in Paris](https://jobs.lever.co/doctrine/6ec36f1e-471a-4cb0-bcc5-6f5d2e7540fd) and [confirmed software role](https://jobs.lever.co/doctrine/ed05d3b6-53be-4af9-9abd-e89574dca94b), both eligible under the current rules |
+| [Odaseva](https://jobs.lever.co/odaseva) | Lever | French data security software product | [Board JSON](https://api.lever.co/v0/postings/odaseva?mode=json&limit=100) | 16 postings; [junior frontend role in Paris](https://jobs.lever.co/odaseva/5fa5b26d-a0f2-4135-9559-e63feb2213f1); its stated experience requirement should be checked before classification |
+| [Algolia](https://job-boards.greenhouse.io/algolia) | Greenhouse | International AI/search product | [Board JSON](https://boards-api.greenhouse.io/v1/boards/algolia/jobs?content=true) | 26 postings; France and international technology roles |
+| [Doctolib](https://job-boards.greenhouse.io/Doctolib) | Greenhouse | French health technology product | [Board JSON](https://boards-api.greenhouse.io/v1/boards/Doctolib/jobs?content=true) | 150 postings; includes French software and AI roles, many senior or internships |
+| [Shift Technology](https://job-boards.greenhouse.io/shifttechnology) | Greenhouse | French AI/insurance software product | [Board JSON](https://boards-api.greenhouse.io/v1/boards/shifttechnology/jobs?content=true) | 18 postings; French AI roles, some outside target experience scope |
+| [Mirakl Labs](https://job-boards.greenhouse.io/mirakllabs) | Greenhouse | French commerce software product | [Board JSON](https://boards-api.greenhouse.io/v1/boards/mirakllabs/jobs?content=true) | 30 postings; French software and AI roles, many senior or internships |
 
 Examples on these boards: [Decathlon Data Engineer in France](https://job-boards.greenhouse.io/decathlontechnology/jobs/4794463101),
 [SFEIR Data Engineer in Strasbourg](https://jobs.lever.co/sfeir/256e267c-525f-49b4-8400-781ad1b8d6bb), and
@@ -44,9 +50,15 @@ listings as well as French ones; location must be assessed per posting.
 `id` identifies the source stably, `type` selects the connector, `board` is the
 employer's board identifier, `careers_url` is the public employer board, and
 `enabled` controls collection. Add a source only after checking the exact board,
-its current access and applicable reuse requirements. Any country hint must be
-treated as a hint, not as verified job location. The pilot owner is the project
-maintainer; community contributors may propose changes through GitHub issues.
+its current access and applicable reuse requirements. Each record also stores
+`access_status`, `access_verified_at`, `reuse_status`, `country_scope`, and
+`owner`. For all current records the endpoint's unauthenticated technical
+access was verified on 2026-10-27, provider documentation describes public
+access, and employer-specific aggregation/reuse conditions remain **unverified**;
+those fields are evidence and a review queue, not a grant of permission. Source
+locations are checked per posting, and a country hint is never treated as
+verified location. The owner is the project maintainer; community contributors
+may propose changes through GitHub issues.
 
 Public accessibility is a technical observation, not an authorization or legal
 conclusion about every form of reuse. Keep attribution and links to the
@@ -55,20 +67,31 @@ review provider and employer conditions. Identify the project through an
 appropriate user agent, use conservative request rates and back off on errors.
 Avoid collecting recruiter or applicant personal information.
 
-The [Lever Postings API](https://github.com/lever/postings-api) documents
-published jobs and pagination. [SmartRecruiters' public posting API](https://developers.smartrecruiters.com/docs/endpoints)
-documents the listing and detail endpoints. Detail requests on large boards
-are potentially expensive; start with this small pilot and do not turn on large
-employer boards without checking request volume and rate limits.
+Provider evidence: [Lever's Postings API](https://github.com/lever/postings-api)
+describes its published jobs and explicitly says they may be scraped by third
+parties; [Greenhouse's Job Board API](https://docs.greenhouse.io/job-board.html#authentication)
+documents unauthenticated GET endpoints; [SmartRecruiters' Posting API](https://developers.smartrecruiters.com/docs/posting-api)
+documents access to public postings and its [endpoints](https://developers.smartrecruiters.com/docs/endpoints)
+describe listing and detail requests. Public access or a provider statement
+does not by itself establish an individual employer's redistribution terms.
+
+For the 20-source snapshot, a normal complete update makes six Greenhouse GETs,
+at least 13 Lever GETs plus extra pages, and roughly 139 Meritis SmartRecruiters
+GETs (two listing pages plus 137 details). Actual counts vary with feed size and
+retryable errors; these are planning estimates, not rate limits or hard caps.
+The connector throttles SmartRecruiters detail fetches to about 10 per second
+and backs off/retries selected errors. Large SmartRecruiters boards are **not**
+enabled without further request budgeting; filtered snapshots must never be
+treated as complete snapshots for closure detection.
 
 ## Job boards requiring further investigation
 
 | Source | Status for this project |
 | --- | --- |
 | LinkedIn | No automated scraping planned: [LinkedIn prohibits third-party scraping and automated activity](https://www.linkedin.com/help/linkedin/answer/a1340567/automated-activity-on-linkedin). Link to employer originals when available. |
-| Welcome to the Jungle | No connector enabled. Investigate a suitable authorized feed, partnership and conditions for reuse. |
-| HelloWork | No connector enabled. Investigate a suitable authorized feed, partnership and conditions for reuse. |
-| Apec | No connector enabled. Investigate available access, partnership and conditions for reuse. |
+| Welcome to the Jungle | No connector enabled. Its [site terms](https://www.welcometothejungle.com/en/pages/terms) prohibit scraping content, subject to specified exceptions; a separate authorized feed or agreement would be needed for this use. |
+| HelloWork | No connector enabled. Its [recruiter terms](https://recruteur.hellowork.com/cgv-abo-lib) describe automated users of the job database as non-legitimate and restrict systematic extraction. Their applicability depends on the service and agreement; investigate an authorized feed or partnership before integration. |
+| Apec | No connector enabled. [Apec's site terms](https://www.apec.fr/infos-legales/infos-cgu.html) prohibit automated navigation and capturing content from its site and job database. Obtain suitable authorized access before integrating. |
 | France Travail | No connector enabled. [The official API listing](https://www.data.gouv.fr/dataservices/api-offres-demploi) states the job-offers API is not currently exposed while distribution and reuse are reviewed; access inquiries go through France Travail. Recheck before adding. |
 
 Other researched boards, such as Sopra Steria and Devoteam on SmartRecruiters,

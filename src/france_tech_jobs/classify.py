@@ -20,9 +20,9 @@ def _matches(pattern: str, text: str) -> bool:
 
 
 _DATA = r"\b(?:data engineer|data engineering|analytics engineer|big data engineer|ingenieur(?:e)? (?:de |des |en )?(?:donnees|data)|data platform engineer)\b"
-_AI = r"\b(?:ai engineer|ia engineer|machine learning engineer|ml engineer|mlops engineer|ml ops engineer|ingenieur(?:e)? (?:en )?(?:ia|machine learning)|llm engineer|nlp engineer|computer vision engineer)\b"
-_AI_TOPIC = r"\b(?:generative ai|gen ?ai|ia generative|intelligence artificielle|mlops|ml ops|natural language processing|computer vision|large language models?)\b"
-_SOFTWARE = r"\b(?:software (?:engineer|developer)|(?:backend|back end|frontend|front end|full[ -]?stack|mobile|platform) (?:engineer|developer)|developpeur(?:se)?(?: logiciel| software| full[ -]?stack| back[ -]?end| front[ -]?end| web)?|ingenieur(?:e)? (?:logiciel|software)|software engineering)\b"
+_AI = r"\b(?:ai engineer|ia engineer|ai software engineer|machine learning engineer|ml engineer|mlops engineer|ml ops engineer|ingenieur(?:e)? (?:en )?(?:ia|machine learning)|llm engineer|nlp engineer|computer vision engineer)\b"
+_AI_TOPIC = r"\b(?:generative ai|gen ?ai|ia generative|intelligence artificielle|ai platform|ml platform|mlops|ml ops|natural language processing|computer vision|large language models?)\b"
+_SOFTWARE = r"\b(?:software (?:engineer|developer)|(?:back[ -]?end|front[ -]?end|full[ -]?stack|mobile|platform) (?:engineer|developer)|developpeur(?:se)?(?: logiciel| software| full[ -]?stack| back[ -]?end| front[ -]?end| web)?|ingenieur(?:e)? (?:logiciel|software)|software engineering)\b"
 _ENGINEER = r"\b(?:engineer|engineering|developer|developpeur|developpeuse|ingenieur|ingenieure)\b"
 _INTERN = r"\b(?:internship|intern|interns|apprenticeship|apprentice|alternance|alternant|alternante|stage|stagiaire)\b"
 _SENIOR = r"\b(?:senior|sr\.?|staff|principal|lead|manager|architect|architecte|head|director|directeur|directrice)\b"
@@ -34,7 +34,7 @@ _INTERNATIONAL = r"\b(?:germany|allemagne|berlin|united kingdom|royaume uni|lond
 _EXPERIENCE = re.compile(
     r"\b(?P<low>\d{1,2})\s*(?:(?:[-–]|to|a)\s*(?P<high>\d{1,2})|(?P<plus>\+))?\s*"
     r"(?:years?|ans?)\s*(?:(?P<minimum_before>minimum|min\.?|at least)\s*)?"
-    r"(?:of\s+|d[' ]|de\s+)?(?:professional\s+|professionnelle?\s+)?"
+    r"(?:of\s+|d[' ]|de\s+)?(?:(?:professional|professionnelle?|hands[ -]on|software|development|engineering|work|relevant)\s+){0,5}"
     r"experience(?:\s+professionnelle?)?\b(?:\s*(?P<minimum_after>minimum|min\.?))?"
 )
 _COMPANY = r"\b(?:company|business|organisation|organization|entreprise|societe|agence|agency|founded|fondee|notre equipe|our team|we have|nous avons)\b"
@@ -64,10 +64,14 @@ def _experience(title: str, description: str, contract: str) -> str:
 
     junior = _matches(_JUNIOR, title)
     mid = _matches(_MID, title)
+    title_range = _matches(r"\b(?:junior\s*(?:/|-|–|or|to)\s*(?:intermediate|mid(?:[ -]?level)?)|(?:intermediate|mid(?:[ -]?level)?)\s*(?:/|-|–|or|to)\s*junior)\b", title)
+    if junior and mid and not title_range:
+        return "unknown"
+    title_level = "junior-mid" if title_range else "junior" if junior else "mid" if mid else "unknown"
     # Examine every explicit experience expression. An employer's own history
     # isn't an applicant requirement, and a later requirement must not be
     # hidden by an earlier number.
-    unknown_requirement = False
+    requirements = []
     for clause in re.split(r"[.;!?\n]", description):
         previous_end = 0
         for experience in _EXPERIENCE.finditer(clause):
@@ -84,21 +88,30 @@ def _experience(title: str, description: str, contract: str) -> str:
                 experience.group("plus")
                 or experience.group("minimum_before")
                 or experience.group("minimum_after")
-                or _matches(r"(?:at least|minimum(?: of)?|au moins|(?:au )?minimum(?: de)?)\s*$", prefix)
+                or _matches(r"(?:at least|minimum(?: of)?|au moins|(?:au )?minimum(?: de)?|a partir de)\s*$", prefix)
             )
             if first > last or open_ended:
-                unknown_requirement = True
+                requirements.append("unknown")
             elif last <= 2:
-                junior = True
+                requirements.append("junior")
             elif 3 <= first and last <= 4:
-                mid = True
+                requirements.append("mid")
+            elif experience.group("high") and first <= 2 and last <= 4:
+                requirements.append("junior-mid")
             else:
-                unknown_requirement = True
-    if unknown_requirement:
+                requirements.append("unknown")
+    if "unknown" in requirements or len(set(requirements)) > 1:
         return "unknown"
-    if junior == mid:
-        return "unknown"
-    return "junior" if junior else "mid"
+    if not requirements:
+        return title_level
+    requirement = requirements[0]
+    if title_level == "unknown":
+        return requirement
+    if title_level == requirement:
+        return title_level
+    if "junior-mid" in (title_level, requirement):
+        return "junior-mid"
+    return "unknown"
 
 
 def _geography(location: str) -> str:
@@ -119,5 +132,5 @@ def classify(title: str, description: str, location: str, contract: str = "") ->
         "categories": categories,
         "seniority": seniority,
         "geography": geography,
-        "eligible": bool(categories) and seniority in ("junior", "mid") and geography != "unknown",
+        "eligible": bool(categories) and seniority in ("junior", "junior-mid", "mid") and geography != "unknown",
     }

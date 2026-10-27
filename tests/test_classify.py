@@ -170,6 +170,47 @@ class ClassificationTests(unittest.TestCase):
         self.assertEqual(result["seniority"], "unknown")
         self.assertFalse(result["eligible"])
 
+    def test_french_a_partir_de_experience_is_open_ended(self):
+        result = classify("Développeur C++ junior", "Vous avez à partir de 2 ans d’expérience en développement.", "Valbonne, France")
+        self.assertEqual(result["seniority"], "unknown")
+        self.assertFalse(result["eligible"])
+
+    def test_english_hyphenated_front_end_engineering_title(self):
+        result = classify("Junior Front-end Developer", "", "Rotterdam")
+        self.assertEqual(result["categories"], ["software"])
+        self.assertTrue(result["eligible"])
+
+    def test_ai_platform_engineering_in_title(self):
+        result = classify("Software Engineer - AI Platform Tooling", "", "Rotterdam")
+        self.assertIn("ai", result["categories"])
+        self.assertIn("software", result["categories"])
+        self.assertFalse(result["eligible"])
+
+    def test_ai_software_engineer_has_both_role_tags(self):
+        result = classify("AI Software Engineer", "", "Toulouse")
+        self.assertEqual(result["categories"], ["ai", "software"])
+
+    def test_bounded_range_with_qualification_words_spans_both_levels(self):
+        result = classify("Junior Software Engineer", "Preferably 2 to 4 years of hands-on software development experience.", "Hong Kong")
+        self.assertEqual(result["seniority"], "junior-mid")
+        self.assertTrue(result["eligible"])
+
+    def test_junior_intermediate_title_spans_both_levels(self):
+        result = classify("Junior / Intermediate Machine Learning Engineer", "", "Paris, France")
+        self.assertEqual(result["seniority"], "junior-mid")
+        self.assertEqual(result["categories"], ["ai"])
+        self.assertTrue(result["eligible"])
+
+    def test_senior_requirement_overrides_range_in_title(self):
+        result = classify("Junior / Intermediate Machine Learning Engineer", "Requires 6 years of experience", "Paris, France")
+        self.assertEqual(result["seniority"], "excluded")
+        self.assertFalse(result["eligible"])
+
+    def test_senior_requirement_with_qualification_words_is_excluded(self):
+        result = classify("Junior Software Engineer", "At least 5 years of professional software development experience.", "Paris")
+        self.assertEqual(result["seniority"], "excluded")
+        self.assertFalse(result["eligible"])
+
 
 if __name__ == "__main__":
     unittest.main()

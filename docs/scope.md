@@ -21,13 +21,15 @@ product manager who works with engineers is not, by itself, an engineering job.
 - Explicit junior, new-graduate, entry-level or débutant titles are junior;
   mid-level, intermediate, confirmed and confirmé titles are mid-level.
 - An explicit experience requirement of 0–2 years is treated as junior,
-  and 3–4 years as mid-level. A requirement beginning at 5 years or more
+  and 3–4 years as mid-level. A bounded range covering both, such as 2–4
+  years, or an explicitly junior/intermediate title is labeled junior–mid.
+  A requirement beginning at 5 years or more
   is excluded as outside this conservative initial scope. All recognized
   requirements are checked, so a later senior requirement is not hidden by an
   earlier number. Explicit references to company history are ignored; the
   wording heuristic is limited and should be reviewed against live examples.
-- An open-ended minimum (for example, "2+ years"), an experience range
-  crossing those boundaries, conflicting indications, unspecified experience
+- An open-ended minimum (for example, "2+ years" or "à partir de 2 ans"),
+  a range extending beyond four years, conflicting indications, unspecified experience
   or unclear wording is **unknown**. It is not
   published as junior or mid-level without review. This intentionally misses
   some relevant jobs; it avoids inventing qualifications.

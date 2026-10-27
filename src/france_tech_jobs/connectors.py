@@ -193,7 +193,9 @@ def _smartrecruiters(source, board, timeout):
                 raise ValueError('Invalid SmartRecruiters description')
             result['description'] = ' '.join(_plain(section.get('text')) for section in sections.values() if isinstance(section, dict)).strip()
             result['published_at'] = detail.get('releasedDate') or ''
-            result['application_url'] = detail.get('applyUrl') or url
+            # The posting page shows the role and its application button; the
+            # direct apply URL can redirect to a one-click flow that blocks clients.
+            result['application_url'] = detail.get('postingUrl') or url
             records.append(result)
             time.sleep(0.1)
         if offset + len(content) >= total:

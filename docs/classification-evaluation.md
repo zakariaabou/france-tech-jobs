@@ -1,5 +1,52 @@
 # Classification evaluation
 
+## Reproducible stratified snapshot: 2026-10-27
+
+The file `evaluation/classification_snapshot.json` contains 20 manually selected,
+manually labelled snapshots linked to the original postings. Selection deliberately
+spans France and international locations; data, AI and software titles; junior,
+mid-level and junior-to-mid roles; internships, senior roles and unrelated jobs;
+and uncertain experience. It draws on Doctrine, Decathlon Digital, SFEIR, Meritis,
+Ekimetrics and Mendix. This is a **stratified convenience sample**, not a random,
+representative sample of the French or international market. Labels and classifier
+changes were developed using some of the same examples, so it is not a holdout.
+
+To avoid republishing full advertisements, each fixture includes the title,
+location, contract, and a minimal paraphrase of relevant experience evidence. An
+empty evidence field means no experience detail was included in this snapshot,
+not that none appeared anywhere in the original posting. The test evaluates those
+fixed inputs, not today's postings or full descriptions. The source may have
+changed or closed since review.
+
+Run `python scripts/evaluate_classification.py` for the current version or
+`python scripts/evaluate_classification.py --ref 846ad98` for the baseline.
+`--ref` executes the classifier from the specified trusted local Git revision.
+The script prints a three-way expected-versus-observed matrix, sample publish
+precision and recall, and role-category mismatches. `python -m unittest discover
+-s tests -p test_classification_snapshot.py -v` checks the fixed labels offline.
+
+| Manually labelled | Baseline observed publish / review / exclude | Updated observed publish / review / exclude |
+| --- | --- | --- |
+| Publish (7) | 6 / 0 / 1 | 7 / 0 / 0 |
+| Review (6) | 1 / 5 / 0 | 0 / 6 / 0 |
+| Exclude (7) | 0 / 0 / 7 | 0 / 0 / 7 |
+
+For this deliberately selected snapshot, publish precision and recall both
+changed from 6/7 to 7/7; category mismatches changed from 3 to 0. These numbers
+describe only these fixed excerpts and do **not** estimate production precision,
+recall, or the overall market. The baseline missed a hyphenated front-end role
+and classified a French open-ended minimum as junior; AI platform and AI software
+titles also lacked AI tags. Regression tests cover these cases, including French
+“à partir de” requirements and longer English qualification wording.
+
+Explicit junior/intermediate titles and bounded ranges entirely within the
+junior-to-mid bands (for example 2–4 years) are labelled `junior-mid` and
+eligible. An open-ended minimum, a range including five years, or conflicting
+independent requirements remains unknown or excluded according to the evidence.
+The sample and earlier regression tests were used to build this version; a
+larger, randomly selected and independently labelled holdout remains necessary
+to measure generalization.
+
 ## Method and limits
 
 On 2026-10-27, we retrieved current public postings from Decathlon Digital

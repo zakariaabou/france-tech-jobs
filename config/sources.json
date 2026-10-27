@@ -7,7 +7,12 @@
       "board": "decathlontechnology",
       "country_hint": null,
       "careers_url": "https://job-boards.greenhouse.io/decathlontechnology",
-      "enabled": true
+      "enabled": true,
+      "access_status": "public_endpoint_verified",
+      "reuse_status": "provider_public_api_documented_employer_terms_unverified",
+      "country_scope": "per_posting",
+      "owner": "project_maintainer",
+      "access_verified_at": "2026-10-27"
     },
     {
       "id": "sfeir",
@@ -16,7 +21,12 @@
       "board": "sfeir",
       "country_hint": null,
       "careers_url": "https://jobs.lever.co/sfeir",
-      "enabled": true
+      "enabled": true,
+      "access_status": "public_endpoint_verified",
+      "reuse_status": "provider_public_api_documented_employer_terms_unverified",
+      "country_scope": "per_posting",
+      "owner": "project_maintainer",
+      "access_verified_at": "2026-10-27"
     },
     {
       "id": "meritis",
@@ -25,7 +35,12 @@
       "board": "Meritis",
       "country_hint": null,
       "careers_url": "https://careers.smartrecruiters.com/Meritis",
-      "enabled": true
+      "enabled": true,
+      "access_status": "public_endpoint_verified",
+      "reuse_status": "provider_public_api_documented_employer_terms_unverified",
+      "country_scope": "per_posting",
+      "owner": "project_maintainer",
+      "access_verified_at": "2026-10-27"
     },
     {
       "id": "infinit",
@@ -34,7 +49,12 @@
       "board": "infinit",
       "country_hint": null,
       "careers_url": "https://jobs.lever.co/infinit",
-      "enabled": true
+      "enabled": true,
+      "access_status": "public_endpoint_verified",
+      "reuse_status": "provider_public_api_documented_employer_terms_unverified",
+      "country_scope": "per_posting",
+      "owner": "project_maintainer",
+      "access_verified_at": "2026-10-27"
     },
     {
       "id": "beamy",
@@ -43,7 +63,12 @@
       "board": "Beamy",
       "country_hint": null,
       "careers_url": "https://jobs.lever.co/Beamy",
-      "enabled": true
+      "enabled": true,
+      "access_status": "public_endpoint_verified",
+      "reuse_status": "provider_public_api_documented_employer_terms_unverified",
+      "country_scope": "per_posting",
+      "owner": "project_maintainer",
+      "access_verified_at": "2026-10-27"
     },
     {
       "id": "winamax",
@@ -52,7 +77,12 @@
       "board": "winamax",
       "country_hint": null,
       "careers_url": "https://jobs.lever.co/winamax",
-      "enabled": true
+      "enabled": true,
+      "access_status": "public_endpoint_verified",
+      "reuse_status": "provider_public_api_documented_employer_terms_unverified",
+      "country_scope": "per_posting",
+      "owner": "project_maintainer",
+      "access_verified_at": "2026-10-27"
     },
     {
       "id": "agicap",
@@ -61,7 +91,12 @@
       "board": "agicap",
       "country_hint": null,
       "careers_url": "https://jobs.lever.co/agicap",
-      "enabled": true
+      "enabled": true,
+      "access_status": "public_endpoint_verified",
+      "reuse_status": "provider_public_api_documented_employer_terms_unverified",
+      "country_scope": "per_posting",
+      "owner": "project_maintainer",
+      "access_verified_at": "2026-10-27"
     },
     {
       "id": "swile",
@@ -70,7 +105,12 @@
       "board": "swile",
       "country_hint": null,
       "careers_url": "https://jobs.lever.co/swile",
-      "enabled": true
+      "enabled": true,
+      "access_status": "public_endpoint_verified",
+      "reuse_status": "provider_public_api_documented_employer_terms_unverified",
+      "country_scope": "per_posting",
+      "owner": "project_maintainer",
+      "access_verified_at": "2026-10-27"
     },
     {
       "id": "theodo",
@@ -79,7 +119,12 @@
       "board": "theodo",
       "country_hint": null,
       "careers_url": "https://jobs.lever.co/theodo",
-      "enabled": true
+      "enabled": true,
+      "access_status": "public_endpoint_verified",
+      "reuse_status": "provider_public_api_documented_employer_terms_unverified",
+      "country_scope": "per_posting",
+      "owner": "project_maintainer",
+      "access_verified_at": "2026-10-27"
     },
     {
       "id": "kpler",
@@ -88,7 +133,12 @@
       "board": "kpler",
       "country_hint": null,
       "careers_url": "https://jobs.lever.co/kpler",
-      "enabled": true
+      "enabled": true,
+      "access_status": "public_endpoint_verified",
+      "reuse_status": "provider_public_api_documented_employer_terms_unverified",
+      "country_scope": "per_posting",
+      "owner": "project_maintainer",
+      "access_verified_at": "2026-10-27"
     },
     {
       "id": "margo-group",
@@ -97,7 +147,12 @@
       "board": "margo-group",
       "country_hint": null,
       "careers_url": "https://jobs.lever.co/margo-group",
-      "enabled": true
+      "enabled": true,
+      "access_status": "public_endpoint_verified",
+      "reuse_status": "provider_public_api_documented_employer_terms_unverified",
+      "country_scope": "per_posting",
+      "owner": "project_maintainer",
+      "access_verified_at": "2026-10-27"
     },
     {
       "id": "datadog",
@@ -106,7 +161,12 @@
       "board": "datadog",
       "country_hint": null,
       "careers_url": "https://job-boards.greenhouse.io/datadog",
-      "enabled": true
+      "enabled": true,
+      "access_status": "public_endpoint_verified",
+      "reuse_status": "provider_public_api_documented_employer_terms_unverified",
+      "country_scope": "per_posting",
+      "owner": "project_maintainer",
+      "access_verified_at": "2026-10-27"
     },
     {
       "id": "ekimetrics",
@@ -115,7 +175,12 @@
       "board": "ekimetrics",
       "country_hint": null,
       "careers_url": "https://jobs.lever.co/ekimetrics",
-      "enabled": true
+      "enabled": true,
+      "access_status": "public_endpoint_verified",
+      "reuse_status": "provider_public_api_documented_employer_terms_unverified",
+      "country_scope": "per_posting",
+      "owner": "project_maintainer",
+      "access_verified_at": "2026-10-27"
     },
     {
       "id": "mendix",
@@ -124,7 +189,96 @@
       "board": "mendix",
       "country_hint": null,
       "careers_url": "https://jobs.lever.co/mendix",
-      "enabled": true
+      "enabled": true,
+      "access_status": "public_endpoint_verified",
+      "reuse_status": "provider_public_api_documented_employer_terms_unverified",
+      "country_scope": "per_posting",
+      "owner": "project_maintainer",
+      "access_verified_at": "2026-10-27"
+    },
+    {
+      "id": "doctrine",
+      "type": "lever",
+      "company": "Doctrine",
+      "board": "doctrine",
+      "country_hint": null,
+      "careers_url": "https://jobs.lever.co/doctrine",
+      "enabled": true,
+      "access_status": "public_endpoint_verified",
+      "reuse_status": "provider_public_api_documented_employer_terms_unverified",
+      "country_scope": "per_posting",
+      "owner": "project_maintainer",
+      "access_verified_at": "2026-10-27"
+    },
+    {
+      "id": "odaseva",
+      "type": "lever",
+      "company": "Odaseva",
+      "board": "odaseva",
+      "country_hint": null,
+      "careers_url": "https://jobs.lever.co/odaseva",
+      "enabled": true,
+      "access_status": "public_endpoint_verified",
+      "reuse_status": "provider_public_api_documented_employer_terms_unverified",
+      "country_scope": "per_posting",
+      "owner": "project_maintainer",
+      "access_verified_at": "2026-10-27"
+    },
+    {
+      "id": "algolia",
+      "type": "greenhouse",
+      "company": "Algolia",
+      "board": "algolia",
+      "country_hint": null,
+      "careers_url": "https://job-boards.greenhouse.io/algolia",
+      "enabled": true,
+      "access_status": "public_endpoint_verified",
+      "reuse_status": "provider_public_api_documented_employer_terms_unverified",
+      "country_scope": "per_posting",
+      "owner": "project_maintainer",
+      "access_verified_at": "2026-10-27"
+    },
+    {
+      "id": "doctolib",
+      "type": "greenhouse",
+      "company": "Doctolib",
+      "board": "Doctolib",
+      "country_hint": null,
+      "careers_url": "https://job-boards.greenhouse.io/Doctolib",
+      "enabled": true,
+      "access_status": "public_endpoint_verified",
+      "reuse_status": "provider_public_api_documented_employer_terms_unverified",
+      "country_scope": "per_posting",
+      "owner": "project_maintainer",
+      "access_verified_at": "2026-10-27"
+    },
+    {
+      "id": "shift-technology",
+      "type": "greenhouse",
+      "company": "Shift Technology",
+      "board": "shifttechnology",
+      "country_hint": null,
+      "careers_url": "https://job-boards.greenhouse.io/shifttechnology",
+      "enabled": true,
+      "access_status": "public_endpoint_verified",
+      "reuse_status": "provider_public_api_documented_employer_terms_unverified",
+      "country_scope": "per_posting",
+      "owner": "project_maintainer",
+      "access_verified_at": "2026-10-27"
+    },
+    {
+      "id": "mirakl-labs",
+      "type": "greenhouse",
+      "company": "Mirakl Labs",
+      "board": "mirakllabs",
+      "country_hint": null,
+      "careers_url": "https://job-boards.greenhouse.io/mirakllabs",
+      "enabled": true,
+      "access_status": "public_endpoint_verified",
+      "reuse_status": "provider_public_api_documented_employer_terms_unverified",
+      "country_scope": "per_posting",
+      "owner": "project_maintainer",
+      "access_verified_at": "2026-10-27"
     }
   ]
 }
