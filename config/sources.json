@@ -1,0 +1,130 @@
+{
+  "sources": [
+    {
+      "id": "decathlon-digital",
+      "type": "greenhouse",
+      "company": "Decathlon Digital",
+      "board": "decathlontechnology",
+      "country_hint": null,
+      "careers_url": "https://job-boards.greenhouse.io/decathlontechnology",
+      "enabled": true
+    },
+    {
+      "id": "sfeir",
+      "type": "lever",
+      "company": "SFEIR",
+      "board": "sfeir",
+      "country_hint": null,
+      "careers_url": "https://jobs.lever.co/sfeir",
+      "enabled": true
+    },
+    {
+      "id": "meritis",
+      "type": "smartrecruiters",
+      "company": "Meritis",
+      "board": "Meritis",
+      "country_hint": null,
+      "careers_url": "https://careers.smartrecruiters.com/Meritis",
+      "enabled": true
+    },
+    {
+      "id": "infinit",
+      "type": "lever",
+      "company": "INFINIT",
+      "board": "infinit",
+      "country_hint": null,
+      "careers_url": "https://jobs.lever.co/infinit",
+      "enabled": true
+    },
+    {
+      "id": "beamy",
+      "type": "lever",
+      "company": "Beamy",
+      "board": "Beamy",
+      "country_hint": null,
+      "careers_url": "https://jobs.lever.co/Beamy",
+      "enabled": true
+    },
+    {
+      "id": "winamax",
+      "type": "lever",
+      "company": "Winamax",
+      "board": "winamax",
+      "country_hint": null,
+      "careers_url": "https://jobs.lever.co/winamax",
+      "enabled": true
+    },
+    {
+      "id": "agicap",
+      "type": "lever",
+      "company": "Agicap",
+      "board": "agicap",
+      "country_hint": null,
+      "careers_url": "https://jobs.lever.co/agicap",
+      "enabled": true
+    },
+    {
+      "id": "swile",
+      "type": "lever",
+      "company": "Swile",
+      "board": "swile",
+      "country_hint": null,
+      "careers_url": "https://jobs.lever.co/swile",
+      "enabled": true
+    },
+    {
+      "id": "theodo",
+      "type": "lever",
+      "company": "Theodo",
+      "board": "theodo",
+      "country_hint": null,
+      "careers_url": "https://jobs.lever.co/theodo",
+      "enabled": true
+    },
+    {
+      "id": "kpler",
+      "type": "lever",
+      "company": "Kpler",
+      "board": "kpler",
+      "country_hint": null,
+      "careers_url": "https://jobs.lever.co/kpler",
+      "enabled": true
+    },
+    {
+      "id": "margo-group",
+      "type": "lever",
+      "company": "MARGO",
+      "board": "margo-group",
+      "country_hint": null,
+      "careers_url": "https://jobs.lever.co/margo-group",
+      "enabled": true
+    },
+    {
+      "id": "datadog",
+      "type": "greenhouse",
+      "company": "Datadog",
+      "board": "datadog",
+      "country_hint": null,
+      "careers_url": "https://job-boards.greenhouse.io/datadog",
+      "enabled": true
+    },
+    {
+      "id": "ekimetrics",
+      "type": "lever",
+      "company": "Ekimetrics",
+      "board": "ekimetrics",
+      "country_hint": null,
+      "careers_url": "https://jobs.lever.co/ekimetrics",
+      "enabled": true
+    },
+    {
+      "id": "mendix",
+      "type": "lever",
+      "company": "Mendix",
+      "board": "mendix",
+      "country_hint": null,
+      "careers_url": "https://jobs.lever.co/mendix",
+      "enabled": true
+    }
+  ]
+}

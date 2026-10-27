@@ -1,17 +1,31 @@
 # France Tech Jobs
 
-A planned France-first collection of junior, new-graduate and mid-level technology jobs, with a separate international section.
+A France-first collection of **junior, new-graduate and mid-level** technology jobs, with a separate international section. Internships and alternance are excluded.
 
-## Focus
+## Browse jobs
 
-- Data Engineering
-- AI Engineering, including machine learning, generative AI, MLOps, NLP and related roles
-- Software Engineering
+| | Data Engineering | AI Engineering | Software Engineering |
+| --- | --- | --- | --- |
+| 🇫🇷 France | [Data jobs](jobs/france-data.md) | [AI jobs](jobs/france-ai.md) | [Software jobs](jobs/france-software.md) |
+| 🌍 International | [Data jobs](jobs/international-data.md) | [AI jobs](jobs/international-ai.md) | [Software jobs](jobs/international-software.md) |
 
-The project will prioritize jobs in France and include a separate international section. Internships and alternance are outside the intended scope.
+[Recently added](jobs/recent.md) · [Suggest an employer or report a listing](CONTRIBUTING.md) · [How jobs are selected](docs/scope.md) · [Sources and coverage](docs/sources.md)
 
-## Status
+AI Engineering includes machine learning, generative AI, MLOps, NLP and related engineering roles. Jobs may appear in more than one category. Location, contract and remote status are shown only when available; remote eligibility may depend on the employer's restrictions. Apply on the linked employer page.
 
-**Planning:** the automated collection and job listings have not been implemented yet. Follow the [implementation issues](../../issues) for the planned work.
+## Updates and coverage
 
-The intended sources include verified employer career pages and recruitment platforms, subject to access and reuse conditions. Coverage will depend on the sources added; it will not represent every available job.
+The project uses a scheduled daily GitHub Actions workflow and can also be updated manually. Each list shows the most recent successful pipeline run in UTC. A source error does not imply its jobs have closed: listings from that source are held as unverified until the source succeeds again. The pages cover the configured employers, not the entire job market. Experience and location rules are intentionally conservative; some relevant roles may be missed. [Read the selection policy](docs/scope.md).
+
+## Run locally
+
+Requires Python 3.11 or newer; there are no third-party runtime dependencies. From the repository root:
+
+```sh
+PYTHONPATH=src python -m unittest discover -s tests -v
+PYTHONPATH=src python -m france_tech_jobs
+```
+
+On Windows PowerShell, run `$env:PYTHONPATH = 'src'` first, then run the Python commands. Updating fetches the sources in `config/sources.json`, updates `data/jobs.json` and generates pages in `jobs/`. Original descriptions are used for classification and are not stored in the public data file. A run where every source fails leaves the existing output untouched.
+
+The code is under active development; review the [open issues](https://github.com/zakariaabou/france-tech-jobs/issues) for remaining work.
