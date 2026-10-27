@@ -855,6 +855,29 @@
     "title": "Senior Software Engineer - Data Factory (f/m/d)"
   },
   {
+    "application_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4719243101",
+    "categories": [
+      "software"
+    ],
+    "company": "Decathlon Digital",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-27",
+    "geography": "france",
+    "job_id": "4719243101",
+    "last_checked": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "location": "Lille, Upline, Nord, France; Paris, Paris, France",
+    "published_at": "2026-02-26T09:36:54-05:00",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "decathlon-digital",
+    "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4719243101",
+    "status": "active",
+    "title": "Senior Software Development Engineer SAP Fullstack (f/m/d)"
+  },
+  {
     "application_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4720657101",
     "categories": [
       "software"
@@ -1247,6 +1270,29 @@
     "title": "AI/ML Engineer - Product Info & Content (f/m/d)"
   },
   {
+    "application_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/5009546101",
+    "categories": [
+      "software"
+    ],
+    "company": "Decathlon Digital",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-27",
+    "geography": "france",
+    "job_id": "5009546101",
+    "last_checked": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "location": "Nantes, Loire-Atlantique, France",
+    "published_at": "2026-10-19T01:27:39-04:00",
+    "remote": "",
+    "seniority": "unknown",
+    "source_id": "decathlon-digital",
+    "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/5009546101",
+    "status": "active",
+    "title": "Software Development Engineer - Signeasy (f/m/d)"
+  },
+  {
     "application_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/5011552101",
     "categories": [
       "data"
@@ -1383,6 +1429,29 @@
     "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7647049003",
     "status": "active",
     "title": "Senior AI Engineer (x/f/m)"
+  },
+  {
+    "application_url": "https://job-boards.greenhouse.io/doctolib/jobs/7675665003",
+    "categories": [
+      "data"
+    ],
+    "company": "Doctolib",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-27",
+    "geography": "france",
+    "job_id": "7675665003",
+    "last_checked": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "location": "Paris, Paris, France",
+    "published_at": "2026-03-23T11:17:56-04:00",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "doctolib",
+    "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7675665003",
+    "status": "active",
+    "title": "Staff DataOps Engineer (x/f/m)"
   },
   {
     "application_url": "https://job-boards.greenhouse.io/doctolib/jobs/7749352003",
@@ -1590,6 +1659,29 @@
     "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7814944003",
     "status": "active",
     "title": "Staff Machine Learning Engineer - Retrieval (x/f/m)"
+  },
+  {
+    "application_url": "https://job-boards.greenhouse.io/doctolib/jobs/7832337003",
+    "categories": [
+      "data"
+    ],
+    "company": "Doctolib",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-27",
+    "geography": "france",
+    "job_id": "7832337003",
+    "last_checked": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "location": "Paris, Paris, France",
+    "published_at": "2026-08-25T10:42:27-04:00",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "doctolib",
+    "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7832337003",
+    "status": "active",
+    "title": "Senior Data Ops engineer (x/f/m)"
   },
   {
     "application_url": "https://job-boards.greenhouse.io/doctolib/jobs/7985189003",
@@ -4928,6 +5020,29 @@
     "source_url": "https://jobs.lever.co/sfeir/196a47f2-7f02-4dab-91ae-1d40e496853f",
     "status": "active",
     "title": "Software Engineer Python / FastAPI"
+  },
+  {
+    "application_url": "https://jobs.lever.co/sfeir/1baa74e6-fe57-4ac9-a917-13d498dda1d4/apply",
+    "categories": [
+      "ai"
+    ],
+    "company": "SFEIR",
+    "contract": "CDI",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-27",
+    "geography": "france",
+    "job_id": "1baa74e6-fe57-4ac9-a917-13d498dda1d4",
+    "last_checked": "2026-10-27",
+    "last_seen": "2026-10-27",
+    "location": "Paris",
+    "published_at": "",
+    "remote": "hybrid",
+    "seniority": "unknown",
+    "source_id": "sfeir",
+    "source_url": "https://jobs.lever.co/sfeir/1baa74e6-fe57-4ac9-a917-13d498dda1d4",
+    "status": "active",
+    "title": "Forward Deployed Engineer – Agentic AI"
   },
   {
     "application_url": "https://jobs.lever.co/sfeir/2249ed48-34e6-4531-b479-b4a103a00378/apply",

@@ -19,10 +19,10 @@ def _matches(pattern: str, text: str) -> bool:
     return bool(re.search(pattern, text))
 
 
-_DATA = r"\b(?:data engineer|data engineering|analytics engineer|big data engineer|ingenieur(?:e)? (?:de |des |en )?(?:donnees|data)|data platform engineer)\b"
+_DATA = r"\b(?:data engineer|data engineering|analytics engineer|big data engineer|data[ -]?ops engineer|ingenieur(?:e)? (?:de |des |en )?(?:donnees|data)|data platform engineer)\b"
 _AI = r"\b(?:ai engineer|ia engineer|ai software engineer|machine learning engineer|ml engineer|mlops engineer|ml ops engineer|ingenieur(?:e)? (?:en )?(?:ia|machine learning)|llm engineer|nlp engineer|computer vision engineer)\b"
-_AI_TOPIC = r"\b(?:generative ai|gen ?ai|ia generative|intelligence artificielle|ai platform|ml platform|mlops|ml ops|natural language processing|computer vision|large language models?)\b"
-_SOFTWARE = r"\b(?:software (?:engineer|developer)|(?:back[ -]?end|front[ -]?end|full[ -]?stack|mobile|platform) (?:engineer|developer)|developpeur(?:se)?(?: logiciel| software| full[ -]?stack| back[ -]?end| front[ -]?end| web)?|ingenieur(?:e)? (?:logiciel|software)|software engineering)\b"
+_AI_TOPIC = r"\b(?:generative ai|agentic ai|gen ?ai|ia generative|intelligence artificielle|ai platform|ml platform|mlops|ml ops|natural language processing|computer vision|large language models?)\b"
+_SOFTWARE = r"\b(?:software (?:development engineer|engineer|developer)|(?:back[ -]?end|front[ -]?end|full[ -]?stack|mobile|platform) (?:engineer|developer)|developpeur(?:se)?(?: logiciel| software| full[ -]?stack| back[ -]?end| front[ -]?end| web)?|ingenieur(?:e)? (?:logiciel|software)|software engineering)\b"
 _ENGINEER = r"\b(?:engineer|engineering|developer|developpeur|developpeuse|ingenieur|ingenieure)\b"
 _INTERN = r"\b(?:internship|intern|interns|apprenticeship|apprentice|alternance|alternant|alternante|stage|stagiaire)\b"
 _SENIOR = r"\b(?:senior|sr\.?|staff|principal|lead|manager|architect|architecte|head|director|directeur|directrice)\b"
@@ -60,6 +60,8 @@ def _experience(title: str, description: str, contract: str) -> str:
     if _matches(r"\b(?:this|an?) (?:internship|apprenticeship)\b|\b(?:contrat|poste) (?:d[' ]|en )?(?:alternance|apprentissage|stage)\b", description):
         return "excluded"
     if _matches(_SENIOR, title) or _matches(_EXPERT_SENIOR, title):
+        return "excluded"
+    if _matches(r"\b(?:senior[ -]level\s+(?:role|position|job)|(?:role|position|poste)\s+senior)\b", description):
         return "excluded"
 
     junior = _matches(_JUNIOR, title)

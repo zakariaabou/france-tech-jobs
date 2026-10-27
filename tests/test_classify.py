@@ -8,6 +8,28 @@ from france_tech_jobs.classify import classify
 
 
 class ClassificationTests(unittest.TestCase):
+    def test_explicitly_senior_role_description_is_excluded(self):
+        for description in ("This is a senior-level role.", "Ce poste est un poste senior."):
+            with self.subTest(description=description):
+                result = classify("Data Engineer", description, "Paris, France")
+                self.assertEqual(result["seniority"], "excluded")
+                self.assertFalse(result["eligible"])
+
+    def test_agentic_ai_engineering_title_is_tagged_for_review(self):
+        result = classify("Forward Deployed Engineer – Agentic AI", "4 years minimum of experience", "Paris, France")
+        self.assertIn("ai", result["categories"])
+        self.assertEqual(result["seniority"], "unknown")
+
+    def test_senior_software_development_engineer_is_categorized_but_excluded(self):
+        result = classify("Senior Software Development Engineer SAP Fullstack", "", "Paris, France")
+        self.assertIn("software", result["categories"])
+        self.assertEqual(result["seniority"], "excluded")
+
+    def test_dataops_engineer_is_data_but_senior_is_excluded(self):
+        result = classify("Senior Data Ops Engineer", "", "Paris, France")
+        self.assertIn("data", result["categories"])
+        self.assertEqual(result["seniority"], "excluded")
+
     def test_french_junior_data_engineer(self):
         result = classify("Ingénieur données junior", "", "Paris, France", "CDI")
         self.assertEqual(result["categories"], ["data"])

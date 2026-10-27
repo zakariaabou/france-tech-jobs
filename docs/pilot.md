@@ -13,9 +13,11 @@ seniority and is withheld because its two-year requirement is open-ended.
 The updated collector links to the SmartRecruiters job page instead of the
 one-click application redirect.
 
-The 20-source update was run locally; the successful GitHub manual run described
-below used the previous 14-source configuration. No actual scheduled run has
-been observed yet. Employer-specific reuse terms remain under review.
+The [20-source GitHub manual run](https://github.com/zakariaabou/france-tech-jobs/actions/runs/40561857086)
+also completed successfully with all sources available and nine eligible
+listings. The manual run below used the earlier 14-source configuration. No
+actual scheduled run has been observed yet. Employer-specific reuse terms remain
+under review.
 
 ## Scope and evidence
 

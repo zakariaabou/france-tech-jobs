@@ -4,7 +4,9 @@ The fetcher briefly uses full descriptions to classify roles; it does not save
 descriptions in the public job data file. After a successful source fetch,
 records without a target data, AI or software category are discarded. Target
 records with unknown experience or location, or an excluded status, are kept
-for review but are not displayed as eligible jobs. A failed or disabled source
+for review but are not displayed as eligible jobs. Active, non-excluded roles
+with uncertain experience or location may appear in the separate potential
+matches page, with the uncertainty stated. A failed or disabled source
 cannot safely reclassify old records: its existing records are preserved and
 marked unknown, including older records with missing categories.
 

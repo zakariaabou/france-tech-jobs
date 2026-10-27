@@ -67,6 +67,10 @@ review provider and employer conditions. Identify the project through an
 appropriate user agent, use conservative request rates and back off on errors.
 Avoid collecting recruiter or applicant personal information.
 
+The [employer terms audit](employer-terms-audit.md) records source-specific
+policies and their scope. Reuse authorization for the individual employer feeds
+remains unverified; provider API availability is not blanket clearance.
+
 Provider evidence: [Lever's Postings API](https://github.com/lever/postings-api)
 describes its published jobs and explicitly says they may be scraped by third
 parties; [Greenhouse's Job Board API](https://docs.greenhouse.io/job-board.html#authentication)

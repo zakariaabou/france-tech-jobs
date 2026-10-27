@@ -9,9 +9,11 @@ A France-first collection of **junior, new-graduate and mid-level** technology j
 | 🇫🇷 France | [Data jobs](jobs/france-data.md) | [AI jobs](jobs/france-ai.md) | [Software jobs](jobs/france-software.md) |
 | 🌍 International | [Data jobs](jobs/international-data.md) | [AI jobs](jobs/international-ai.md) | [Software jobs](jobs/international-software.md) |
 
-[Recently added](jobs/recent.md) · [Suggest an employer or report a listing](CONTRIBUTING.md) · [How jobs are selected](docs/scope.md) · [Sources and coverage](docs/sources.md)
+[Recently added](jobs/recent.md) · [Potential matches — verify requirements](jobs/review.md) · [Suggest an employer or report a listing](CONTRIBUTING.md) · [How jobs are selected](docs/scope.md) · [Sources and coverage](docs/sources.md)
 
 AI Engineering includes machine learning, generative AI, MLOps, NLP and related engineering roles. Jobs may appear in more than one category. Location, contract and remote status are shown only when available; remote eligibility may depend on the employer's restrictions. Apply on the linked employer page.
+
+The separate potential matches page includes active roles where experience or location needs checking. It explains what is uncertain and has views for [France](jobs/review-france.md), [international](jobs/review-international.md) and [unknown locations](jobs/review-unknown.md). Each view shows at most 100 roles by default; maintainers can set `review_limit` from 0 to 1000 in `config/sources.json`. Clearly excluded senior, internship and alternance roles are not included. Always check the employer's requirements and work authorization before applying.
 
 ## Updates and coverage
 

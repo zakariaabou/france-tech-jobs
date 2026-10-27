@@ -1,0 +1,4001 @@
+{
+  "seed": "france-tech-jobs-holdout-2026-10-27-v1",
+  "sources": [
+    {
+      "id": "decathlon",
+      "company": "Decathlon",
+      "type": "greenhouse",
+      "board": "decathlontechnology"
+    },
+    {
+      "id": "algolia",
+      "company": "Algolia",
+      "type": "greenhouse",
+      "board": "algolia"
+    },
+    {
+      "id": "doctolib",
+      "company": "Doctolib",
+      "type": "greenhouse",
+      "board": "Doctolib"
+    },
+    {
+      "id": "sfeir",
+      "company": "SFEIR",
+      "type": "lever",
+      "board": "sfeir"
+    },
+    {
+      "id": "doctrine",
+      "company": "Doctrine",
+      "type": "lever",
+      "board": "doctrine"
+    },
+    {
+      "id": "mendix",
+      "company": "Mendix",
+      "type": "lever",
+      "board": "mendix"
+    },
+    {
+      "id": "ekimetrics",
+      "company": "Ekimetrics",
+      "type": "lever",
+      "board": "ekimetrics"
+    }
+  ],
+  "excluded_development_ids": [
+    "005ff876-b2a7-4782-a999-cd9c037535c4",
+    "094c4c2b-1e57-47da-b1d9-b71b778f1528",
+    "26bf6212-5402-45b7-b26e-7b53f14799db",
+    "4794463101",
+    "4846614101",
+    "4895914101",
+    "4917685101",
+    "4977048101",
+    "4997303101",
+    "57b00ab2-9b42-47ee-86b2-2b2e80f0d323",
+    "6ec36f1e-471a-4cb0-bcc5-6f5d2e7540fd",
+    "744000147966164",
+    "7cbae919-1705-4737-9b0e-a942dd1451b3",
+    "837d6ed4-db91-4417-9b2d-4c441fbbf3bc",
+    "8cb04b24-6ed0-4dc7-9b5e-e29c9cf5dd2c",
+    "978114d0-e5ab-4766-ba14-04332850b0cd",
+    "9f74e55a-eeaa-4e5a-a980-b0819e125466",
+    "bd2baf72-ba52-4168-9a89-d2a8c179741b",
+    "d741727e-f25f-452a-8e40-e6d04c3395ea",
+    "f3e656f5-cb47-4c35-9e7a-00bce29c6a2d"
+  ],
+  "rows": [
+    {
+      "source_id": "algolia",
+      "job_id": "5422135004",
+      "title": "Senior Site Reliability Engineer, IaaS",
+      "location": "Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/algolia/jobs/5422135004",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "algolia",
+      "job_id": "5842399004",
+      "title": "Commercial Account Executive, DACH",
+      "location": "Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/algolia/jobs/5842399004",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "algolia",
+      "job_id": "5854568004",
+      "title": "Commercial Account Executive, DACH",
+      "location": "London, England",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/algolia/jobs/5854568004",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "algolia",
+      "job_id": "5854606004",
+      "title": "Commercial Account Executive, DACH",
+      "location": "Remote - Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/algolia/jobs/5854606004",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "algolia",
+      "job_id": "6009000004",
+      "title": "Sales Engineer - Italian Speaking",
+      "location": "London, England",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/algolia/jobs/6009000004",
+      "role_bucket": "software",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "algolia",
+      "job_id": "6078955004",
+      "title": "Director, Engineering, AI Search",
+      "location": "Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/algolia/jobs/6078955004",
+      "role_bucket": "ai",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "algolia",
+      "job_id": "6115415004",
+      "title": "Solutions Engineer - Italian Speaking",
+      "location": "Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/algolia/jobs/6115415004",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "algolia",
+      "job_id": "6136180004",
+      "title": "Partner Manager",
+      "location": "Remote - Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/algolia/jobs/6136180004",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "algolia",
+      "job_id": "6139133004",
+      "title": "Senior Software Engineer, Understanding",
+      "location": "Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/algolia/jobs/6139133004",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "algolia",
+      "job_id": "6141481004",
+      "title": "Account Manager - Dutch speaking ",
+      "location": "London, England",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/algolia/jobs/6141481004",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "algolia",
+      "job_id": "6146291004",
+      "title": "Partner Manager - German Speaker",
+      "location": "London, England",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/algolia/jobs/6146291004",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "algolia",
+      "job_id": "6149894004",
+      "title": "Partner Manager - German speaking",
+      "location": "Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/algolia/jobs/6149894004",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "algolia",
+      "job_id": "6185779004",
+      "title": "Principal Software Engineer, Frontend Experiences",
+      "location": "Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/algolia/jobs/6185779004",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "algolia",
+      "job_id": "6187562004",
+      "title": "Senior Software Engineer, Data Platform",
+      "location": "Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/algolia/jobs/6187562004",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "algolia",
+      "job_id": "6187901004",
+      "title": "Senior Site Reliability Engineer - Search",
+      "location": "Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/algolia/jobs/6187901004",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "algolia",
+      "job_id": "6194391004",
+      "title": "Account Manager - Dutch speaking ",
+      "location": "Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/algolia/jobs/6194391004",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "algolia",
+      "job_id": "6194397004",
+      "title": "Site Reliability Engineer, IaaS",
+      "location": "Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/algolia/jobs/6194397004",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "algolia",
+      "job_id": "6200275004",
+      "title": "Senior Site Reliability Engineer, PaaS",
+      "location": "Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/algolia/jobs/6200275004",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "algolia",
+      "job_id": "6206200004",
+      "title": "Account Manager - Dutch speaking ",
+      "location": "Remote - Netherlands",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/algolia/jobs/6206200004",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "algolia",
+      "job_id": "6210772004",
+      "title": "Business Development Representative",
+      "location": "New York, New York",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/algolia/jobs/6210772004",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "algolia",
+      "job_id": "6210873004",
+      "title": "Enterprise Account Executive",
+      "location": "Remote - Netherlands",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/algolia/jobs/6210873004",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "algolia",
+      "job_id": "6214074004",
+      "title": "Senior Project Manager, Business Transformation ",
+      "location": "United States Remote",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/algolia/jobs/6214074004",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "algolia",
+      "job_id": "6215629004",
+      "title": "Enterprise Account Executive - Dutch Speaking",
+      "location": "Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/algolia/jobs/6215629004",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "algolia",
+      "job_id": "6215631004",
+      "title": "Enterprise Account Executive - Dutch Speaking",
+      "location": "London, England",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/algolia/jobs/6215631004",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "algolia",
+      "job_id": "6234808004",
+      "title": "Director, Engineering, AI Search",
+      "location": "London, England",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/algolia/jobs/6234808004",
+      "role_bucket": "ai",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4417821101",
+      "title": "Ops Engineer Senior - Infrastructure Cloud & SAP (f/m/d) ",
+      "location": "Lille, Upline, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4417821101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4646688101",
+      "title": "Software Engineer",
+      "location": "Lille, Upline, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4646688101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4680104101",
+      "title": "Mobile Device Management / Unified Endpoint Management - Ops Engineer (f/m/d)",
+      "location": "Lille - Btwin Village, Nord, France; Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4680104101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4702045101",
+      "title": "Senior Software Engineer - Data Factory (f/m/d)",
+      "location": "Villeneuve-d'Ascq, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4702045101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4712568101",
+      "title": "SAP BTP Engineer (f,m,d)",
+      "location": "Lille, Upline, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4712568101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4719243101",
+      "title": "Senior Software Development Engineer SAP Fullstack (f/m/d)",
+      "location": "Lille, Upline, Nord, France; Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4719243101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4720657101",
+      "title": "Senior Software Engineer - Transport & Customs (f/m/d)",
+      "location": "Lille - Jardin des Plantes, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4720657101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4723307101",
+      "title": "IT Operations Engineer (f/m/d)",
+      "location": "Lille - Jardin des Plantes, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4723307101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4784742101",
+      "title": "Expert Data Catalog (f/m/d)",
+      "location": "Villeneuve-d'Ascq, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4784742101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4802679101",
+      "title": "Senior AI Platform Engineer - Data Factory (f/m/d)",
+      "location": "Paris, Paris, France; Villeneuve-d'Ascq, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4802679101",
+      "role_bucket": "ai",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4806044101",
+      "title": "Portfolio Manager - Digital Value Chain (f/m/d)",
+      "location": "Lille, Upline, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4806044101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4811806101",
+      "title": "Senior Software Engineer - Digital Payment (f/m/d)",
+      "location": "Lille, Upline, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4811806101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4819523101",
+      "title": "Junior Apprenticeship FP&A - Contrôleur de Gestion (f/m/d)",
+      "location": "Lille, Upline, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4819523101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4846448101",
+      "title": "Lead Support Engineer (f/m/d) ",
+      "location": "Lille, Upline, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4846448101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4848320101",
+      "title": "Senior Backend Software Engineer - Ecom Pricing & Promotions (f/m/d)",
+      "location": "Lille, Upline, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4848320101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4860928101",
+      "title": "Senior Data Analyst - Traffic / Acquisition",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4860928101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4869365101",
+      "title": "Program Manager - Corporate Operations - HR / Finance (f/m/d)",
+      "location": "Lille - Jardin des Plantes, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4869365101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4896104101",
+      "title": "Senior Software Engineer Frontend React/Svelte",
+      "location": "Villeneuve-d'Ascq, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4896104101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4905765101",
+      "title": "Junior Product Manager - Apprenticeship",
+      "location": "Lille - Btwin Village, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4905765101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4908442101",
+      "title": "Senior Product Manager - Data Lake (f/m/d)",
+      "location": "Paris, Paris, France; Villeneuve-d'Ascq, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4908442101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4914330101",
+      "title": "Software Integration Engineer - S4/PROD (f/m/d)",
+      "location": "Lille, Upline, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4914330101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4922137101",
+      "title": "Full Stack Senior Developer SAP",
+      "location": "Lille, Upline, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4922137101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4922193101",
+      "title": "Digital Product Manager - CorpOps Finance",
+      "location": "Lille - Jardin des Plantes, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4922193101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4923948101",
+      "title": "Digital Product Manager SAP HR (f/m/d)",
+      "location": "Lille - Jardin des Plantes, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4923948101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4924831101",
+      "title": "Engineering Manager - BCP Content stream (f/m/d)",
+      "location": "Lille, Upline, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4924831101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4928714101",
+      "title": "Tech Lead Backend Engineer - Login (f/m/d) ",
+      "location": "Lille, Upline, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4928714101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4929583101",
+      "title": "Full Stack Analytics - Digital Unit Sports (f/m/d)",
+      "location": "Lille - Btwin Village, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4929583101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4929599101",
+      "title": "Digital Product Manager - Workday Finance",
+      "location": "Lille - Jardin des Plantes, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4929599101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4936247101",
+      "title": "Senior Digital Product Designer - In-Store Checkout (f/m/d)",
+      "location": "Villeneuve-d'Ascq, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4936247101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4939459101",
+      "title": "Senior Support engineer [Digital] (f/m/d)",
+      "location": "Villeneuve-d'Ascq, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4939459101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4942628101",
+      "title": " Apprenticeship - Digital Project Manager  MECHANISED SYSTEMS & NETWORK (f/m/d) ",
+      "location": "Lille - Jardin des Plantes, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4942628101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4956896101",
+      "title": "Offensive Security Engineer (f/m/d)",
+      "location": "Lille, Upline, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4956896101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4957181101",
+      "title": "Offensive Security Engineer (f/m/d)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4957181101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4962296101",
+      "title": "Senior IoT/Cloud Engineer (f/m/d)",
+      "location": "Lille - Btwin Village, Nord, France; Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4962296101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4963103101",
+      "title": "Senior Platform Engineer ",
+      "location": "Lille - Btwin Village, Nord, France; Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4963103101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4970108101",
+      "title": "Senior Data & AI manager - New Business Models",
+      "location": "Paris, Paris, France; Villeneuve-d'Ascq, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4970108101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4975225101",
+      "title": "Junior SAP Specialist (f/m/d) - Apprenticeship   ",
+      "location": "Lille, Upline, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4975225101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4975679101",
+      "title": "Senior Software Engineer Back-end Shopping App (f/m/d)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4975679101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4976352101",
+      "title": "Support Engineer - Last Mile Delivery (f/m/d)",
+      "location": "Lille, Upline, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4976352101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4979215101",
+      "title": "Senior Data Analyst - Traffic / Acquisition (f/m/d)",
+      "location": "Lille, Upline, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4979215101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4981438101",
+      "title": "Senior Data Analyst - Application Mobile E-commerce (f/m/d)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4981438101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4981441101",
+      "title": "Senior Data Analyst - Application Mobile E-commerce (f/m/d)",
+      "location": "Lille, Upline, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4981441101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4983376101",
+      "title": "Android Software Engineer",
+      "location": "Lille - Btwin Village, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4983376101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4984088101",
+      "title": "Data Steward - Corporate Operations Finance (f/m/d)",
+      "location": "Lille - Jardin des Plantes, Nord, France; Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4984088101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4986286101",
+      "title": "Tech Lead Software Engineer Android (f/m/d)",
+      "location": "Villeneuve-d'Ascq, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4986286101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4987179101",
+      "title": "Data Steward - Corporate Operations RH (f/m/d)",
+      "location": "Lille - Jardin des Plantes, Nord, France; Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4987179101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4987537101",
+      "title": "Senior Data Scientist - Demand Forecast (f/m/d)",
+      "location": "Lille, Upline, Nord, France; Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4987537101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4987550101",
+      "title": "Application Manager  (f/m/d) - SIRH - Time & Planification",
+      "location": "Lille - Jardin des Plantes, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4987550101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4987569101",
+      "title": "Senior Data Scientist - Demand Forecast (f/m/d)",
+      "location": "Lille, Upline, Nord, France; Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4987569101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4987671101",
+      "title": "Software Integration Engineer (f/m/d) - SAP Transport & Release",
+      "location": "Lille, Upline, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4987671101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4994617101",
+      "title": "Software Engineer - OneCheckout (f/m/d)",
+      "location": "Lille, Upline, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4994617101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4995269101",
+      "title": "Tech4instore Senior Software Engineer - INSTORE (f/m/d)",
+      "location": "Lille - Btwin Village, Nord, France; Nantes, Loire-Atlantique, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4995269101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4996857101",
+      "title": "Senior AI Engineer (f/m/d)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4996857101",
+      "role_bucket": "ai",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4997447101",
+      "title": "Chef de Projet IT Technique - Modernisation WMS / Transformation IBM i (H/F)",
+      "location": "Lille - Jardin des Plantes, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4997447101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4998672101",
+      "title": "Engineering Manager IAM – Core Identity (F/H)",
+      "location": "Lille - Btwin Village, Nord, France; Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4998672101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "4999547101",
+      "title": "Engineering Manager - Sport Process - Worldwide Offer (f/m/d)",
+      "location": "Lille - Btwin Village, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4999547101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "5001511101",
+      "title": "Staff Engineer / Architecte Solution SAP (H/F)",
+      "location": "Lille, Upline, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/5001511101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "5001889101",
+      "title": "Product Manager - Ecommerce Categories (f/m/d)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/5001889101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "5003157101",
+      "title": "Staff Product Manager – E-Commerce Web Upper Funnel [CDI] (f/m/d)",
+      "location": "Lille, Upline, Nord, France; Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/5003157101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "5004105101",
+      "title": "Digital Design Leader [Permanent - CDI] (f/m/d)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/5004105101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "5004201101",
+      "title": "Digital Senior Product Manager - Supply Pricing (f/m/d)",
+      "location": "Lille, Upline, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/5004201101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "5009546101",
+      "title": "Software Development Engineer - Signeasy (f/m/d)",
+      "location": "Nantes, Loire-Atlantique, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/5009546101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "5009715101",
+      "title": "Data analyst Intern (6 months) - Inventory Management - Value Chain (f/m/d)",
+      "location": "Lille, Upline, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/5009715101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "5011072101",
+      "title": "Data Steward (CoE Data & AI Governance)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/5011072101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "5011552101",
+      "title": "HRIS - Lead Analytics Engineer (f/m/d)",
+      "location": "Lille - Jardin des Plantes, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/5011552101",
+      "role_bucket": "data",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "5011607101",
+      "title": "AI Engineer (AI & GenAI) - Finance Domain",
+      "location": "Lille - Jardin des Plantes, Nord, France; Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/5011607101",
+      "role_bucket": "ai",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "decathlon",
+      "job_id": "5015006101",
+      "title": "Data Governance Project Manager ",
+      "location": "Paris, Paris, France; Villeneuve-d'Ascq, Nord, France",
+      "contract": "",
+      "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/5015006101",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "5082357003",
+      "title": "Business Developer (x/f/m) - France entière",
+      "location": "France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/5082357003",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "5856065003",
+      "title": "Commercial(e) sédentaire (x/f/m)",
+      "location": "Nantes",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/5856065003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "5858800003",
+      "title": "Inside Sales (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/5858800003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "5861501003",
+      "title": "AI Talent Pool ",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/5861501003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "6230126003",
+      "title": "Chargé(e) de comptes - Opticien / Audioprothésiste (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/6230126003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "6600535003",
+      "title": "Customer Support / Support Technique B2B – Nantes (x/f/m)",
+      "location": "Nantes",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/6600535003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7481359003",
+      "title": "Senior Site Reliability Engineer - Observability (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7481359003",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7510762003",
+      "title": "Senior Staff Machine Learning Engineer - Clinical - AI Teams (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7510762003",
+      "role_bucket": "ai",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7511809003",
+      "title": "Team Lead Technical Support - Product (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7511809003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7512129003",
+      "title": "Staff Mobile Engineer - React Native (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7512129003",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7517408003",
+      "title": "Engineering Manager - Observability & Reliability Engineering Obsession (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7517408003",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7517409003",
+      "title": "Engineering Manager - Observability & Reliability Engineering Obsession (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7517409003",
+      "role_bucket": "software",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7551787003",
+      "title": "Account Executive (x/f/m) Außendienst",
+      "location": "Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7551787003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7583949003",
+      "title": "Account Executive - Berlin (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7583949003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7597708003",
+      "title": "Account Manager - Bestandskunden  (x/f/m) ",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7597708003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7597717003",
+      "title": "Inside Sales Manager - Bestandskunden (x/f/m) ",
+      "location": "München",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7597717003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7611454003",
+      "title": "Commercial.e B2B - Lille",
+      "location": "Lille",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7611454003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7629374003",
+      "title": "Senior AI Engineer (x/f/m) - Phone Assistant",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7629374003",
+      "role_bucket": "ai",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7637887003",
+      "title": "Field Sales Partner - Verona (x/f/m)",
+      "location": "Verona, Verona, Italy",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7637887003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7640383003",
+      "title": "Senior Sales - Centres Hospitaliers (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7640383003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7647049003",
+      "title": "Senior AI Engineer (x/f/m)",
+      "location": "Nantes",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7647049003",
+      "role_bucket": "ai",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7648739003",
+      "title": "Junior Customer Success Manager (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7648739003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7648750003",
+      "title": "Customer Success Manager (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7648750003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7648796003",
+      "title": "Account Executive -  Annecy (x/f/m)",
+      "location": "Annecy",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7648796003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7672013003",
+      "title": "Senior Customer Success Manager (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7672013003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7675471003",
+      "title": "Senior B2B Event Manager (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7675471003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7675665003",
+      "title": "Staff DataOps Engineer (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7675665003",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7693222003",
+      "title": "General Accountant Lead & Analyst (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7693222003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7710574003",
+      "title": "Product Marketing Lead (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7710574003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7726912003",
+      "title": "Sales Manager (x/f/m)",
+      "location": "Münster; Osnabrück",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7726912003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7737188003",
+      "title": "Junior Customer Experience Consultant (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7737188003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7737199003",
+      "title": "Customer Success Representative (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7737199003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7741272003",
+      "title": "Vertriebsmitarbeiter im Außendienst (x/f/m) - Kassel",
+      "location": "Hannover",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7741272003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7741649003",
+      "title": "Lead Marketing Data Analyst (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7741649003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7749352003",
+      "title": "Principal Machine Learning Engineer - Applied AI & LLMs (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7749352003",
+      "role_bucket": "ai",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7750906003",
+      "title": "Senior Machine Learning Engineer - Applied AI & LLMs (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7750906003",
+      "role_bucket": "ai",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7762193003",
+      "title": "Senior Corporate Security Engineer - IT Security (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7762193003",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7774771003",
+      "title": "Design System Director (x/f/m)",
+      "location": "Berlin, Berlin, Germany; Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7774771003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7786597003",
+      "title": "Senior Account Executive (x/f/m) - Berlin",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7786597003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7786662003",
+      "title": "(Senior) Vertriebsmanager (x/f/m) - Göttingen ",
+      "location": "Hannover",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7786662003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7790081003",
+      "title": "Field Sales Partner - Ferrara (x/f/m)",
+      "location": "Ferrara, Ferrara, Italy",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7790081003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7792246003",
+      "title": "Senior Software Engineer FullStack Kotlin / React - Berlin (f/m/d)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7792246003",
+      "role_bucket": "software",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7792255003",
+      "title": "Senior Software Engineer - Business Performance (x/f/m)",
+      "location": "Nantes",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7792255003",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7792273003",
+      "title": "Senior AI Engineer - Patient Team (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7792273003",
+      "role_bucket": "ai",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7793643003",
+      "title": "Senior AI Specialist (Operations) (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7793643003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7794262003",
+      "title": "Senior Machine Learning Engineer - Orchestration - Applied AI & LLMs (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7794262003",
+      "role_bucket": "ai",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7795798003",
+      "title": "Workday Integration & Analytics Engineer - Paris (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7795798003",
+      "role_bucket": "data",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7802707003",
+      "title": "Senior Site Reliability Engineer - Database (x/f/m)",
+      "location": "Nantes",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7802707003",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7806794003",
+      "title": "Key Account Manager Senior / Lead - Laboratoires (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7806794003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7809464003",
+      "title": "Software Engineer Fullstack Kotlin / React (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7809464003",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7814944003",
+      "title": "Staff Machine Learning Engineer - Retrieval (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7814944003",
+      "role_bucket": "ai",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7819134003",
+      "title": "Senior Site Reliability Engineer (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7819134003",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7820101003",
+      "title": "Senior Technical Onboarding Engineer – AI Phone Assistant (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7820101003",
+      "role_bucket": "ai",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7832182003",
+      "title": "Engineering Manager - Site Reliability & Observability (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7832182003",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7832191003",
+      "title": "Engineering Manager - Site Reliability & Observability (x/f/m)",
+      "location": "Berlin, Berlin, Germany; Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7832191003",
+      "role_bucket": "software",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7832298003",
+      "title": "Research Scientist (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7832298003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7832337003",
+      "title": "Senior Data Ops engineer (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7832337003",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7853982003",
+      "title": "Staff Site Reliability Engineer (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7853982003",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7885633003",
+      "title": "Product Support Consultant (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7885633003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7885688003",
+      "title": "Senior Customer Experience Manager (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7885688003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7893692003",
+      "title": "Account Manager  (x/f/m)",
+      "location": "Münster; Osnabrück",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7893692003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7900540003",
+      "title": "Strategic Account Manager - Hospitals (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7900540003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7926703003",
+      "title": "(Senior) Inside Sales (x/f/m) Berlin",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7926703003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7983122003",
+      "title": "Inside Sales Manager - Bestandskunden (x/f/m) ",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7983122003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7985189003",
+      "title": "Senior Software Engineer - Java (x/f/m)",
+      "location": "Milano, Milan, Italy",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7985189003",
+      "role_bucket": "software",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7985252003",
+      "title": "Senior AI Specialist (Operations) (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7985252003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7986187003",
+      "title": "Product Strategy Lead (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7986187003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7987833003",
+      "title": "Sales Manager (x/f/m)",
+      "location": "Münster; Osnabrück",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7987833003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7988004003",
+      "title": "Lead Product Manager - Patient Data Collection (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7988004003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7988665003",
+      "title": "Stage - Sales Development Representative (x/f/m) - décembre 2026",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7988665003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7989159003",
+      "title": "Platform Security Engineer (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7989159003",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7989747003",
+      "title": "Account Executive (x/f/m) im Außendienst / Bergisches Land",
+      "location": "Wuppertal, North Rhine-Westphalia, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7989747003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7990890003",
+      "title": "Senior Software Engineer - Node.js/TypeScript (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7990890003",
+      "role_bucket": "software",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7991025003",
+      "title": "Account Executive terrain - Pau (x/f/m)",
+      "location": "Pau, Pyrénées-Atlantiques, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7991025003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7992550003",
+      "title": "Stage - Social Media Manager B2C (x/f/m) - janvier 2027 ",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7992550003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7993872003",
+      "title": " Workplace Experience & Mobility Associate (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7993872003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7993880003",
+      "title": "Stage - Assistant Satisfaction (x/f/m)  - janvier 2027",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7993880003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7993899003",
+      "title": "Stage - Analyste Stratégie Marketing Patient (x/f/m) - janvier 2027",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7993899003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7994049003",
+      "title": "Stage - Salesforce Support Associate (x/f/m)",
+      "location": "Nantes",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7994049003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7994059003",
+      "title": "EU Public Affairs Senior Consultant (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7994059003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7994090003",
+      "title": "Real-Time Analyst (x/f/m) - Nantes",
+      "location": "Nantes",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7994090003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7994151003",
+      "title": "Inside Sales Partner - Milano (x/f/m)",
+      "location": "Milano, Milan, Italy",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7994151003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7994156003",
+      "title": "Stage - Junior Website Manager (x/f/m) - janvier 2027",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7994156003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7994230003",
+      "title": "Stage - Consultant en Déploiement Grands Comptes (x/f/m) - mars 2027",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7994230003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7994349003",
+      "title": "Senior AI Engineer - Search & Recommendation - Patient Team (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7994349003",
+      "role_bucket": "ai",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7995535003",
+      "title": "Account Executive terrain - Metz (x/f/m)",
+      "location": "Metz",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7995535003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7996918003",
+      "title": "Medical Data Intern (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7996918003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7996931003",
+      "title": "Senior Product Manager - Product Led Growth- Paris (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7996931003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7996965003",
+      "title": "Data Quality Operations Intern (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7996965003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7997138003",
+      "title": "Stage - Partenaire Performance Client (x/f/m) - janvier 2027",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7997138003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7997192003",
+      "title": "Stage - Assistant Commercial (x/f/m) - janvier 2027",
+      "location": "Strasbourg",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7997192003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7997247003",
+      "title": "Stage - Consultant intéropérabilité (x/f/m) - mars 2027",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7997247003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7998167003",
+      "title": "Stage - Talent Acquisition Coordinator (x/f/m) - janvier 2027",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7998167003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7998193003",
+      "title": "Software Engineering Intern - Fullstack (x/f/m) - Paris",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7998193003",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7999006003",
+      "title": "Team Lead Sales Enablement (x/f/m)",
+      "location": "Berlin, Berlin, Germany; Düsseldorf; Hamburg; Köln; Leipzig; München; Nürnberg",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7999006003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7999037003",
+      "title": "Mitarbeiter im Kundenservice (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7999037003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7999039003",
+      "title": "Kundenservicemitarbeiter (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7999039003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7999202003",
+      "title": "Senior Product Manager - Product Led Growth- Nantes (x/f/m)",
+      "location": "Nantes",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7999202003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "7999286003",
+      "title": "Stage - Assistant Conformité & Modération de Contenu (x/f/m) - janvier 2027",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7999286003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8000592003",
+      "title": "Software Engineering intern - Fullstack (x/f/m) - Nantes",
+      "location": "Nantes",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8000592003",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8000653003",
+      "title": "Software Engineer Intern - Fullstack (x/f/m) - Milano",
+      "location": "Milano, Milan, Italy",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8000653003",
+      "role_bucket": "software",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8000944003",
+      "title": "Working Student - IT Asset & Stock Management (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8000944003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8002218003",
+      "title": "Stage - SEO : Contenu & recherche IA (x/f/m) - novembre 2026",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8002218003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8002288003",
+      "title": "Team Lead Customer Success (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8002288003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8003185003",
+      "title": "(Senior) Key Account Success Manager (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8003185003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8003371003",
+      "title": "(Senior) Key Account Success Manager (x/f/m)",
+      "location": "Köln",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8003371003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8004289003",
+      "title": "Werkstudent Customer Success (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8004289003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8004636003",
+      "title": "Software Engineering Intern - Fullstack (x/f/m) - Niort",
+      "location": "Niort",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8004636003",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8006520003",
+      "title": "Software Engineer Intern - Fullstack (x/f/m) - Amsterdam",
+      "location": "Amsterdam, North Holland, Netherlands",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8006520003",
+      "role_bucket": "software",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8006689003",
+      "title": "Director of AI Developer Experience - Platform Engineering (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8006689003",
+      "role_bucket": "ai",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8007923003",
+      "title": "Software Engineer Intern - Fullstack (x/f/m) - Berlin - March 2027",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8007923003",
+      "role_bucket": "software",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8008170003",
+      "title": "Account Executive (x/f/m) im Außendienst / Köln & Bonn",
+      "location": "Köln",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8008170003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8009206003",
+      "title": "Director Indirect Sales & Partnerships (x/f/m) ",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8009206003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8010217003",
+      "title": "Senior ML Ops (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8010217003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8010282003",
+      "title": "Pilotage des flux en temps réel - centre de contacts  (x/f/m) - Nantes",
+      "location": "Nantes",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8010282003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8010297003",
+      "title": "B2B Sales Manager (x/f/m) im Außendienst / Köln & Bonn",
+      "location": "Köln",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8010297003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8010307003",
+      "title": " Inside Sales Manager (x/f/m) – Berlin",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8010307003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8010483003",
+      "title": " Workingstudent B2C SEO & AI Search (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8010483003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8013175003",
+      "title": "Stage - Product Content Manager Junior - Nantes (x/f/m)",
+      "location": "Nantes",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8013175003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8014254003",
+      "title": "Senior Software Engineer - Python (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8014254003",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8014343003",
+      "title": "B2B Sales Manager (x/f/m) im Außendienst / Bergisches Land",
+      "location": "Wuppertal, North Rhine-Westphalia, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8014343003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8014394003",
+      "title": "Senior Lead Product Marketing(x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8014394003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8015516003",
+      "title": "Responsable Partenaires Ecosystème Santé (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8015516003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8015787003",
+      "title": "Product Design Director - Patient (x/f/m)",
+      "location": "Berlin, Berlin, Germany; Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8015787003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8016775003",
+      "title": "Pricing & Packaging Senior Lead (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8016775003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8016863003",
+      "title": "Senior Product Manager - Patient Relationship Management (x/f/m)",
+      "location": "Milano, Milan, Italy",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8016863003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8018570003",
+      "title": "Team Manager Customer Success (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8018570003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8018820003",
+      "title": "Senior IA Inference Engineer (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8018820003",
+      "role_bucket": "ai",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8018854003",
+      "title": "Senior Agents Platform Engineer (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8018854003",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8026774003",
+      "title": "Praktikum Public Affairs & Advocacy (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8026774003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8029725003",
+      "title": "Team Manager Account Management (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8029725003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8034473003",
+      "title": "Localization Operations Manager (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8034473003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8034474003",
+      "title": "Localization Operations Manager (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8034474003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8036876003",
+      "title": "B2C CRM Marketing Intern - Milano (x/f/m)",
+      "location": "Milano, Milan, Italy",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8036876003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8037214003",
+      "title": "Praktikum Product Marketing (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8037214003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8038707003",
+      "title": "Technical Solution Engineer - Interoperabilität (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8038707003",
+      "role_bucket": "software",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8038727003",
+      "title": "Account Manager SaaS / B2B (x/f/m) - Mitteldeutschland",
+      "location": "Leipzig",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8038727003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8038747003",
+      "title": "Vertriebsbeauftragter im Außendienst SaaS / B2B (x/f/m) - Mitteldeutschland",
+      "location": "Leipzig",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8038747003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8038748003",
+      "title": "Sales Manager SaaS / B2B (x/f/m) - Mitteldeutschland",
+      "location": "Leipzig",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8038748003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8038958003",
+      "title": "Account Executive - IDF (x/f/m)",
+      "location": "Ile-de-France; Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8038958003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8039046003",
+      "title": "Senior Site Reliability Engineer (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8039046003",
+      "role_bucket": "software",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8039051003",
+      "title": "Staff Site Reliability Engineer (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8039051003",
+      "role_bucket": "software",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8040014003",
+      "title": " Revenue Operations Lead (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8040014003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8041139003",
+      "title": "Consultant Deploiement Grands Comptes (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8041139003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8042598003",
+      "title": "Senior Implementation Engineer – Phone Assistant (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8042598003",
+      "role_bucket": "software",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8042601003",
+      "title": "Senior AI Implementation Engineer (x/f/m) ",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8042601003",
+      "role_bucket": "ai",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8042707003",
+      "title": "Praktikum Campaign Management (x/f/m)",
+      "location": "Berlin, Berlin, Germany",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8042707003",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8042970003",
+      "title": "Machine Learning Engineer Intern (x/f/m)",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8042970003",
+      "role_bucket": "ai",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8044158003",
+      "title": "Head of Customer Engineering (x/f/m)",
+      "location": "Nantes; Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8044158003",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8045999003",
+      "title": "Stage - Strategy & Operations (x/f/m) - mars 2027",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8045999003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctolib",
+      "job_id": "8046009003",
+      "title": "Stage - Administrateur des ventes, Grands Comptes (x/f/m) - janvier 2027",
+      "location": "Paris, Paris, France",
+      "contract": "",
+      "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/8046009003",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "023d673b-feef-4bf5-af24-c093b171d14c",
+      "title": "Account Executive - Italy 🇮🇹",
+      "location": "Milan",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/023d673b-feef-4bf5-af24-c093b171d14c",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "0a426b04-3c62-424c-9e5c-8622780f62de",
+      "title": "Account Executive - SMB (law/corporate)",
+      "location": "Paris",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/0a426b04-3c62-424c-9e5c-8622780f62de",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "1b7acec4-aa8d-4625-9e1e-38c6b7ee8cab",
+      "title": "Account Executive - Spain 🇪🇸",
+      "location": "Barcelone",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/1b7acec4-aa8d-4625-9e1e-38c6b7ee8cab",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "1d171e12-cd38-4a1e-9712-d989de4a9417",
+      "title": "Business Development Representative",
+      "location": "Paris",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/1d171e12-cd38-4a1e-9712-d989de4a9417",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "23f887db-5b9f-4141-af91-d15781a76a20",
+      "title": "Account Executive Italy 🇮🇹 - Mid-Market",
+      "location": "Milan",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/23f887db-5b9f-4141-af91-d15781a76a20",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "49453c9c-6cfd-4c5c-9585-e6718e2f8e2e",
+      "title": "Experienced Machine Learning Engineer - Spain 🇪🇸 (Spanish speaking)",
+      "location": "Paris",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/49453c9c-6cfd-4c5c-9585-e6718e2f8e2e",
+      "role_bucket": "ai",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "4ff91b6f-511d-47d9-8bcd-f7554213827d",
+      "title": "STAGE - Junior Fullstack Engineer - Productivity",
+      "location": "Paris",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/4ff91b6f-511d-47d9-8bcd-f7554213827d",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "5788d9c7-5980-4c39-9d90-e86fa6f2104e",
+      "title": "STAGE - Junior Fullstack Engineer - International Team",
+      "location": "Paris",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/5788d9c7-5980-4c39-9d90-e86fa6f2104e",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "5c3ff22d-c0ae-482b-9e74-306e59b1eb9d",
+      "title": "Engineering Manager - Productivity",
+      "location": "Paris",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/5c3ff22d-c0ae-482b-9e74-306e59b1eb9d",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "5f18f91d-f288-4767-8127-8b75b25c9bde",
+      "title": "Revenue Operations",
+      "location": "Paris",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/5f18f91d-f288-4767-8127-8b75b25c9bde",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "60f51343-1e24-4b6f-ad0e-af85e70576b6",
+      "title": "Account Manager",
+      "location": "Paris",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/60f51343-1e24-4b6f-ad0e-af85e70576b6",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "63673611-cfba-42a8-abc5-5f76f3438450",
+      "title": "Growth Marketing - Germany 🇩🇪",
+      "location": "Paris",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/63673611-cfba-42a8-abc5-5f76f3438450",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "689d4c9d-2c94-4cba-be2e-a5ff1d7d2201",
+      "title": "Growth Marketing Corporate - France",
+      "location": "Paris",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/689d4c9d-2c94-4cba-be2e-a5ff1d7d2201",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "721a2bd6-a04a-492f-9c82-14a0b0eee6e4",
+      "title": "Account Executive - Germany 🇩🇪",
+      "location": "Paris",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/721a2bd6-a04a-492f-9c82-14a0b0eee6e4",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "85980884-9a30-44b0-acca-647b09f34e59",
+      "title": "Business Development Representative - Germany 🇩🇪",
+      "location": "Düsseldorf",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/85980884-9a30-44b0-acca-647b09f34e59",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "85c3ff34-47ff-4bb1-98c1-ed8021206887",
+      "title": "Account Executive Italy",
+      "location": "Paris",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/85c3ff34-47ff-4bb1-98c1-ed8021206887",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "85f2b55a-f159-42d8-9ad0-ac1fc54e58dc",
+      "title": "Account Manager - Italy 🇮🇹",
+      "location": "Milan",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/85f2b55a-f159-42d8-9ad0-ac1fc54e58dc",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "8c769ad1-7447-4332-a5dd-4f25476fbf52",
+      "title": "Business Development Representative - Customers",
+      "location": "Paris",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/8c769ad1-7447-4332-a5dd-4f25476fbf52",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "8d3e825d-4490-459d-b565-f1329d938b63",
+      "title": "Product Marketing Manager - Spain 🇪🇸",
+      "location": "Barcelone",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/8d3e825d-4490-459d-b565-f1329d938b63",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "959fff91-81b5-40ef-a6e1-c8e20642e08e",
+      "title": "Sales Enablement International",
+      "location": "Paris",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/959fff91-81b5-40ef-a6e1-c8e20642e08e",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "97e22df3-40b3-4aa9-b1d5-9225db256e45",
+      "title": "STAGE - Junior SRE (Foundation squad)",
+      "location": "Paris",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/97e22df3-40b3-4aa9-b1d5-9225db256e45",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "9b64e1dc-0ab7-408b-af12-f5a189f0a001",
+      "title": "Account Manager – Retention Specialist",
+      "location": "Paris",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/9b64e1dc-0ab7-408b-af12-f5a189f0a001",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "9ea8578e-e46b-42fc-bcef-bf9ad20e7f6e",
+      "title": "Experienced / senior Fullstack Engineer (Platform squad)",
+      "location": "Paris",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/9ea8578e-e46b-42fc-bcef-bf9ad20e7f6e",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "a35e877b-d0d1-4572-9e8b-c8794a2b122c",
+      "title": "Account Executive - Avocats individuels",
+      "location": "Paris",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/a35e877b-d0d1-4572-9e8b-c8794a2b122c",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "a764a941-6d27-4080-91a4-ab47c75b3d51",
+      "title": "BDR Manager",
+      "location": "Paris",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/a764a941-6d27-4080-91a4-ab47c75b3d51",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "ae09f55e-cffc-40e5-9571-fa5d01ecf433",
+      "title": "Experienced / Senior Fullstack Engineer (Productivity)",
+      "location": "Paris",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/ae09f55e-cffc-40e5-9571-fa5d01ecf433",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "be5ecb9d-ce8f-4d78-8405-2efd8a665b40",
+      "title": "Talent Acquisition Manager",
+      "location": "Paris",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/be5ecb9d-ce8f-4d78-8405-2efd8a665b40",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "cb4b5034-943f-417d-b396-975828fa3b68",
+      "title": "Customer Success Manager",
+      "location": "Paris",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/cb4b5034-943f-417d-b396-975828fa3b68",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "d48da491-4780-4360-9da9-457c8666507e",
+      "title": "Sales Manager - Germany 🇩🇪",
+      "location": "Düsseldorf",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/d48da491-4780-4360-9da9-457c8666507e",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "d5fd3c91-b72a-4b19-aed5-58872f4db6dc",
+      "title": "Experienced/Senior Fullstack Engineer - Squad Scribe",
+      "location": "Paris",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/d5fd3c91-b72a-4b19-aed5-58872f4db6dc",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "dab1df16-bce2-4404-a1fe-3d8ecce41df7",
+      "title": "Account Executive - Germany 🇩🇪",
+      "location": "Düsseldorf",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/dab1df16-bce2-4404-a1fe-3d8ecce41df7",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "e54e0625-b549-4008-a7fc-aeb6fb0f8638",
+      "title": "Account Executive Mid-Market / Enterprise",
+      "location": "Paris",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/e54e0625-b549-4008-a7fc-aeb6fb0f8638",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "e965cd61-3dba-4c09-b5cb-c20560dda493",
+      "title": "Engineering Manager - Spain 🇪🇸",
+      "location": "Paris",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/e965cd61-3dba-4c09-b5cb-c20560dda493",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "e9bd09bf-fa8c-4ec0-941b-ed7b22213933",
+      "title": "Account Executive - SMB Inbound (Inside Sales)",
+      "location": "Paris",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/e9bd09bf-fa8c-4ec0-941b-ed7b22213933",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "ed05d3b6-53be-4af9-9abd-e89574dca94b",
+      "title": "Confirmed Fullstack Engineer (Platform squad)",
+      "location": "Paris",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/ed05d3b6-53be-4af9-9abd-e89574dca94b",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "doctrine",
+      "job_id": "f9c56b4b-8a78-4b2c-8596-9eabdc0194b2",
+      "title": "STAGE - Junior Fullstack Engineer - Jobexit",
+      "location": "Paris",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/doctrine/f9c56b4b-8a78-4b2c-8596-9eabdc0194b2",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "ekimetrics",
+      "job_id": "02079879-cb10-4d75-abb4-bc0812df4377",
+      "title": "Stage Finance 2027 - Contrôle de Gestion France",
+      "location": "Paris",
+      "contract": "Internship",
+      "source_url": "https://jobs.lever.co/ekimetrics/02079879-cb10-4d75-abb4-bc0812df4377",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "ekimetrics",
+      "job_id": "096c7ade-6ac1-4ea0-a6f6-b619bf3efa66",
+      "title": "Manager, Data science & Marketing Effectiveness (MMM)",
+      "location": "London",
+      "contract": "Permanent position",
+      "source_url": "https://jobs.lever.co/ekimetrics/096c7ade-6ac1-4ea0-a6f6-b619bf3efa66",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "ekimetrics",
+      "job_id": "261ac47d-76be-4615-98d9-67e676e219af",
+      "title": "Business Scientist, Data Science and Marketing Effectiveness",
+      "location": "New York",
+      "contract": "Permanent position",
+      "source_url": "https://jobs.lever.co/ekimetrics/261ac47d-76be-4615-98d9-67e676e219af",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "ekimetrics",
+      "job_id": "358be550-80f6-4fb5-bc2a-aceceb8fd8a3",
+      "title": "Junior Business Scientist, Strategy & Data Science",
+      "location": "Shanghai",
+      "contract": "Permanent position",
+      "source_url": "https://jobs.lever.co/ekimetrics/358be550-80f6-4fb5-bc2a-aceceb8fd8a3",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "ekimetrics",
+      "job_id": "41495c5a-ce21-48b9-8afc-70c968822b42",
+      "title": "Strategy & Data Science Internship - Shanghai",
+      "location": "Shanghai",
+      "contract": "Part Time Internship",
+      "source_url": "https://jobs.lever.co/ekimetrics/41495c5a-ce21-48b9-8afc-70c968822b42",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "ekimetrics",
+      "job_id": "49b0c701-31bf-4f91-b11f-c78fa94d8f9b",
+      "title": "Responsable Financier France (H/F/N)",
+      "location": "Paris",
+      "contract": "Permanent position",
+      "source_url": "https://jobs.lever.co/ekimetrics/49b0c701-31bf-4f91-b11f-c78fa94d8f9b",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "ekimetrics",
+      "job_id": "49dcc42f-28bb-4dd0-b344-1e4764042373",
+      "title": "Senior Data Engineer",
+      "location": "New York",
+      "contract": "Permanent position",
+      "source_url": "https://jobs.lever.co/ekimetrics/49dcc42f-28bb-4dd0-b344-1e4764042373",
+      "role_bucket": "data",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "ekimetrics",
+      "job_id": "4d927861-d161-42c8-aea4-14b3abcdc1db",
+      "title": "Senior Business Scientist in Marketing Effectiveness",
+      "location": "New York",
+      "contract": "Permanent position",
+      "source_url": "https://jobs.lever.co/ekimetrics/4d927861-d161-42c8-aea4-14b3abcdc1db",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "ekimetrics",
+      "job_id": "549a3de9-d528-48b7-80a4-ff8b5ea01c5c",
+      "title": "Cloud Engineer (H/F/N) - CDI - Paris",
+      "location": "Paris",
+      "contract": "Permanent position",
+      "source_url": "https://jobs.lever.co/ekimetrics/549a3de9-d528-48b7-80a4-ff8b5ea01c5c",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "ekimetrics",
+      "job_id": "5bc0c075-8403-4d03-8d01-28429f6f2e47",
+      "title": "Stage Finance 2027 - Contrôle de Gestion Groupe",
+      "location": "Paris",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/ekimetrics/5bc0c075-8403-4d03-8d01-28429f6f2e47",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "ekimetrics",
+      "job_id": "759f620b-88d7-458c-8ab3-4f93a164b72e",
+      "title": "Manager, Marketing Effectiveness",
+      "location": "New York",
+      "contract": "Permanent position",
+      "source_url": "https://jobs.lever.co/ekimetrics/759f620b-88d7-458c-8ab3-4f93a164b72e",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "ekimetrics",
+      "job_id": "800784fb-9e87-4f63-a80f-3c224711b1aa",
+      "title": "Senior Consultant, Marketing Mix Modelling (MMM) & Data Science",
+      "location": "London",
+      "contract": "Permanent position",
+      "source_url": "https://jobs.lever.co/ekimetrics/800784fb-9e87-4f63-a80f-3c224711b1aa",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "ekimetrics",
+      "job_id": "8df1a768-c6b0-4082-9c41-b3171c0fb548",
+      "title": "2027 Internship (6 Months) - Data Science & Marketing Effectiveness, London",
+      "location": "London",
+      "contract": "Contract 6-12 months",
+      "source_url": "https://jobs.lever.co/ekimetrics/8df1a768-c6b0-4082-9c41-b3171c0fb548",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "ekimetrics",
+      "job_id": "8f0d6bb4-903a-4deb-8689-2f72e8b3e171",
+      "title": "Stage 2027  Business Data Scientist - Marketing effectivness",
+      "location": "Paris",
+      "contract": "Internship",
+      "source_url": "https://jobs.lever.co/ekimetrics/8f0d6bb4-903a-4deb-8689-2f72e8b3e171",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "ekimetrics",
+      "job_id": "90ff3ec8-6b67-4502-965e-084cd7fd5af6",
+      "title": "Senior Business Scientist - Hong Kong",
+      "location": "Hong Kong",
+      "contract": "Permanent position",
+      "source_url": "https://jobs.lever.co/ekimetrics/90ff3ec8-6b67-4502-965e-084cd7fd5af6",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "ekimetrics",
+      "job_id": "967bbddc-8921-4e58-b122-2fc4e322e44f",
+      "title": "Business Scientist - Hong Kong",
+      "location": "Hong Kong",
+      "contract": "Permanent position",
+      "source_url": "https://jobs.lever.co/ekimetrics/967bbddc-8921-4e58-b122-2fc4e322e44f",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "ekimetrics",
+      "job_id": "9dceb6ef-02c0-4c8f-9522-339af85de7b1",
+      "title": "Senior Manager, Data Science & Marketing Effectiveness (MMM)",
+      "location": "London",
+      "contract": "Permanent position",
+      "source_url": "https://jobs.lever.co/ekimetrics/9dceb6ef-02c0-4c8f-9522-339af85de7b1",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "ekimetrics",
+      "job_id": "9e60b346-6437-4f69-ade5-8f30dbffa1a5",
+      "title": "Senior Business Scientist in Strategy & Data Science",
+      "location": "Shanghai",
+      "contract": "Permanent position",
+      "source_url": "https://jobs.lever.co/ekimetrics/9e60b346-6437-4f69-ade5-8f30dbffa1a5",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "ekimetrics",
+      "job_id": "a180454e-73fe-4c10-b393-1d6164e149b8",
+      "title": "Senior Business Data Scientist - Data & Transformation services",
+      "location": "Paris",
+      "contract": "Permanent position",
+      "source_url": "https://jobs.lever.co/ekimetrics/a180454e-73fe-4c10-b393-1d6164e149b8",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "ekimetrics",
+      "job_id": "a6fa88f3-e571-47f8-bee9-e9aa70a88e7f",
+      "title": "Head of People France",
+      "location": "Paris",
+      "contract": "Permanent position",
+      "source_url": "https://jobs.lever.co/ekimetrics/a6fa88f3-e571-47f8-bee9-e9aa70a88e7f",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "ekimetrics",
+      "job_id": "aeb984e6-7866-48ac-acdc-8609d8ae82ff",
+      "title": "Marketing Content & Communication Intern - Shanghai - Oct 2026",
+      "location": "Shanghai",
+      "contract": "Internship",
+      "source_url": "https://jobs.lever.co/ekimetrics/aeb984e6-7866-48ac-acdc-8609d8ae82ff",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "ekimetrics",
+      "job_id": "c05906e2-dd69-46a5-b40c-d4dfd02354c5",
+      "title": "Junior Business Scientist - Hong Kong",
+      "location": "Hong Kong",
+      "contract": "Permanent position",
+      "source_url": "https://jobs.lever.co/ekimetrics/c05906e2-dd69-46a5-b40c-d4dfd02354c5",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "ekimetrics",
+      "job_id": "c7a0112a-4228-416f-8dd0-ff65fd0e87cc",
+      "title": "Business Scientist Internship (6-month full-time) - Hong Kong - January 2027",
+      "location": "Hong Kong",
+      "contract": "Permanent position",
+      "source_url": "https://jobs.lever.co/ekimetrics/c7a0112a-4228-416f-8dd0-ff65fd0e87cc",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "ekimetrics",
+      "job_id": "d20f4331-64c2-433a-a254-efefe35efa52",
+      "title": "Stage IA/ML Engineer 100% R&D - agentic AI",
+      "location": "Paris",
+      "contract": "Internship",
+      "source_url": "https://jobs.lever.co/ekimetrics/d20f4331-64c2-433a-a254-efefe35efa52",
+      "role_bucket": "ai",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "ekimetrics",
+      "job_id": "d6d2da34-9622-40a9-b3e4-814391d3a8db",
+      "title": "Stage de 6 mois UX/UI Designer (H/F/N) – PARIS",
+      "location": "Paris",
+      "contract": "Internship",
+      "source_url": "https://jobs.lever.co/ekimetrics/d6d2da34-9622-40a9-b3e4-814391d3a8db",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "ekimetrics",
+      "job_id": "d8f0b664-ad5b-4111-a1dc-a8143934bf24",
+      "title": "6 months Internship in Strategy & Data Science | New York",
+      "location": "New York",
+      "contract": "Internship",
+      "source_url": "https://jobs.lever.co/ekimetrics/d8f0b664-ad5b-4111-a1dc-a8143934bf24",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "ekimetrics",
+      "job_id": "d9d64766-3d42-4ba9-94d4-f74cdaf20065",
+      "title": "Junior Business Scientist, Data Science and Marketing Effectiveness",
+      "location": "New York",
+      "contract": "Permanent position",
+      "source_url": "https://jobs.lever.co/ekimetrics/d9d64766-3d42-4ba9-94d4-f74cdaf20065",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "ekimetrics",
+      "job_id": "e9065c12-7d2d-4753-bee0-0a80f933f28e",
+      "title": "Stage PFE 2027 - AI/ML Engineer - 50% Client 50% R&D",
+      "location": "Paris",
+      "contract": "Internship",
+      "source_url": "https://jobs.lever.co/ekimetrics/e9065c12-7d2d-4753-bee0-0a80f933f28e",
+      "role_bucket": "ai",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "ekimetrics",
+      "job_id": "f6685451-9c68-42a7-b8b9-fe5db3b6baf8",
+      "title": "Senior Data Scientist and Marketing Effectiveness (MMM)",
+      "location": "London",
+      "contract": "Permanent position",
+      "source_url": "https://jobs.lever.co/ekimetrics/f6685451-9c68-42a7-b8b9-fe5db3b6baf8",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "ekimetrics",
+      "job_id": "f8dfca76-2bd9-4c53-b51a-5accc27d861a",
+      "title": "Directeur Comptabilité et Trésorerie (H/F/N)",
+      "location": "Paris",
+      "contract": "Permanent position",
+      "source_url": "https://jobs.lever.co/ekimetrics/f8dfca76-2bd9-4c53-b51a-5accc27d861a",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "003c7329-331f-49a2-8d85-6d39cbd3a981",
+      "title": "Solutions Architect - ICX",
+      "location": "United States",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/003c7329-331f-49a2-8d85-6d39cbd3a981",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "0214c172-3b10-48d9-b171-a779012c8cc8",
+      "title": "Technical Account Manager BNL",
+      "location": "Rotterdam",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/0214c172-3b10-48d9-b171-a779012c8cc8",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "03860766-387e-4b06-9e80-a0b3bc661182",
+      "title": "Account Based Marketing Manager- Americas",
+      "location": "Boston, MA",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/03860766-387e-4b06-9e80-a0b3bc661182",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "06a61a4a-eb44-451f-9cff-33bc279a2387",
+      "title": "Product Marketing Lead - ICX",
+      "location": "United States",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/06a61a4a-eb44-451f-9cff-33bc279a2387",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "0c950d06-599e-49af-ae99-916479faa126",
+      "title": "Technical Account Manager",
+      "location": "Boston, MA",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/0c950d06-599e-49af-ae99-916479faa126",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "2875479e-d154-4f1f-9cbe-4ff6c73bd389",
+      "title": "Senior Presales Solution Consultant (Tokyo, Japan)",
+      "location": "Tokyo",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/2875479e-d154-4f1f-9cbe-4ff6c73bd389",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "2b38ec1a-52da-429e-9f97-651b6f635c9f",
+      "title": "Presales Solution Architect – Mendix & AI Solutions",
+      "location": "Boston, MA",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/2b38ec1a-52da-429e-9f97-651b6f635c9f",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "2b3b42e6-52b9-40f7-b5a8-86e0016ba43b",
+      "title": "Sr. Solutions Marketing Manager",
+      "location": "United States",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/2b3b42e6-52b9-40f7-b5a8-86e0016ba43b",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "330bf2d6-3f5c-43a0-8285-2abf22040352",
+      "title": "Cloud Unit Lead",
+      "location": "Rotterdam",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/330bf2d6-3f5c-43a0-8285-2abf22040352",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "340350b1-8ccb-424f-93da-d4ec273c8893",
+      "title": "Product Designer- Cloud",
+      "location": "Rotterdam",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/340350b1-8ccb-424f-93da-d4ec273c8893",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "3be1cbcf-1ab4-4309-a764-2c336d1f7f37",
+      "title": "Intelligence Center X Engineer - EMEA",
+      "location": "Rotterdam",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/3be1cbcf-1ab4-4309-a764-2c336d1f7f37",
+      "role_bucket": "software",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "415b38a8-2fbc-41be-822c-7e2975da7f01",
+      "title": "Partner Sales Executive - Intelligence Center X (ADT)",
+      "location": "United States",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/415b38a8-2fbc-41be-822c-7e2975da7f01",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "4553df13-e306-481f-a9eb-bd39a2865433",
+      "title": "Specialised Account Executive (m/f/d)",
+      "location": "Frankfurt | Munich |  Nuremberg | Stuttgart | Cologne",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/4553df13-e306-481f-a9eb-bd39a2865433",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "501e1e65-9cf5-473a-b7ec-5bcd756a935e",
+      "title": "Intelligence Center X Principal - EMEA",
+      "location": "Rotterdam",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/501e1e65-9cf5-473a-b7ec-5bcd756a935e",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "6062844f-b2a5-4b3c-915b-18d508a675e8",
+      "title": "Intelligence Center X Engineering Manager - Americas",
+      "location": "United States",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/6062844f-b2a5-4b3c-915b-18d508a675e8",
+      "role_bucket": "software",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "6107cb02-40af-453a-b3ab-085e89266cf9",
+      "title": "ISV Technical Account Manager - EMEA",
+      "location": "Rotterdam",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/6107cb02-40af-453a-b3ab-085e89266cf9",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "640432c8-dbdc-460a-ba91-f21a8a02760d",
+      "title": "Principal Pre-Sales Consultant – Knowledge Graph",
+      "location": "Rotterdam",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/640432c8-dbdc-460a-ba91-f21a8a02760d",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "64bab875-202c-4d7c-b7af-d01483fb3a49",
+      "title": "Field Marketing Manager M/F/D - DACH",
+      "location": "Berlin | Cologne | Frankfurt | Hamburg | Hannover | Leipzig | Munich | Nuremberg | Stuttgart",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/64bab875-202c-4d7c-b7af-d01483fb3a49",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "6c126d1d-2053-436d-ac33-5bd7c4388a4e",
+      "title": "Partner Sales Executive (Tokyo, Japan)",
+      "location": "Tokyo",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/6c126d1d-2053-436d-ac33-5bd7c4388a4e",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "7ae4e380-ed39-4150-ad34-e1afb9685bd6",
+      "title": "Account Based Marketing Manager- EMEA",
+      "location": "London",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/7ae4e380-ed39-4150-ad34-e1afb9685bd6",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "8168846c-a34d-4c7a-9470-01000b8b8937",
+      "title": "Business Development Representative",
+      "location": "Boston, MA",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/8168846c-a34d-4c7a-9470-01000b8b8937",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "8ae7a9a1-3e2a-4532-b6ee-40af55e4012d",
+      "title": "Senior Mendix Engineer",
+      "location": "Munich",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/8ae7a9a1-3e2a-4532-b6ee-40af55e4012d",
+      "role_bucket": "software",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "8fa7a191-bf2b-415b-9df4-e26c076d6e0b",
+      "title": "Senior Software Engineer- Governance",
+      "location": "Rotterdam",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/8fa7a191-bf2b-415b-9df4-e26c076d6e0b",
+      "role_bucket": "software",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "91b5c524-e36b-4e5e-9d1c-f42854fbf638",
+      "title": "Intelligence Center X Principal - Americas",
+      "location": "Boston, MA",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/91b5c524-e36b-4e5e-9d1c-f42854fbf638",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "9698a6c7-fde6-4517-be27-833f6528cc89",
+      "title": "Intelligence Center X Engineering Manager - EMEA",
+      "location": "Rotterdam",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/9698a6c7-fde6-4517-be27-833f6528cc89",
+      "role_bucket": "software",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "a4d52c53-76b7-4b4a-b418-3399595b0e33",
+      "title": "Customer Stories Lead",
+      "location": "United States",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/a4d52c53-76b7-4b4a-b418-3399595b0e33",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "aba114e2-4b17-4887-bfac-27958452d9fb",
+      "title": "Senior Presales Solution Consultant (Seoul, Korea)",
+      "location": "Seoul",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/aba114e2-4b17-4887-bfac-27958452d9fb",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "acded4ba-2f4e-4562-8091-30fa5b661b8a",
+      "title": "Content Marketing Manager - Industrial B2B",
+      "location": "United States",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/acded4ba-2f4e-4562-8091-30fa5b661b8a",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "ad9b9940-188b-409c-80b1-0fbc73cdca40",
+      "title": "Principal Solutions Architect - ICX",
+      "location": "United States",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/ad9b9940-188b-409c-80b1-0fbc73cdca40",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "b12d0e48-5c8f-4c21-b145-bb08811a3aa5",
+      "title": "Partner Sales Executive",
+      "location": "Gent | Brussels | Antwerp",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/b12d0e48-5c8f-4c21-b145-bb08811a3aa5",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "b33e4cad-95b1-4f1d-8eb6-949207e284cd",
+      "title": "Information Security Officer",
+      "location": "Rotterdam",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/b33e4cad-95b1-4f1d-8eb6-949207e284cd",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "b810b355-1c9e-459c-ac5f-1a0144534d1a",
+      "title": "Portfolio Messaging Strategist",
+      "location": "United States",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/b810b355-1c9e-459c-ac5f-1a0144534d1a",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "bf63d189-44e3-46dc-bf18-eed96e48ef0d",
+      "title": "Specialised Account Executive - ISV",
+      "location": "Rotterdam",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/bf63d189-44e3-46dc-bf18-eed96e48ef0d",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "c0de3331-2a9c-4e23-a807-dd2ccf860198",
+      "title": "Frontend Engineer",
+      "location": "Rotterdam",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/c0de3331-2a9c-4e23-a807-dd2ccf860198",
+      "role_bucket": "software",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "cbd1d4eb-1688-498e-affa-e50e36047ec5",
+      "title": "Product Manager- Workflow",
+      "location": "Rotterdam",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/cbd1d4eb-1688-498e-affa-e50e36047ec5",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "ccd956e6-54be-4f55-9e55-7f6ece55b36c",
+      "title": "Senior Integration Engineer – AppDev",
+      "location": "Rotterdam",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/ccd956e6-54be-4f55-9e55-7f6ece55b36c",
+      "role_bucket": "software",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "cd55ab39-b30a-4b90-8881-52b8811c9dcf",
+      "title": "Intelligence Center X Engineer - Americas",
+      "location": "United States",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/cd55ab39-b30a-4b90-8881-52b8811c9dcf",
+      "role_bucket": "software",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "d779d30f-e5cd-4646-8836-fbeb0d309210",
+      "title": "Partner Sales Executive - BFSI",
+      "location": "Rotterdam",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/d779d30f-e5cd-4646-8836-fbeb0d309210",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "e6a4788f-a823-412f-bde9-44a926043011",
+      "title": "Specialized Account Executive (Tokyo, Japan)",
+      "location": "Tokyo",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/e6a4788f-a823-412f-bde9-44a926043011",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "mendix",
+      "job_id": "f61e7af4-ab5f-40da-8f31-80d6d0a93130",
+      "title": "Business Development Representative – UK & Ireland (UKI)",
+      "location": "Rotterdam",
+      "contract": "",
+      "source_url": "https://jobs.lever.co/mendix/f61e7af4-ab5f-40da-8f31-80d6d0a93130",
+      "role_bucket": "other",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "0107ef0c-c751-4975-95d0-fde4d93fe4ef",
+      "title": "Cloud/DevOps Engineer – Rejoins une entreprise AI native",
+      "location": "Luxembourg",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/0107ef0c-c751-4975-95d0-fde4d93fe4ef",
+      "role_bucket": "ai",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "05cec5b3-24ee-42ad-9a27-d30d43f055c0",
+      "title": "Cloud/DevOps Engineer (F/H/NB)",
+      "location": "Bordeaux",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/05cec5b3-24ee-42ad-9a27-d30d43f055c0",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "0606366a-67e0-4226-b5f9-ae92e3a66e75",
+      "title": "⚙️ Cloud/DevOps Engineer",
+      "location": "Bruxelles",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/0606366a-67e0-4226-b5f9-ae92e3a66e75",
+      "role_bucket": "software",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "06d752b2-5c13-48c1-bba2-12c6bf359a78",
+      "title": "Cloud Engineer GCP",
+      "location": "Paris",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/06d752b2-5c13-48c1-bba2-12c6bf359a78",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "14293460-d40d-44a2-affc-4a3a1a4c26de",
+      "title": "AI Software Engineer (F/H/NB)",
+      "location": "Toulouse",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/14293460-d40d-44a2-affc-4a3a1a4c26de",
+      "role_bucket": "ai",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "17b98ae4-eb23-4542-b003-e7605807406a",
+      "title": "Senior Software Engineer Java-JS (F/H) Niort",
+      "location": "Niort",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/17b98ae4-eb23-4542-b003-e7605807406a",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "196a47f2-7f02-4dab-91ae-1d40e496853f",
+      "title": "Software Engineer Python / FastAPI",
+      "location": "Paris",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/196a47f2-7f02-4dab-91ae-1d40e496853f",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "1baa74e6-fe57-4ac9-a917-13d498dda1d4",
+      "title": "Forward Deployed Engineer – Agentic AI",
+      "location": "Paris",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/1baa74e6-fe57-4ac9-a917-13d498dda1d4",
+      "role_bucket": "ai",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "2249ed48-34e6-4531-b479-b4a103a00378",
+      "title": "GenAI Engineer (F/H) - Nantes",
+      "location": "Nantes",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/2249ed48-34e6-4531-b479-b4a103a00378",
+      "role_bucket": "ai",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "256e267c-525f-49b4-8400-781ad1b8d6bb",
+      "title": "Data Engineer",
+      "location": "Strasbourg",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/256e267c-525f-49b4-8400-781ad1b8d6bb",
+      "role_bucket": "data",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "36426a40-969e-42d4-93d1-21eee32df154",
+      "title": "Cloud/DevOps Engineer (F/H/NB)",
+      "location": "Toulouse",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/36426a40-969e-42d4-93d1-21eee32df154",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "3cee19ff-5310-49f4-ae96-6788c2a602d7",
+      "title": "Développeur(euse) Java expérimenté(e)",
+      "location": "Lille",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/3cee19ff-5310-49f4-ae96-6788c2a602d7",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "3dedba78-474e-40f9-b427-8c769c0678a0",
+      "title": "Développeur(euse) JavaScript expérimenté(e)",
+      "location": "Lille",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/3dedba78-474e-40f9-b427-8c769c0678a0",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "3fc93528-6376-4d76-859b-0cebe761ac8a",
+      "title": "GenAI Engineer - Lille",
+      "location": "Lille",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/3fc93528-6376-4d76-859b-0cebe761ac8a",
+      "role_bucket": "ai",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "46036a3b-d76d-4f49-b087-7054e09a0a1b",
+      "title": "Lead Tech FullStack Java (F/H) - Rennes",
+      "location": "Rennes",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/46036a3b-d76d-4f49-b087-7054e09a0a1b",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "4d25debd-db95-47ed-8763-2d1d5eaaa1e1",
+      "title": "Cloud Architect",
+      "location": "Paris",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/4d25debd-db95-47ed-8763-2d1d5eaaa1e1",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "4df5ba5c-5bab-407f-b5c1-3a8e42a09882",
+      "title": "Senior Data Engineer (F/H) - Rennes",
+      "location": "Rennes",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/4df5ba5c-5bab-407f-b5c1-3a8e42a09882",
+      "role_bucket": "data",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "5487c3f8-e355-43f9-ba43-9b4502c488a9",
+      "title": "Développeur(euse) Python expérimenté(e)",
+      "location": "Lille",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/5487c3f8-e355-43f9-ba43-9b4502c488a9",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "5abf0d5c-399a-4d60-846c-60e808a86321",
+      "title": "GenAI Engineer (F/H/NB)",
+      "location": "Toulouse",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/5abf0d5c-399a-4d60-846c-60e808a86321",
+      "role_bucket": "ai",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "60ba8fb1-aabb-4cd3-93cd-fad51b79388b",
+      "title": "Data Engineer expérimenté(e)",
+      "location": "Lille",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/60ba8fb1-aabb-4cd3-93cd-fad51b79388b",
+      "role_bucket": "data",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "68ca2f97-7818-4d92-94f9-cefc63859b95",
+      "title": "GenAI Engineer (F/H/NB)",
+      "location": "Bordeaux",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/68ca2f97-7818-4d92-94f9-cefc63859b95",
+      "role_bucket": "ai",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "6b919d86-f66b-4407-8d8a-f75368af21bb",
+      "title": "Lead Data Engineer GCP",
+      "location": "Paris",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/6b919d86-f66b-4407-8d8a-f75368af21bb",
+      "role_bucket": "data",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "6e903ae7-d2eb-41cb-8a3b-9046b1a965b9",
+      "title": "Senior Data Engineer (F/H) - Nantes",
+      "location": "Nantes",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/6e903ae7-d2eb-41cb-8a3b-9046b1a965b9",
+      "role_bucket": "data",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "70b39ef5-29c1-4da4-9e36-75fe74cf5812",
+      "title": "🧠 AI Engineer",
+      "location": "Bruxelles",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/70b39ef5-29c1-4da4-9e36-75fe74cf5812",
+      "role_bucket": "ai",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "751afc86-0b22-48ef-a9b1-55e03501dd08",
+      "title": "Architecte Cloud (F/H/NB)",
+      "location": "Toulouse",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/751afc86-0b22-48ef-a9b1-55e03501dd08",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "7bc7ca78-ef99-44d9-abe6-60e4de2fc277",
+      "title": "Tech Lead Java (H/F) - Nantes",
+      "location": "Nantes",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/7bc7ca78-ef99-44d9-abe6-60e4de2fc277",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "89ee42fc-ca44-41cc-8cfc-8b97b7626107",
+      "title": "Software Engineer Java / Angular",
+      "location": "Strasbourg",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/89ee42fc-ca44-41cc-8cfc-8b97b7626107",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "8d0232a4-51e6-413d-9f50-39bec8e669e5",
+      "title": "Senior Software Engineer Java-JS (F/H) - Création d'Agence",
+      "location": "Rennes",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/8d0232a4-51e6-413d-9f50-39bec8e669e5",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "90fd23a7-20d8-44ef-863e-32b56bdb2101",
+      "title": "Software Engineer C#.Net",
+      "location": "Strasbourg",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/90fd23a7-20d8-44ef-863e-32b56bdb2101",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "99b9cac7-7d10-45b1-8605-498770bd9635",
+      "title": "Data Engineer (F/H/NB)",
+      "location": "Toulouse",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/99b9cac7-7d10-45b1-8605-498770bd9635",
+      "role_bucket": "data",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "aec0872a-77f7-40c7-be9c-714c37235979",
+      "title": "📊 Data Engineer",
+      "location": "Bruxelles",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/aec0872a-77f7-40c7-be9c-714c37235979",
+      "role_bucket": "data",
+      "geography_bucket": "other_or_unknown"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "bae94bc1-9731-4084-bd60-6d2a4eae93e1",
+      "title": "AI Software Engineer (F/H/NB)",
+      "location": "Bordeaux",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/bae94bc1-9731-4084-bd60-6d2a4eae93e1",
+      "role_bucket": "ai",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "bc5d21b6-7404-43a7-86bf-cda08fa17c58",
+      "title": "Senior Data Engineer (F/H) - Niort",
+      "location": "Niort",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/bc5d21b6-7404-43a7-86bf-cda08fa17c58",
+      "role_bucket": "data",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "bf2cc748-4700-488b-aca6-9d45c6926ac7",
+      "title": "Ingénieur(e) DevOps/cloud expérimenté(e)",
+      "location": "Lille",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/bf2cc748-4700-488b-aca6-9d45c6926ac7",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "c6420e02-e32b-44f9-b115-e97ba6a5dfda",
+      "title": "Data Architect GCP",
+      "location": "Paris",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/c6420e02-e32b-44f9-b115-e97ba6a5dfda",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "d3611ccb-69d7-49d1-bc4a-4dfb55cd8150",
+      "title": "Senior Java Software Engineer (H/F) - Nantes",
+      "location": "Nantes",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/d3611ccb-69d7-49d1-bc4a-4dfb55cd8150",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "dacda605-4568-4ef1-b79b-4c649b93ecd2",
+      "title": "Data Engineer GCP",
+      "location": "Paris",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/dacda605-4568-4ef1-b79b-4c649b93ecd2",
+      "role_bucket": "data",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "dc24e3af-2895-4248-abc6-21f1551e58ce",
+      "title": "GenAI Engineer (F/H) - Rennes",
+      "location": "Rennes",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/dc24e3af-2895-4248-abc6-21f1551e58ce",
+      "role_bucket": "ai",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "e1faa550-6907-458a-a363-666d021c9dfc",
+      "title": "Architecte Cloud (F/H/NB)",
+      "location": "Bordeaux",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/e1faa550-6907-458a-a363-666d021c9dfc",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "ed644f05-5119-49db-bab5-404d951b8f1c",
+      "title": "Cloud Architect GCP",
+      "location": "Paris",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/ed644f05-5119-49db-bab5-404d951b8f1c",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "f5bae950-7a3c-46c3-a4c2-3ffd980484ed",
+      "title": "AI Engineer",
+      "location": "Strasbourg",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/f5bae950-7a3c-46c3-a4c2-3ffd980484ed",
+      "role_bucket": "ai",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "f6c23f0a-aa4f-43e7-b501-903a61bf3f33",
+      "title": "Lead Tech Java (F/H) - Création d'agence",
+      "location": "Niort",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/f6c23f0a-aa4f-43e7-b501-903a61bf3f33",
+      "role_bucket": "other",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "f9d756ca-f8c3-453b-a83d-0016bd9749aa",
+      "title": "Cloud & Data Engineer",
+      "location": "Paris",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/f9d756ca-f8c3-453b-a83d-0016bd9749aa",
+      "role_bucket": "data",
+      "geography_bucket": "france_marker"
+    },
+    {
+      "source_id": "sfeir",
+      "job_id": "fbc8dab2-7c4f-4a07-bb18-f972dabc58b7",
+      "title": "Senior DevOps Engineer (F/H) – Création d’agence Niort",
+      "location": "Niort",
+      "contract": "CDI",
+      "source_url": "https://jobs.lever.co/sfeir/fbc8dab2-7c4f-4a07-bb18-f972dabc58b7",
+      "role_bucket": "software",
+      "geography_bucket": "france_marker"
+    }
+  ]
+}

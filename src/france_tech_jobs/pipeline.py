@@ -89,6 +89,25 @@ def deduplicate(jobs):
     return result
 
 
+def select_review_jobs(jobs, confirmed):
+    """Select uncertain active jobs without duplicating confirmed or excluded roles."""
+    from .classify import classify
+
+    active = [job for job in jobs if job.get("status") == "active"]
+    def excluded(job):
+        title_only = classify(job.get("title", ""), "", job.get("location", ""), job.get("contract", ""))
+        return job.get("seniority") == "excluded" or title_only["seniority"] == "excluded"
+
+    blocked = {_url_key(job.get("application_url", "")) for job in confirmed}
+    blocked.update(_url_key(job.get("application_url", "")) for job in active if excluded(job))
+    blocked.discard(None)
+    candidates = [job for job in active if not job.get("eligible") and not excluded(job)
+                  and bool(set(job.get("categories") or ()) & {"data", "ai", "software"})
+                  and (job.get("seniority") == "unknown" or job.get("geography") == "unknown")
+                  and _url_key(job.get("application_url", "")) not in blocked]
+    return deduplicate(candidates)
+
+
 def update(root, today=None, fetcher=None, classifier=None):
     """Fetch every configured source, then publish only after a successful fetch."""
     from .classify import classify
@@ -99,7 +118,11 @@ def update(root, today=None, fetcher=None, classifier=None):
     today = today or datetime.now(timezone.utc).date().isoformat()
     fetcher = fetcher or fetch_source
     classifier = classifier or classify
-    sources = json.loads((root / "config/sources.json").read_text(encoding="utf8"))["sources"]
+    config = json.loads((root / "config/sources.json").read_text(encoding="utf8"))
+    sources = config["sources"]
+    review_limit = config.get("review_limit", 100)
+    if type(review_limit) is not int or not 0 <= review_limit <= 1000:
+        raise ValueError("review_limit must be an integer between 0 and 1000")
     enabled = [s for s in sources if s.get("enabled", True)]
     ids = [s["id"] for s in enabled]
     if not enabled or len(set(ids)) != len(ids):
@@ -130,7 +153,8 @@ def update(root, today=None, fetcher=None, classifier=None):
     failed_ids = set(errors) | ({j["source_id"] for j in previous} - set(ids))
     jobs = retain_records(merge_observations(previous, successful, failed_ids, today), today, failed_ids)
     public_jobs = deduplicate([job for job in jobs if job.get("status") == "active" and job.get("eligible")])
-    outputs = {"data/jobs.json": json.dumps(jobs, ensure_ascii=False, indent=2, sort_keys=True) + "\n", **render_all(public_jobs, today)}
+    review_jobs = select_review_jobs(jobs, public_jobs)
+    outputs = {"data/jobs.json": json.dumps(jobs, ensure_ascii=False, indent=2, sort_keys=True) + "\n", **render_all(public_jobs, today, review_jobs=review_jobs, review_limit=review_limit)}
     for path, content in outputs.items():
         destination = root / path
         destination.parent.mkdir(parents=True, exist_ok=True)

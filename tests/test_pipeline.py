@@ -3,7 +3,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from france_tech_jobs.pipeline import merge_observations, deduplicate, retain_records, update
+from france_tech_jobs.pipeline import merge_observations, deduplicate, retain_records, select_review_jobs, update
 from france_tech_jobs.render import render_page
 
 
@@ -28,6 +28,19 @@ class PipelineTests(unittest.TestCase):
         previous = [dict(self.job(), status="closed", first_seen="2026-01-01", last_seen="2026-01-01")]
         result = merge_observations(previous, {"one": [self.job()]}, [], "2026-01-03")
         self.assertEqual((result[0]["status"], result[0]["first_seen"], result[0]["last_seen"]), ("active", "2026-01-01", "2026-01-03"))
+
+    def test_review_candidates_exclude_confirmed_excluded_and_failed_sources(self):
+        confirmed = dict(self.job(), status="active")
+        duplicate_confirmed = dict(self.job("two", "2"), status="active", seniority="unknown", eligible=False)
+        excluded = dict(self.job("three", "3", "https://example.com/senior"), status="active", seniority="excluded", eligible=False)
+        duplicate_excluded = dict(self.job("four", "4", "https://example.com/senior"), status="active", seniority="unknown", eligible=False)
+        candidate = dict(self.job("five", "5", "https://example.com/5"), status="active", seniority="unknown", eligible=False)
+        duplicate_candidate = dict(candidate, source_id="six", job_id="6")
+        stale = dict(self.job("seven", "7", "https://example.com/7"), status="unknown", seniority="unknown", eligible=False)
+        result = select_review_jobs([confirmed, duplicate_confirmed, excluded, duplicate_excluded, candidate, duplicate_candidate, stale], [confirmed])
+        self.assertEqual(len(result), 1)
+        self.assertEqual(result[0]["application_url"], "https://example.com/5")
+        self.assertEqual(set(result[0]["sources"]), {"five", "six"})
 
     def test_closure_date_survives_later_checks_and_outage(self):
         previous = [dict(self.job(), status="active", first_seen="2025-01-01", last_seen="2026-01-01")]
@@ -145,6 +158,38 @@ class PipelineTests(unittest.TestCase):
             self.assertEqual({j["source_id"]: j["status"] for j in state}, {"one": "active", "two": "unknown"})
             self.assertEqual(report["failed"], ["two"])
             self.assertTrue((root / "jobs/france-data.md").exists())
+
+    def test_update_renders_review_page_without_failed_source_jobs(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            (root / "config").mkdir()
+            (root / "config/sources.json").write_text(json.dumps({"sources": [{"id": "one"}, {"id": "two"}]}), encoding="utf8")
+            (root / "data").mkdir()
+            old = dict(self.job("two", "old", "https://example.com/old"), title="Old Data Engineer", status="active")
+            (root / "data/jobs.json").write_text(json.dumps([old]), encoding="utf8")
+            def fetch(source):
+                if source["id"] == "two":
+                    raise OSError("offline")
+                return [dict(self.job("one"), title="Data Engineer")]
+            classifier = lambda *args: {"categories": ["data"], "seniority": "unknown", "geography": "france", "eligible": False}
+            update(root, "2026-01-02", fetcher=fetch, classifier=classifier)
+            page = (root / "jobs/review.md").read_text(encoding="utf8")
+            self.assertIn("Data Engineer", page)
+            self.assertIn("Experience level not confirmed", page)
+            self.assertNotIn("Old Data Engineer", page)
+
+    def test_review_limit_is_configurable_and_invalid_values_fail(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            (root / "config").mkdir()
+            config = root / "config/sources.json"
+            config.write_text(json.dumps({"review_limit": 0, "sources": [{"id": "one"}]}), encoding="utf8")
+            classifier = lambda *args: {"categories": ["data"], "seniority": "unknown", "geography": "france", "eligible": False}
+            update(root, "2026-01-02", fetcher=lambda source: [self.job("one")], classifier=classifier)
+            self.assertIn("Showing 0 of 1 candidates", (root / "jobs/review.md").read_text(encoding="utf8"))
+            config.write_text(json.dumps({"review_limit": -1, "sources": [{"id": "one"}]}), encoding="utf8")
+            with self.assertRaises(ValueError):
+                update(root, "2026-01-02", fetcher=lambda source: [], classifier=classifier)
 
 
 if __name__ == "__main__":
