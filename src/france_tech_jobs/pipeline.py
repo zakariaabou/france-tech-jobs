@@ -1,7 +1,7 @@
 """Track observations without treating source outages as job closures."""
 
 from copy import deepcopy
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 import json
 from pathlib import Path
 import sys
@@ -13,7 +13,14 @@ def merge_observations(previous, successful, failed, today):
     failed = set(failed)
     for job in records.values():
         source = job["source_id"]
+        # Older state used last_checked as its only closure timestamp. Capture it
+        # before changing status or last_checked; missing/invalid values remain
+        # untrusted and are never used to prune the record.
+        if job.get("status") == "closed" and "closed_since" not in job:
+            job["closed_since"] = job.get("last_checked")
         if source in successful:
+            if job.get("status") != "closed" and "closed_since" not in job:
+                job["closed_since"] = today
             job["status"] = "closed"
             job["last_checked"] = today
         elif source in failed:
@@ -28,6 +35,30 @@ def merge_observations(previous, successful, failed, today):
             job.update(status="active", first_seen=prior.get("first_seen", today), last_seen=today, last_checked=today)
             records[key] = job
     return sorted(records.values(), key=lambda j: (j["source_id"], j["job_id"]))
+
+
+def retain_records(jobs, today, failed_sources=()):
+    """Keep relevant observations and prune confirmed closures after 180 days."""
+    today_date = date.fromisoformat(today)
+    failed_sources = set(failed_sources)
+    retained = []
+    for job in jobs:
+        # A failed fetch cannot update or reclassify old data, so preserve it.
+        if job.get("source_id") in failed_sources:
+            retained.append(job)
+            continue
+        if not set(job.get("categories") or ()).intersection({"data", "ai", "software"}):
+            continue
+        if job.get("status") == "closed":
+            try:
+                closed = date.fromisoformat(job.get("closed_since"))
+            except (ValueError, TypeError):
+                pass  # Never guess an absent or malformed closure date.
+            else:
+                if (today_date - closed).days >= 180:
+                    continue
+        retained.append(job)
+    return retained
 
 
 def _url_key(url):
@@ -97,7 +128,7 @@ def update(root, today=None, fetcher=None, classifier=None):
     if not successful:
         raise RuntimeError("All sources failed; previous output was retained")
     failed_ids = set(errors) | ({j["source_id"] for j in previous} - set(ids))
-    jobs = merge_observations(previous, successful, failed_ids, today)
+    jobs = retain_records(merge_observations(previous, successful, failed_ids, today), today, failed_ids)
     public_jobs = deduplicate([job for job in jobs if job.get("status") == "active" and job.get("eligible")])
     outputs = {"data/jobs.json": json.dumps(jobs, ensure_ascii=False, indent=2, sort_keys=True) + "\n", **render_all(public_jobs, today)}
     for path, content in outputs.items():
