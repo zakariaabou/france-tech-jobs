@@ -1,8 +1,8 @@
 # Potential matches — verify requirements
 
-Last pipeline run: 2026-10-27 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
+Last pipeline run: 2026-10-28 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
-Showing 100 of 131 candidates (limit: 100). France appears first, followed by international and unknown locations.
+Showing 100 of 134 candidates (limit: 100). France appears first, followed by international and unknown locations.
 
 [Home](../README.md)
 
@@ -10,6 +10,9 @@ Showing 100 of 131 candidates (limit: 100). France appears first, followed by in
 
 | Company | Role | Categories | Location | Experience | Review reason | Sources | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Meritis | Développeur Java Expérimenté (H/F) | Software Engineering | Montpellier, Occitanie, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000153714818-developpeur-java-experimente-h-f-) |
+| Meritis | Développeur C# .net - H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000155751779-developpeur-c-net-h-f) |
+| Meritis | Développeur C# (H/F) | Software Engineering | Montpellier, Occitanie, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000153714414-developpeur-c-h-f-) |
 | VO2 Group | \[VO2 Finance\] - Développeur C# Confirmé – Trading Électronique / Front-Office CIB | Software Engineering | Paris, France | unknown | Experience level not confirmed | vo2-group | [Apply](https://jobs.lever.co/vo2-group/81b24104-5bc3-4650-9085-1a65179479d8/apply) |
 | VO2 Group | \[VO2 Brand Experience\] - Développeur Fullstack Shopify | Software Engineering | Paris, France | unknown | Experience level not confirmed | vo2-group | [Apply](https://jobs.lever.co/vo2-group/2a140d31-127f-4759-ad58-2981178cd28e/apply) |
 | VO2 Group | \[ VO2 FORCE \] - Développeur(se) IA / AI Engineer | AI Engineering, Software Engineering | Paris, France | unknown | Experience level not confirmed | vo2-group | [Apply](https://jobs.lever.co/vo2-group/5325c5b9-0e1d-44f0-8e09-0f226cba2d8b/apply) |
@@ -107,6 +110,3 @@ Showing 100 of 131 candidates (limit: 100). France appears first, followed by in
 | MARGO | Développeur C# - Trading Algo \|  Practice SE MARGO | Software Engineering | Paris | unknown | Experience level not confirmed | margo-group | [Apply](https://jobs.lever.co/margo-group/19135065-26b9-49d9-9f8d-0e8e5e2ffb3f/apply) |
 | MARGO | Data Scientist \| Machine Learning Engineer – Practice IA MARGO | AI Engineering | Paris | unknown | Experience level not confirmed | margo-group | [Apply](https://jobs.lever.co/margo-group/0b0a26e3-d592-45ae-bf85-c8c6438db41f/apply) |
 | MARGO | Data Engineer - Practice Cloud Transformation chez MARGO | Data Engineering | Paris | unknown | Experience level not confirmed | margo-group | [Apply](https://jobs.lever.co/margo-group/dfd990e5-a461-4b7a-8b81-74dfc1632ff8/apply) |
-| MARGO | AI Engineer - Spécialiste AI4Code &amp; Agents IA (H/F) | AI Engineering | Paris | unknown | Experience level not confirmed | margo-group | [Apply](https://jobs.lever.co/margo-group/9b45e9fb-ac2d-40ad-9103-2bbb2b10ad4e/apply) |
-| MARGO | AI Engineer (GenAI &amp; LLM) – Practice IA MARGO | AI Engineering | Paris | unknown | Experience level not confirmed | margo-group | [Apply](https://jobs.lever.co/margo-group/722035eb-386a-4875-aa60-20ef0fdf9a24/apply) |
-| Kpler | ML Engineer - Power | AI Engineering | Paris | unknown | Experience level not confirmed | kpler | [Apply](https://jobs.lever.co/kpler/10105b9b-ed9c-4ebe-8f3b-76b18edeccb8/apply) |
