@@ -2,7 +2,7 @@
 
 Last pipeline run: 2026-10-28 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
-Showing 12 of 12 candidates (limit: 100). Region: international.
+Showing 13 of 13 candidates (limit: 100). Region: international.
 
 [Home](../README.md)
 
@@ -10,6 +10,7 @@ Showing 12 of 12 candidates (limit: 100). Region: international.
 
 | Company | Role | Categories | Location | Experience | Review reason | Sources | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Mendix | Front-end Developer | Software Engineering | Rotterdam | unknown | Experience level not confirmed | mendix | [Apply](https://jobs.lever.co/mendix/2643ddd1-54c6-4d74-af53-164449e07af5/apply) |
 | Theodo | Full Stack Engineer - London - Theodo UK | Software Engineering | London | unknown | Experience level not confirmed | theodo | [Apply](https://jobs.lever.co/theodo/1592b48f-9207-46f2-908e-d835cc6121ad/apply) |
 | SFEIR | 🧠 AI Engineer | AI Engineering | Bruxelles | unknown | Experience level not confirmed | sfeir | [Apply](https://jobs.lever.co/sfeir/70b39ef5-29c1-4da4-9e36-75fe74cf5812/apply) |
 | SFEIR | 📊 Data Engineer – Deviens un expert augmenté | Data Engineering | Luxembourg | unknown | Experience level not confirmed | sfeir | [Apply](https://jobs.lever.co/sfeir/837d6ed4-db91-4417-9b2d-4c441fbbf3bc/apply) |

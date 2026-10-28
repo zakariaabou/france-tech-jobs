@@ -39,7 +39,7 @@
     "last_seen": "2026-10-28",
     "location": "Lyon 🇫🇷",
     "published_at": "",
-    "remote": "hybrid",
+    "remote": "remote",
     "seniority": "unknown",
     "source_id": "agicap",
     "source_url": "https://jobs.lever.co/agicap/8f6a3de6-0956-4a7d-8f0a-ddf363b5b153",
@@ -51,7 +51,6 @@
     "categories": [
       "software"
     ],
-    "closed_since": "2026-10-27",
     "company": "Algolia",
     "contract": "",
     "eligible": false,
@@ -60,14 +59,14 @@
     "geography": "france",
     "job_id": "5256159004",
     "last_checked": "2026-10-28",
-    "last_seen": "2026-10-27",
+    "last_seen": "2026-10-28",
     "location": "Paris, France",
     "published_at": "2024-08-14T07:15:38-04:00",
     "remote": "",
     "seniority": "excluded",
     "source_id": "algolia",
     "source_url": "https://job-boards.greenhouse.io/algolia/jobs/5256159004",
-    "status": "closed",
+    "status": "active",
     "title": "Senior Software Engineer - Search Infrastructure"
   },
   {
@@ -256,6 +255,29 @@
     "title": "Staff Software Engineer, PostgreSQL"
   },
   {
+    "application_url": "https://job-boards.greenhouse.io/beaconbiosignals/jobs/4470548009",
+    "categories": [
+      "software"
+    ],
+    "company": "Beacon Biosignals",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "unknown",
+    "job_id": "4470548009",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Remote / Boston, MA",
+    "published_at": "2026-10-28T09:35:43-04:00",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "beacon-biosignals",
+    "source_url": "https://job-boards.greenhouse.io/beaconbiosignals/jobs/4470548009",
+    "status": "active",
+    "title": "Senior Software Engineer"
+  },
+  {
     "application_url": "https://jobs.lever.co/Beamy/22eb30ac-d772-49ad-9668-65ff929e0746/apply",
     "categories": [
       "software"
@@ -324,6 +346,788 @@
     "source_url": "https://jobs.lever.co/Beamy/6a6bd63d-18f0-41bb-b3e8-2a52f4e6fbdd",
     "status": "active",
     "title": "AI Software Engineer"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/stage-3-a-6-mois-developpeur-backend-python-f-h",
+    "categories": [
+      "software"
+    ],
+    "company": "BPCE Infogérance et Technologies",
+    "contract": "Stage sup à 2 mois",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "09b09b6043c7d6f0042ad93adda33fbbb1c4402d5aff2259fe20790ce01d9f10",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Charenton-le-Pont, Ile de France, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/stage-3-a-6-mois-developpeur-backend-python-f-h",
+    "status": "active",
+    "title": "Stage - 3 à 6 mois - Développeur Backend Python F/H"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-it-risques-de-marche-f-h",
+    "categories": [
+      "software"
+    ],
+    "company": "Natixis CIB France",
+    "contract": "Stage",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "1456c77e3b9a334d090cc2826b2a6a8f08825fa12ddb23e4c37962bae54b1167",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Charenton le pont, Ile de France, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-it-risques-de-marche-f-h",
+    "status": "active",
+    "title": "Stage - 6 mois - Développeur IT Risques de Marché F/H"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/data-engineer-f-h",
+    "categories": [
+      "data"
+    ],
+    "company": "ONEY",
+    "contract": "CDI",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "2d16a742d20851db6be82c5bbe627fcd928da42e61a31b79533fb24886884450",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "CROIX, Hauts-de-France, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "unknown",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/data-engineer-f-h",
+    "status": "active",
+    "title": "Data Engineer F/H"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/stage-3-mois-developpeur-python-supervision-f-h",
+    "categories": [
+      "software"
+    ],
+    "company": "BPCE Infogérance et Technologies",
+    "contract": "Stage sup à 2 mois",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "2d948f14bc797c72d68e0761810d6d9610ed523ee00af1b6106d271ed5faab1c",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Lezennes, Hauts-de-France, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/stage-3-mois-developpeur-python-supervision-f-h",
+    "status": "active",
+    "title": "Stage - 3 mois - Développeur Python - Supervision F/H"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/stage-6-mois-ingenieur-data-supervision-applicative-elk-grafana-f-h",
+    "categories": [
+      "data"
+    ],
+    "company": "BPCE Infogérance et Technologies",
+    "contract": "Stage sup à 2 mois",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "2e1d3ec5a6c474123f60d42e0cbe14e75fee3c87801d8ba622c0cd52d7749e1c",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, Ile de France, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/stage-6-mois-ingenieur-data-supervision-applicative-elk-grafana-f-h",
+    "status": "active",
+    "title": "Stage - 6 mois - Ingénieur Data &amp; Supervision Applicative (ELK / Grafana) F/H"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-fullstack-f-h",
+    "categories": [
+      "software"
+    ],
+    "company": "Natixis CIB France",
+    "contract": "Stage",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "35457148172fb36933e4abb7a31a238669f60970a9c3e8635a48ce28ceff9c31",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Charenton le pont, Ile de France, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-fullstack-f-h",
+    "status": "active",
+    "title": "Stage - 6 mois - Développeur FullStack F/H"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-big-data-fullstack-f-h",
+    "categories": [
+      "software"
+    ],
+    "company": "Natixis CIB France",
+    "contract": "Stage",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "3f8bf89ad9d5c4d4d80855fe976b5a3d81da3dec676286f0f3732407f6786f32",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, Ile de France, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-big-data-fullstack-f-h",
+    "status": "active",
+    "title": "Stage - 6 mois - Développeur Big Data/Fullstack F/H"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/stage-developpeur-java-f-h-paris",
+    "categories": [
+      "software"
+    ],
+    "company": "BPCE Solutions Informatiques",
+    "contract": "Stage sup à 2 mois",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "5193aa5774f1d18a4aa0de5d9129ac26817b6e3c72cce92e39fb4870bcd1732c",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, Ile de France, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/stage-developpeur-java-f-h-paris",
+    "status": "active",
+    "title": "Stage - Développeur Java (F/H) - Paris"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/integrateur-developpeur-applicatif-f-h",
+    "categories": [
+      "software"
+    ],
+    "company": "BPCE SA",
+    "contract": "CDI",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "52794b8e4716cd0a32f1693ef47c66b51330e6230d78aee401e1ddb0587a0416",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Charenton-le-Pont, Ile de France, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "unknown",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/integrateur-developpeur-applicatif-f-h",
+    "status": "active",
+    "title": "Intégrateur - Développeur applicatif - F/H"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/stage-3-a-6-mois-developpeur-automatisation-et-solutions-dimpression-f-h",
+    "categories": [
+      "software"
+    ],
+    "company": "BPCE Infogérance et Technologies",
+    "contract": "Stage sup à 2 mois",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "5ccf1ec27d81f315399fa1ac64378d8784901cc5548d1a241152a7be97194ec5",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, Ile de France, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/stage-3-a-6-mois-developpeur-automatisation-et-solutions-dimpression-f-h",
+    "status": "active",
+    "title": "Stage - 3 à 6 mois - Développeur Automatisation et solutions d'impression F/H"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/developpeur-fullstack-f-h",
+    "categories": [
+      "software"
+    ],
+    "company": "BPCE Solutions Informatiques",
+    "contract": "CDI",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "69cc2b492e7098296687871dfbdfabef761abd766f8c712770ec3e0fbb821c51",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Villeneuve-d'Ascq, Hauts-de-France, France | Montigny-le-Bretonneux, Ile de France, France | Bois-Guillaume, Normandie, France | Saint-Jacques-de-la-Lande, Bretagne, France | Dijon, Bourgogne-Franche-Comté, France | ORLEANS, Centre-Val de Loire, France | Paris, Ile de France, France | Saint-Herblain, Pays de la Loire, France | Villeurbanne, AUVERGNE-RHÔNE-ALPES, France | Bruges, Nouvelle-Aquitaine, France | Strasbourg, Grand Est, France | BALMA, Occitanie, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "unknown",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/developpeur-fullstack-f-h",
+    "status": "active",
+    "title": "Développeur Fullstack (F/H)"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/stage-3-a-6-mois-developpeur-innovation-f-h",
+    "categories": [
+      "software"
+    ],
+    "company": "BPCE Infogérance et Technologies",
+    "contract": "Stage sup à 2 mois",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "71a6348d0844584317b8c4b154fc5fa12aa8cb84fc212817f3869a48902c943c",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, Ile de France, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/stage-3-a-6-mois-developpeur-innovation-f-h",
+    "status": "active",
+    "title": "Stage - 3 à 6 mois - Développeur Innovation F/H"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-observability-monitoring-f-h",
+    "categories": [
+      "software"
+    ],
+    "company": "Natixis CIB France",
+    "contract": "Stage",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "8628268de3a8391a5ea273a2076983c515c526fd066ff9f5b55de4ece4bf62fe",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, Ile de France, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-observability-monitoring-f-h",
+    "status": "active",
+    "title": "Stage - 6 mois - Développeur Observability &amp; Monitoring F/H"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/data-scientist-machine-learning-engineer-confirme-f-h",
+    "categories": [
+      "ai"
+    ],
+    "company": "ONEY",
+    "contract": "CDI",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "87fd4ff5a959648171e5b168afe4a4c2abc5f4d9a7bd9ffc9ebd65ea69399344",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "CROIX, Hauts-de-France, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/data-scientist-machine-learning-engineer-confirme-f-h",
+    "status": "active",
+    "title": "Data Scientist / Machine Learning Engineer Confirmé F/H"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-quantitatif-f-h",
+    "categories": [
+      "software"
+    ],
+    "company": "Natixis CIB France",
+    "contract": "Stage",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "944e9f38af8de2c1ee7426ecb06089293e66beb8c454938b1a09746fb14ff527",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, Ile de France, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-quantitatif-f-h",
+    "status": "active",
+    "title": "Stage - 6 mois - Développeur Quantitatif - F/H"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/stage-developpeur-rpa-robotic-process-automation-f-h-charenton-le-pont",
+    "categories": [
+      "software"
+    ],
+    "company": "BPCE SA",
+    "contract": "Stage sup à 2 mois",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "a1d9f4a2cd865724fa42429bef393ea6c7e67d21f94b32ebae32e9647eab62a3",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Charenton-le-Pont, Ile de France, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/stage-developpeur-rpa-robotic-process-automation-f-h-charenton-le-pont",
+    "status": "active",
+    "title": "Stage – Développeur RPA (Robotic Process Automation) F/H – Charenton-le-Pont"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/stage-3-a-6-mois-developpeur-frontend-angular-f-h",
+    "categories": [
+      "software"
+    ],
+    "company": "BPCE Infogérance et Technologies",
+    "contract": "Stage sup à 2 mois",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "ac6e2664170e5f6149b9a8fbf00822c4a6d55f7175c7a0bdf907681dd0e517d0",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Charenton-le-Pont, Ile de France, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/stage-3-a-6-mois-developpeur-frontend-angular-f-h",
+    "status": "active",
+    "title": "Stage - 3 à 6 mois - Développeur Frontend Angular F/H"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-fullstack-web-sales-solutions-f-h",
+    "categories": [
+      "software"
+    ],
+    "company": "Natixis CIB France",
+    "contract": "Stage",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "afc18d8a2d3170c940b71e142a7858d0af9918772357f38053c9da2c9f50b793",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, Ile de France, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-fullstack-web-sales-solutions-f-h",
+    "status": "active",
+    "title": "Stage - 6 mois - Développeur fullstack Web &amp; Sales Solutions (F/H)"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/developpeur-commercial-professionnels-h-f",
+    "categories": [
+      "software"
+    ],
+    "company": "Banque Populaire Rives de Paris",
+    "contract": "CDI",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "b920b9958525eab2036314d1dba716e9dd47f38215be1d133d5f5495403936f8",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, Ile de France, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "unknown",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/developpeur-commercial-professionnels-h-f",
+    "status": "active",
+    "title": "Développeur Commercial Professionnels - H/F"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/stage-developpeur-solutions-technologiques-du-si-f-h-paris",
+    "categories": [
+      "software"
+    ],
+    "company": "BPCE Solutions Informatiques",
+    "contract": "Stage sup à 2 mois",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "b9406b3ffc6d0e7d39973b5cfe67ebb7e5f844a09bbb0029228d33a7a6aa697f",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, Ile de France, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/stage-developpeur-solutions-technologiques-du-si-f-h-paris",
+    "status": "active",
+    "title": "STAGE - Développeur Solutions Technologiques du SI (F/H) - PARIS"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/stage-3-a-6-mois-developpeur-automatisation-kpi-f-h",
+    "categories": [
+      "software"
+    ],
+    "company": "BPCE Infogérance et Technologies",
+    "contract": "Stage sup à 2 mois",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "cec2b2d82cc0177814d6c8b57cbd49d54de355faaecbb77362caa816b1421e7e",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Charenton-le-Pont, Ile de France, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/stage-3-a-6-mois-developpeur-automatisation-kpi-f-h",
+    "status": "active",
+    "title": "Stage - 3 à 6 mois - Développeur Automatisation KPI F/H"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-python-finance-valuation-group-f-h",
+    "categories": [
+      "software"
+    ],
+    "company": "Natixis CIB France",
+    "contract": "Stage",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "e56d596a3dd7fb79d5f0d955e51d76979a0d36612a940459d0dcc5f39c4d4619",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, Ile de France, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-python-finance-valuation-group-f-h",
+    "status": "active",
+    "title": "Stage - 6 mois - Développeur Python - Finance Valuation Group F/H"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/developpeur-parametreur-f-h",
+    "categories": [
+      "software"
+    ],
+    "company": "BPCE Solutions Informatiques",
+    "contract": "CDI",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "e79fcfd909595c2dee4e534ab88d5b8cca6909ed4487550f4b97c55999a0b7c0",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Bois-Guillaume, Normandie, France | Villeneuve-d'Ascq, Hauts-de-France, France | Charenton-le-Pont, Ile de France, France | Bruges, Nouvelle-Aquitaine, France | Dijon, Bourgogne-Franche-Comté, France | Montigny-le-Bretonneux, Ile de France, France | Saint-Herblain, Pays de la Loire, France | Paris, Ile de France, France | Saint-Estève, Occitanie, France | BALMA, Occitanie, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "unknown",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/developpeur-parametreur-f-h",
+    "status": "active",
+    "title": "Développeur/Paramétreur (F/H)"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-java-microservice-f-h",
+    "categories": [
+      "software"
+    ],
+    "company": "Natixis CIB France",
+    "contract": "Stage",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "e9475c279493694eb2913cccc8bcf273127b12dbb0bc00e6db61503a29dae66f",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, Ile de France, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-java-microservice-f-h",
+    "status": "active",
+    "title": "Stage - 6 mois - Développeur Java Microservice F/H"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-doutils-econometriques-python-ia-agentique-f-h",
+    "categories": [
+      "software"
+    ],
+    "company": "Natixis CIB France",
+    "contract": "Stage",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "e9c799dfdb9acef19e0416f18da8ae7b6b5ba8b6aac214d353ed78b29ccaa2a6",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, Ile de France, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-doutils-econometriques-python-ia-agentique-f-h",
+    "status": "active",
+    "title": "Stage - 6 mois - Développeur d'outils économétriques (Python/IA agentique) F/H"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/stage-3-mois-developpeur-web-f-h",
+    "categories": [
+      "software"
+    ],
+    "company": "BPCE Infogérance et Technologies",
+    "contract": "Stage sup à 2 mois",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "ea6bf791fc29018c0b211889d41eacd31e4d35efcff84b5263174a0cac6f2d2a",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Schiltigheim, Grand Est, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/stage-3-mois-developpeur-web-f-h",
+    "status": "active",
+    "title": "Stage - 3 mois - Développeur web F/H"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/developpeur-commercial-professionnels-h-f-2",
+    "categories": [
+      "software"
+    ],
+    "company": "Banque Populaire Rives de Paris",
+    "contract": "CDI",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "f0217cb6ccb61370acf7ded8eb6842d760202bf75fbc3995f25dfdaccc9e4674",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "EVRY COURCOURONNES CEDEX, Ile de France, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "unknown",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/developpeur-commercial-professionnels-h-f-2",
+    "status": "active",
+    "title": "Développeur Commercial Professionnels - H/F"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/developpeur-ios-f-h",
+    "categories": [
+      "software"
+    ],
+    "company": "BPCE Solutions Informatiques",
+    "contract": "CDI",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "f134a968e4f571f856f440502d3b5c0284c243248c6d20b37f752887261e9ffc",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Saint-Herblain, Pays de la Loire, France | BALMA, Occitanie, France | Saint-Jacques-de-la-Lande, Bretagne, France | Bois-Guillaume, Normandie, France | ORLEANS, Centre-Val de Loire, France | Paris, Ile de France, France | Villeurbanne, AUVERGNE-RHÔNE-ALPES, France | Aix-en-provence, Provence-Alpes-Côte d'Azur, France | Villeneuve-d'Ascq, Hauts-de-France, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "unknown",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/developpeur-ios-f-h",
+    "status": "active",
+    "title": "Développeur iOS (F/H)"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/stage-developpeur-fullstack-f-h-paris",
+    "categories": [
+      "software"
+    ],
+    "company": "BPCE Solutions Informatiques",
+    "contract": "Stage sup à 2 mois",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "f590fd1376eea2fafd0d7aa46b6b72405c1db2c37ce01554a692a6b7d84bbdc5",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, Ile de France, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/stage-developpeur-fullstack-f-h-paris",
+    "status": "active",
+    "title": "STAGE - Développeur Fullstack (F/H) – PARIS"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-full-stack-ia-support-applicatif-f-h",
+    "categories": [
+      "software"
+    ],
+    "company": "Natixis CIB France",
+    "contract": "Stage",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "f8bff1a7f72545110969a8deaae8d4cf2754faf6570f5eeebff2dcfe7d58a50c",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, Ile de France, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-full-stack-ia-support-applicatif-f-h",
+    "status": "active",
+    "title": "Stage - 6 mois - Développeur Full Stack &amp; IA - Support Applicatif F/H"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/stage-developpeur-bi-f-h-nantes",
+    "categories": [
+      "software"
+    ],
+    "company": "BPCE Solutions Informatiques",
+    "contract": "Stage sup à 2 mois",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "fa3e42eb21807458a2e2b453535cbc4e3b1379d21ee89959acb5c451aacbab98",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Saint-Herblain, Pays de la Loire, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/stage-developpeur-bi-f-h-nantes",
+    "status": "active",
+    "title": "STAGE - Développeur BI F/H - NANTES"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-web-front-et-back-f-h",
+    "categories": [
+      "software"
+    ],
+    "company": "BPCE VIE",
+    "contract": "Stage sup à 2 mois",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "fa6e02e94ce3df304878b0882265a54afb24aa3bfe13636d3b4373515659c8a3",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, Ile de France, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-web-front-et-back-f-h",
+    "status": "active",
+    "title": "Stage - 6 mois - Développeur web (Front et Back) F/H"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/stage-3-a-6-mois-developpeur-python-api-automatisation-f-h",
+    "categories": [
+      "software"
+    ],
+    "company": "BPCE Infogérance et Technologies",
+    "contract": "Stage sup à 2 mois",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "fb8467cd48c0d0f361120062d197e581df1a2ff2daa587f699de0b5ba884278f",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Lezennes, Hauts-de-France, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/stage-3-a-6-mois-developpeur-python-api-automatisation-f-h",
+    "status": "active",
+    "title": "Stage - 3 à 6 mois - Développeur Python &amp; API – Automatisation F/H"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/stage-6-mois-ingenieur-big-data-developpeur-front-end-f-h",
+    "categories": [
+      "software"
+    ],
+    "company": "Natixis CIB France",
+    "contract": "Stage",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "fc2543eddc733e9d92891e205b7a25df94e53cc2035570cb021c65666867d6fa",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Charenton le pont, Ile de France, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/stage-6-mois-ingenieur-big-data-developpeur-front-end-f-h",
+    "status": "active",
+    "title": "Stage - 6 mois - Ingénieur Big Data &amp; Développeur Front-End F/H"
   },
   {
     "application_url": "https://careers.datadoghq.com/detail/3851927/?gh_jid=3851927",
@@ -422,6 +1226,7 @@
     "categories": [
       "ai"
     ],
+    "closed_since": "2026-10-28",
     "company": "Datadog",
     "contract": "",
     "eligible": false,
@@ -437,7 +1242,7 @@
     "seniority": "excluded",
     "source_id": "datadog",
     "source_url": "https://careers.datadoghq.com/detail/7107437/?gh_jid=7107437",
-    "status": "active",
+    "status": "closed",
     "title": "Staff AI Engineer - Agent Observability"
   },
   {
@@ -468,6 +1273,7 @@
     "categories": [
       "software"
     ],
+    "closed_since": "2026-10-28",
     "company": "Datadog",
     "contract": "",
     "eligible": false,
@@ -483,7 +1289,7 @@
     "seniority": "excluded",
     "source_id": "datadog",
     "source_url": "https://careers.datadoghq.com/detail/7743369/?gh_jid=7743369",
-    "status": "active",
+    "status": "closed",
     "title": "Staff Software Engineer - Logs Observability Pipelines "
   },
   {
@@ -491,6 +1297,7 @@
     "categories": [
       "software"
     ],
+    "closed_since": "2026-10-28",
     "company": "Datadog",
     "contract": "",
     "eligible": false,
@@ -506,7 +1313,7 @@
     "seniority": "excluded",
     "source_id": "datadog",
     "source_url": "https://careers.datadoghq.com/detail/7993551/?gh_jid=7993551",
-    "status": "active",
+    "status": "closed",
     "title": "Senior Software Engineer - Streaming Platform "
   },
   {
@@ -514,6 +1321,7 @@
     "categories": [
       "software"
     ],
+    "closed_since": "2026-10-28",
     "company": "Datadog",
     "contract": "",
     "eligible": false,
@@ -529,7 +1337,7 @@
     "seniority": "excluded",
     "source_id": "datadog",
     "source_url": "https://careers.datadoghq.com/detail/8035492/?gh_jid=8035492",
-    "status": "active",
+    "status": "closed",
     "title": "Senior Software Engineer - Streaming Platform Client"
   },
   {
@@ -560,6 +1368,7 @@
     "categories": [
       "software"
     ],
+    "closed_since": "2026-10-28",
     "company": "Datadog",
     "contract": "",
     "eligible": false,
@@ -575,7 +1384,7 @@
     "seniority": "excluded",
     "source_id": "datadog",
     "source_url": "https://careers.datadoghq.com/detail/8094111/?gh_jid=8094111",
-    "status": "active",
+    "status": "closed",
     "title": "Senior Software Engineer - Incident Insights & Readiness"
   },
   {
@@ -583,6 +1392,7 @@
     "categories": [
       "software"
     ],
+    "closed_since": "2026-10-28",
     "company": "Datadog",
     "contract": "",
     "eligible": false,
@@ -598,7 +1408,7 @@
     "seniority": "excluded",
     "source_id": "datadog",
     "source_url": "https://careers.datadoghq.com/detail/8095166/?gh_jid=8095166",
-    "status": "active",
+    "status": "closed",
     "title": "Senior Software Engineer - Bazel Tools"
   },
   {
@@ -606,6 +1416,7 @@
     "categories": [
       "software"
     ],
+    "closed_since": "2026-10-28",
     "company": "Datadog",
     "contract": "",
     "eligible": false,
@@ -621,7 +1432,7 @@
     "seniority": "excluded",
     "source_id": "datadog",
     "source_url": "https://careers.datadoghq.com/detail/8102624/?gh_jid=8102624",
-    "status": "active",
+    "status": "closed",
     "title": "Senior Software Engineer - Action Platform"
   },
   {
@@ -698,6 +1509,7 @@
     "categories": [
       "software"
     ],
+    "closed_since": "2026-10-28",
     "company": "Datadog",
     "contract": "",
     "eligible": false,
@@ -713,7 +1525,7 @@
     "seniority": "excluded",
     "source_id": "datadog",
     "source_url": "https://careers.datadoghq.com/detail/8223819/?gh_jid=8223819",
-    "status": "active",
+    "status": "closed",
     "title": "Senior Software Engineer - CI/CD Security"
   },
   {
@@ -721,6 +1533,7 @@
     "categories": [
       "software"
     ],
+    "closed_since": "2026-10-28",
     "company": "Datadog",
     "contract": "",
     "eligible": false,
@@ -736,7 +1549,7 @@
     "seniority": "excluded",
     "source_id": "datadog",
     "source_url": "https://careers.datadoghq.com/detail/8242722/?gh_jid=8242722",
-    "status": "active",
+    "status": "closed",
     "title": "Senior Software Engineer, Chaos Engineering"
   },
   {
@@ -744,6 +1557,7 @@
     "categories": [
       "software"
     ],
+    "closed_since": "2026-10-28",
     "company": "Datadog",
     "contract": "",
     "eligible": false,
@@ -759,7 +1573,7 @@
     "seniority": "excluded",
     "source_id": "datadog",
     "source_url": "https://careers.datadoghq.com/detail/8247566/?gh_jid=8247566",
-    "status": "active",
+    "status": "closed",
     "title": "Senior Software Engineer - Incident Insights & Readiness"
   },
   {
@@ -790,6 +1604,7 @@
     "categories": [
       "software"
     ],
+    "closed_since": "2026-10-28",
     "company": "Datadog",
     "contract": "",
     "eligible": false,
@@ -805,7 +1620,7 @@
     "seniority": "excluded",
     "source_id": "datadog",
     "source_url": "https://careers.datadoghq.com/detail/8292620/?gh_jid=8292620",
-    "status": "active",
+    "status": "closed",
     "title": "Senior Software Engineer - Husky Storage"
   },
   {
@@ -813,6 +1628,7 @@
     "categories": [
       "software"
     ],
+    "closed_since": "2026-10-28",
     "company": "Datadog",
     "contract": "",
     "eligible": false,
@@ -828,7 +1644,7 @@
     "seniority": "excluded",
     "source_id": "datadog",
     "source_url": "https://careers.datadoghq.com/detail/8303351/?gh_jid=8303351",
-    "status": "active",
+    "status": "closed",
     "title": "Senior Software Engineer - Alerting Platform Automation"
   },
   {
@@ -836,6 +1652,7 @@
     "categories": [
       "software"
     ],
+    "closed_since": "2026-10-28",
     "company": "Datadog",
     "contract": "",
     "eligible": false,
@@ -851,7 +1668,7 @@
     "seniority": "excluded",
     "source_id": "datadog",
     "source_url": "https://careers.datadoghq.com/detail/8304107/?gh_jid=8304107",
-    "status": "active",
+    "status": "closed",
     "title": "Staff Software Engineer - Watchdog Anomaly Detection"
   },
   {
@@ -859,6 +1676,7 @@
     "categories": [
       "software"
     ],
+    "closed_since": "2026-10-28",
     "company": "Datadog",
     "contract": "",
     "eligible": false,
@@ -874,7 +1692,7 @@
     "seniority": "excluded",
     "source_id": "datadog",
     "source_url": "https://careers.datadoghq.com/detail/8305790/?gh_jid=8305790",
-    "status": "active",
+    "status": "closed",
     "title": "Senior Software Engineer - Distributed Systems (ODP Governance)"
   },
   {
@@ -882,6 +1700,7 @@
     "categories": [
       "software"
     ],
+    "closed_since": "2026-10-28",
     "company": "Datadog",
     "contract": "",
     "eligible": false,
@@ -897,7 +1716,7 @@
     "seniority": "excluded",
     "source_id": "datadog",
     "source_url": "https://careers.datadoghq.com/detail/8317738/?gh_jid=8317738",
-    "status": "active",
+    "status": "closed",
     "title": "Senior Software Engineer - Analytics Data Platform"
   },
   {
@@ -1366,6 +2185,7 @@
     "categories": [
       "software"
     ],
+    "closed_since": "2026-10-28",
     "company": "Decathlon Digital",
     "contract": "",
     "eligible": false,
@@ -1381,7 +2201,7 @@
     "seniority": "unknown",
     "source_id": "decathlon-digital",
     "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/5009546101",
-    "status": "active",
+    "status": "closed",
     "title": "Software Development Engineer - Signeasy (f/m/d)"
   },
   {
@@ -3479,6 +4299,29 @@
     "title": "Software Engineer- AI Platform Tooling"
   },
   {
+    "application_url": "https://jobs.lever.co/mendix/2643ddd1-54c6-4d74-af53-164449e07af5/apply",
+    "categories": [
+      "software"
+    ],
+    "company": "Mendix",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "international",
+    "job_id": "2643ddd1-54c6-4d74-af53-164449e07af5",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Rotterdam",
+    "published_at": "",
+    "remote": "hybrid",
+    "seniority": "unknown",
+    "source_id": "mendix",
+    "source_url": "https://jobs.lever.co/mendix/2643ddd1-54c6-4d74-af53-164449e07af5",
+    "status": "active",
+    "title": "Front-end Developer"
+  },
+  {
     "application_url": "https://jobs.lever.co/mendix/57b00ab2-9b42-47ee-86b2-2b2e80f0d323/apply",
     "categories": [
       "software"
@@ -4656,6 +5499,7 @@
     "categories": [
       "ai"
     ],
+    "closed_since": "2026-10-28",
     "company": "Meritis",
     "contract": "",
     "eligible": false,
@@ -4671,7 +5515,7 @@
     "seniority": "unknown",
     "source_id": "meritis",
     "source_url": "https://jobs.smartrecruiters.com/Meritis/744000157855538-devops-cloud-ia-generative-engineer-h-f-",
-    "status": "active",
+    "status": "closed",
     "title": "DevOps Cloud/IA générative engineer (H/F)"
   },
   {
@@ -4742,6 +5586,29 @@
     "source_url": "https://jobs.smartrecruiters.com/Meritis/744000158004000-developpeur-c-go-embarque-h-f-",
     "status": "active",
     "title": "Développeur C++/GO embarqué  (H/F) "
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/Meritis/744000158327114-devops-cloud-ia-generative-engineer-h-f-",
+    "categories": [
+      "ai"
+    ],
+    "company": "Meritis",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000158327114",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Valbonne, Provence-Alpes-Côte d'Azur, France",
+    "published_at": "2026-10-28T15:31:38.898Z",
+    "remote": "hybrid",
+    "seniority": "unknown",
+    "source_id": "meritis",
+    "source_url": "https://jobs.smartrecruiters.com/Meritis/744000158327114-devops-cloud-ia-generative-engineer-h-f-",
+    "status": "active",
+    "title": "DevOps Cloud/IA générative engineer (H/F)"
   },
   {
     "application_url": "https://job-boards.greenhouse.io/mirakllabs/jobs/5850877004",
@@ -4932,6 +5799,7 @@
     "categories": [
       "software"
     ],
+    "closed_since": "2026-10-28",
     "company": "Mirakl Labs",
     "contract": "",
     "eligible": false,
@@ -4947,7 +5815,7 @@
     "seniority": "excluded",
     "source_id": "mirakl-labs",
     "source_url": "https://job-boards.greenhouse.io/mirakllabs/jobs/6212831004",
-    "status": "active",
+    "status": "closed",
     "title": "Software Engineer Apprentice - Connect"
   },
   {
@@ -5041,6 +5909,791 @@
     "source_url": "https://job-boards.greenhouse.io/mirakllabs/jobs/6231065004",
     "status": "active",
     "title": "Senior AI Engineer - Freelance"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000147260389-developpeur-java-angular-h-f",
+    "categories": [
+      "software"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000147260389",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, IDF, France",
+    "published_at": "2026-09-03T13:49:06.359Z",
+    "remote": "",
+    "seniority": "unknown",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000147260389-developpeur-java-angular-h-f",
+    "status": "active",
+    "title": "Developpeur java/angular H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000152714820-developpeur-fullstack-react-kotlin-h-f",
+    "categories": [
+      "software"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000152714820",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, IDF, France",
+    "published_at": "2026-09-30T15:48:36.058Z",
+    "remote": "",
+    "seniority": "unknown",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000152714820-developpeur-fullstack-react-kotlin-h-f",
+    "status": "active",
+    "title": "Développeur Fullstack React / Kotlin H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000152719770-lead-senior-data-platform-engineer-h-f",
+    "categories": [
+      "data",
+      "software"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000152719770",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, IDF, France",
+    "published_at": "2026-09-30T15:54:31.935Z",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000152719770-lead-senior-data-platform-engineer-h-f",
+    "status": "active",
+    "title": "Lead / Senior Data Platform Engineer H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000153508789-developpeur-java-h-f",
+    "categories": [
+      "software"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000153508789",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Bordeaux, Nouvelle-Aquitaine, France",
+    "published_at": "2026-10-05T13:31:01.861Z",
+    "remote": "",
+    "seniority": "unknown",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000153508789-developpeur-java-h-f",
+    "status": "active",
+    "title": "Développeur Java H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000153510879-developpeur-net-core-expert-h-f",
+    "categories": [
+      "software"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000153510879",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Bordeaux, Nouvelle-Aquitaine, France",
+    "published_at": "2026-10-05T13:38:03.794Z",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000153510879-developpeur-net-core-expert-h-f",
+    "status": "active",
+    "title": "Développeur .NET Core Expert H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000153552339-concepteur-developpeur-web-h-f",
+    "categories": [
+      "software"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000153552339",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Annecy, Auvergne-Rhône-Alpes, France",
+    "published_at": "2026-10-05T15:51:55.980Z",
+    "remote": "",
+    "seniority": "unknown",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000153552339-concepteur-developpeur-web-h-f",
+    "status": "active",
+    "title": "Concepteur - Développeur Web H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000153763016-developpeur-back-end-h-f",
+    "categories": [
+      "software"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000153763016",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Montpellier, Occitanie, France",
+    "published_at": "2026-10-06T13:41:14.525Z",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000153763016-developpeur-back-end-h-f",
+    "status": "active",
+    "title": "Développeur Back End  H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000154022179-machine-learning-engineer-h-f",
+    "categories": [
+      "ai"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000154022179",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Bordeaux, Nouvelle-Aquitaine, France",
+    "published_at": "2026-10-07T07:15:18.869Z",
+    "remote": "",
+    "seniority": "unknown",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000154022179-machine-learning-engineer-h-f",
+    "status": "active",
+    "title": "Machine Learning Engineer H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000154026234-data-engineer-h-f",
+    "categories": [
+      "data"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000154026234",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Bordeaux, Nouvelle-Aquitaine, France",
+    "published_at": "2026-10-07T07:42:45.998Z",
+    "remote": "",
+    "seniority": "unknown",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000154026234-data-engineer-h-f",
+    "status": "active",
+    "title": "Data Engineer H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000154084149-software-engineer-full-stack-senior-h-f",
+    "categories": [
+      "software"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000154084149",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, IDF, France",
+    "published_at": "2026-10-07T12:03:17.037Z",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000154084149-software-engineer-full-stack-senior-h-f",
+    "status": "active",
+    "title": "Software Engineer Full Stack Senior H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000154095667-data-engineer-developpeur-data-api-h-f",
+    "categories": [
+      "data",
+      "software"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000154095667",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, IDF, France",
+    "published_at": "2026-10-07T13:04:34.976Z",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000154095667-data-engineer-developpeur-data-api-h-f",
+    "status": "active",
+    "title": "Data Engineer / Développeur Data & API H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000154105769-developpeur-back-end-net-convergence-sitemaps-seo-h-f",
+    "categories": [
+      "software"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000154105769",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, IDF, France",
+    "published_at": "2026-10-07T13:31:15.609Z",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000154105769-developpeur-back-end-net-convergence-sitemaps-seo-h-f",
+    "status": "active",
+    "title": "Développeur Back-End .NET - Convergence Sitemaps & SEO  H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000154444819-developpeur-back-end-java-h-f",
+    "categories": [
+      "software"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000154444819",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Montpellier, Occitanie, France",
+    "published_at": "2026-10-08T13:44:32.654Z",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000154444819-developpeur-back-end-java-h-f",
+    "status": "active",
+    "title": "Développeur Back End Java H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000154673509-developpeur-java-angular-h-f",
+    "categories": [
+      "software"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000154673509",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, IDF, France",
+    "published_at": "2026-10-09T13:00:09.106Z",
+    "remote": "",
+    "seniority": "unknown",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000154673509-developpeur-java-angular-h-f",
+    "status": "active",
+    "title": "Développeur Java / Angular H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000154690413-developpeur-fullstack-java-angular-h-f",
+    "categories": [
+      "software"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000154690413",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Lyon, Auvergne-Rhône-Alpes, France",
+    "published_at": "2026-10-09T14:07:06.078Z",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000154690413-developpeur-fullstack-java-angular-h-f",
+    "status": "active",
+    "title": "Développeur Fullstack Java / Angular H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000154700379-developpeur-data-engineer-sas-altair-slc-h-f",
+    "categories": [
+      "data",
+      "software"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000154700379",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, IDF, France",
+    "published_at": "2026-10-09T14:35:01.373Z",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000154700379-developpeur-data-engineer-sas-altair-slc-h-f",
+    "status": "active",
+    "title": "Développeur / Data Engineer SAS & Altair SLC H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000154958637-developpeur-java-senior-microservices-kafka-h-f",
+    "categories": [
+      "software"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000154958637",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, IDF, France",
+    "published_at": "2026-10-12T08:55:51.029Z",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000154958637-developpeur-java-senior-microservices-kafka-h-f",
+    "status": "active",
+    "title": "Développeur Java Senior (Microservices & Kafka) H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000154972443-developpeur-back-end-java-nodejs-kotlin-aws-h-f",
+    "categories": [
+      "software"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000154972443",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, IDF, France",
+    "published_at": "2026-10-12T09:49:50.217Z",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000154972443-developpeur-back-end-java-nodejs-kotlin-aws-h-f",
+    "status": "active",
+    "title": "Développeur Back End (Java/NodeJS/Kotlin/AWS) H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000155055201-ui-designer-developpeur-front-end-h-f",
+    "categories": [
+      "software"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000155055201",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, IDF, France",
+    "published_at": "2026-10-12T15:32:13.290Z",
+    "remote": "",
+    "seniority": "unknown",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000155055201-ui-designer-developpeur-front-end-h-f",
+    "status": "active",
+    "title": "UI Designer / Développeur Front-End H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000155743559-developpeur-fullstack-java-vue-js-h-f",
+    "categories": [
+      "software"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000155743559",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Lille, Hauts-de-France, France",
+    "published_at": "2026-10-15T12:11:10.507Z",
+    "remote": "",
+    "seniority": "unknown",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000155743559-developpeur-fullstack-java-vue-js-h-f",
+    "status": "active",
+    "title": "Développeur FullStack Java / Vue.js H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000155767570-developpeur-java-react-senior-h-f-",
+    "categories": [
+      "software"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000155767570",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Lille, Hauts-de-France, France",
+    "published_at": "2026-10-15T13:54:17.762Z",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000155767570-developpeur-java-react-senior-h-f-",
+    "status": "active",
+    "title": "Développeur Java / React senior H/F "
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000155772019-developpeur-senior-javascript-backend-h-f",
+    "categories": [
+      "software"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000155772019",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, IDF, France",
+    "published_at": "2026-10-15T14:13:29.381Z",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000155772019-developpeur-senior-javascript-backend-h-f",
+    "status": "active",
+    "title": "Développeur Senior JavaScript / Backend H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000155773269-developpeur-backend-net-h-f",
+    "categories": [
+      "software"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000155773269",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, IDF, France",
+    "published_at": "2026-10-15T14:18:51.375Z",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000155773269-developpeur-backend-net-h-f",
+    "status": "active",
+    "title": "Développeur Backend .NET H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000155774629-developpeur-mobile-flutter-h-f",
+    "categories": [
+      "software"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000155774629",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, IDF, France",
+    "published_at": "2026-10-15T14:24:01.553Z",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000155774629-developpeur-mobile-flutter-h-f",
+    "status": "active",
+    "title": "Développeur Mobile Flutter H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000155776089-developpeur-fullstack-net-flutter-h-f",
+    "categories": [
+      "software"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000155776089",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, IDF, France",
+    "published_at": "2026-10-15T14:29:17.285Z",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000155776089-developpeur-fullstack-net-flutter-h-f",
+    "status": "active",
+    "title": "Développeur Fullstack .NET & Flutter H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000156295449-machine-learning-engineer-h-f",
+    "categories": [
+      "ai"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000156295449",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, IDF, France",
+    "published_at": "2026-10-19T11:37:02.625Z",
+    "remote": "",
+    "seniority": "unknown",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000156295449-machine-learning-engineer-h-f",
+    "status": "active",
+    "title": "Machine Learning Engineer H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000156586709-developpeur-c-net-mobile-h-f",
+    "categories": [
+      "software"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000156586709",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Lyon, Auvergne-Rhône-Alpes, France",
+    "published_at": "2026-10-20T14:52:20.640Z",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000156586709-developpeur-c-net-mobile-h-f",
+    "status": "active",
+    "title": "Développeur C# .NET / Mobile H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000157160535-data-engineer-arangodb-h-f",
+    "categories": [
+      "data"
+    ],
+    "company": "NEXTON",
+    "contract": "Contract",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000157160535",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, IDF, France",
+    "published_at": "2026-10-22T14:49:07.719Z",
+    "remote": "",
+    "seniority": "unknown",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000157160535-data-engineer-arangodb-h-f",
+    "status": "active",
+    "title": "Data Engineer (ArangoDB) H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000157480212-developpeur-fullstack-h-f",
+    "categories": [
+      "software"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000157480212",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Lille, Hauts-de-France, France",
+    "published_at": "2026-10-23T13:42:06.053Z",
+    "remote": "",
+    "seniority": "unknown",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000157480212-developpeur-fullstack-h-f",
+    "status": "active",
+    "title": "Développeur FullStack H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000157496829-lead-developpeur-node-js-h-f",
+    "categories": [
+      "software"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000157496829",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Lille, Hauts-de-France, France",
+    "published_at": "2026-10-23T14:28:00.684Z",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000157496829-lead-developpeur-node-js-h-f",
+    "status": "active",
+    "title": "Lead développeur Node.js H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000157993379-data-engineer-senior-gcp-dataiku-h-f",
+    "categories": [
+      "data"
+    ],
+    "company": "NEXTON",
+    "contract": "Contract",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000157993379",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Bordeaux, Nouvelle-Aquitaine, France",
+    "published_at": "2026-10-27T09:13:54.229Z",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000157993379-data-engineer-senior-gcp-dataiku-h-f",
+    "status": "active",
+    "title": "Data Engineer Senior - GCP / Dataiku H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000157997029-developpeur-java-angular-h-f",
+    "categories": [
+      "software"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000157997029",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Lyon, Auvergne-Rhône-Alpes, France",
+    "published_at": "2026-10-27T09:29:09.664Z",
+    "remote": "",
+    "seniority": "unknown",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000157997029-developpeur-java-angular-h-f",
+    "status": "active",
+    "title": "Développeur Java / Angular H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000158107454-developpeur-c-pricing-pre-trade-axone-h-f",
+    "categories": [
+      "software"
+    ],
+    "company": "NEXTON",
+    "contract": "Contract",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000158107454",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, IDF, France",
+    "published_at": "2026-10-27T17:03:22.269Z",
+    "remote": "hybrid",
+    "seniority": "unknown",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000158107454-developpeur-c-pricing-pre-trade-axone-h-f",
+    "status": "active",
+    "title": "Développeur C# Pricing Pre Trade Axone H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000158108039-developpeur-c-it-quant-pricing-pre-trade-api-sophis-h-f",
+    "categories": [
+      "software"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-28",
+    "geography": "france",
+    "job_id": "744000158108039",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "Paris, IDF, France",
+    "published_at": "2026-10-27T17:04:27.253Z",
+    "remote": "hybrid",
+    "seniority": "unknown",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000158108039-developpeur-c-it-quant-pricing-pre-trade-api-sophis-h-f",
+    "status": "active",
+    "title": "Développeur C# - IT Quant Pricing Pre Trade (+ API Sophis) H/F"
   },
   {
     "application_url": "https://jobs.lever.co/odaseva/5fa5b26d-a0f2-4135-9559-e63feb2213f1/apply",
@@ -5409,6 +7062,29 @@
     "source_url": "https://jobs.lever.co/pigment/5afbde72-ff75-4841-9ab5-2a95decbc6f2",
     "status": "active",
     "title": "Senior Backend Software Engineer"
+  },
+  {
+    "application_url": "https://jobs.lever.co/pigment/a6d45343-dbcc-4e5f-b4de-5db62af4886a/apply",
+    "categories": [
+      "software"
+    ],
+    "company": "Pigment",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full Time",
+    "first_seen": "2026-10-28",
+    "geography": "international",
+    "job_id": "a6d45343-dbcc-4e5f-b4de-5db62af4886a",
+    "last_checked": "2026-10-28",
+    "last_seen": "2026-10-28",
+    "location": "London",
+    "published_at": "",
+    "remote": "remote",
+    "seniority": "excluded",
+    "source_id": "pigment",
+    "source_url": "https://jobs.lever.co/pigment/a6d45343-dbcc-4e5f-b4de-5db62af4886a",
+    "status": "active",
+    "title": "Software Engineering Manager (Hands-On, Frontend)"
   },
   {
     "application_url": "https://jobs.lever.co/pigment/bf7cacad-0f52-4db4-88d4-ad7b22bd852e/apply",
@@ -7078,7 +8754,7 @@
     ],
     "company": "Theodo",
     "contract": "CDI",
-    "eligible": false,
+    "eligible": true,
     "employment_type": "",
     "first_seen": "2026-10-27",
     "geography": "france",
@@ -7088,7 +8764,7 @@
     "location": "Paris",
     "published_at": "",
     "remote": "onsite",
-    "seniority": "unknown",
+    "seniority": "junior",
     "source_id": "theodo",
     "source_url": "https://jobs.lever.co/theodo/2e4c74fc-7174-4e4e-8b6f-5ec040b9073b",
     "status": "active",
@@ -7285,7 +8961,7 @@
     ],
     "company": "Theodo",
     "contract": "CDI",
-    "eligible": false,
+    "eligible": true,
     "employment_type": "",
     "first_seen": "2026-10-27",
     "geography": "france",
@@ -7295,7 +8971,7 @@
     "location": "Paris",
     "published_at": "",
     "remote": "hybrid",
-    "seniority": "unknown",
+    "seniority": "junior",
     "source_id": "theodo",
     "source_url": "https://jobs.lever.co/theodo/5f57804c-d1ac-48d5-bce7-af191a832d79",
     "status": "active",
@@ -7331,7 +9007,7 @@
     ],
     "company": "Theodo",
     "contract": "CDI",
-    "eligible": false,
+    "eligible": true,
     "employment_type": "",
     "first_seen": "2026-10-27",
     "geography": "france",
@@ -7341,7 +9017,7 @@
     "location": "Paris",
     "published_at": "",
     "remote": "hybrid",
-    "seniority": "unknown",
+    "seniority": "junior",
     "source_id": "theodo",
     "source_url": "https://jobs.lever.co/theodo/61ad9fd5-e405-4af1-9127-f1b416d9a575",
     "status": "active",
@@ -7446,7 +9122,7 @@
     ],
     "company": "Theodo",
     "contract": "CDI",
-    "eligible": false,
+    "eligible": true,
     "employment_type": "",
     "first_seen": "2026-10-27",
     "geography": "france",
@@ -7456,7 +9132,7 @@
     "location": "Paris",
     "published_at": "",
     "remote": "onsite",
-    "seniority": "unknown",
+    "seniority": "junior",
     "source_id": "theodo",
     "source_url": "https://jobs.lever.co/theodo/84349d94-b080-4ba1-9a43-1f9bfccd7f1a",
     "status": "active",
@@ -7469,7 +9145,7 @@
     ],
     "company": "Theodo",
     "contract": "CDI",
-    "eligible": false,
+    "eligible": true,
     "employment_type": "",
     "first_seen": "2026-10-27",
     "geography": "france",
@@ -7479,7 +9155,7 @@
     "location": "Paris",
     "published_at": "",
     "remote": "hybrid",
-    "seniority": "unknown",
+    "seniority": "junior",
     "source_id": "theodo",
     "source_url": "https://jobs.lever.co/theodo/86f6912f-70aa-4b62-8933-da41e85c61e7",
     "status": "active",
@@ -7607,7 +9283,7 @@
     ],
     "company": "Theodo",
     "contract": "CDI",
-    "eligible": false,
+    "eligible": true,
     "employment_type": "",
     "first_seen": "2026-10-27",
     "geography": "france",
@@ -7617,7 +9293,7 @@
     "location": "Paris",
     "published_at": "",
     "remote": "hybrid",
-    "seniority": "unknown",
+    "seniority": "junior",
     "source_id": "theodo",
     "source_url": "https://jobs.lever.co/theodo/9a2863cd-96b8-49f6-b17e-0de2a266917e",
     "status": "active",
@@ -7630,7 +9306,7 @@
     ],
     "company": "Theodo",
     "contract": "CDI",
-    "eligible": false,
+    "eligible": true,
     "employment_type": "",
     "first_seen": "2026-10-27",
     "geography": "france",
@@ -7640,7 +9316,7 @@
     "location": "Paris",
     "published_at": "",
     "remote": "hybrid",
-    "seniority": "unknown",
+    "seniority": "junior",
     "source_id": "theodo",
     "source_url": "https://jobs.lever.co/theodo/a0952c53-3f85-48f1-8f35-0894b038ecc6",
     "status": "active",
@@ -7745,7 +9421,7 @@
     ],
     "company": "Theodo",
     "contract": "CDI",
-    "eligible": false,
+    "eligible": true,
     "employment_type": "",
     "first_seen": "2026-10-27",
     "geography": "france",
@@ -7755,7 +9431,7 @@
     "location": "Paris",
     "published_at": "",
     "remote": "onsite",
-    "seniority": "unknown",
+    "seniority": "junior",
     "source_id": "theodo",
     "source_url": "https://jobs.lever.co/theodo/b55417b0-4de7-4cda-bb8f-9cbfb1e77ffc",
     "status": "active",
@@ -7768,7 +9444,7 @@
     ],
     "company": "Theodo",
     "contract": "CDI",
-    "eligible": false,
+    "eligible": true,
     "employment_type": "",
     "first_seen": "2026-10-27",
     "geography": "france",
@@ -7778,7 +9454,7 @@
     "location": "Paris",
     "published_at": "",
     "remote": "hybrid",
-    "seniority": "unknown",
+    "seniority": "junior",
     "source_id": "theodo",
     "source_url": "https://jobs.lever.co/theodo/c388767f-f564-4fbd-a712-e4190076e872",
     "status": "active",
@@ -7837,7 +9513,7 @@
     ],
     "company": "Theodo",
     "contract": "CDI",
-    "eligible": false,
+    "eligible": true,
     "employment_type": "",
     "first_seen": "2026-10-27",
     "geography": "france",
@@ -7847,7 +9523,7 @@
     "location": "Paris",
     "published_at": "",
     "remote": "hybrid",
-    "seniority": "unknown",
+    "seniority": "junior",
     "source_id": "theodo",
     "source_url": "https://jobs.lever.co/theodo/d51fd8f5-83ab-4223-bd05-6459640ff11c",
     "status": "active",
