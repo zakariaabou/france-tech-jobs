@@ -43,6 +43,32 @@
       "access_verified_at": "2026-10-27"
     },
     {
+      "id": "nexton",
+      "type": "smartrecruiters",
+      "company": "NEXTON",
+      "board": "NEXTON",
+      "country_hint": null,
+      "careers_url": "https://careers.smartrecruiters.com/NEXTON",
+      "enabled": true,
+      "access_status": "public_endpoint_verified",
+      "reuse_status": "provider_public_api_documented_employer_terms_unverified",
+      "country_scope": "per_posting",
+      "owner": "project_maintainer",
+      "access_verified_at": "2026-10-28"
+    },
+    {
+      "id": "bpce-open-data",
+      "type": "bpce",
+      "company": "Groupe BPCE",
+      "careers_url": "https://recrutement.bpce.fr/",
+      "enabled": true,
+      "access_status": "open_data_api_verified",
+      "reuse_status": "open_licence_v2",
+      "country_scope": "per_posting",
+      "owner": "project_maintainer",
+      "access_verified_at": "2026-10-28"
+    },
+    {
       "id": "infinit",
       "type": "lever",
       "company": "INFINIT",

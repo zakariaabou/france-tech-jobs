@@ -1,6 +1,6 @@
 # Contributing
 
-You can [suggest an employer](https://github.com/zakariaabou/france-tech-jobs/issues/new?template=source-suggestion.md) or [report an outdated job](https://github.com/zakariaabou/france-tech-jobs/issues/new?template=stale-job.md). Please include the original employer URL when possible; do not share applicant data.
+You can [suggest a job](https://github.com/zakariaabou/france-tech-jobs/issues/new?template=job-suggestion.md), [suggest an employer](https://github.com/zakariaabou/france-tech-jobs/issues/new?template=source-suggestion.md), or [report an outdated job](https://github.com/zakariaabou/france-tech-jobs/issues/new?template=stale-job.md). For jobs found on LinkedIn, HelloWork, Apec or another site, share the original employer posting if available. Suggestions are reviewed manually; they are not automatically published or guaranteed to be added. Do not paste full adverts or share recruiter or applicant data.
 
 To add a source, check its terms and whether access and reuse are suitable first. Add the company to `config/sources.json` and document the evidence in `docs/sources.md`. Use a unique source ID, one of the supported connector types and the correct company board identifier. Test with a small live pilot and ensure job URLs lead to actual vacancies. Never add credentials to the repository.
 

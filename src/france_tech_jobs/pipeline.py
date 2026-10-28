@@ -8,9 +8,17 @@ import sys
 from urllib.parse import urlsplit, urlunsplit
 
 
-def merge_observations(previous, successful, failed, today):
+def _expired(job, today):
+    try:
+        return date.fromisoformat(job.get("expires_at", "")) < date.fromisoformat(today)
+    except (TypeError, ValueError):
+        return False
+
+
+def merge_observations(previous, successful, failed, today, partial_sources=()):
     records = {(j["source_id"], j["job_id"]): deepcopy(j) for j in previous}
     failed = set(failed)
+    partial_sources = set(partial_sources)
     for job in records.values():
         source = job["source_id"]
         # Older state used last_checked as its only closure timestamp. Capture it
@@ -18,18 +26,31 @@ def merge_observations(previous, successful, failed, today):
         # untrusted and are never used to prune the record.
         if job.get("status") == "closed" and "closed_since" not in job:
             job["closed_since"] = job.get("last_checked")
-        if source in successful:
+        if source in successful and source in partial_sources and not _expired(job, today):
+            # Omission from an incomplete feed is not proof of closure. Do not
+            # continue advertising it as verified active either.
+            if job.get("status") != "closed":
+                job["status"] = "unknown"
+        elif source in successful:
             if job.get("status") != "closed" and "closed_since" not in job:
                 job["closed_since"] = today
             job["status"] = "closed"
             job["last_checked"] = today
         elif source in failed:
-            job["status"] = "unknown"
+            if not (source in partial_sources and job.get("status") == "closed"):
+                job["status"] = "unknown"
     for source, observations in successful.items():
         for observation in observations:
             if observation.get("source_id") != source or not observation.get("job_id"):
                 raise ValueError(f"Invalid source or job ID in {source}")
             key = (source, observation["job_id"])
+            if source in partial_sources and _expired(observation, today):
+                if key in records:
+                    job = records[key]
+                    if job.get("status") != "closed" and "closed_since" not in job:
+                        job["closed_since"] = today
+                    job.update(status="closed", last_checked=today, expires_at=observation["expires_at"])
+                continue
             prior = records.get(key, {})
             job = dict(observation)
             job.update(status="active", first_seen=prior.get("first_seen", today), last_seen=today, last_checked=today)
@@ -125,6 +146,8 @@ def update(root, today=None, fetcher=None, classifier=None):
     if type(review_limit) is not int or not 0 <= review_limit <= 1000:
         raise ValueError("review_limit must be an integer between 0 and 1000")
     enabled = [s for s in sources if s.get("enabled", True)]
+    if any(s.get("coverage", "complete") not in ("complete", "partial") for s in enabled):
+        raise ValueError("Source coverage must be complete or partial")
     ids = [s["id"] for s in enabled]
     if not enabled or len(set(ids)) != len(ids):
         raise ValueError("At least one enabled source with a unique ID is required")
@@ -152,7 +175,8 @@ def update(root, today=None, fetcher=None, classifier=None):
     if not successful:
         raise RuntimeError("All sources failed; previous output was retained")
     failed_ids = set(errors) | ({j["source_id"] for j in previous} - set(ids))
-    jobs = retain_records(merge_observations(previous, successful, failed_ids, today), today, failed_ids)
+    partial = {s["id"] for s in sources if s.get("coverage") == "partial"}
+    jobs = retain_records(merge_observations(previous, successful, failed_ids, today, partial_sources=partial), today, failed_ids)
     public_jobs = deduplicate([job for job in jobs if job.get("status") == "active" and job.get("eligible")])
     review_jobs = select_review_jobs(jobs, public_jobs)
     outputs = {"data/jobs.json": json.dumps(jobs, ensure_ascii=False, indent=2, sort_keys=True) + "\n", **render_all(public_jobs, today, review_jobs=review_jobs, review_limit=review_limit), **generate_feeds(public_jobs)}

@@ -18,6 +18,7 @@ because company boards can contain listings in more than one country.
 | [Decathlon Digital](https://job-boards.greenhouse.io/decathlontechnology) | Greenhouse | End client, retail/technology | [Board JSON](https://boards-api.greenhouse.io/v1/boards/decathlontechnology/jobs) | 74 postings |
 | [SFEIR](https://jobs.lever.co/sfeir) | Lever | ESN / technology consultancy | [Board JSON](https://api.lever.co/v0/postings/sfeir?mode=json) | Non-empty |
 | [Meritis](https://careers.smartrecruiters.com/Meritis) | SmartRecruiters | IT consultancy / ESN | [Board JSON](https://api.smartrecruiters.com/v1/companies/Meritis/postings?limit=1) | 137 postings total |
+| [NEXTON](https://careers.smartrecruiters.com/NEXTON) | SmartRecruiters | French technology consultancy / ESN | [Board JSON](https://api.smartrecruiters.com/v1/companies/NEXTON/postings?limit=1) | 167 postings on 2026-10-28; French software, data and machine-learning titles; full fetch completed in about 103 seconds |
 | [INFINIT](https://jobs.lever.co/infinit) | Lever | Fintech product | [Board JSON](https://api.lever.co/v0/postings/infinit?mode=json&limit=100) | 7 postings in first page; [software role in Paris](https://jobs.lever.co/infinit/bb2b0d9e-dc5c-49a3-904b-ee0750e65ae1) |
 | [Beamy](https://jobs.lever.co/Beamy) | Lever | SaaS product | [Board JSON](https://api.lever.co/v0/postings/Beamy?mode=json&limit=100) | 13 postings in first page; [AI role in Paris](https://jobs.lever.co/Beamy/5defdfbe-8ec1-4279-94d7-279c840c2c29) |
 | [Winamax](https://jobs.lever.co/winamax) | Lever | Gaming product | [Board JSON](https://api.lever.co/v0/postings/winamax?mode=json&limit=100) | 27 postings in first page; [backend role in Paris](https://jobs.lever.co/winamax/77f38084-073c-4f6c-bdbe-b5ebab701642) |
@@ -87,14 +88,36 @@ documents access to public postings and its [endpoints](https://developers.smart
 describe listing and detail requests. Public access or a provider statement
 does not by itself establish an individual employer's redistribution terms.
 
-For the 28-source snapshot, a normal complete update makes nine Greenhouse GETs,
-at least 18 Lever GETs plus extra pages, and roughly 139 Meritis SmartRecruiters
-GETs (two listing pages plus 137 details). Actual counts vary with feed size and
+For the 29-employer snapshot, a normal complete update makes nine Greenhouse GETs,
+at least 18 Lever GETs plus extra pages, and approximately 308 SmartRecruiters
+GETs (two listing pages and details for each of Meritis and NEXTON). Actual counts vary with feed size and
 retryable errors; these are planning estimates, not rate limits or hard caps.
 The connector throttles SmartRecruiters detail fetches to about 10 per second
 and backs off/retries selected errors. Large SmartRecruiters boards are **not**
 enabled without further request budgeting; filtered snapshots must never be
 treated as complete snapshots for closure detection.
+
+## Groupe BPCE open-data employer feed
+
+The [Groupe BPCE public jobs dataset](https://www.data.gouv.fr/datasets/groupe-bpce-offres-emploi-publiques),
+created and published by **BPCE - DRH Groupe**, is available under the
+[Licence Ouverte / Open Licence 2.0](https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf).
+The publisher expressly permits displaying the data on job platforms and reports
+four daily updates. We select only fields needed for the listing; recruiter
+names and emails are discarded. Job descriptions are used temporarily for
+classification and not stored. The listed URL leads to the employer's own
+posting. Dates shown on this project are observation dates, not the dataset's
+last modification timestamps. Multiple locations for the same reference and
+URL are combined. Classifications are derived by this project.
+
+The connector downloads at most 25 MiB and checks record counts and dataset
+version before and after the export. A changed, malformed, incomplete or more
+than 48-hour-old snapshot fails safely and existing jobs become unverified.
+The project runs daily, so changes may take up to the next successful run to
+appear; job availability may change meanwhile. The source portal has announced
+its [decommissioning in 2027](https://bpce.opendatasoft.com/explore/assets/groupe-bpce-offres-emploi/),
+so the connector may need a replacement. On 2026-10-28 the export contained
+1,867 rows, including multiple rows for some roles; counts change over time.
 
 ## Job boards requiring further investigation
 
@@ -105,7 +128,7 @@ treated as complete snapshots for closure detection.
 | HelloWork | No connector enabled. Its [recruiter terms](https://recruteur.hellowork.com/cgv-abo-lib) describe automated users of the job database as non-legitimate and restrict systematic extraction. Their applicability depends on the service and agreement; investigate an authorized feed or partnership before integration. |
 | Apec | No connector enabled. [Apec's site terms](https://www.apec.fr/infos-legales/infos-cgu.html) prohibit automated navigation and capturing content from its site and job database. Obtain suitable authorized access before integrating. |
 | France Travail | No connector enabled. [The official API listing](https://www.data.gouv.fr/dataservices/api-offres-demploi) states the job-offers API is not currently exposed while distribution and reuse are reviewed; access inquiries go through France Travail. Recheck before adding. |
-| Choisir le service public | No connector enabled. Its [open-licensed weekly dataset](https://www.data.gouv.fr/datasets/les-offres-diffusees-sur-choisir-le-service-public) includes historical postings and no job URL field; its limited RSS feed is not a complete snapshot. See [issue #18](https://github.com/zakariaabou/france-tech-jobs/issues/18) for the work needed to verify links and handle incremental updates safely. |
+| Choisir le service public | No connector enabled. Its [open-licensed weekly dataset](https://www.data.gouv.fr/datasets/les-offres-diffusees-sur-choisir-le-service-public) includes historical postings and no job URL field; its limited RSS feed is not a complete snapshot. Its [site legal notice](https://choisirleservicepublic.gouv.fr/mentions-legales/) limits access to consulting offers and applying; the dataset licence does not establish permission to crawl the website to verify job status. See [issue #18](https://github.com/zakariaabou/france-tech-jobs/issues/18) for remaining work. |
 | EURES | No connector enabled. The [official Find a Job terms](https://europa.eu/eures/portal/jv-se/home?lang=en) prohibit extraction and republication through scraping and reserve API data extraction to recognized EURES partners. |
 | Adzuna | No connector enabled. [Official API terms](https://developer.adzuna.com/docs/terms_of_service) permit some listing publication, but require a registered API key; licensing and restrictions depend on usage. Account access and conditions for this project are unverified. |
 | Remotive | No connector enabled. Its [public API terms](https://remotive.com/remote-jobs/api) require explicit Remotive attribution and a link to each Remotive posting; data is delayed 24 hours and submission to third-party job sites is restricted. Its [general site terms](https://remotive.com/terms-of-use) also contain scraping and redistribution restrictions. The interaction between those terms and this repository's use should be confirmed before integration. |

@@ -4,6 +4,7 @@ A source raises on incomplete/invalid responses so callers never interpret a fai
 fetch as an empty board. No candidate data or credentials are requested.
 """
 import html
+from http.client import RemoteDisconnected
 from html.parser import HTMLParser
 import json
 import re
@@ -50,7 +51,7 @@ def _json(url, timeout):
             if not isinstance(exc.reason, TimeoutError) or attempt == 2:
                 raise
             time.sleep(2 ** attempt)
-        except TimeoutError:
+        except (TimeoutError, RemoteDisconnected, ConnectionResetError):
             if attempt == 2:
                 raise
             time.sleep(2 ** attempt)
@@ -207,10 +208,15 @@ def _smartrecruiters(source, board, timeout):
 
 def fetch_source(source: dict, timeout: float = 20) -> list[dict]:
     """Fetch all public listings for one configured company or raise on failure."""
-    if not isinstance(source, dict) or any(not source.get(k) for k in ('id', 'type', 'company', 'board')):
-        raise ValueError('Source requires id, type, company and board')
+    if not isinstance(source, dict) or any(not source.get(k) for k in ('id', 'type', 'company')):
+        raise ValueError('Source requires id, type and company')
     if timeout <= 0:
         raise ValueError('Timeout must be positive')
+    if source['type'] == 'bpce':
+        from .bpce import fetch_bpce
+        return fetch_bpce(source, timeout=timeout)
+    if not source.get('board'):
+        raise ValueError('Source requires a board')
     board = urllib.parse.quote(str(source['board']), safe='')
     handlers = {'greenhouse': _greenhouse, 'lever': _lever, 'smartrecruiters': _smartrecruiters}
     if source['type'] not in handlers:

@@ -18,6 +18,17 @@ not reset that closure date. A source outage marks records unknown, not closed;
 an earlier `closed_since` remains available if closure is reconfirmed. When a
 posting reappears, its closure date is cleared.
 
+Sources default to `coverage: complete`. A limited feed must declare
+`coverage: partial`: an omitted record becomes unknown and is not published,
+but is not treated as closed. An explicitly supplied ISO `expires_at` date
+closes a partial-feed record only after that calendar date has passed; malformed
+or absent dates are never guessed. An outage marks non-closed records unknown;
+for partial sources an already closed record stays closed through an outage.
+Invalid coverage values fail validation rather than silently treating a
+partial feed as a complete one. A future partial-source connector must verify
+that observed jobs are active, and must not turn a truncated response into a
+successful snapshot. No partial source is currently enabled.
+
 Closed records are removed after 180 days, measured from `closed_since`, only
 after a successful source check. Active and unknown records are not aged out.
 For legacy closed records without `closed_since`, the previous `last_checked`

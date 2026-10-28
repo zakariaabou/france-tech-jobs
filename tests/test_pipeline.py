@@ -24,6 +24,66 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(result[0]["status"], "closed")
         self.assertEqual(result[0]["last_checked"], "2026-01-02")
 
+    def test_missing_from_partial_feed_is_unknown_not_closed(self):
+        previous = [dict(self.job(), status="active", first_seen="2026-01-01", last_seen="2026-01-01")]
+        result = merge_observations(previous, {"one": []}, [], "2026-01-02", partial_sources={"one"})
+        self.assertEqual(result[0]["status"], "unknown")
+        self.assertNotIn("closed_since", result[0])
+        self.assertEqual(result[0]["last_seen"], "2026-01-01")
+
+    def test_partial_feed_explicit_expiry_closes_omitted_jobs(self):
+        previous = [dict(self.job(), status="active", expires_at="2026-01-01", first_seen="2026-01-01", last_seen="2026-01-01")]
+        result = merge_observations(previous, {"one": []}, [], "2026-01-02", partial_sources={"one"})
+        self.assertEqual(result[0]["status"], "closed")
+        self.assertEqual(result[0]["closed_since"], "2026-01-02")
+
+    def test_partial_feed_does_not_accept_expired_observations(self):
+        expired = dict(self.job(), expires_at="2026-01-01")
+        result = merge_observations([], {"one": [expired]}, [], "2026-01-02", partial_sources={"one"})
+        self.assertEqual(result, [])
+
+    def test_partial_feed_expired_observation_closes_existing_record(self):
+        previous = [dict(self.job(), status="active", first_seen="2025-12-01", last_seen="2026-01-01")]
+        expired = dict(self.job(), expires_at="2026-01-01")
+        result = merge_observations(previous, {"one": [expired]}, [], "2026-01-02", partial_sources={"one"})
+        self.assertEqual(result[0]["status"], "closed")
+
+    def test_partial_feed_expiry_on_today_is_not_past(self):
+        result = merge_observations([], {"one": [dict(self.job(), expires_at="2026-01-02")]}, [], "2026-01-02", partial_sources={"one"})
+        self.assertEqual(result[0]["status"], "active")
+
+    def test_partial_closed_job_stays_closed_through_outage_and_omission(self):
+        old = dict(self.job(), status="closed", closed_since="2026-01-01", first_seen="2025-12-01", last_seen="2025-12-31")
+        outage = merge_observations([old], {}, ["one"], "2026-01-02", partial_sources={"one"})
+        self.assertEqual(outage[0]["status"], "closed")
+        recovered = merge_observations(outage, {"one": []}, [], "2026-01-03", partial_sources={"one"})
+        self.assertEqual(recovered[0]["status"], "closed")
+        self.assertEqual(recovered[0]["closed_since"], "2026-01-01")
+        reopened = merge_observations(recovered, {"one": [self.job()]}, [], "2026-01-04", partial_sources={"one"})
+        self.assertEqual(reopened[0]["status"], "active")
+        self.assertNotIn("closed_since", reopened[0])
+
+    def test_invalid_coverage_setting_is_rejected(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            (root / "config").mkdir()
+            (root / "config/sources.json").write_text(json.dumps({"sources": [{"id": "one", "coverage": "partal"}]}), encoding="utf8")
+            with self.assertRaises(ValueError):
+                update(root, "2026-01-02", fetcher=lambda source: [])
+
+    def test_update_respects_partial_source_and_never_publishes_omissions(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            (root / "config").mkdir()
+            (root / "config/sources.json").write_text(json.dumps({"sources": [{"id": "one", "coverage": "partial"}]}), encoding="utf8")
+            (root / "data").mkdir()
+            prior = dict(self.job(), status="active", first_seen="2026-01-01", last_seen="2026-01-01")
+            (root / "data/jobs.json").write_text(json.dumps([prior]), encoding="utf8")
+            update(root, "2026-01-02", fetcher=lambda source: [])
+            state = json.loads((root / "data/jobs.json").read_text(encoding="utf8"))
+            self.assertEqual(state[0]["status"], "unknown")
+            self.assertNotIn("Junior Data Engineer", (root / "jobs/france-data.md").read_text(encoding="utf8"))
+
     def test_reappearing_job_retains_first_seen(self):
         previous = [dict(self.job(), status="closed", first_seen="2026-01-01", last_seen="2026-01-01")]
         result = merge_observations(previous, {"one": [self.job()]}, [], "2026-01-03")

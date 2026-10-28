@@ -9,7 +9,7 @@ A France-first collection of **junior, new-graduate and mid-level** technology j
 | 🇫🇷 France | [Data jobs](jobs/france-data.md) | [AI jobs](jobs/france-ai.md) | [Software jobs](jobs/france-software.md) |
 | 🌍 International | [Data jobs](jobs/international-data.md) | [AI jobs](jobs/international-ai.md) | [Software jobs](jobs/international-software.md) |
 
-[Recently added](jobs/recent.md) · [Potential matches — verify requirements](jobs/review.md) · [Suggest an employer or report a listing](CONTRIBUTING.md) · [How jobs are selected](docs/scope.md) · [Sources and coverage](docs/sources.md)
+[Recently added](jobs/recent.md) · [Potential matches — verify requirements](jobs/review.md) · [Suggest a job or employer](CONTRIBUTING.md) · [How jobs are selected](docs/scope.md) · [Sources and coverage](docs/sources.md)
 
 AI Engineering includes machine learning, generative AI, MLOps, NLP and related engineering roles. Jobs may appear in more than one category. Location, contract and remote status are shown only when available; remote eligibility may depend on the employer's restrictions. Apply on the linked employer page.
 
@@ -29,6 +29,8 @@ Each item identifies its source and first observation date. A posting date is in
 ## Updates and coverage
 
 The project uses a scheduled daily GitHub Actions workflow and can also be updated manually. Each list shows the most recent successful pipeline run in UTC. A source error does not imply its jobs have closed: listings from that source are held as unverified until the source succeeds again. The pages cover the configured employers, not the entire job market. Experience and location rules are intentionally conservative; some relevant roles may be missed. [Read the selection policy](docs/scope.md).
+
+BPCE listings use [Groupe BPCE's open jobs data](https://www.data.gouv.fr/datasets/groupe-bpce-offres-emploi-publiques), published by BPCE - DRH Groupe under the [Open Licence 2.0](https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf). Classification is performed by this project; the original job posting remains the application reference. See [source details](docs/sources.md) for freshness and coverage limits.
 
 ## Run locally
 
