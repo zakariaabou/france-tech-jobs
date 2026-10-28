@@ -27,7 +27,11 @@ for partial sources an already closed record stays closed through an outage.
 Invalid coverage values fail validation rather than silently treating a
 partial feed as a complete one. A future partial-source connector must verify
 that observed jobs are active, and must not turn a truncated response into a
-successful snapshot. No partial source is currently enabled.
+successful snapshot. SmartRecruiters title-selected sources are partial. If a
+previously closed job is present in the listing but its details are skipped, it
+becomes unknown until fresh details are verified. Omitted unknown records are
+not pruned automatically; [issue #20](https://github.com/zakariaabou/france-tech-jobs/issues/20)
+tracks safe retention for these partial sources.
 
 Closed records are removed after 180 days, measured from `closed_since`, only
 after a successful source check. Active and unknown records are not aged out.

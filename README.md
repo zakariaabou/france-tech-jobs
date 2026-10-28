@@ -30,6 +30,8 @@ Each item identifies its source and first observation date. A posting date is in
 
 The project uses a scheduled daily GitHub Actions workflow and can also be updated manually. Each list shows the most recent successful pipeline run in UTC. A source error does not imply its jobs have closed: listings from that source are held as unverified until the source succeeds again. The pages cover the configured employers, not the entire job market. Experience and location rules are intentionally conservative; some relevant roles may be missed. [Read the selection policy](docs/scope.md).
 
+For larger SmartRecruiters boards, a daily request budget selects matching job titles and then checks their full details. Jobs that are skipped are treated as unverified, so their temporary absence from these pages does not mean they closed. When a board has more candidates than the budget allows, the selection rotates across days. [See the source and coverage details](docs/sources.md#smartrecruiters-request-budget-and-coverage).
+
 BPCE listings use [Groupe BPCE's open jobs data](https://www.data.gouv.fr/datasets/groupe-bpce-offres-emploi-publiques), published by BPCE - DRH Groupe under the [Open Licence 2.0](https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf). Classification is performed by this project; the original job posting remains the application reference. See [source details](docs/sources.md) for freshness and coverage limits.
 
 ## Run locally

@@ -40,7 +40,10 @@
       "reuse_status": "provider_public_api_documented_employer_terms_unverified",
       "country_scope": "per_posting",
       "owner": "project_maintainer",
-      "access_verified_at": "2026-10-27"
+      "access_verified_at": "2026-10-27",
+      "detail_mode": "target_titles",
+      "coverage": "partial",
+      "max_details": 100
     },
     {
       "id": "nexton",
@@ -54,7 +57,10 @@
       "reuse_status": "provider_public_api_documented_employer_terms_unverified",
       "country_scope": "per_posting",
       "owner": "project_maintainer",
-      "access_verified_at": "2026-10-28"
+      "access_verified_at": "2026-10-28",
+      "detail_mode": "target_titles",
+      "coverage": "partial",
+      "max_details": 100
     },
     {
       "id": "bpce-open-data",
@@ -417,6 +423,74 @@
       "country_scope": "per_posting",
       "owner": "project_maintainer",
       "access_verified_at": "2026-10-27"
+    },
+    {
+      "id": "sia",
+      "type": "smartrecruiters",
+      "company": "Sia",
+      "board": "Sia",
+      "country_hint": null,
+      "careers_url": "https://careers.smartrecruiters.com/Sia",
+      "enabled": true,
+      "access_status": "public_endpoint_verified",
+      "reuse_status": "provider_public_api_documented_employer_terms_unverified",
+      "country_scope": "per_posting",
+      "owner": "project_maintainer",
+      "access_verified_at": "2026-10-28",
+      "detail_mode": "target_titles",
+      "coverage": "partial",
+      "max_details": 100
+    },
+    {
+      "id": "scalian",
+      "type": "smartrecruiters",
+      "company": "Scalian",
+      "board": "Scalian",
+      "country_hint": null,
+      "careers_url": "https://careers.smartrecruiters.com/Scalian",
+      "enabled": true,
+      "access_status": "public_endpoint_verified",
+      "reuse_status": "provider_public_api_documented_employer_terms_unverified",
+      "country_scope": "per_posting",
+      "owner": "project_maintainer",
+      "access_verified_at": "2026-10-28",
+      "detail_mode": "target_titles",
+      "coverage": "partial",
+      "max_details": 100
+    },
+    {
+      "id": "iliad-free",
+      "type": "smartrecruiters",
+      "company": "Iliad / Free",
+      "board": "Iliad-Free",
+      "country_hint": null,
+      "careers_url": "https://careers.smartrecruiters.com/Iliad-Free",
+      "enabled": true,
+      "access_status": "public_endpoint_verified",
+      "reuse_status": "provider_public_api_documented_employer_terms_unverified",
+      "country_scope": "per_posting",
+      "owner": "project_maintainer",
+      "access_verified_at": "2026-10-28",
+      "detail_mode": "target_titles",
+      "coverage": "partial",
+      "max_details": 100
+    },
+    {
+      "id": "magellan",
+      "type": "smartrecruiters",
+      "company": "Magellan",
+      "board": "Magellan",
+      "country_hint": null,
+      "careers_url": "https://careers.smartrecruiters.com/Magellan",
+      "enabled": true,
+      "access_status": "public_endpoint_verified",
+      "reuse_status": "provider_public_api_documented_employer_terms_unverified",
+      "country_scope": "per_posting",
+      "owner": "project_maintainer",
+      "access_verified_at": "2026-10-28",
+      "detail_mode": "target_titles",
+      "coverage": "partial",
+      "max_details": 100
     }
   ]
 }

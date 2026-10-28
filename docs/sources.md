@@ -19,6 +19,10 @@ because company boards can contain listings in more than one country.
 | [SFEIR](https://jobs.lever.co/sfeir) | Lever | ESN / technology consultancy | [Board JSON](https://api.lever.co/v0/postings/sfeir?mode=json) | Non-empty |
 | [Meritis](https://careers.smartrecruiters.com/Meritis) | SmartRecruiters | IT consultancy / ESN | [Board JSON](https://api.smartrecruiters.com/v1/companies/Meritis/postings?limit=1) | 137 postings total |
 | [NEXTON](https://careers.smartrecruiters.com/NEXTON) | SmartRecruiters | French technology consultancy / ESN | [Board JSON](https://api.smartrecruiters.com/v1/companies/NEXTON/postings?limit=1) | 167 postings on 2026-10-28; French software, data and machine-learning titles; full fetch completed in about 103 seconds |
+| [Sia](https://careers.smartrecruiters.com/Sia) | SmartRecruiters | Consultancy / ESN | [Board JSON](https://api.smartrecruiters.com/v1/companies/Sia/postings?limit=1) | 519 postings; 19 target-title prospects on 2026-10-28 |
+| [Scalian](https://careers.smartrecruiters.com/Scalian) | SmartRecruiters | Technology consultancy / ESN | [Board JSON](https://api.smartrecruiters.com/v1/companies/Scalian/postings?limit=1) | 756 postings; 88 target-title prospects on 2026-10-28 |
+| [Iliad / Free](https://careers.smartrecruiters.com/Iliad-Free) | SmartRecruiters | Telecommunications / technology employer | [Board JSON](https://api.smartrecruiters.com/v1/companies/Iliad-Free/postings?limit=1) | 285 postings; 6 target-title prospects on 2026-10-28 |
+| [Magellan](https://careers.smartrecruiters.com/Magellan) | SmartRecruiters | Technology consultancy | [Board JSON](https://api.smartrecruiters.com/v1/companies/Magellan/postings?limit=1) | 284 postings; 12 target-title prospects on 2026-10-28 |
 | [INFINIT](https://jobs.lever.co/infinit) | Lever | Fintech product | [Board JSON](https://api.lever.co/v0/postings/infinit?mode=json&limit=100) | 7 postings in first page; [software role in Paris](https://jobs.lever.co/infinit/bb2b0d9e-dc5c-49a3-904b-ee0750e65ae1) |
 | [Beamy](https://jobs.lever.co/Beamy) | Lever | SaaS product | [Board JSON](https://api.lever.co/v0/postings/Beamy?mode=json&limit=100) | 13 postings in first page; [AI role in Paris](https://jobs.lever.co/Beamy/5defdfbe-8ec1-4279-94d7-279c840c2c29) |
 | [Winamax](https://jobs.lever.co/winamax) | Lever | Gaming product | [Board JSON](https://api.lever.co/v0/postings/winamax?mode=json&limit=100) | 27 postings in first page; [backend role in Paris](https://jobs.lever.co/winamax/77f38084-073c-4f6c-bdbe-b5ebab701642) |
@@ -61,9 +65,9 @@ employer's board identifier, `careers_url` is the public employer board, and
 `enabled` controls collection. Add a source only after checking the exact board,
 its current access and applicable reuse requirements. Each record also stores
 `access_status`, `access_verified_at`, `reuse_status`, `country_scope`, and
-`owner`. For all current records the endpoint's unauthenticated technical
-access was verified on 2026-10-27, provider documentation describes public
-access, and employer-specific aggregation/reuse conditions remain **unverified**;
+`owner`. The registry records when each endpoint's unauthenticated technical
+access was verified; provider documentation describes public access, and
+employer-specific aggregation/reuse conditions remain **unverified**;
 those fields are evidence and a review queue, not a grant of permission. Source
 locations are checked per posting, and a country hint is never treated as
 verified location. The owner is the project maintainer; community contributors
@@ -88,14 +92,48 @@ documents access to public postings and its [endpoints](https://developers.smart
 describe listing and detail requests. Public access or a provider statement
 does not by itself establish an individual employer's redistribution terms.
 
-For the 29-employer snapshot, a normal complete update makes nine Greenhouse GETs,
-at least 18 Lever GETs plus extra pages, and approximately 308 SmartRecruiters
-GETs (two listing pages and details for each of Meritis and NEXTON). Actual counts vary with feed size and
-retryable errors; these are planning estimates, not rate limits or hard caps.
-The connector throttles SmartRecruiters detail fetches to about 10 per second
-and backs off/retries selected errors. Large SmartRecruiters boards are **not**
-enabled without further request budgeting; filtered snapshots must never be
-treated as complete snapshots for closure detection.
+### SmartRecruiters request budget and coverage
+
+For the six configured SmartRecruiters sources, the connector reads up to 50
+listing pages (5,000 postings) per board, using 100 postings per page. It then
+fetches details for at most 100 selected postings per board per run. These are
+limits on logical requests; each may be attempted up to three times on selected
+transient errors, so actual HTTP attempts can be higher. Calls are sequential
+with a 0.2-second pause after each successful listing or detail request. The
+[provider documents](https://developers.smartrecruiters.com/docs/customer-overview)
+a 10 requests/second limit and 429 responses; we pause at least 0.2 seconds
+between successful calls, use exponential backoff on transient errors, and
+honor `Retry-After` up to 30 seconds. If the provider requests a longer delay,
+the source fails safely and is tried on the next run. The current 20-second
+network timeout is shorter than the provider's recommended 128 seconds and may
+therefore mark a slow but available source unverified.
+
+The selection uses the same current category and obvious senior/intern title
+rules as the classifier, then fetches full details for experience, contract,
+location and the real posting link. The public listing and detail title could
+disagree, and unusual titles can be missed; future changes to category rules
+must preserve this dependency. Missing titles fail the source instead of being
+silently filtered. If candidate counts exceed the detail budget, an ID-sorted
+window rotates daily; deferred jobs are unverified, so they may disappear from
+published pages until their details are fetched again.
+
+These sources are explicitly partial: omissions are never proof of closure.
+An old job that is listed but not checked in detail becomes unknown, even if
+previously closed. Existing unknown records are retained and may accumulate;
+see [issue #20](https://github.com/zakariaabou/france-tech-jobs/issues/20).
+Changing totals, incorrect page lengths/offsets, duplicate IDs, missing titles,
+detail failures and source outages fail safely. Equal totals cannot prove a
+stable list if postings are replaced during pagination; partial status avoids
+falsely closing omitted jobs but cannot guarantee that every candidate was seen.
+The workflow logs total postings, candidates and selected details per board.
+The 2026-10-28 Scalian pilot had 756 postings: roughly eight listing requests
+and 88 selected details instead of 756 detail requests. Counts change daily.
+
+Sia's [corporate site notice](https://www.sia-partners.com/fr/mentions-legales)
+reserves reproduction rights; its application to the separate SmartRecruiters
+feed is not established. No affirmative employer-specific reuse authorization
+was found for Sia, Scalian, Iliad / Free or Magellan. Public API access alone
+does not grant that authorization; the registry records this uncertainty.
 
 ## Groupe BPCE open-data employer feed
 
@@ -134,9 +172,8 @@ so the connector may need a replacement. On 2026-10-28 the export contained
 | Remotive | No connector enabled. Its [public API terms](https://remotive.com/remote-jobs/api) require explicit Remotive attribution and a link to each Remotive posting; data is delayed 24 hours and submission to third-party job sites is restricted. Its [general site terms](https://remotive.com/terms-of-use) also contain scraping and redistribution restrictions. The interaction between those terms and this repository's use should be confirmed before integration. |
 
 Other researched boards, such as Sopra Steria and Devoteam on SmartRecruiters,
-returned non-empty listings but are substantially larger; they are not yet in
-the pilot because an unfiltered detail request per posting would be costly.
-They should be reassessed once bounded filtering and request budgets are in
-place. Capgemini's tested SmartRecruiters company identifier returned no
+returned non-empty listings but are not yet enabled. Sopra Steria had 2,062
+postings and 154 target-title prospects in the 2026-10-28 pilot, exceeding the
+100-detail daily limit; a rotating subset is not comprehensive. Capgemini's tested SmartRecruiters company identifier returned no
 postings and has not been enabled. None of these observations proves that an
 employer has no jobs on other platforms.

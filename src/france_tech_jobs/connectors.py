@@ -6,8 +6,12 @@ fetch as an empty board. No candidate data or credentials are requested.
 import html
 from http.client import RemoteDisconnected
 from html.parser import HTMLParser
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 import json
+import math
 import re
+import sys
 import time
 import urllib.error
 import urllib.parse
@@ -21,6 +25,13 @@ class _TextParser(HTMLParser):
 
     def handle_data(self, data):
         self.parts.append(data)
+
+
+class PartialObservations(list):
+    """Fetched details plus IDs seen in a partial board listing."""
+    def __init__(self, observations, present_ids):
+        super().__init__(observations)
+        self.present_ids = frozenset(present_ids)
 
 
 def _plain(value):
@@ -42,11 +53,22 @@ def _json(url, timeout):
                 raise
             delay = 2 ** attempt
             if exc.code == 429:
+                retry_after = exc.headers.get('Retry-After', '1') if exc.headers else '1'
                 try:
-                    delay = float(exc.headers.get('Retry-After', '1')) if exc.headers else 1.0
+                    delay = float(retry_after)
                 except (TypeError, ValueError):
+                    try:
+                        retry_time = parsedate_to_datetime(retry_after)
+                        delay = (retry_time - datetime.now(timezone.utc)).total_seconds()
+                    except (TypeError, ValueError, OverflowError):
+                        delay = 1.0
+                if not math.isfinite(delay):
                     delay = 1.0
-            time.sleep(min(max(delay, 0.0), 10.0))
+                # Do not retry before the provider's requested time. Defer
+                # long throttling periods to the next scheduled source run.
+                if delay > 30:
+                    raise
+            time.sleep(max(delay, 0.0))
         except urllib.error.URLError as exc:
             if not isinstance(exc.reason, TimeoutError) or attempt == 2:
                 raise
@@ -145,7 +167,91 @@ def _lever(source, board, timeout):
     raise ValueError('Lever page limit exceeded')
 
 
+def _smartrecruiters_detail(source, base, job, timeout):
+    job_id = urllib.parse.quote(str(job['id']), safe='')
+    detail = _json(f'{base}/{job_id}', timeout)
+    if not isinstance(detail, dict) or str(detail.get('id', '')) != str(job['id']):
+        raise ValueError('Invalid SmartRecruiters posting detail')
+    url = detail.get('postingUrl') or detail.get('applyUrl')
+    result = _required_record(detail, source, detail.get('name'), url)
+    location = detail.get('location') or {}
+    if not isinstance(location, dict):
+        raise ValueError('Invalid SmartRecruiters location')
+    result['location'] = location.get('fullLocation') or ', '.join(str(location.get(k) or '') for k in ('city', 'region', 'country') if location.get(k))
+    if location.get('hybrid') is True:
+        result['remote'] = 'hybrid'
+    elif location.get('remote') is True:
+        result['remote'] = 'remote'
+    result['contract'], result['employment_type'] = _employment(detail.get('typeOfEmployment'))
+    for custom in detail.get('customField') or []:
+        if isinstance(custom, dict) and str(custom.get('fieldLabel', '')).lower() in ('contract type', 'type de contrat'):
+            contract, schedule = _employment(custom.get('valueLabel'))
+            result['contract'] = contract or result['contract']
+            result['employment_type'] = schedule or result['employment_type']
+    sections = (detail.get('jobAd') or {}).get('sections') or {}
+    if not isinstance(sections, dict):
+        raise ValueError('Invalid SmartRecruiters description')
+    result['description'] = ' '.join(_plain(section.get('text')) for section in sections.values() if isinstance(section, dict)).strip()
+    result['published_at'] = detail.get('releasedDate') or ''
+    result['application_url'] = detail.get('postingUrl') or url
+    time.sleep(0.2)
+    return result
+
+
+def _smartrecruiters_filtered(source, board, timeout):
+    """Fetch a bounded title-selected subset, never a complete snapshot."""
+    from .classify import classify
+
+    budget = source.get('max_details', 100)
+    if source.get('coverage') != 'partial' or type(budget) is not int or not 1 <= budget <= 100:
+        raise ValueError('Title-selected sources require partial coverage and max_details 1-100')
+    base = f'https://api.smartrecruiters.com/v1/companies/{board}/postings'
+    jobs, seen, total = [], set(), None
+    for page in range(50):
+        offset = page * 100
+        payload = _json(f'{base}?limit=100&offset={offset}', timeout)
+        time.sleep(0.2)
+        if not isinstance(payload, dict) or not isinstance(payload.get('content'), list):
+            raise ValueError('Invalid SmartRecruiters postings response')
+        content, current_total = payload['content'], payload.get('totalFound')
+        if type(current_total) is not int or current_total < 0 or current_total > 5000:
+            raise ValueError('Invalid or over-budget SmartRecruiters total')
+        if total is not None and total != current_total:
+            raise ValueError('SmartRecruiters total changed during fetch')
+        total = current_total
+        if 'offset' in payload and (type(payload['offset']) is not int or payload['offset'] != offset):
+            raise ValueError('Invalid SmartRecruiters page offset')
+        if len(content) != min(100, max(total - offset, 0)):
+            raise ValueError('Incomplete SmartRecruiters page')
+        for job in content:
+            if not isinstance(job, dict) or not job.get('id') or not isinstance(job.get('name'), str) or not job['name'].strip():
+                raise ValueError('Missing SmartRecruiters posting ID or title')
+            identifier = str(job['id'])
+            if identifier in seen:
+                raise ValueError('Duplicate SmartRecruiters posting ID')
+            seen.add(identifier)
+            result = classify(job['name'], '', '', '')
+            if result['categories'] and result['seniority'] != 'excluded':
+                jobs.append(job)
+        if offset + len(content) >= total:
+            break
+    else:
+        raise ValueError('SmartRecruiters page limit exceeded')
+    # Rotate a stable ID-ordered window across days to avoid permanently
+    # starving candidates when the board exceeds the daily detail budget.
+    jobs.sort(key=lambda job: str(job['id']))
+    start = (datetime.now(timezone.utc).date().toordinal() * budget) % len(jobs) if len(jobs) > budget else 0
+    selected = (jobs + jobs)[start:start + min(budget, len(jobs))]
+    print(f"SmartRecruiters {source['id']}: {total} postings, {len(jobs)} candidates, {len(selected)} details (partial coverage)", file=sys.stderr)
+    return PartialObservations([_smartrecruiters_detail(source, base, job, timeout) for job in selected], seen)
+
+
 def _smartrecruiters(source, board, timeout):
+    mode = source.get('detail_mode', 'all')
+    if mode == 'target_titles':
+        return _smartrecruiters_filtered(source, board, timeout)
+    if mode != 'all':
+        raise ValueError('Invalid SmartRecruiters detail mode')
     base = f'https://api.smartrecruiters.com/v1/companies/{board}/postings'
     records = []
     expected_total = None
@@ -169,36 +275,7 @@ def _smartrecruiters(source, board, timeout):
         for job in content:
             if not isinstance(job, dict) or not job.get('id'):
                 raise ValueError('Invalid SmartRecruiters posting')
-            job_id = urllib.parse.quote(str(job['id']), safe='')
-            detail = _json(f'{base}/{job_id}', timeout)
-            if not isinstance(detail, dict) or str(detail.get('id', '')) != str(job['id']):
-                raise ValueError('Invalid SmartRecruiters posting detail')
-            url = detail.get('postingUrl') or detail.get('applyUrl')
-            result = _required_record(detail, source, detail.get('name'), url)
-            location = detail.get('location') or {}
-            if not isinstance(location, dict):
-                raise ValueError('Invalid SmartRecruiters location')
-            result['location'] = location.get('fullLocation') or ', '.join(str(location.get(k) or '') for k in ('city', 'region', 'country') if location.get(k))
-            if location.get('hybrid') is True:
-                result['remote'] = 'hybrid'
-            elif location.get('remote') is True:
-                result['remote'] = 'remote'
-            result['contract'], result['employment_type'] = _employment(detail.get('typeOfEmployment'))
-            for custom in detail.get('customField') or []:
-                if isinstance(custom, dict) and str(custom.get('fieldLabel', '')).lower() in ('contract type', 'type de contrat'):
-                    contract, schedule = _employment(custom.get('valueLabel'))
-                    result['contract'] = contract or result['contract']
-                    result['employment_type'] = schedule or result['employment_type']
-            sections = (detail.get('jobAd') or {}).get('sections') or {}
-            if not isinstance(sections, dict):
-                raise ValueError('Invalid SmartRecruiters description')
-            result['description'] = ' '.join(_plain(section.get('text')) for section in sections.values() if isinstance(section, dict)).strip()
-            result['published_at'] = detail.get('releasedDate') or ''
-            # The posting page shows the role and its application button; the
-            # direct apply URL can redirect to a one-click flow that blocks clients.
-            result['application_url'] = detail.get('postingUrl') or url
-            records.append(result)
-            time.sleep(0.1)
+            records.append(_smartrecruiters_detail(source, base, job, timeout))
         if offset + len(content) >= total:
             return records
         if len(content) < 100:

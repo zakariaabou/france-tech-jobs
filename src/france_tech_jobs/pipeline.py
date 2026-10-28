@@ -15,10 +15,11 @@ def _expired(job, today):
         return False
 
 
-def merge_observations(previous, successful, failed, today, partial_sources=()):
+def merge_observations(previous, successful, failed, today, partial_sources=(), present_ids=None):
     records = {(j["source_id"], j["job_id"]): deepcopy(j) for j in previous}
     failed = set(failed)
     partial_sources = set(partial_sources)
+    present_ids = present_ids or {}
     for job in records.values():
         source = job["source_id"]
         # Older state used last_checked as its only closure timestamp. Capture it
@@ -26,7 +27,11 @@ def merge_observations(previous, successful, failed, today, partial_sources=()):
         # untrusted and are never used to prune the record.
         if job.get("status") == "closed" and "closed_since" not in job:
             job["closed_since"] = job.get("last_checked")
-        if source in successful and source in partial_sources and not _expired(job, today):
+        if source in successful and source in partial_sources and job["job_id"] in present_ids.get(source, ()):
+            # The listing can reveal a previously closed job again, but its
+            # latest details (including expiry) were not necessarily fetched.
+            job["status"] = "unknown"
+        elif source in successful and source in partial_sources and not _expired(job, today):
             # Omission from an incomplete feed is not proof of closure. Do not
             # continue advertising it as verified active either.
             if job.get("status") != "closed":
@@ -153,13 +158,18 @@ def update(root, today=None, fetcher=None, classifier=None):
         raise ValueError("At least one enabled source with a unique ID is required")
     state_file = root / "data/jobs.json"
     previous = json.loads(state_file.read_text(encoding="utf8")) if state_file.exists() else []
-    successful, errors = {}, {}
+    successful, errors, present_ids = {}, {}, {}
     for source in enabled:
         source_id = source["id"]
         try:
             records = fetcher(source)
             if not isinstance(records, list):
                 raise ValueError("Source returned an invalid job list")
+            listed = getattr(records, "present_ids", None)
+            if listed is not None:
+                if source.get("coverage") != "partial" or not isinstance(listed, (set, frozenset)) or any(not isinstance(value, str) or not value for value in listed):
+                    raise ValueError("Invalid partial-source listing IDs")
+                present_ids[source_id] = listed
             seen_ids = set()
             for job in records:
                 if job.get("source_id") != source_id or not job.get("job_id") or job["job_id"] in seen_ids:
@@ -176,7 +186,7 @@ def update(root, today=None, fetcher=None, classifier=None):
         raise RuntimeError("All sources failed; previous output was retained")
     failed_ids = set(errors) | ({j["source_id"] for j in previous} - set(ids))
     partial = {s["id"] for s in sources if s.get("coverage") == "partial"}
-    jobs = retain_records(merge_observations(previous, successful, failed_ids, today, partial_sources=partial), today, failed_ids)
+    jobs = retain_records(merge_observations(previous, successful, failed_ids, today, partial_sources=partial, present_ids=present_ids), today, failed_ids)
     public_jobs = deduplicate([job for job in jobs if job.get("status") == "active" and job.get("eligible")])
     review_jobs = select_review_jobs(jobs, public_jobs)
     outputs = {"data/jobs.json": json.dumps(jobs, ensure_ascii=False, indent=2, sort_keys=True) + "\n", **render_all(public_jobs, today, review_jobs=review_jobs, review_limit=review_limit), **generate_feeds(public_jobs)}

@@ -158,6 +158,14 @@ class ConnectorTransientRetryTests(unittest.TestCase):
     def setUp(self):
         self.source = {'id': 'a', 'type': 'greenhouse', 'company': 'A', 'board': 'a'}
 
+    def test_long_retry_after_fails_without_retrying_too_early(self):
+        error = HTTPError('https://example.com', 429, 'rate limited', {'Retry-After': '60'}, None)
+        with patch('urllib.request.urlopen', side_effect=error) as request, patch('time.sleep') as sleep:
+            with self.assertRaises(HTTPError):
+                fetch_source(self.source)
+        self.assertEqual(request.call_count, 1)
+        sleep.assert_not_called()
+
     def test_disconnected_peer_is_retried(self):
         from http.client import RemoteDisconnected
         with patch('urllib.request.urlopen', side_effect=[RemoteDisconnected('connection closed'), response({'jobs': []})]) as request, patch('time.sleep') as sleep:
