@@ -9,7 +9,6 @@ Last pipeline run: 2026-10-29 (UTC). Only currently confirmed listings are shown
 | Sia | Junior Software Engineer | Paris, IDF, France | junior | Unknown | Full-time | Unknown | 2026-10-27 | [Apply](https://jobs.smartrecruiters.com/Sia/744000158018397-junior-software-engineer) |
 | Scalian | Ingénieur logiciel embarqué (H/F) | Valence, Auvergne-Rhône-Alpes, France | mid | Unknown | Full-time | Unknown | 2026-07-01 | [Apply](https://jobs.smartrecruiters.com/Scalian/744000135307535-ingenieur-logiciel-embarque-h-f-) |
 | Scalian | Développeur PHP Symfony Nucléaire  | Rians, Provence-Alpes-Côte d'Azur, France | junior | Permanent contract | Full-time | Unknown | 2025-11-06 | [Apply](https://jobs.smartrecruiters.com/Scalian/744000091967935-developpeur-php-symfony-nucleaire-) |
-| Magellan | Développeur Java confirmé (H/F) | Limoges, Nouvelle-Aquitaine, France | mid | Unknown | Full-time | hybrid | 2026-10-13 | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155287497-developpeur-java-confirme-h-f-) |
 | Theodo | Software Engineer Fullstack Secteur Public - CDI Paris - Theodo GovTech | Paris | junior | CDI | Unknown | hybrid | Unknown | [Apply](https://jobs.lever.co/theodo/86f6912f-70aa-4b62-8933-da41e85c61e7/apply) |
 | Theodo | Software Engineer Fullstack - CDI Paris - Theodo HealthTech | Paris | junior | CDI | Unknown | onsite | Unknown | [Apply](https://jobs.lever.co/theodo/84349d94-b080-4ba1-9a43-1f9bfccd7f1a/apply) |
 | Theodo | Software Engineer Fullstack - CDI Paris - Theodo | Paris | junior | CDI | Unknown | hybrid | Unknown | [Apply](https://jobs.lever.co/theodo/a0952c53-3f85-48f1-8f35-0894b038ecc6/apply) |
@@ -23,3 +22,4 @@ Last pipeline run: 2026-10-29 (UTC). Only currently confirmed listings are shown
 | SFEIR | Développeur(euse) Java confirmé(e) | Lille | mid | CDI | Unknown | hybrid | Unknown | [Apply](https://jobs.lever.co/sfeir/9f74e55a-eeaa-4e5a-a980-b0819e125466/apply) |
 | Pigment | Junior Backend Engineer | Paris | junior | Unknown | Full Time | hybrid | Unknown | [Apply](https://jobs.lever.co/pigment/dad6777e-77e7-4885-b8cc-751ad141df6a/apply) |
 | Doctrine | Confirmed Fullstack Engineer (Platform squad) | Paris | mid | Unknown | Full-time | hybrid | Unknown | [Apply](https://jobs.lever.co/doctrine/ed05d3b6-53be-4af9-9abd-e89574dca94b/apply) |
+| Decathlon Digital | Software Engineer - OneCheckout (f/m/d) | Lille, Upline, Nord, France | mid | Unknown | Unknown | Unknown | 2026-09-30 | [Apply](https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4994617101) |

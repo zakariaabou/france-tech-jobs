@@ -2,7 +2,7 @@
 
 Last pipeline run: 2026-10-29 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
-Showing 100 of 232 candidates (limit: 100). France appears first, followed by international and unknown locations.
+Showing 100 of 239 candidates (limit: 100). France appears first, followed by international and unknown locations.
 
 [Home](../README.md)
 
@@ -10,6 +10,8 @@ Showing 100 of 232 candidates (limit: 100). France appears first, followed by in
 
 | Company | Role | Categories | Location | Experience | Review reason | Sources | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| NEXTON | Data engineer Python/dask/polars H/F | Data Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000158550079-data-engineer-python-dask-polars-h-f) |
+| Meritis | Développeur Front-End (H/F) | Software Engineering | Montpellier, Occitanie, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000157836458-developpeur-front-end-h-f-) |
 | Sia | DevOps / Platform Engineer | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | sia | [Apply](https://jobs.smartrecruiters.com/Sia/744000157436169-devops-platform-engineer) |
 | Sia | Data Engineer | Data Engineering | Paris, IDF, France | unknown | Experience level not confirmed | sia | [Apply](https://jobs.smartrecruiters.com/Sia/744000158018449-data-engineer) |
 | Sia | Applied AI Engineer | AI Engineering | Paris, IDF, France | unknown | Experience level not confirmed | sia | [Apply](https://jobs.smartrecruiters.com/Sia/744000157435810-applied-ai-engineer) |
@@ -70,6 +72,7 @@ Showing 100 of 232 candidates (limit: 100). France appears first, followed by in
 | Scalian | Analyste Développeur C# Cloud Confirmé H/F | Software Engineering | Cergy, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000148306758-analyste-developpeur-c-cloud-confirme-h-f) |
 | Scalian |  Développeur Front H/F | Software Engineering | Bordeaux, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000107019955--developpeur-front-h-f) |
 | Scalian |  Développeur Android Kotlin Multiplatform KMP - CDI (F/H)  | Software Engineering | Annecy, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000138814282--developpeur-android-kotlin-multiplatform-kmp-cdi-f-h-) |
+| ONEY | Data Engineer F/H | Data Engineering | CROIX, Hauts-de-France, France | unknown | Experience level not confirmed | bpce-open-data | [Apply](https://recrutement.bpce.fr/job/data-engineer-f-h) |
 | NEXTON | UI Designer / Développeur Front-End H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000155055201-ui-designer-developpeur-front-end-h-f) |
 | NEXTON | Machine Learning Engineer H/F | AI Engineering | Bordeaux, Nouvelle-Aquitaine, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000154022179-machine-learning-engineer-h-f) |
 | NEXTON | Machine Learning Engineer H/F | AI Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000156295449-machine-learning-engineer-h-f) |
@@ -91,6 +94,7 @@ Showing 100 of 232 candidates (limit: 100). France appears first, followed by in
 | Meritis | DevOps Cloud/IA générative engineer (H/F) | AI Engineering | Valbonne, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000158327114-devops-cloud-ia-generative-engineer-h-f-) |
 | Magellan | Ingénieur IA (H/F)  | AI Engineering | Valbonne, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155742309-ingenieur-ia-h-f-) |
 | Magellan | Ingénieur IA  (H/F)  | AI Engineering | Aix-en-Provence, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000156480061-ingenieur-ia-h-f-) |
+| Magellan | Développeur Java confirmé (H/F) | Software Engineering | Limoges, Nouvelle-Aquitaine, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155287497-developpeur-java-confirme-h-f-) |
 | Magellan | Développeur Fullstack Java/ Angular (H/F) | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155432518-developpeur-fullstack-java-angular-h-f-) |
 | Magellan | Développeur Fullstack Java Vues.js (H/F) | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155427872-developpeur-fullstack-java-vues-js-h-f-) |
 | Magellan | Développeur Fullstack Java React.js (H/F) | Software Engineering | Nantes, Pays de la Loire, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155307443-developpeur-fullstack-java-react-js-h-f-) |
@@ -104,9 +108,5 @@ Showing 100 of 232 candidates (limit: 100). France appears first, followed by in
 | Iliad / Free | Fullstack Software Engineer PHP / Javascript / TypeScript  - Paris - H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | iliad-free | [Apply](https://jobs.smartrecruiters.com/Iliad-Free/744000156583310-fullstack-software-engineer-php-javascript-typescript-paris-h-f) |
 | Iliad / Free | Développeur Front-End | Software Engineering | Marseille, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | iliad-free | [Apply](https://jobs.smartrecruiters.com/Iliad-Free/744000085835656-developpeur-front-end) |
 | Iliad / Free | Développeur Back-End | Software Engineering | Marseille, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | iliad-free | [Apply](https://jobs.smartrecruiters.com/Iliad-Free/744000085821350-developpeur-back-end) |
-| VO2 Group | \[VO2 Finance\] - Développeur C# Confirmé – Trading Électronique / Front-Office CIB | Software Engineering | Paris, France | unknown | Experience level not confirmed | vo2-group | [Apply](https://jobs.lever.co/vo2-group/81b24104-5bc3-4650-9085-1a65179479d8/apply) |
-| VO2 Group | \[VO2 Brand Experience\] - Développeur Fullstack Shopify | Software Engineering | Paris, France | unknown | Experience level not confirmed | vo2-group | [Apply](https://jobs.lever.co/vo2-group/2a140d31-127f-4759-ad58-2981178cd28e/apply) |
-| VO2 Group | \[ VO2 FORCE \] - Développeur(se) IA / AI Engineer | AI Engineering, Software Engineering | Paris, France | unknown | Experience level not confirmed | vo2-group | [Apply](https://jobs.lever.co/vo2-group/5325c5b9-0e1d-44f0-8e09-0f226cba2d8b/apply) |
-| Theodo | Software Engineer Node/React - CDI Paris - Theodo Extend | Software Engineering | Paris | unknown | Experience level not confirmed | theodo | [Apply](https://jobs.lever.co/theodo/1a30709c-3bc1-48cc-b9a2-554e164bd618/apply) |
-| Theodo | Software Engineer Fullstack Expérimenté - CDI Paris - Theodo | Software Engineering | Paris | unknown | Experience level not confirmed | theodo | [Apply](https://jobs.lever.co/theodo/ab27737f-4012-48c8-9673-81a7b01e201c/apply) |
-| Theodo | Software Engineer Fullstack AI-Modernisation - CDI Paris - Theodo | Software Engineering | Paris | unknown | Experience level not confirmed | theodo | [Apply](https://jobs.lever.co/theodo/511aa2ae-7a3d-48c4-9243-0cced26d5490/apply) |
+| Banque Populaire Rives de Paris | Développeur Commercial Professionnels - H/F | Software Engineering | Paris, Ile de France, France | unknown | Experience level not confirmed | bpce-open-data | [Apply](https://recrutement.bpce.fr/job/developpeur-commercial-professionnels-h-f) |
+| Banque Populaire Rives de Paris | Développeur Commercial Professionnels - H/F | Software Engineering | EVRY COURCOURONNES CEDEX, Ile de France, France | unknown | Experience level not confirmed | bpce-open-data | [Apply](https://recrutement.bpce.fr/job/developpeur-commercial-professionnels-h-f-2) |

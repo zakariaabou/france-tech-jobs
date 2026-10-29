@@ -2,7 +2,7 @@
 
 Last pipeline run: 2026-10-29 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
-Showing 27 of 27 candidates (limit: 100). Region: international.
+Showing 28 of 28 candidates (limit: 100). Region: international.
 
 [Home](../README.md)
 
@@ -10,6 +10,7 @@ Showing 27 of 27 candidates (limit: 100). Region: international.
 
 | Company | Role | Categories | Location | Experience | Review reason | Sources | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Scalian | Software Developer | Software Engineering | Charleroi, , Belgium | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000158466250-software-developer) |
 | Sia | Consultant - Analytics Engineer | Data Engineering | Hong Kong, , Hong Kong | unknown | Experience level not confirmed | sia | [Apply](https://jobs.smartrecruiters.com/Sia/744000147851779-consultant-analytics-engineer) |
 | Scalian | Software Engineer Bas Niveau / Embarqué (H/F) | Software Engineering | Bruxelles, , Belgium | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000152502594-software-engineer-bas-niveau-embarque-h-f-) |
 | Scalian | Ingénieur Logiciel Embarqué / Temps Réel (H/F) | Software Engineering | Bruxelles, , Belgium | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000152501876-ingenieur-logiciel-embarque-temps-reel-h-f-) |

@@ -360,15 +360,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "09b09b6043c7d6f0042ad93adda33fbbb1c4402d5aff2259fe20790ce01d9f10",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Charenton-le-Pont, Ile de France, France",
     "published_at": "",
     "remote": "",
     "seniority": "excluded",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/stage-3-a-6-mois-developpeur-backend-python-f-h",
-    "status": "unknown",
+    "status": "active",
     "title": "Stage - 3 à 6 mois - Développeur Backend Python F/H"
   },
   {
@@ -383,15 +383,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "1456c77e3b9a334d090cc2826b2a6a8f08825fa12ddb23e4c37962bae54b1167",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Charenton le pont, Ile de France, France",
     "published_at": "",
     "remote": "",
     "seniority": "excluded",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-it-risques-de-marche-f-h",
-    "status": "unknown",
+    "status": "active",
     "title": "Stage - 6 mois - Développeur IT Risques de Marché F/H"
   },
   {
@@ -406,15 +406,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "2d16a742d20851db6be82c5bbe627fcd928da42e61a31b79533fb24886884450",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "CROIX, Hauts-de-France, France",
     "published_at": "",
     "remote": "",
     "seniority": "unknown",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/data-engineer-f-h",
-    "status": "unknown",
+    "status": "active",
     "title": "Data Engineer F/H"
   },
   {
@@ -429,15 +429,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "2d948f14bc797c72d68e0761810d6d9610ed523ee00af1b6106d271ed5faab1c",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Lezennes, Hauts-de-France, France",
     "published_at": "",
     "remote": "",
     "seniority": "excluded",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/stage-3-mois-developpeur-python-supervision-f-h",
-    "status": "unknown",
+    "status": "active",
     "title": "Stage - 3 mois - Développeur Python - Supervision F/H"
   },
   {
@@ -452,15 +452,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "2e1d3ec5a6c474123f60d42e0cbe14e75fee3c87801d8ba622c0cd52d7749e1c",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Paris, Ile de France, France",
     "published_at": "",
     "remote": "",
     "seniority": "excluded",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/stage-6-mois-ingenieur-data-supervision-applicative-elk-grafana-f-h",
-    "status": "unknown",
+    "status": "active",
     "title": "Stage - 6 mois - Ingénieur Data &amp; Supervision Applicative (ELK / Grafana) F/H"
   },
   {
@@ -475,15 +475,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "35457148172fb36933e4abb7a31a238669f60970a9c3e8635a48ce28ceff9c31",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Charenton le pont, Ile de France, France",
     "published_at": "",
     "remote": "",
     "seniority": "excluded",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-fullstack-f-h",
-    "status": "unknown",
+    "status": "active",
     "title": "Stage - 6 mois - Développeur FullStack F/H"
   },
   {
@@ -498,15 +498,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "3f8bf89ad9d5c4d4d80855fe976b5a3d81da3dec676286f0f3732407f6786f32",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Paris, Ile de France, France",
     "published_at": "",
     "remote": "",
     "seniority": "excluded",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-big-data-fullstack-f-h",
-    "status": "unknown",
+    "status": "active",
     "title": "Stage - 6 mois - Développeur Big Data/Fullstack F/H"
   },
   {
@@ -521,15 +521,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "5193aa5774f1d18a4aa0de5d9129ac26817b6e3c72cce92e39fb4870bcd1732c",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Paris, Ile de France, France",
     "published_at": "",
     "remote": "",
     "seniority": "excluded",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/stage-developpeur-java-f-h-paris",
-    "status": "unknown",
+    "status": "active",
     "title": "Stage - Développeur Java (F/H) - Paris"
   },
   {
@@ -544,15 +544,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "52794b8e4716cd0a32f1693ef47c66b51330e6230d78aee401e1ddb0587a0416",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Charenton-le-Pont, Ile de France, France",
     "published_at": "",
     "remote": "",
     "seniority": "unknown",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/integrateur-developpeur-applicatif-f-h",
-    "status": "unknown",
+    "status": "active",
     "title": "Intégrateur - Développeur applicatif - F/H"
   },
   {
@@ -567,15 +567,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "5ccf1ec27d81f315399fa1ac64378d8784901cc5548d1a241152a7be97194ec5",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Paris, Ile de France, France",
     "published_at": "",
     "remote": "",
     "seniority": "excluded",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/stage-3-a-6-mois-developpeur-automatisation-et-solutions-dimpression-f-h",
-    "status": "unknown",
+    "status": "active",
     "title": "Stage - 3 à 6 mois - Développeur Automatisation et solutions d'impression F/H"
   },
   {
@@ -590,15 +590,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "69cc2b492e7098296687871dfbdfabef761abd766f8c712770ec3e0fbb821c51",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Villeneuve-d'Ascq, Hauts-de-France, France | Montigny-le-Bretonneux, Ile de France, France | Bois-Guillaume, Normandie, France | Saint-Jacques-de-la-Lande, Bretagne, France | Dijon, Bourgogne-Franche-Comté, France | ORLEANS, Centre-Val de Loire, France | Paris, Ile de France, France | Saint-Herblain, Pays de la Loire, France | Villeurbanne, AUVERGNE-RHÔNE-ALPES, France | Bruges, Nouvelle-Aquitaine, France | Strasbourg, Grand Est, France | BALMA, Occitanie, France",
     "published_at": "",
     "remote": "",
     "seniority": "unknown",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/developpeur-fullstack-f-h",
-    "status": "unknown",
+    "status": "active",
     "title": "Développeur Fullstack (F/H)"
   },
   {
@@ -613,15 +613,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "71a6348d0844584317b8c4b154fc5fa12aa8cb84fc212817f3869a48902c943c",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Paris, Ile de France, France",
     "published_at": "",
     "remote": "",
     "seniority": "excluded",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/stage-3-a-6-mois-developpeur-innovation-f-h",
-    "status": "unknown",
+    "status": "active",
     "title": "Stage - 3 à 6 mois - Développeur Innovation F/H"
   },
   {
@@ -636,15 +636,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "8628268de3a8391a5ea273a2076983c515c526fd066ff9f5b55de4ece4bf62fe",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Paris, Ile de France, France",
     "published_at": "",
     "remote": "",
     "seniority": "excluded",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-observability-monitoring-f-h",
-    "status": "unknown",
+    "status": "active",
     "title": "Stage - 6 mois - Développeur Observability &amp; Monitoring F/H"
   },
   {
@@ -659,15 +659,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "87fd4ff5a959648171e5b168afe4a4c2abc5f4d9a7bd9ffc9ebd65ea69399344",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "CROIX, Hauts-de-France, France",
     "published_at": "",
     "remote": "",
     "seniority": "excluded",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/data-scientist-machine-learning-engineer-confirme-f-h",
-    "status": "unknown",
+    "status": "active",
     "title": "Data Scientist / Machine Learning Engineer Confirmé F/H"
   },
   {
@@ -682,15 +682,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "944e9f38af8de2c1ee7426ecb06089293e66beb8c454938b1a09746fb14ff527",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Paris, Ile de France, France",
     "published_at": "",
     "remote": "",
     "seniority": "excluded",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-quantitatif-f-h",
-    "status": "unknown",
+    "status": "active",
     "title": "Stage - 6 mois - Développeur Quantitatif - F/H"
   },
   {
@@ -705,15 +705,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "a1d9f4a2cd865724fa42429bef393ea6c7e67d21f94b32ebae32e9647eab62a3",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Charenton-le-Pont, Ile de France, France",
     "published_at": "",
     "remote": "",
     "seniority": "excluded",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/stage-developpeur-rpa-robotic-process-automation-f-h-charenton-le-pont",
-    "status": "unknown",
+    "status": "active",
     "title": "Stage – Développeur RPA (Robotic Process Automation) F/H – Charenton-le-Pont"
   },
   {
@@ -728,15 +728,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "ac6e2664170e5f6149b9a8fbf00822c4a6d55f7175c7a0bdf907681dd0e517d0",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Charenton-le-Pont, Ile de France, France",
     "published_at": "",
     "remote": "",
     "seniority": "excluded",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/stage-3-a-6-mois-developpeur-frontend-angular-f-h",
-    "status": "unknown",
+    "status": "active",
     "title": "Stage - 3 à 6 mois - Développeur Frontend Angular F/H"
   },
   {
@@ -751,15 +751,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "afc18d8a2d3170c940b71e142a7858d0af9918772357f38053c9da2c9f50b793",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Paris, Ile de France, France",
     "published_at": "",
     "remote": "",
     "seniority": "excluded",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-fullstack-web-sales-solutions-f-h",
-    "status": "unknown",
+    "status": "active",
     "title": "Stage - 6 mois - Développeur fullstack Web &amp; Sales Solutions (F/H)"
   },
   {
@@ -774,15 +774,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "b920b9958525eab2036314d1dba716e9dd47f38215be1d133d5f5495403936f8",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Paris, Ile de France, France",
     "published_at": "",
     "remote": "",
     "seniority": "unknown",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/developpeur-commercial-professionnels-h-f",
-    "status": "unknown",
+    "status": "active",
     "title": "Développeur Commercial Professionnels - H/F"
   },
   {
@@ -797,16 +797,39 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "b9406b3ffc6d0e7d39973b5cfe67ebb7e5f844a09bbb0029228d33a7a6aa697f",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Paris, Ile de France, France",
     "published_at": "",
     "remote": "",
     "seniority": "excluded",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/stage-developpeur-solutions-technologiques-du-si-f-h-paris",
-    "status": "unknown",
+    "status": "active",
     "title": "STAGE - Développeur Solutions Technologiques du SI (F/H) - PARIS"
+  },
+  {
+    "application_url": "https://recrutement.bpce.fr/job/stage-developpeur-logiciel-f-h-dijon",
+    "categories": [
+      "software"
+    ],
+    "company": "BPCE Solutions Informatiques",
+    "contract": "Stage sup à 2 mois",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-29",
+    "geography": "france",
+    "job_id": "c66813519a36c9fd0ef927a08dbd5998a895a68b28484834232ec832fe95c6e5",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
+    "location": "Dijon, Bourgogne-Franche-Comté, France",
+    "published_at": "",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "bpce-open-data",
+    "source_url": "https://recrutement.bpce.fr/job/stage-developpeur-logiciel-f-h-dijon",
+    "status": "active",
+    "title": "STAGE - Développeur logiciel (F/H) - Dijon"
   },
   {
     "application_url": "https://recrutement.bpce.fr/job/stage-3-a-6-mois-developpeur-automatisation-kpi-f-h",
@@ -820,15 +843,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "cec2b2d82cc0177814d6c8b57cbd49d54de355faaecbb77362caa816b1421e7e",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Charenton-le-Pont, Ile de France, France",
     "published_at": "",
     "remote": "",
     "seniority": "excluded",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/stage-3-a-6-mois-developpeur-automatisation-kpi-f-h",
-    "status": "unknown",
+    "status": "active",
     "title": "Stage - 3 à 6 mois - Développeur Automatisation KPI F/H"
   },
   {
@@ -843,15 +866,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "e56d596a3dd7fb79d5f0d955e51d76979a0d36612a940459d0dcc5f39c4d4619",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Paris, Ile de France, France",
     "published_at": "",
     "remote": "",
     "seniority": "excluded",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-python-finance-valuation-group-f-h",
-    "status": "unknown",
+    "status": "active",
     "title": "Stage - 6 mois - Développeur Python - Finance Valuation Group F/H"
   },
   {
@@ -866,15 +889,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "e79fcfd909595c2dee4e534ab88d5b8cca6909ed4487550f4b97c55999a0b7c0",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Bois-Guillaume, Normandie, France | Villeneuve-d'Ascq, Hauts-de-France, France | Charenton-le-Pont, Ile de France, France | Bruges, Nouvelle-Aquitaine, France | Dijon, Bourgogne-Franche-Comté, France | Montigny-le-Bretonneux, Ile de France, France | Saint-Herblain, Pays de la Loire, France | Paris, Ile de France, France | Saint-Estève, Occitanie, France | BALMA, Occitanie, France",
     "published_at": "",
     "remote": "",
     "seniority": "unknown",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/developpeur-parametreur-f-h",
-    "status": "unknown",
+    "status": "active",
     "title": "Développeur/Paramétreur (F/H)"
   },
   {
@@ -889,15 +912,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "e9475c279493694eb2913cccc8bcf273127b12dbb0bc00e6db61503a29dae66f",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Paris, Ile de France, France",
     "published_at": "",
     "remote": "",
     "seniority": "excluded",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-java-microservice-f-h",
-    "status": "unknown",
+    "status": "active",
     "title": "Stage - 6 mois - Développeur Java Microservice F/H"
   },
   {
@@ -912,15 +935,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "e9c799dfdb9acef19e0416f18da8ae7b6b5ba8b6aac214d353ed78b29ccaa2a6",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Paris, Ile de France, France",
     "published_at": "",
     "remote": "",
     "seniority": "excluded",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-doutils-econometriques-python-ia-agentique-f-h",
-    "status": "unknown",
+    "status": "active",
     "title": "Stage - 6 mois - Développeur d'outils économétriques (Python/IA agentique) F/H"
   },
   {
@@ -935,15 +958,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "ea6bf791fc29018c0b211889d41eacd31e4d35efcff84b5263174a0cac6f2d2a",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Schiltigheim, Grand Est, France",
     "published_at": "",
     "remote": "",
     "seniority": "excluded",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/stage-3-mois-developpeur-web-f-h",
-    "status": "unknown",
+    "status": "active",
     "title": "Stage - 3 mois - Développeur web F/H"
   },
   {
@@ -958,15 +981,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "f0217cb6ccb61370acf7ded8eb6842d760202bf75fbc3995f25dfdaccc9e4674",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "EVRY COURCOURONNES CEDEX, Ile de France, France",
     "published_at": "",
     "remote": "",
     "seniority": "unknown",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/developpeur-commercial-professionnels-h-f-2",
-    "status": "unknown",
+    "status": "active",
     "title": "Développeur Commercial Professionnels - H/F"
   },
   {
@@ -981,15 +1004,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "f134a968e4f571f856f440502d3b5c0284c243248c6d20b37f752887261e9ffc",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Saint-Herblain, Pays de la Loire, France | BALMA, Occitanie, France | Saint-Jacques-de-la-Lande, Bretagne, France | Bois-Guillaume, Normandie, France | ORLEANS, Centre-Val de Loire, France | Paris, Ile de France, France | Villeurbanne, AUVERGNE-RHÔNE-ALPES, France | Aix-en-provence, Provence-Alpes-Côte d'Azur, France | Villeneuve-d'Ascq, Hauts-de-France, France",
     "published_at": "",
     "remote": "",
     "seniority": "unknown",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/developpeur-ios-f-h",
-    "status": "unknown",
+    "status": "active",
     "title": "Développeur iOS (F/H)"
   },
   {
@@ -1004,15 +1027,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "f590fd1376eea2fafd0d7aa46b6b72405c1db2c37ce01554a692a6b7d84bbdc5",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Paris, Ile de France, France",
     "published_at": "",
     "remote": "",
     "seniority": "excluded",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/stage-developpeur-fullstack-f-h-paris",
-    "status": "unknown",
+    "status": "active",
     "title": "STAGE - Développeur Fullstack (F/H) – PARIS"
   },
   {
@@ -1027,15 +1050,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "f8bff1a7f72545110969a8deaae8d4cf2754faf6570f5eeebff2dcfe7d58a50c",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Paris, Ile de France, France",
     "published_at": "",
     "remote": "",
     "seniority": "excluded",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-full-stack-ia-support-applicatif-f-h",
-    "status": "unknown",
+    "status": "active",
     "title": "Stage - 6 mois - Développeur Full Stack &amp; IA - Support Applicatif F/H"
   },
   {
@@ -1050,15 +1073,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "fa3e42eb21807458a2e2b453535cbc4e3b1379d21ee89959acb5c451aacbab98",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Saint-Herblain, Pays de la Loire, France",
     "published_at": "",
     "remote": "",
     "seniority": "excluded",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/stage-developpeur-bi-f-h-nantes",
-    "status": "unknown",
+    "status": "active",
     "title": "STAGE - Développeur BI F/H - NANTES"
   },
   {
@@ -1073,15 +1096,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "fa6e02e94ce3df304878b0882265a54afb24aa3bfe13636d3b4373515659c8a3",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Paris, Ile de France, France",
     "published_at": "",
     "remote": "",
     "seniority": "excluded",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/stage-6-mois-developpeur-web-front-et-back-f-h",
-    "status": "unknown",
+    "status": "active",
     "title": "Stage - 6 mois - Développeur web (Front et Back) F/H"
   },
   {
@@ -1096,15 +1119,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "fb8467cd48c0d0f361120062d197e581df1a2ff2daa587f699de0b5ba884278f",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Lezennes, Hauts-de-France, France",
     "published_at": "",
     "remote": "",
     "seniority": "excluded",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/stage-3-a-6-mois-developpeur-python-api-automatisation-f-h",
-    "status": "unknown",
+    "status": "active",
     "title": "Stage - 3 à 6 mois - Développeur Python &amp; API – Automatisation F/H"
   },
   {
@@ -1119,15 +1142,15 @@
     "first_seen": "2026-10-28",
     "geography": "france",
     "job_id": "fc2543eddc733e9d92891e205b7a25df94e53cc2035570cb021c65666867d6fa",
-    "last_checked": "2026-10-28",
-    "last_seen": "2026-10-28",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
     "location": "Charenton le pont, Ile de France, France",
     "published_at": "",
     "remote": "",
     "seniority": "excluded",
     "source_id": "bpce-open-data",
     "source_url": "https://recrutement.bpce.fr/job/stage-6-mois-ingenieur-big-data-developpeur-front-end-f-h",
-    "status": "unknown",
+    "status": "active",
     "title": "Stage - 6 mois - Ingénieur Big Data &amp; Développeur Front-End F/H"
   },
   {
@@ -2096,7 +2119,7 @@
     ],
     "company": "Decathlon Digital",
     "contract": "",
-    "eligible": false,
+    "eligible": true,
     "employment_type": "",
     "first_seen": "2026-10-27",
     "geography": "france",
@@ -2106,7 +2129,7 @@
     "location": "Lille, Upline, Nord, France",
     "published_at": "2026-09-30T13:12:56-04:00",
     "remote": "",
-    "seniority": "unknown",
+    "seniority": "mid",
     "source_id": "decathlon-digital",
     "source_url": "https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/4994617101",
     "status": "active",
@@ -2365,6 +2388,29 @@
     "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7675665003",
     "status": "active",
     "title": "Staff DataOps Engineer (x/f/m)"
+  },
+  {
+    "application_url": "https://job-boards.greenhouse.io/doctolib/jobs/7739616003",
+    "categories": [
+      "software"
+    ],
+    "company": "Doctolib",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "",
+    "first_seen": "2026-10-29",
+    "geography": "international",
+    "job_id": "7739616003",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
+    "location": "Amsterdam, North Holland, Netherlands",
+    "published_at": "2026-05-27T04:17:31-04:00",
+    "remote": "",
+    "seniority": "excluded",
+    "source_id": "doctolib",
+    "source_url": "https://job-boards.greenhouse.io/doctolib/jobs/7739616003",
+    "status": "active",
+    "title": "Senior Fullstack Engineer - Java, React (x/f/m)"
   },
   {
     "application_url": "https://job-boards.greenhouse.io/doctolib/jobs/7749352003",
@@ -3632,6 +3678,29 @@
     "title": "Senior Data Engineer"
   },
   {
+    "application_url": "https://jobs.lever.co/kpler/645258a8-e421-4ef9-b466-2d4a4fa303bd/apply",
+    "categories": [
+      "data"
+    ],
+    "company": "Kpler",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-29",
+    "geography": "international",
+    "job_id": "645258a8-e421-4ef9-b466-2d4a4fa303bd",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
+    "location": "United Kingdom",
+    "published_at": "",
+    "remote": "hybrid",
+    "seniority": "excluded",
+    "source_id": "kpler",
+    "source_url": "https://jobs.lever.co/kpler/645258a8-e421-4ef9-b466-2d4a4fa303bd",
+    "status": "active",
+    "title": "Senior Data Engineer - Financial Flows"
+  },
+  {
     "application_url": "https://jobs.lever.co/kpler/65674b91-1b8e-402b-b1aa-875a13ec0949/apply",
     "categories": [
       "data"
@@ -4052,7 +4121,7 @@
     ],
     "company": "Magellan",
     "contract": "",
-    "eligible": true,
+    "eligible": false,
     "employment_type": "Full-time",
     "first_seen": "2026-10-28",
     "geography": "france",
@@ -4062,7 +4131,7 @@
     "location": "Limoges, Nouvelle-Aquitaine, France",
     "published_at": "2026-10-13T14:57:43.371Z",
     "remote": "hybrid",
-    "seniority": "mid",
+    "seniority": "unknown",
     "source_id": "magellan",
     "source_url": "https://jobs.smartrecruiters.com/Magellan/744000155287497-developpeur-java-confirme-h-f-",
     "status": "active",
@@ -4395,6 +4464,7 @@
     "categories": [
       "software"
     ],
+    "closed_since": "2026-10-29",
     "company": "MARGO",
     "contract": "Permanent contract & B2B",
     "eligible": false,
@@ -4410,7 +4480,7 @@
     "seniority": "unknown",
     "source_id": "margo-group",
     "source_url": "https://jobs.lever.co/margo-group/53c545a3-7918-4193-8e58-ec97bf325b9c",
-    "status": "active",
+    "status": "closed",
     "title": "Fullstack Developer (.NET & Angular) | Cloud-Native Focus"
   },
   {
@@ -5285,8 +5355,9 @@
     "seniority": "unknown",
     "source_id": "meritis",
     "source_url": "https://jobs.smartrecruiters.com/Meritis/744000139599662-developpeur-java-h-f-",
-    "status": "active",
-    "title": "Développeur JAVA (H/F)"
+    "status": "unknown",
+    "title": "Développeur JAVA (H/F)",
+    "unknown_since": "2026-10-29"
   },
   {
     "application_url": "https://jobs.smartrecruiters.com/Meritis/744000139606849-developpeur-c-h-f-",
@@ -5308,8 +5379,9 @@
     "seniority": "unknown",
     "source_id": "meritis",
     "source_url": "https://jobs.smartrecruiters.com/Meritis/744000139606849-developpeur-c-h-f-",
-    "status": "active",
-    "title": "Développeur C++ (H/F)"
+    "status": "unknown",
+    "title": "Développeur C++ (H/F)",
+    "unknown_since": "2026-10-29"
   },
   {
     "application_url": "https://jobs.smartrecruiters.com/Meritis/744000140025709-developpeur-python-angular-h-f-",
@@ -5792,7 +5864,8 @@
     "source_id": "meritis",
     "source_url": "https://jobs.smartrecruiters.com/Meritis/744000154972668-developpeur-react-senior-h-f",
     "status": "unknown",
-    "title": "Développeur React senior H/F"
+    "title": "Développeur React senior H/F",
+    "unknown_since": "2026-10-29"
   },
   {
     "application_url": "https://jobs.smartrecruiters.com/Meritis/744000155715418-developpeur-c-finance-h-f-",
@@ -5910,6 +5983,29 @@
     "title": "Data Engineer GCP (H/F)"
   },
   {
+    "application_url": "https://jobs.smartrecruiters.com/Meritis/744000157836458-developpeur-front-end-h-f-",
+    "categories": [
+      "software"
+    ],
+    "company": "Meritis",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-29",
+    "geography": "france",
+    "job_id": "744000157836458",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
+    "location": "Montpellier, Occitanie, France",
+    "published_at": "2026-10-26T14:47:06.811Z",
+    "remote": "",
+    "seniority": "unknown",
+    "source_id": "meritis",
+    "source_url": "https://jobs.smartrecruiters.com/Meritis/744000157836458-developpeur-front-end-h-f-",
+    "status": "active",
+    "title": "Développeur Front-End (H/F)"
+  },
+  {
     "application_url": "https://jobs.smartrecruiters.com/Meritis/744000157855538-devops-cloud-ia-generative-engineer-h-f-",
     "categories": [
       "ai"
@@ -5977,7 +6073,8 @@
     "source_id": "meritis",
     "source_url": "https://jobs.smartrecruiters.com/Meritis/744000158003594-lead-data-engineer-gcp-h-f-",
     "status": "unknown",
-    "title": "Lead Data engineer GCP (H/F)"
+    "title": "Lead Data engineer GCP (H/F)",
+    "unknown_since": "2026-10-29"
   },
   {
     "application_url": "https://jobs.smartrecruiters.com/Meritis/744000158004000-developpeur-c-go-embarque-h-f-",
@@ -6393,7 +6490,8 @@
     "source_id": "nexton",
     "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000152719770-lead-senior-data-platform-engineer-h-f",
     "status": "unknown",
-    "title": "Lead / Senior Data Platform Engineer H/F"
+    "title": "Lead / Senior Data Platform Engineer H/F",
+    "unknown_since": "2026-10-29"
   },
   {
     "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000153508789-developpeur-java-h-f",
@@ -6554,7 +6652,8 @@
     "source_id": "nexton",
     "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000154084149-software-engineer-full-stack-senior-h-f",
     "status": "unknown",
-    "title": "Software Engineer Full Stack Senior H/F"
+    "title": "Software Engineer Full Stack Senior H/F",
+    "unknown_since": "2026-10-29"
   },
   {
     "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000154095667-data-engineer-developpeur-data-api-h-f",
@@ -6717,7 +6816,8 @@
     "source_id": "nexton",
     "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000154958637-developpeur-java-senior-microservices-kafka-h-f",
     "status": "unknown",
-    "title": "Développeur Java Senior (Microservices & Kafka) H/F"
+    "title": "Développeur Java Senior (Microservices & Kafka) H/F",
+    "unknown_since": "2026-10-29"
   },
   {
     "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000154972443-developpeur-back-end-java-nodejs-kotlin-aws-h-f",
@@ -6809,7 +6909,8 @@
     "source_id": "nexton",
     "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000155767570-developpeur-java-react-senior-h-f-",
     "status": "unknown",
-    "title": "Développeur Java / React senior H/F "
+    "title": "Développeur Java / React senior H/F ",
+    "unknown_since": "2026-10-29"
   },
   {
     "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000155772019-developpeur-senior-javascript-backend-h-f",
@@ -6832,7 +6933,8 @@
     "source_id": "nexton",
     "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000155772019-developpeur-senior-javascript-backend-h-f",
     "status": "unknown",
-    "title": "Développeur Senior JavaScript / Backend H/F"
+    "title": "Développeur Senior JavaScript / Backend H/F",
+    "unknown_since": "2026-10-29"
   },
   {
     "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000155773269-developpeur-backend-net-h-f",
@@ -7016,7 +7118,8 @@
     "source_id": "nexton",
     "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000157496829-lead-developpeur-node-js-h-f",
     "status": "unknown",
-    "title": "Lead développeur Node.js H/F"
+    "title": "Lead développeur Node.js H/F",
+    "unknown_since": "2026-10-29"
   },
   {
     "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000157993379-data-engineer-senior-gcp-dataiku-h-f",
@@ -7039,7 +7142,8 @@
     "source_id": "nexton",
     "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000157993379-data-engineer-senior-gcp-dataiku-h-f",
     "status": "unknown",
-    "title": "Data Engineer Senior - GCP / Dataiku H/F"
+    "title": "Data Engineer Senior - GCP / Dataiku H/F",
+    "unknown_since": "2026-10-29"
   },
   {
     "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000157997029-developpeur-java-angular-h-f",
@@ -7109,6 +7213,29 @@
     "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000158108039-developpeur-c-it-quant-pricing-pre-trade-api-sophis-h-f",
     "status": "active",
     "title": "Développeur C# - IT Quant Pricing Pre Trade (+ API Sophis) H/F"
+  },
+  {
+    "application_url": "https://jobs.smartrecruiters.com/NEXTON/744000158550079-data-engineer-python-dask-polars-h-f",
+    "categories": [
+      "data"
+    ],
+    "company": "NEXTON",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-29",
+    "geography": "france",
+    "job_id": "744000158550079",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
+    "location": "Paris, IDF, France",
+    "published_at": "2026-10-29T15:23:02.855Z",
+    "remote": "",
+    "seniority": "unknown",
+    "source_id": "nexton",
+    "source_url": "https://jobs.smartrecruiters.com/NEXTON/744000158550079-data-engineer-python-dask-polars-h-f",
+    "status": "active",
+    "title": "Data engineer Python/dask/polars H/F"
   },
   {
     "application_url": "https://jobs.lever.co/odaseva/5fa5b26d-a0f2-4135-9559-e63feb2213f1/apply",
@@ -9779,6 +9906,29 @@
     "title": "Développeur java - F/H "
   },
   {
+    "application_url": "https://jobs.smartrecruiters.com/Scalian/744000158466250-software-developer",
+    "categories": [
+      "software"
+    ],
+    "company": "Scalian",
+    "contract": "",
+    "eligible": false,
+    "employment_type": "Full-time",
+    "first_seen": "2026-10-29",
+    "geography": "international",
+    "job_id": "744000158466250",
+    "last_checked": "2026-10-29",
+    "last_seen": "2026-10-29",
+    "location": "Charleroi, , Belgium",
+    "published_at": "2026-10-29T09:19:25.066Z",
+    "remote": "hybrid",
+    "seniority": "unknown",
+    "source_id": "scalian",
+    "source_url": "https://jobs.smartrecruiters.com/Scalian/744000158466250-software-developer",
+    "status": "active",
+    "title": "Software Developer"
+  },
+  {
     "application_url": "https://jobs.lever.co/sfeir/005ff876-b2a7-4782-a999-cd9c037535c4/apply",
     "categories": [
       "ai",
@@ -11276,13 +11426,14 @@
     "source_id": "teads",
     "source_url": "https://job-boards.eu.greenhouse.io/teads1/jobs/4639440101",
     "status": "active",
-    "title": "Senior Software Engineer"
+    "title": "Senior Software Engineer - Open Application "
   },
   {
     "application_url": "https://job-boards.eu.greenhouse.io/teads1/jobs/4673150101",
     "categories": [
       "software"
     ],
+    "closed_since": "2026-10-29",
     "company": "Teads",
     "contract": "",
     "eligible": false,
@@ -11298,7 +11449,7 @@
     "seniority": "excluded",
     "source_id": "teads",
     "source_url": "https://job-boards.eu.greenhouse.io/teads1/jobs/4673150101",
-    "status": "active",
+    "status": "closed",
     "title": "Senior Fullstack Engineer - Core Branding Team"
   },
   {
@@ -11345,7 +11496,7 @@
     "source_id": "teads",
     "source_url": "https://job-boards.eu.greenhouse.io/teads1/jobs/4846467101",
     "status": "active",
-    "title": "Software Engineer"
+    "title": "Software Engineer - Open Application"
   },
   {
     "application_url": "https://job-boards.eu.greenhouse.io/teads1/jobs/4846998101",
