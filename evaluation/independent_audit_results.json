@@ -1,0 +1,293 @@
+{
+  "review_provenance": "Single assistant qualitative reviewer; labels frozen before predictions",
+  "limitations": "28 selected cases, one publish label; not market representative; category boundaries require second review",
+  "results": [
+    {
+      "source_id": "scalian",
+      "job_id": "744000156557326",
+      "detail_sha256": "030229407efbdd8111e7a426f6c383e1a1d5fdb1d6154f86114c5ce7cb6141de",
+      "expected": "exclude",
+      "observed": "exclude",
+      "expected_categories": [
+        "data",
+        "ai"
+      ],
+      "observed_categories": []
+    },
+    {
+      "source_id": "sia",
+      "job_id": "744000155061916",
+      "detail_sha256": "375e80c2c337f367d5590582e189c4e949633b7aef3d81e54bed6ca60efa2a14",
+      "expected": "exclude",
+      "observed": "exclude",
+      "expected_categories": [
+        "ai"
+      ],
+      "observed_categories": []
+    },
+    {
+      "source_id": "magellan",
+      "job_id": "744000156477756",
+      "detail_sha256": "f321a1645c31d522922532deafc5b52fe5555f99869416f9a2eece334153bdf2",
+      "expected": "exclude",
+      "observed": "exclude",
+      "expected_categories": [
+        "data"
+      ],
+      "observed_categories": []
+    },
+    {
+      "source_id": "sia",
+      "job_id": "743999822146896",
+      "detail_sha256": "e10fd934a27dcd13394d04ec36a606dd7cff7324c432628f760d915580f1e076",
+      "expected": "exclude",
+      "observed": "exclude",
+      "expected_categories": [],
+      "observed_categories": []
+    },
+    {
+      "source_id": "sia",
+      "job_id": "744000152197099",
+      "detail_sha256": "c5c299528c48d5c5ba9aa68721a1d36c077f69db75c873ae1404514d9bb18d47",
+      "expected": "review",
+      "observed": "review",
+      "expected_categories": [
+        "ai"
+      ],
+      "observed_categories": [
+        "ai"
+      ]
+    },
+    {
+      "source_id": "sia",
+      "job_id": "744000157780960",
+      "detail_sha256": "bc20c2c3b71b21b0a7454466cf2eeb39b92d8c3d3b388c8752bdb21c997da4be",
+      "expected": "exclude",
+      "observed": "exclude",
+      "expected_categories": [],
+      "observed_categories": []
+    },
+    {
+      "source_id": "scalian",
+      "job_id": "744000156373259",
+      "detail_sha256": "3bc7932ce3a47bb38be4397facd8e3393f0786d6e142701c2cd16acbb2153ded",
+      "expected": "exclude",
+      "observed": "exclude",
+      "expected_categories": [
+        "ai"
+      ],
+      "observed_categories": []
+    },
+    {
+      "source_id": "sia",
+      "job_id": "744000155802339",
+      "detail_sha256": "c951c95cbf5de6eef45ddd64b1d9a0ecbba05859725077b6b1b24159eb4e5783",
+      "expected": "exclude",
+      "observed": "exclude",
+      "expected_categories": [],
+      "observed_categories": []
+    },
+    {
+      "source_id": "scalian",
+      "job_id": "744000156343329",
+      "detail_sha256": "f27fce9f1fda95ade63b4e4c3b2c890c01a42bbc84bd1c592de58db35f775de8",
+      "expected": "exclude",
+      "observed": "exclude",
+      "expected_categories": [
+        "ai"
+      ],
+      "observed_categories": []
+    },
+    {
+      "source_id": "sia",
+      "job_id": "744000135096466",
+      "detail_sha256": "5545be9bd4cec1c90173fae214b9b23e4bdcf67e2bad48bd5587e21dee5656ef",
+      "expected": "exclude",
+      "observed": "exclude",
+      "expected_categories": [],
+      "observed_categories": []
+    },
+    {
+      "source_id": "sia",
+      "job_id": "744000147610819",
+      "detail_sha256": "b77e8f2d85e81b798c5b700a6cb692af0ee1ef4f609ec7fa65140694a9e37bfc",
+      "expected": "exclude",
+      "observed": "exclude",
+      "expected_categories": [
+        "data",
+        "ai"
+      ],
+      "observed_categories": []
+    },
+    {
+      "source_id": "sia",
+      "job_id": "744000157784649",
+      "detail_sha256": "7bee44f8e9c0ba9aacdd695b6f28883a22023f79d1f0e6719dcb94f3011dfe62",
+      "expected": "publish",
+      "observed": "publish",
+      "expected_categories": [
+        "ai"
+      ],
+      "observed_categories": [
+        "ai"
+      ]
+    },
+    {
+      "source_id": "scalian",
+      "job_id": "744000135198639",
+      "detail_sha256": "551538973b3e9a34a7181ad36966498648c96dbf37c322233ae7b7d9c2ed5976",
+      "expected": "exclude",
+      "observed": "exclude",
+      "expected_categories": [],
+      "observed_categories": []
+    },
+    {
+      "source_id": "scalian",
+      "job_id": "744000069103885",
+      "detail_sha256": "50172446e4e62d8a8b7338920768d3a5c185e5eb868029fb4cdfd93dbd6dda3a",
+      "expected": "exclude",
+      "observed": "exclude",
+      "expected_categories": [],
+      "observed_categories": []
+    },
+    {
+      "source_id": "iliad-free",
+      "job_id": "744000157425599",
+      "detail_sha256": "780eb42cccd50b96a887fce56423a9808f1884b452a3ca88ca56a2cbda09f00b",
+      "expected": "exclude",
+      "observed": "exclude",
+      "expected_categories": [],
+      "observed_categories": []
+    },
+    {
+      "source_id": "scalian",
+      "job_id": "744000132818095",
+      "detail_sha256": "54e826b3ede4f925be1bbae90c49e6819bb7373ff8f14cea85e39c5e4696cce5",
+      "expected": "exclude",
+      "observed": "exclude",
+      "expected_categories": [],
+      "observed_categories": []
+    },
+    {
+      "source_id": "sia",
+      "job_id": "744000157778575",
+      "detail_sha256": "4b95b07ee0c83641e96882ffaa976fe2dc83e691f8b80d8370f9b8c28531640c",
+      "expected": "exclude",
+      "observed": "exclude",
+      "expected_categories": [],
+      "observed_categories": []
+    },
+    {
+      "source_id": "scalian",
+      "job_id": "744000128911749",
+      "detail_sha256": "37a9e21894b09aa04285b45cbb7910e2ae77ac4d7f7b4a5c8dc715187511a6dd",
+      "expected": "exclude",
+      "observed": "exclude",
+      "expected_categories": [],
+      "observed_categories": []
+    },
+    {
+      "source_id": "magellan",
+      "job_id": "744000158241279",
+      "detail_sha256": "76c47b587ace49912ba01b93d4b55a223959b9aebdfb5ef01e791a190cf437a4",
+      "expected": "exclude",
+      "observed": "exclude",
+      "expected_categories": [],
+      "observed_categories": []
+    },
+    {
+      "source_id": "iliad-free",
+      "job_id": "744000143783124",
+      "detail_sha256": "059922c8d455bd1614356faa8e58c1cee75807c2c731bff39c00d9c886c206b6",
+      "expected": "exclude",
+      "observed": "exclude",
+      "expected_categories": [],
+      "observed_categories": []
+    },
+    {
+      "source_id": "iliad-free",
+      "job_id": "744000155202831",
+      "detail_sha256": "68ff0c53360b9dd428d9561132353fd1d44c4be8920e681a28298d5863173187",
+      "expected": "exclude",
+      "observed": "exclude",
+      "expected_categories": [],
+      "observed_categories": []
+    },
+    {
+      "source_id": "sia",
+      "job_id": "744000126359660",
+      "detail_sha256": "37a4163cd651a57dc2fe69c804820121adb272da596745a71dd254e9979b8513",
+      "expected": "exclude",
+      "observed": "exclude",
+      "expected_categories": [],
+      "observed_categories": []
+    },
+    {
+      "source_id": "sia",
+      "job_id": "744000130267969",
+      "detail_sha256": "29a81e47d66ac5b36a6ff142297b0d9fcaa6336f4463b5b127d4a81d4797d1d8",
+      "expected": "exclude",
+      "observed": "exclude",
+      "expected_categories": [],
+      "observed_categories": []
+    },
+    {
+      "source_id": "scalian",
+      "job_id": "744000083782655",
+      "detail_sha256": "8050d2f0a1292ce77c847d67c2f703c0b7b8d106f1a518ebe5eb2dafa154c42c",
+      "expected": "exclude",
+      "observed": "exclude",
+      "expected_categories": [],
+      "observed_categories": []
+    },
+    {
+      "source_id": "scalian",
+      "job_id": "744000148306758",
+      "detail_sha256": "539f68243f7bab6c5b9c4c5d928da51b36fb92ca3a1b6c625f07e822c6e04d9a",
+      "expected": "review",
+      "observed": "review",
+      "expected_categories": [
+        "software"
+      ],
+      "observed_categories": [
+        "software"
+      ]
+    },
+    {
+      "source_id": "magellan",
+      "job_id": "744000155287497",
+      "detail_sha256": "713f0ef01733502910075d7bf6b2b483c40b7f610ff80ecf70251a0e45a4ff1d",
+      "expected": "review",
+      "observed": "review",
+      "expected_categories": [
+        "software"
+      ],
+      "observed_categories": [
+        "software"
+      ]
+    },
+    {
+      "source_id": "scalian",
+      "job_id": "744000156472726",
+      "detail_sha256": "ad76fe231878a7e94295e5ea185c39b8b29b2b40afdcdfed2ecbb9e31ab4abe3",
+      "expected": "exclude",
+      "observed": "exclude",
+      "expected_categories": [],
+      "observed_categories": []
+    },
+    {
+      "source_id": "scalian",
+      "job_id": "744000155467629",
+      "detail_sha256": "7b5e3ed456ff444e0c4920f53e8c65eecf88831f97beca97442cf0579741558a",
+      "expected": "review",
+      "observed": "review",
+      "expected_categories": [
+        "software"
+      ],
+      "observed_categories": [
+        "software"
+      ]
+    }
+  ],
+  "classifier_sha256": "541b96819108f07c1c18218e1e0fcee371cdd6b46e6f8acdbacbc4da41dc5065"
+}

@@ -187,6 +187,20 @@ class ClassificationTests(unittest.TestCase):
                 self.assertEqual(result["seniority"], "unknown")
                 self.assertFalse(result["eligible"])
 
+    def test_experience_before_number_open_minimum_overrides_confirmed_title(self):
+        for text in ("Vous disposez d'une expérience d'au moins 4 ans post-études sur un poste similaire.",
+                     "You have experience of at least 3 years in development.",
+                     "Vous avez une expérience de 2 ans minimum."):
+            with self.subTest(text=text):
+                result = classify("Développeur Java confirmé", text, "Paris")
+                self.assertEqual(result['seniority'], 'unknown')
+                self.assertFalse(result['eligible'])
+
+    def test_experience_before_number_preserves_senior_and_bounded_requirements(self):
+        self.assertEqual(classify('Software Engineer junior', "Vous avez une expérience de 6 ans.", 'Paris')['seniority'], 'excluded')
+        self.assertEqual(classify('Software Engineer', "Vous avez une expérience de 2 à 4 ans.", 'Paris')['seniority'], 'junior-mid')
+        self.assertEqual(classify('Software Engineer junior', "Notre entreprise dispose d'une expérience de 20 ans.", 'Paris')['seniority'], 'junior')
+
     def test_conflicting_requirements_are_unknown(self):
         result = classify("Data Engineer", "Requires 2 years of experience; requires 3 years of experience", "Paris")
         self.assertEqual(result["seniority"], "unknown")

@@ -37,6 +37,12 @@ _EXPERIENCE = re.compile(
     r"(?:of\s+|d[' ]|de\s+)?(?:(?:professional|professionnelle?|hands[ -]on|software|development|engineering|work|relevant)\s+){0,5}"
     r"experience(?:\s+professionnelle?)?\b(?:\s*(?P<minimum_after>minimum|min\.?))?"
 )
+_EXPERIENCE_FIRST = re.compile(
+    r"\bexperience(?:\s+professionnelle?)?\s+(?:(?:d[' ]|de\s+|of\s+))?"
+    r"(?:(?P<minimum_before>au moins|at least|(?:au )?minimum(?: de| of)?|a partir de)\s+)?"
+    r"(?P<low>\d{1,2})\s*(?:(?:[-–]|to|a)\s*(?P<high>\d{1,2})|(?P<plus>\+))?\s*"
+    r"(?:years?|ans?)\b(?:\s*(?P<minimum_after>minimum|min\.?))?"
+)
 _COMPANY = r"\b(?:company|business|organisation|organization|entreprise|societe|agence|agency|founded|fondee|notre equipe|our team|we have|nous avons)\b"
 _CANDIDATE = r"\b(?:candidate|candidates|applicant|applicants|you|your|requires?|required|must|have you|vous|votre|candidat|candidate|profil|recherche|exige|exigee|requis|requise)\b"
 
@@ -76,7 +82,10 @@ def _experience(title: str, description: str, contract: str) -> str:
     requirements = []
     for clause in re.split(r"[.;!?\n]", description):
         previous_end = 0
-        for experience in _EXPERIENCE.finditer(clause):
+        matches = sorted([*_EXPERIENCE.finditer(clause), *_EXPERIENCE_FIRST.finditer(clause)], key=lambda match: match.start())
+        for experience in matches:
+            if experience.start() < previous_end:
+                continue
             prefix = clause[previous_end:experience.start()]
             previous_end = experience.end()
             company_mentions = list(re.finditer(_COMPANY, prefix))

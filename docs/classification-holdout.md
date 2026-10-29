@@ -1,5 +1,9 @@
 # Stratified classification audit
 
+A [new independent review queue](independent-audit.md) was frozen on 2026-10-29.
+It now has assistant-reviewed labels and full-description hash-verified evaluation;
+it still does not establish population accuracy.
+
 This audit is separate from the 20 development examples. On 2026-10-27 we
 retrieved 412 public postings from seven employer boards (Decathlon Digital,
 Algolia, Doctolib, SFEIR, Doctrine, Mendix and Ekimetrics), removed jobs whose

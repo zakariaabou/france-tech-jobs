@@ -25,6 +25,18 @@ button/form was not independently verified in this follow-up, and no application
 was submitted. The stored application URL remains the actual provider posting
 URL rather than an invented URL.
 
+A follow-up search of retained active data roles and configured employer
+career listings found no explicitly junior/new-graduate France data title.
+Live detail spot-checks explain several nearby candidates: Sia Data Engineer
+requires at least two years, Meritis Data Engineer starts at three years,
+Scalian's Lille role asks for confirmed experience, and NEXTON's Bordeaux role
+asks for a solid first experience without defining a bounded year range.
+None establishes an explicitly junior or zero-experience position. This search
+is limited to configured coverage and does not show that such jobs do not exist.
+The Sia Analytics Engineer API supplied a direct application URL with
+`?oga=true`; it redirected and returned HTTP 403 to the automated check. The
+application form remains unverified rather than presumed broken or bypassed.
+
 These findings update the historical checks below. They do not establish
 market-wide accuracy or employer-specific redistribution permission.
 

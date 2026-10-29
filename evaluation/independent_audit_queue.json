@@ -10,10 +10,16 @@
     "geography_bucket": "france_marker",
     "source_url": "https://jobs.smartrecruiters.com/Scalian/744000156557326-architecte-data-ia-services-financiers-cdi-f-h-",
     "detail_sha256": "030229407efbdd8111e7a426f6c383e1a1d5fdb1d6154f86114c5ce7cb6141de",
-    "expected_categories": null,
-    "expected_disposition": null,
-    "evidence": null,
-    "review_status": "pending full-description review"
+    "expected_categories": [
+      "data",
+      "ai"
+    ],
+    "expected_disposition": "exclude",
+    "evidence": "Data/AI architecture and industrialization; explicitly requires 10–15 years, including 5 in architecture.",
+    "review_status": "reviewed before classifier comparison",
+    "reviewed_on": "2026-10-29",
+    "reviewer": "assistant qualitative review; no second reviewer",
+    "hash_verified": true
   },
   {
     "source_id": "sia",
@@ -26,10 +32,15 @@
     "geography_bucket": "france_marker",
     "source_url": "https://jobs.smartrecruiters.com/Sia/744000155061916-final-year-internship-data-scientist-ai-consultant",
     "detail_sha256": "375e80c2c337f367d5590582e189c4e949633b7aef3d81e54bed6ca60efa2a14",
-    "expected_categories": null,
-    "expected_disposition": null,
-    "evidence": null,
-    "review_status": "pending full-description review"
+    "expected_categories": [
+      "ai"
+    ],
+    "expected_disposition": "exclude",
+    "evidence": "Final-year internship developing AI/GenAI solutions; internship confirmed in the employment field and body.",
+    "review_status": "reviewed before classifier comparison",
+    "reviewed_on": "2026-10-29",
+    "reviewer": "assistant qualitative review; no second reviewer",
+    "hash_verified": true
   },
   {
     "source_id": "magellan",
@@ -42,10 +53,15 @@
     "geography_bucket": "france_marker",
     "source_url": "https://jobs.smartrecruiters.com/Magellan/744000156477756-architecte-data-azure-h-f-",
     "detail_sha256": "f321a1645c31d522922532deafc5b52fe5555f99869416f9a2eece334153bdf2",
-    "expected_categories": null,
-    "expected_disposition": null,
-    "evidence": null,
-    "review_status": "pending full-description review"
+    "expected_categories": [
+      "data"
+    ],
+    "expected_disposition": "exclude",
+    "evidence": "Data architecture, ingestion and warehouse development; architect role requires at least 5 years.",
+    "review_status": "reviewed before classifier comparison",
+    "reviewed_on": "2026-10-29",
+    "reviewer": "assistant qualitative review; no second reviewer",
+    "hash_verified": true
   },
   {
     "source_id": "sia",
@@ -58,10 +74,13 @@
     "geography_bucket": "other_or_unknown",
     "source_url": "https://jobs.smartrecruiters.com/Sia/743999822146896-consultant-senior-consultant-data-strategy-management",
     "detail_sha256": "e10fd934a27dcd13394d04ec36a606dd7cff7324c432628f760d915580f1e076",
-    "expected_categories": null,
-    "expected_disposition": null,
-    "evidence": null,
-    "review_status": "pending full-description review"
+    "expected_categories": [],
+    "expected_disposition": "exclude",
+    "evidence": "Data strategy/governance and delivery/project management rather than an engineering implementation role.",
+    "review_status": "reviewed before classifier comparison",
+    "reviewed_on": "2026-10-29",
+    "reviewer": "assistant qualitative review; no second reviewer",
+    "hash_verified": true
   },
   {
     "source_id": "sia",
@@ -74,10 +93,15 @@
     "geography_bucket": "other_or_unknown",
     "source_url": "https://jobs.smartrecruiters.com/Sia/744000152197099-vie-ai-engineer-data-scientist-consultant-",
     "detail_sha256": "c5c299528c48d5c5ba9aa68721a1d36c077f69db75c873ae1404514d9bb18d47",
-    "expected_categories": null,
-    "expected_disposition": null,
-    "evidence": null,
-    "review_status": "pending full-description review"
+    "expected_categories": [
+      "ai"
+    ],
+    "expected_disposition": "review",
+    "evidence": "AI/GenAI engineering in Melbourne on a VIE arrangement; minimum one year is stated without an upper bound; VIE eligibility restrictions require checking.",
+    "review_status": "reviewed before classifier comparison",
+    "reviewed_on": "2026-10-29",
+    "reviewer": "assistant qualitative review; no second reviewer",
+    "hash_verified": true
   },
   {
     "source_id": "sia",
@@ -90,10 +114,13 @@
     "geography_bucket": "other_or_unknown",
     "source_url": "https://jobs.smartrecruiters.com/Sia/744000157780960-data-analytics-consultant-",
     "detail_sha256": "bc20c2c3b71b21b0a7454466cf2eeb39b92d8c3d3b388c8752bdb21c997da4be",
-    "expected_categories": null,
-    "expected_disposition": null,
-    "evidence": null,
-    "review_status": "pending full-description review"
+    "expected_categories": [],
+    "expected_disposition": "exclude",
+    "evidence": "Analytics, statistical investigations and dashboards; not data-platform or software engineering. Experience range is 0–3 years.",
+    "review_status": "reviewed before classifier comparison",
+    "reviewed_on": "2026-10-29",
+    "reviewer": "assistant qualitative review; no second reviewer",
+    "hash_verified": true
   },
   {
     "source_id": "scalian",
@@ -106,10 +133,15 @@
     "geography_bucket": "france_marker",
     "source_url": "https://jobs.smartrecruiters.com/Scalian/744000156373259-expert-e-vertex-ai-architecte-solution-ia-senior-h-f-",
     "detail_sha256": "3bc7932ce3a47bb38be4397facd8e3393f0786d6e142701c2cd16acbb2153ded",
-    "expected_categories": null,
-    "expected_disposition": null,
-    "evidence": null,
-    "review_status": "pending full-description review"
+    "expected_categories": [
+      "ai"
+    ],
+    "expected_disposition": "exclude",
+    "evidence": "Explicit senior solution architect with technical leadership for Vertex AI and MLOps.",
+    "review_status": "reviewed before classifier comparison",
+    "reviewed_on": "2026-10-29",
+    "reviewer": "assistant qualitative review; no second reviewer",
+    "hash_verified": true
   },
   {
     "source_id": "sia",
@@ -122,10 +154,13 @@
     "geography_bucket": "france_marker",
     "source_url": "https://jobs.smartrecruiters.com/Sia/744000155802339-senior-consultant-cio-ai-advisory-bureau-de-lille",
     "detail_sha256": "c951c95cbf5de6eef45ddd64b1d9a0ecbba05859725077b6b1b24159eb4e5783",
-    "expected_categories": null,
-    "expected_disposition": null,
-    "evidence": null,
-    "review_status": "pending full-description review"
+    "expected_categories": [],
+    "expected_disposition": "exclude",
+    "evidence": "Senior CIO advisory role focused on transformation, organization and strategic roadmaps, not software/AI implementation.",
+    "review_status": "reviewed before classifier comparison",
+    "reviewed_on": "2026-10-29",
+    "reviewer": "assistant qualitative review; no second reviewer",
+    "hash_verified": true
   },
   {
     "source_id": "scalian",
@@ -138,10 +173,15 @@
     "geography_bucket": "france_marker",
     "source_url": "https://jobs.smartrecruiters.com/Scalian/744000156343329-expert-principal-en-ingenierie-systeme-mbse-ia-h-f-",
     "detail_sha256": "f27fce9f1fda95ade63b4e4c3b2c890c01a42bbc84bd1c592de58db35f775de8",
-    "expected_categories": null,
-    "expected_disposition": null,
-    "evidence": null,
-    "review_status": "pending full-description review"
+    "expected_categories": [
+      "ai"
+    ],
+    "expected_disposition": "exclude",
+    "evidence": "Principal expert building AI-augmented engineering solutions and leading technical strategy; at least 10 years required.",
+    "review_status": "reviewed before classifier comparison",
+    "reviewed_on": "2026-10-29",
+    "reviewer": "assistant qualitative review; no second reviewer",
+    "hash_verified": true
   },
   {
     "source_id": "sia",
@@ -154,10 +194,13 @@
     "geography_bucket": "other_or_unknown",
     "source_url": "https://jobs.smartrecruiters.com/Sia/744000135096466-ai-delivery-lead-",
     "detail_sha256": "5545be9bd4cec1c90173fae214b9b23e4bdcf67e2bad48bd5587e21dee5656ef",
-    "expected_categories": null,
-    "expected_disposition": null,
-    "evidence": null,
-    "review_status": "pending full-description review"
+    "expected_categories": [],
+    "expected_disposition": "exclude",
+    "evidence": "AI program/delivery leadership; seven or more years in program management or transformation required.",
+    "review_status": "reviewed before classifier comparison",
+    "reviewed_on": "2026-10-29",
+    "reviewer": "assistant qualitative review; no second reviewer",
+    "hash_verified": true
   },
   {
     "source_id": "sia",
@@ -170,10 +213,16 @@
     "geography_bucket": "other_or_unknown",
     "source_url": "https://jobs.smartrecruiters.com/Sia/744000147610819-senior-ai-architect",
     "detail_sha256": "b77e8f2d85e81b798c5b700a6cb692af0ee1ef4f609ec7fa65140694a9e37bfc",
-    "expected_categories": null,
-    "expected_disposition": null,
-    "evidence": null,
-    "review_status": "pending full-description review"
+    "expected_categories": [
+      "data",
+      "ai"
+    ],
+    "expected_disposition": "exclude",
+    "evidence": "Staff-level solution architect owning data/AI architectures; senior title and 4–7 years required.",
+    "review_status": "reviewed before classifier comparison",
+    "reviewed_on": "2026-10-29",
+    "reviewer": "assistant qualitative review; no second reviewer",
+    "hash_verified": true
   },
   {
     "source_id": "sia",
@@ -186,10 +235,15 @@
     "geography_bucket": "other_or_unknown",
     "source_url": "https://jobs.smartrecruiters.com/Sia/744000157784649-machine-learning-engineer",
     "detail_sha256": "7bee44f8e9c0ba9aacdd695b6f28883a22023f79d1f0e6719dcb94f3011dfe62",
-    "expected_categories": null,
-    "expected_disposition": null,
-    "evidence": null,
-    "review_status": "pending full-description review"
+    "expected_categories": [
+      "ai"
+    ],
+    "expected_disposition": "publish",
+    "evidence": "Production ML/deep-learning pipelines and models; 2–4 years specified. Netherlands location explicit. Mentoring duties but no explicit senior role designation.",
+    "review_status": "reviewed before classifier comparison",
+    "reviewed_on": "2026-10-29",
+    "reviewer": "assistant qualitative review; no second reviewer",
+    "hash_verified": true
   },
   {
     "source_id": "scalian",
@@ -202,10 +256,13 @@
     "geography_bucket": "france_marker",
     "source_url": "https://jobs.smartrecruiters.com/Scalian/744000135198639-quality-manufacturing-engineering-f-h-",
     "detail_sha256": "551538973b3e9a34a7181ad36966498648c96dbf37c322233ae7b7d9c2ed5976",
-    "expected_categories": null,
-    "expected_disposition": null,
-    "evidence": null,
-    "review_status": "pending full-description review"
+    "expected_categories": [],
+    "expected_disposition": "exclude",
+    "evidence": "Manufacturing product quality, inspections and non-conformity work, not technology software development.",
+    "review_status": "reviewed before classifier comparison",
+    "reviewed_on": "2026-10-29",
+    "reviewer": "assistant qualitative review; no second reviewer",
+    "hash_verified": true
   },
   {
     "source_id": "scalian",
@@ -218,10 +275,13 @@
     "geography_bucket": "france_marker",
     "source_url": "https://jobs.smartrecruiters.com/Scalian/744000069103885-ingenieur-qualite-fournisseur-h-f",
     "detail_sha256": "50172446e4e62d8a8b7338920768d3a5c185e5eb868029fb4cdfd93dbd6dda3a",
-    "expected_categories": null,
-    "expected_disposition": null,
-    "evidence": null,
-    "review_status": "pending full-description review"
+    "expected_categories": [],
+    "expected_disposition": "exclude",
+    "evidence": "Supplier quality management for complex equipment, with minimum five years.",
+    "review_status": "reviewed before classifier comparison",
+    "reviewed_on": "2026-10-29",
+    "reviewer": "assistant qualitative review; no second reviewer",
+    "hash_verified": true
   },
   {
     "source_id": "iliad-free",
@@ -234,10 +294,13 @@
     "geography_bucket": "france_marker",
     "source_url": "https://jobs.smartrecruiters.com/Iliad-Free/744000157425599-ingenieur-commercial-aura",
     "detail_sha256": "780eb42cccd50b96a887fce56423a9808f1884b452a3ca88ca56a2cbda09f00b",
-    "expected_categories": null,
-    "expected_disposition": null,
-    "evidence": null,
-    "review_status": "pending full-description review"
+    "expected_categories": [],
+    "expected_disposition": "exclude",
+    "evidence": "B2B telecommunications sales and account development, not engineering implementation.",
+    "review_status": "reviewed before classifier comparison",
+    "reviewed_on": "2026-10-29",
+    "reviewer": "assistant qualitative review; no second reviewer",
+    "hash_verified": true
   },
   {
     "source_id": "scalian",
@@ -250,10 +313,13 @@
     "geography_bucket": "other_or_unknown",
     "source_url": "https://jobs.smartrecruiters.com/Scalian/744000132818095-ingenieur-systemes-embarques",
     "detail_sha256": "54e826b3ede4f925be1bbae90c49e6819bb7373ff8f14cea85e39c5e4696cce5",
-    "expected_categories": null,
-    "expected_disposition": null,
-    "evidence": null,
-    "review_status": "pending full-description review"
+    "expected_categories": [],
+    "expected_disposition": "exclude",
+    "evidence": "System-level requirements, architecture, interfaces and IVVQ; not an explicitly software development role.",
+    "review_status": "reviewed before classifier comparison",
+    "reviewed_on": "2026-10-29",
+    "reviewer": "assistant qualitative review; no second reviewer",
+    "hash_verified": true
   },
   {
     "source_id": "sia",
@@ -266,10 +332,13 @@
     "geography_bucket": "other_or_unknown",
     "source_url": "https://jobs.smartrecruiters.com/Sia/744000157778575-microsoft-azure-stack-engineer-consultant",
     "detail_sha256": "4b95b07ee0c83641e96882ffaa976fe2dc83e691f8b80d8370f9b8c28531640c",
-    "expected_categories": null,
-    "expected_disposition": null,
-    "evidence": null,
-    "review_status": "pending full-description review"
+    "expected_categories": [],
+    "expected_disposition": "exclude",
+    "evidence": "Azure infrastructure/governance and cloud consultancy; AI demos ancillary to infrastructure duties, not an AI engineering position.",
+    "review_status": "reviewed before classifier comparison",
+    "reviewed_on": "2026-10-29",
+    "reviewer": "assistant qualitative review; no second reviewer",
+    "hash_verified": true
   },
   {
     "source_id": "scalian",
@@ -282,10 +351,13 @@
     "geography_bucket": "other_or_unknown",
     "source_url": "https://jobs.smartrecruiters.com/Scalian/744000128911749-rams-engineer",
     "detail_sha256": "37a9e21894b09aa04285b45cbb7910e2ae77ac4d7f7b4a5c8dc715187511a6dd",
-    "expected_categories": null,
-    "expected_disposition": null,
-    "evidence": null,
-    "review_status": "pending full-description review"
+    "expected_categories": [],
+    "expected_disposition": "exclude",
+    "evidence": "Reliability, maintainability and safety analysis on defence systems; not software/data/AI engineering.",
+    "review_status": "reviewed before classifier comparison",
+    "reviewed_on": "2026-10-29",
+    "reviewer": "assistant qualitative review; no second reviewer",
+    "hash_verified": true
   },
   {
     "source_id": "magellan",
@@ -298,10 +370,13 @@
     "geography_bucket": "france_marker",
     "source_url": "https://jobs.smartrecruiters.com/Magellan/744000158241279-chef-de-projet-agile-luxe-retail-h-f-",
     "detail_sha256": "76c47b587ace49912ba01b93d4b55a223959b9aebdfb5ef01e791a190cf437a4",
-    "expected_categories": null,
-    "expected_disposition": null,
-    "evidence": null,
-    "review_status": "pending full-description review"
+    "expected_categories": [],
+    "expected_disposition": "exclude",
+    "evidence": "Agile project coordination, budgets and change management rather than engineering implementation.",
+    "review_status": "reviewed before classifier comparison",
+    "reviewed_on": "2026-10-29",
+    "reviewer": "assistant qualitative review; no second reviewer",
+    "hash_verified": true
   },
   {
     "source_id": "iliad-free",
@@ -314,10 +389,13 @@
     "geography_bucket": "france_marker",
     "source_url": "https://jobs.smartrecruiters.com/Iliad-Free/744000143783124-conseiller-en-boutique-gap",
     "detail_sha256": "059922c8d455bd1614356faa8e58c1cee75807c2c731bff39c00d9c886c206b6",
-    "expected_categories": null,
-    "expected_disposition": null,
-    "evidence": null,
-    "review_status": "pending full-description review"
+    "expected_categories": [],
+    "expected_disposition": "exclude",
+    "evidence": "Retail shop sales and customer service.",
+    "review_status": "reviewed before classifier comparison",
+    "reviewed_on": "2026-10-29",
+    "reviewer": "assistant qualitative review; no second reviewer",
+    "hash_verified": true
   },
   {
     "source_id": "iliad-free",
@@ -330,10 +408,13 @@
     "geography_bucket": "france_marker",
     "source_url": "https://jobs.smartrecruiters.com/Iliad-Free/744000155202831-conseiller-en-boutique-alencon-h-f",
     "detail_sha256": "68ff0c53360b9dd428d9561132353fd1d44c4be8920e681a28298d5863173187",
-    "expected_categories": null,
-    "expected_disposition": null,
-    "evidence": null,
-    "review_status": "pending full-description review"
+    "expected_categories": [],
+    "expected_disposition": "exclude",
+    "evidence": "Retail shop sales and customer service; inconsistent branch references do not affect role exclusion.",
+    "review_status": "reviewed before classifier comparison",
+    "reviewed_on": "2026-10-29",
+    "reviewer": "assistant qualitative review; no second reviewer",
+    "hash_verified": true
   },
   {
     "source_id": "sia",
@@ -346,10 +427,13 @@
     "geography_bucket": "other_or_unknown",
     "source_url": "https://jobs.smartrecruiters.com/Sia/744000126359660-conseiller-ere-en-gestion-du-changement",
     "detail_sha256": "37a4163cd651a57dc2fe69c804820121adb272da596745a71dd254e9979b8513",
-    "expected_categories": null,
-    "expected_disposition": null,
-    "evidence": null,
-    "review_status": "pending full-description review"
+    "expected_categories": [],
+    "expected_disposition": "exclude",
+    "evidence": "Organizational change management and training, not engineering implementation.",
+    "review_status": "reviewed before classifier comparison",
+    "reviewed_on": "2026-10-29",
+    "reviewer": "assistant qualitative review; no second reviewer",
+    "hash_verified": true
   },
   {
     "source_id": "sia",
@@ -362,10 +446,13 @@
     "geography_bucket": "other_or_unknown",
     "source_url": "https://jobs.smartrecruiters.com/Sia/744000130267969-management-consultant-project-management-calgary-future-opportunities-2026-",
     "detail_sha256": "29a81e47d66ac5b36a6ff142297b0d9fcaa6336f4463b5b127d4a81d4797d1d8",
-    "expected_categories": null,
-    "expected_disposition": null,
-    "evidence": null,
-    "review_status": "pending full-description review"
+    "expected_categories": [],
+    "expected_disposition": "exclude",
+    "evidence": "Project management consulting; 5–10+ years required.",
+    "review_status": "reviewed before classifier comparison",
+    "reviewed_on": "2026-10-29",
+    "reviewer": "assistant qualitative review; no second reviewer",
+    "hash_verified": true
   },
   {
     "source_id": "scalian",
@@ -378,10 +465,13 @@
     "geography_bucket": "other_or_unknown",
     "source_url": "https://jobs.smartrecruiters.com/Scalian/744000083782655-project-manager-officer",
     "detail_sha256": "8050d2f0a1292ce77c847d67c2f703c0b7b8d106f1a518ebe5eb2dafa154c42c",
-    "expected_categories": null,
-    "expected_disposition": null,
-    "evidence": null,
-    "review_status": "pending full-description review"
+    "expected_categories": [],
+    "expected_disposition": "exclude",
+    "evidence": "Project management office, planning and KPI reporting, not engineering implementation.",
+    "review_status": "reviewed before classifier comparison",
+    "reviewed_on": "2026-10-29",
+    "reviewer": "assistant qualitative review; no second reviewer",
+    "hash_verified": true
   },
   {
     "source_id": "scalian",
@@ -394,10 +484,15 @@
     "geography_bucket": "france_marker",
     "source_url": "https://jobs.smartrecruiters.com/Scalian/744000148306758-analyste-developpeur-c-cloud-confirme-h-f",
     "detail_sha256": "539f68243f7bab6c5b9c4c5d928da51b36fb92ca3a1b6c625f07e822c6e04d9a",
-    "expected_categories": null,
-    "expected_disposition": null,
-    "evidence": null,
-    "review_status": "pending full-description review"
+    "expected_categories": [
+      "software"
+    ],
+    "expected_disposition": "review",
+    "evidence": "C# and SQL development and cloud migration; stated 3–5-year range crosses the project experience boundary.",
+    "review_status": "reviewed before classifier comparison",
+    "reviewed_on": "2026-10-29",
+    "reviewer": "assistant qualitative review; no second reviewer",
+    "hash_verified": true
   },
   {
     "source_id": "magellan",
@@ -410,10 +505,15 @@
     "geography_bucket": "france_marker",
     "source_url": "https://jobs.smartrecruiters.com/Magellan/744000155287497-developpeur-java-confirme-h-f-",
     "detail_sha256": "713f0ef01733502910075d7bf6b2b483c40b7f610ff80ecf70251a0e45a4ff1d",
-    "expected_categories": null,
-    "expected_disposition": null,
-    "evidence": null,
-    "review_status": "pending full-description review"
+    "expected_categories": [
+      "software"
+    ],
+    "expected_disposition": "review",
+    "evidence": "Java full-stack application development; at least four post-study years, without an upper bound.",
+    "review_status": "reviewed before classifier comparison",
+    "reviewed_on": "2026-10-29",
+    "reviewer": "assistant qualitative review; no second reviewer",
+    "hash_verified": true
   },
   {
     "source_id": "scalian",
@@ -426,10 +526,13 @@
     "geography_bucket": "france_marker",
     "source_url": "https://jobs.smartrecruiters.com/Scalian/744000156472726-ingenieur-junior-traitement-du-signal-telecom-satellite-h-f",
     "detail_sha256": "ad76fe231878a7e94295e5ea185c39b8b29b2b40afdcdfed2ecbb9e31ab4abe3",
-    "expected_categories": null,
-    "expected_disposition": null,
-    "evidence": null,
-    "review_status": "pending full-description review"
+    "expected_categories": [],
+    "expected_disposition": "exclude",
+    "evidence": "Graduate signal-processing and satellite telecommunications role, not a stated software/data/AI engineering role.",
+    "review_status": "reviewed before classifier comparison",
+    "reviewed_on": "2026-10-29",
+    "reviewer": "assistant qualitative review; no second reviewer",
+    "hash_verified": true
   },
   {
     "source_id": "scalian",
@@ -442,9 +545,14 @@
     "geography_bucket": "france_marker",
     "source_url": "https://jobs.smartrecruiters.com/Scalian/744000155467629-developpeur-java-confirme-e-f-h-",
     "detail_sha256": "7b5e3ed456ff444e0c4920f53e8c65eecf88831f97beca97442cf0579741558a",
-    "expected_categories": null,
-    "expected_disposition": null,
-    "evidence": null,
-    "review_status": "pending full-description review"
+    "expected_categories": [
+      "software"
+    ],
+    "expected_disposition": "review",
+    "evidence": "Java application development; 4–7-year requirement crosses the project experience boundary.",
+    "review_status": "reviewed before classifier comparison",
+    "reviewed_on": "2026-10-29",
+    "reviewer": "assistant qualitative review; no second reviewer",
+    "hash_verified": true
   }
 ]
