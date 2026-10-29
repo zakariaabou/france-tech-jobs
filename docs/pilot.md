@@ -1,5 +1,33 @@
 # Pilot verification
 
+## Scheduled execution and France data follow-up, 2026-10-29
+
+The [2026-10-28 scheduled run](https://github.com/zakariaabou/france-tech-jobs/actions/runs/40645037535)
+was triggered by `schedule` and completed with 28 successful sources, no failed
+sources and 10 eligible listings. This verifies actual scheduled execution,
+not merely a configured schedule or manual dispatch.
+
+The [2026-10-29 scheduled run](https://github.com/zakariaabou/france-tech-jobs/actions/runs/40830417741)
+also completed, publishing 36 eligible listings from 33 successful sources.
+BPCE returned HTTP 429 and was reported as failed; the workflow's overall success
+must not be read as every feed having succeeded. This is an observed example
+of partial-source availability, not proof of uninterrupted collection.
+
+On 2026-10-29, the public SmartRecruiters detail response for
+[Sia Consultant — Analytics Engineer](https://jobs.smartrecruiters.com/Sia/744000158014984-consultant-analytics-engineer)
+identified Paris, France, a full-time position, and an explicit requirement of
+one to three years of experience. Its responsibilities include data modelling
+and ETL/ELT pipelines. The current `junior-mid` classification is supported by
+that bounded range; this is a suitable example covering junior applicants,
+but not a zero-experience graduate or an exclusively junior role. The direct
+posting URL returned HTTP 200 with the expected role title. An application
+button/form was not independently verified in this follow-up, and no application
+was submitted. The stored application URL remains the actual provider posting
+URL rather than an invented URL.
+
+These findings update the historical checks below. They do not establish
+market-wide accuracy or employer-specific redistribution permission.
+
 ## Updated 20-source pilot
 
 After the classification and source changes, a local update on 2026-10-27
@@ -16,7 +44,8 @@ one-click application redirect.
 The [20-source GitHub manual run](https://github.com/zakariaabou/france-tech-jobs/actions/runs/40561857086)
 also completed successfully with all sources available and nine eligible
 listings. The manual run below used the earlier 14-source configuration. No
-actual scheduled run has been observed yet. Employer-specific reuse terms remain
+actual scheduled run had been observed at that stage. Scheduled runs are now
+verified in the 2026-10-29 follow-up above. Employer-specific reuse terms remain
 under review.
 
 ## Scope and evidence
@@ -76,8 +105,9 @@ permission for every type of reuse.
 
 ## Remaining launch checks
 
-- Validate the first actual scheduled execution and review its source report.
-- Review a qualified France junior data example when one becomes available;
-  the current snapshot contains none.
+- Scheduled execution and its source report are verified above.
+- The Sia France data example covers one-to-three-year applicants. A separately
+  verified explicitly junior or zero-experience graduate data example remains
+  unavailable; do not describe the bounded junior-mid example as new-graduate.
 - Continue source-access reviews and a larger, representative accuracy study;
   titles, cities, minimum-experience phrasing and links can all change.

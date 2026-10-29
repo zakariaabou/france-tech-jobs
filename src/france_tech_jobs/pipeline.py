@@ -44,6 +44,8 @@ def merge_observations(previous, successful, failed, today, partial_sources=(), 
         elif source in failed:
             if not (source in partial_sources and job.get("status") == "closed"):
                 job["status"] = "unknown"
+        if source in successful and source in partial_sources and job.get("status") == "unknown":
+            job.setdefault("unknown_since", today)
     for source, observations in successful.items():
         for observation in observations:
             if observation.get("source_id") != source or not observation.get("job_id"):
@@ -63,10 +65,11 @@ def merge_observations(previous, successful, failed, today, partial_sources=(), 
     return sorted(records.values(), key=lambda j: (j["source_id"], j["job_id"]))
 
 
-def retain_records(jobs, today, failed_sources=()):
+def retain_records(jobs, today, failed_sources=(), partial_sources=()):
     """Keep relevant observations and prune confirmed closures after 180 days."""
     today_date = date.fromisoformat(today)
     failed_sources = set(failed_sources)
+    partial_sources = set(partial_sources)
     retained = []
     for job in jobs:
         # A failed fetch cannot update or reclassify old data, so preserve it.
@@ -75,6 +78,14 @@ def retain_records(jobs, today, failed_sources=()):
             continue
         if not set(job.get("categories") or ()).intersection({"data", "ai", "software"}):
             continue
+        if job.get("source_id") in partial_sources and job.get("status") == "unknown":
+            try:
+                unknown = date.fromisoformat(job.get("unknown_since"))
+            except (ValueError, TypeError):
+                pass
+            else:
+                if (today_date - unknown).days >= 180:
+                    continue
         if job.get("status") == "closed":
             try:
                 closed = date.fromisoformat(job.get("closed_since"))
@@ -84,7 +95,21 @@ def retain_records(jobs, today, failed_sources=()):
                 if (today_date - closed).days >= 180:
                     continue
         retained.append(job)
-    return retained
+    # A storage cap is an eviction policy, not evidence that a job has closed.
+    # Do not change failed/disabled source history during an outage.
+    discard = set()
+    for source in partial_sources - failed_sources:
+        candidates = [j for j in retained if j.get("source_id") == source and j.get("status") == "unknown"]
+        def recency(job):
+            try:
+                observed = date.fromisoformat(job.get("last_seen"))
+                rank = observed.toordinal() if observed <= today_date else 0
+            except (TypeError, ValueError):
+                rank = 0
+            return rank, str(job.get("job_id", ""))
+        candidates.sort(key=recency, reverse=True)
+        discard.update((source, j["job_id"]) for j in candidates[1000:])
+    return [j for j in retained if (j["source_id"], j["job_id"]) not in discard]
 
 
 def _url_key(url):
@@ -186,7 +211,7 @@ def update(root, today=None, fetcher=None, classifier=None):
         raise RuntimeError("All sources failed; previous output was retained")
     failed_ids = set(errors) | ({j["source_id"] for j in previous} - set(ids))
     partial = {s["id"] for s in sources if s.get("coverage") == "partial"}
-    jobs = retain_records(merge_observations(previous, successful, failed_ids, today, partial_sources=partial, present_ids=present_ids), today, failed_ids)
+    jobs = retain_records(merge_observations(previous, successful, failed_ids, today, partial_sources=partial, present_ids=present_ids), today, failed_ids, partial)
     public_jobs = deduplicate([job for job in jobs if job.get("status") == "active" and job.get("eligible")])
     review_jobs = select_review_jobs(jobs, public_jobs)
     outputs = {"data/jobs.json": json.dumps(jobs, ensure_ascii=False, indent=2, sort_keys=True) + "\n", **render_all(public_jobs, today, review_jobs=review_jobs, review_limit=review_limit), **generate_feeds(public_jobs)}

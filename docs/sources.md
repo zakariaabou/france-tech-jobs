@@ -119,8 +119,10 @@ published pages until their details are fetched again.
 
 These sources are explicitly partial: omissions are never proof of closure.
 An old job that is listed but not checked in detail becomes unknown, even if
-previously closed. Existing unknown records are retained and may accumulate;
-see [issue #20](https://github.com/zakariaabou/france-tech-jobs/issues/20).
+previously closed. Unknown history is kept for up to 180 days after a successful partial check
+first marks it unverified, with at most 1,000 unknown records per source.
+Failed and disabled sources are exempt until a successful refresh. Eviction
+is storage cleanup, not a closure claim; see [retention details](data-lifecycle.md).
 Changing totals, incorrect page lengths/offsets, duplicate IDs, missing titles,
 detail failures and source outages fail safely. Equal totals cannot prove a
 stable list if postings are replaced during pagination; partial status avoids

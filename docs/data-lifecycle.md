@@ -29,12 +29,31 @@ partial feed as a complete one. A future partial-source connector must verify
 that observed jobs are active, and must not turn a truncated response into a
 successful snapshot. SmartRecruiters title-selected sources are partial. If a
 previously closed job is present in the listing but its details are skipped, it
-becomes unknown until fresh details are verified. Omitted unknown records are
-not pruned automatically; [issue #20](https://github.com/zakariaabou/france-tech-jobs/issues/20)
-tracks safe retention for these partial sources.
+becomes unknown until fresh details are verified.
+
+For partial sources, an unknown record receives `unknown_since` on its first
+successful source refresh without verified details. Subsequent omissions or
+listing-only observations do not reset that date. Legacy unknown records start
+this clock on their next successful refresh rather than guessing an earlier
+date. On successful refreshes, records unknown for at least 180 days are removed
+from local state. Missing, malformed or future dates are not used to age records.
+At most 1,000 unknown records per successfully refreshed partial source are kept;
+the most recently verified `last_seen` dates take priority, with job ID as a
+deterministic tie-breaker. Missing, malformed or future `last_seen` dates rank
+oldest for this storage cap. Removal is storage eviction, never a closure claim.
+
+Failed or disabled sources are exempt from both limits, preserving their history
+until recovery; this means there is no hard total database limit during outages.
+Active records and complete-source unknown records are not subject to this policy.
+These limits bound unknown history independently of volatile pagination, without
+assuming that missing IDs are closed. Unverified records remain absent from pages
+and feeds. Reappearance before eviction keeps `first_seen` and clears the unknown
+clock. Reappearance after eviction starts a new observation history; the old
+`first_seen` is lost from current state (older Git commits may retain it).
 
 Closed records are removed after 180 days, measured from `closed_since`, only
-after a successful source check. Active and unknown records are not aged out.
+after a successful source check. Active records are not aged out; partial-source
+unknown records follow the separate policy above.
 For legacy closed records without `closed_since`, the previous `last_checked`
 is used as a conservative migration fallback. Missing or malformed closure
 dates are never guessed and those records are retained. Because older records
