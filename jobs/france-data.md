@@ -1,6 +1,6 @@
 # France: Data Engineering
 
-Last pipeline run: 2026-10-29 (UTC). Only currently confirmed listings are shown.
+Last pipeline run: 2026-10-30 (UTC). Only currently confirmed listings are shown.
 
 [Home](../README.md)
 

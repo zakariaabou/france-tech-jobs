@@ -1,8 +1,8 @@
 # Potential matches — verify requirements
 
-Last pipeline run: 2026-10-29 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
+Last pipeline run: 2026-10-30 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
-Showing 100 of 239 candidates (limit: 100). France appears first, followed by international and unknown locations.
+Showing 100 of 238 candidates (limit: 100). France appears first, followed by international and unknown locations.
 
 [Home](../README.md)
 
@@ -79,7 +79,6 @@ Showing 100 of 239 candidates (limit: 100). France appears first, followed by in
 | NEXTON | Développeur Java H/F | Software Engineering | Bordeaux, Nouvelle-Aquitaine, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000153508789-developpeur-java-h-f) |
 | NEXTON | Développeur Java / Angular H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000154673509-developpeur-java-angular-h-f) |
 | NEXTON | Développeur Java / Angular H/F | Software Engineering | Lyon, Auvergne-Rhône-Alpes, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000157997029-developpeur-java-angular-h-f) |
-| NEXTON | Développeur Fullstack React / Kotlin H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000152714820-developpeur-fullstack-react-kotlin-h-f) |
 | NEXTON | Développeur FullStack Java / Vue.js H/F | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000155743559-developpeur-fullstack-java-vue-js-h-f) |
 | NEXTON | Développeur FullStack H/F | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000157480212-developpeur-fullstack-h-f) |
 | NEXTON | Développeur C# Pricing Pre Trade Axone H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000158107454-developpeur-c-pricing-pre-trade-axone-h-f) |
@@ -110,3 +109,4 @@ Showing 100 of 239 candidates (limit: 100). France appears first, followed by in
 | Iliad / Free | Développeur Back-End | Software Engineering | Marseille, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | iliad-free | [Apply](https://jobs.smartrecruiters.com/Iliad-Free/744000085821350-developpeur-back-end) |
 | Banque Populaire Rives de Paris | Développeur Commercial Professionnels - H/F | Software Engineering | Paris, Ile de France, France | unknown | Experience level not confirmed | bpce-open-data | [Apply](https://recrutement.bpce.fr/job/developpeur-commercial-professionnels-h-f) |
 | Banque Populaire Rives de Paris | Développeur Commercial Professionnels - H/F | Software Engineering | EVRY COURCOURONNES CEDEX, Ile de France, France | unknown | Experience level not confirmed | bpce-open-data | [Apply](https://recrutement.bpce.fr/job/developpeur-commercial-professionnels-h-f-2) |
+| BPCE Solutions Informatiques | Développeur/Paramétreur (F/H) | Software Engineering | Bois-Guillaume, Normandie, France \| Villeneuve-d'Ascq, Hauts-de-France, France \| Charenton-le-Pont, Ile de France, France \| Bruges, Nouvelle-Aquitaine, France \| Dijon, Bourgogne-Franche-Comté, France \| Montigny-le-Bretonneux, Ile de France, France \| Saint-Herblain, Pays de la Loire, France \| Paris, Ile de France, France \| Saint-Estève, Occitanie, France \| BALMA, Occitanie, France | unknown | Experience level not confirmed | bpce-open-data | [Apply](https://recrutement.bpce.fr/job/developpeur-parametreur-f-h) |

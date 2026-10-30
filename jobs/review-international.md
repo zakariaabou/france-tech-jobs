@@ -1,6 +1,6 @@
 # Potential matches — verify requirements
 
-Last pipeline run: 2026-10-29 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
+Last pipeline run: 2026-10-30 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
 Showing 28 of 28 candidates (limit: 100). Region: international.
 
