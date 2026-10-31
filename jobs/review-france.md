@@ -1,8 +1,8 @@
 # Potential matches — verify requirements
 
-Last pipeline run: 2026-10-30 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
+Last pipeline run: 2026-10-31 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
-Showing 100 of 200 candidates (limit: 100). Region: france.
+Showing 100 of 197 candidates (limit: 100). Region: france.
 
 [Home](../README.md)
 
@@ -10,6 +10,7 @@ Showing 100 of 200 candidates (limit: 100). Region: france.
 
 | Company | Role | Categories | Location | Experience | Review reason | Sources | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Scalian | Développeur Fullstack - Portail Collaborateurs F/H – CDI – Annecy | Software Engineering | Annecy, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000158696399-developpeur-fullstack-portail-collaborateurs-f-h-cdi-annecy) |
 | NEXTON | Data engineer Python/dask/polars H/F | Data Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000158550079-data-engineer-python-dask-polars-h-f) |
 | Meritis | Développeur Front-End (H/F) | Software Engineering | Montpellier, Occitanie, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000157836458-developpeur-front-end-h-f-) |
 | Sia | DevOps / Platform Engineer | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | sia | [Apply](https://jobs.smartrecruiters.com/Sia/744000157436169-devops-platform-engineer) |
@@ -73,7 +74,6 @@ Showing 100 of 200 candidates (limit: 100). Region: france.
 | Scalian |  Développeur Front H/F | Software Engineering | Bordeaux, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000107019955--developpeur-front-h-f) |
 | Scalian |  Développeur Android Kotlin Multiplatform KMP - CDI (F/H)  | Software Engineering | Annecy, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000138814282--developpeur-android-kotlin-multiplatform-kmp-cdi-f-h-) |
 | ONEY | Data Engineer F/H | Data Engineering | CROIX, Hauts-de-France, France | unknown | Experience level not confirmed | bpce-open-data | [Apply](https://recrutement.bpce.fr/job/data-engineer-f-h) |
-| NEXTON | UI Designer / Développeur Front-End H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000155055201-ui-designer-developpeur-front-end-h-f) |
 | NEXTON | Machine Learning Engineer H/F | AI Engineering | Bordeaux, Nouvelle-Aquitaine, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000154022179-machine-learning-engineer-h-f) |
 | NEXTON | Machine Learning Engineer H/F | AI Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000156295449-machine-learning-engineer-h-f) |
 | NEXTON | Développeur Java H/F | Software Engineering | Bordeaux, Nouvelle-Aquitaine, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000153508789-developpeur-java-h-f) |
@@ -102,7 +102,6 @@ Showing 100 of 200 candidates (limit: 100). Region: france.
 | Magellan | Développeur Fullstack .Net/React (H/F) | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155432850-developpeur-fullstack-net-react-h-f-) |
 | Magellan | Développeur / Salesforce (H/F) | Software Engineering | Troyes, Grand Est, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155005813-developpeur-salesforce-h-f-) |
 | Magellan | Data Engineer Plateforme à Composante IA (GCP / Cloud de Confiance) (H/F) | Data Engineering | Issy-les-Moulineaux, IDF, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155764491-data-engineer-plateforme-a-composante-ia-gcp-cloud-de-confiance-h-f-) |
-| Iliad / Free | Java Software Engineer – Montpellier – H/F | Software Engineering | Montpellier, Occitanie, France | unknown | Experience level not confirmed | iliad-free | [Apply](https://jobs.smartrecruiters.com/Iliad-Free/744000158299120-java-software-engineer-montpellier-h-f) |
 | Iliad / Free | GO Software Engineer - Paris - H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | iliad-free | [Apply](https://jobs.smartrecruiters.com/Iliad-Free/744000156359352-go-software-engineer-paris-h-f) |
 | Iliad / Free | Fullstack Software Engineer PHP / Javascript / TypeScript  - Paris - H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | iliad-free | [Apply](https://jobs.smartrecruiters.com/Iliad-Free/744000156583310-fullstack-software-engineer-php-javascript-typescript-paris-h-f) |
 | Iliad / Free | Développeur Front-End | Software Engineering | Marseille, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | iliad-free | [Apply](https://jobs.smartrecruiters.com/Iliad-Free/744000085835656-developpeur-front-end) |
@@ -110,3 +109,4 @@ Showing 100 of 200 candidates (limit: 100). Region: france.
 | Banque Populaire Rives de Paris | Développeur Commercial Professionnels - H/F | Software Engineering | Paris, Ile de France, France | unknown | Experience level not confirmed | bpce-open-data | [Apply](https://recrutement.bpce.fr/job/developpeur-commercial-professionnels-h-f) |
 | Banque Populaire Rives de Paris | Développeur Commercial Professionnels - H/F | Software Engineering | EVRY COURCOURONNES CEDEX, Ile de France, France | unknown | Experience level not confirmed | bpce-open-data | [Apply](https://recrutement.bpce.fr/job/developpeur-commercial-professionnels-h-f-2) |
 | BPCE Solutions Informatiques | Développeur/Paramétreur (F/H) | Software Engineering | Bois-Guillaume, Normandie, France \| Villeneuve-d'Ascq, Hauts-de-France, France \| Charenton-le-Pont, Ile de France, France \| Bruges, Nouvelle-Aquitaine, France \| Dijon, Bourgogne-Franche-Comté, France \| Montigny-le-Bretonneux, Ile de France, France \| Saint-Herblain, Pays de la Loire, France \| Paris, Ile de France, France \| Saint-Estève, Occitanie, France \| BALMA, Occitanie, France | unknown | Experience level not confirmed | bpce-open-data | [Apply](https://recrutement.bpce.fr/job/developpeur-parametreur-f-h) |
+| BPCE Solutions Informatiques | Développeur iOS (F/H) | Software Engineering | Saint-Herblain, Pays de la Loire, France \| BALMA, Occitanie, France \| Saint-Jacques-de-la-Lande, Bretagne, France \| Bois-Guillaume, Normandie, France \| ORLEANS, Centre-Val de Loire, France \| Paris, Ile de France, France \| Villeurbanne, AUVERGNE-RHÔNE-ALPES, France \| Aix-en-provence, Provence-Alpes-Côte d'Azur, France \| Villeneuve-d'Ascq, Hauts-de-France, France | unknown | Experience level not confirmed | bpce-open-data | [Apply](https://recrutement.bpce.fr/job/developpeur-ios-f-h) |
