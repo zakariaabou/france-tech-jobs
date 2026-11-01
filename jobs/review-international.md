@@ -1,8 +1,8 @@
 # Potential matches — verify requirements
 
-Last pipeline run: 2026-10-31 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
+Last pipeline run: 2026-11-01 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
-Showing 28 of 28 candidates (limit: 100). Region: international.
+Showing 27 of 27 candidates (limit: 100). Region: international.
 
 [Home](../README.md)
 
@@ -21,7 +21,6 @@ Showing 28 of 28 candidates (limit: 100). Region: international.
 | Scalian | Embedded Software Engineer | Software Engineering | Roma, , Italy | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000151339288-embedded-software-engineer) |
 | Scalian | Embedded Software Engineer | Software Engineering | MI, , Italy | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000155936809-embedded-software-engineer) |
 | Scalian | Embedded Software Developer – Aerospace | Software Engineering | Madrid, , Spain | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000152675659-embedded-software-developer-aerospace) |
-| Scalian | Embedded Software Developer | Software Engineering | Roma, , Italy | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000157818564-embedded-software-developer) |
 | Scalian | Data Engineer  | Data Engineering | Liège, , Belgium | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000158084899-data-engineer-) |
 | Scalian | Data Engineer | Data Engineering | Madrid, , Spain | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000131864749-data-engineer) |
 | Scalian | AI &amp; Data Engineer  | Data Engineering | Milano, , Italy | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000158070854-ai-data-engineer-) |
