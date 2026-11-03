@@ -1,11 +1,12 @@
 # France: Software Engineering
 
-Last pipeline run: 2026-11-02 (UTC). Only currently confirmed listings are shown.
+Last pipeline run: 2026-11-03 (UTC). Only currently confirmed listings are shown.
 
 [Home](../README.md)
 
 | Company | Role | Location | Experience | Contract | Schedule | Work mode | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Meritis | Développeur C++ (H/F) | Valbonne, Provence-Alpes-Côte d'Azur, France | junior-mid | Unknown | Full-time | hybrid | 2026-11-02 | [Apply](https://jobs.smartrecruiters.com/Meritis/744000159161240-developpeur-c-h-f-) |
 | Sia | Junior Software Engineer | Paris, IDF, France | junior | Unknown | Full-time | Unknown | 2026-10-27 | [Apply](https://jobs.smartrecruiters.com/Sia/744000158018397-junior-software-engineer) |
 | Scalian | Ingénieur logiciel embarqué (H/F) | Valence, Auvergne-Rhône-Alpes, France | mid | Unknown | Full-time | Unknown | 2026-07-01 | [Apply](https://jobs.smartrecruiters.com/Scalian/744000135307535-ingenieur-logiciel-embarque-h-f-) |
 | Scalian | Développeur PHP Symfony Nucléaire  | Rians, Provence-Alpes-Côte d'Azur, France | junior | Permanent contract | Full-time | Unknown | 2025-11-06 | [Apply](https://jobs.smartrecruiters.com/Scalian/744000091967935-developpeur-php-symfony-nucleaire-) |
