@@ -1,8 +1,8 @@
 # Potential matches — verify requirements
 
-Last pipeline run: 2026-11-03 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
+Last pipeline run: 2026-11-04 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
-Showing 27 of 27 candidates (limit: 100). Region: international.
+Showing 28 of 28 candidates (limit: 100). Region: international.
 
 [Home](../README.md)
 
@@ -10,6 +10,7 @@ Showing 27 of 27 candidates (limit: 100). Region: international.
 
 | Company | Role | Categories | Location | Experience | Review reason | Sources | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Scalian | Embedded Software Developer | Software Engineering | Roma, , Italy | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000159336440-embedded-software-developer) |
 | Scalian | SOFTWARE DEVELOPER - CATEGORIE PROTETTE L68/99 | Software Engineering | Roma, , Italy | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000158796997-software-developer-categorie-protette-l68-99) |
 | Scalian | Software Developer | Software Engineering | Charleroi, , Belgium | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000158466250-software-developer) |
 | Sia | Consultant - Analytics Engineer | Data Engineering | Hong Kong, , Hong Kong | unknown | Experience level not confirmed | sia | [Apply](https://jobs.smartrecruiters.com/Sia/744000147851779-consultant-analytics-engineer) |

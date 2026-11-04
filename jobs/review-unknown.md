@@ -1,8 +1,8 @@
 # Potential matches — verify requirements
 
-Last pipeline run: 2026-11-03 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
+Last pipeline run: 2026-11-04 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
-Showing 10 of 10 candidates (limit: 100). Region: unknown.
+Showing 11 of 11 candidates (limit: 100). Region: unknown.
 
 [Home](../README.md)
 
@@ -10,6 +10,7 @@ Showing 10 of 10 candidates (limit: 100). Region: unknown.
 
 | Company | Role | Categories | Location | Experience | Review reason | Sources | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Teads | Junior Software Engineer  - DR Delivery Team | Software Engineering | Ljubljana | junior | Location not confirmed | teads | [Apply](https://job-boards.eu.greenhouse.io/teads1/jobs/5026047101) |
 | Sia | VIE AI Engineer &amp; Data Scientist Consultant    | AI Engineering | Sydney, NSW, Australia | unknown | Experience level not confirmed; Location not confirmed | sia | [Apply](https://jobs.smartrecruiters.com/Sia/744000152196579-vie-ai-engineer-data-scientist-consultant-) |
 | Sia | VIE AI Engineer &amp; Data Scientist Consultant    | AI Engineering | Melbourne, VIC, Australia | unknown | Experience level not confirmed; Location not confirmed | sia | [Apply](https://jobs.smartrecruiters.com/Sia/744000152197099-vie-ai-engineer-data-scientist-consultant-) |
 | Scalian | Software Engineer – Expert Migration &amp; Automation | Software Engineering | Casablanca, Casablanca-Settat, Morocco | unknown | Experience level not confirmed; Location not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000112695326-software-engineer-expert-migration-automation) |
