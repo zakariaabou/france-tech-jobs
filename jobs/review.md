@@ -1,8 +1,8 @@
 # Potential matches — verify requirements
 
-Last pipeline run: 2026-11-04 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
+Last pipeline run: 2026-11-05 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
-Showing 100 of 235 candidates (limit: 100). France appears first, followed by international and unknown locations.
+Showing 100 of 236 candidates (limit: 100). France appears first, followed by international and unknown locations.
 
 [Home](../README.md)
 
@@ -10,12 +10,14 @@ Showing 100 of 235 candidates (limit: 100). France appears first, followed by in
 
 | Company | Role | Categories | Location | Experience | Review reason | Sources | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| NEXTON | Dev/Data engineer DataLake (IP) H/F | Data Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000159622849-dev-data-engineer-datalake-ip-h-f) |
+| Meritis | Développeur IT Quant-DevOps H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000159579409-developpeur-it-quant-devops-h-f) |
+| Iliad / Free | Développeur GO - Paris - H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | iliad-free | [Apply](https://jobs.smartrecruiters.com/Iliad-Free/744000159571630-developpeur-go-paris-h-f) |
 | Sia | DevOps / Platform Engineer | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | sia | [Apply](https://jobs.smartrecruiters.com/Sia/744000159440890-devops-platform-engineer) |
 | Scalian | Développeur Java - Confirmé(e) (F/H) | Software Engineering | ANNECY, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000159412360-developpeur-java-confirme-e-f-h-) |
 | Scalian | Développeur Full Stack GO / React H/F | Software Engineering | Bruz, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000159389374-developpeur-full-stack-go-react-h-f) |
 | Meritis | Développeur C#/Angular (H/F) | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000159396453-developpeur-c-angular-h-f-) |
 | Meritis | Développeur C# Finance (H/F) | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000159397938-developpeur-c-finance-h-f-) |
-| Iliad / Free | Développeur GO - Paris - H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | iliad-free | [Apply](https://jobs.smartrecruiters.com/Iliad-Free/744000159443346-developpeur-go-paris-h-f) |
 | Iliad / Free | Développeur Backend Java – Montpellier – H/F | Software Engineering | Montpellier, Occitanie, France | unknown | Experience level not confirmed | iliad-free | [Apply](https://jobs.smartrecruiters.com/Iliad-Free/744000159395279-developpeur-backend-java-montpellier-h-f) |
 | Meritis | Développeur Python (H/F) | Software Engineering | Montpellier, Occitanie, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000159172388-developpeur-python-h-f-) |
 | Meritis | Développeur Java Expérimenté (H/F) | Software Engineering | Montpellier, Occitanie, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000159170668-developpeur-java-experimente-h-f-) |
@@ -97,7 +99,6 @@ Showing 100 of 235 candidates (limit: 100). France appears first, followed by in
 | NEXTON | Developpeur java/angular H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000147260389-developpeur-java-angular-h-f) |
 | NEXTON | Data Engineer H/F | Data Engineering | Bordeaux, Nouvelle-Aquitaine, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000154026234-data-engineer-h-f) |
 | NEXTON | Data Engineer (ArangoDB) H/F | Data Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000157160535-data-engineer-arangodb-h-f) |
-| NEXTON | Concepteur - Développeur Web H/F | Software Engineering | Annecy, Auvergne-Rhône-Alpes, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000153552339-concepteur-developpeur-web-h-f) |
 | Meritis | Développeur C# .net - H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000155751779-developpeur-c-net-h-f) |
 | Meritis | Développeur C# (H/F) | Software Engineering | Montpellier, Occitanie, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000153714414-developpeur-c-h-f-) |
 | Magellan | Ingénieur IA (H/F)  | AI Engineering | Valbonne, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155742309-ingenieur-ia-h-f-) |
@@ -109,4 +110,3 @@ Showing 100 of 235 candidates (limit: 100). France appears first, followed by in
 | Magellan | Développeur Fullstack .Net/React (H/F) | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155432850-developpeur-fullstack-net-react-h-f-) |
 | Magellan | Développeur / Salesforce (H/F) | Software Engineering | Troyes, Grand Est, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155005813-developpeur-salesforce-h-f-) |
 | Magellan | Data Engineer Plateforme à Composante IA (GCP / Cloud de Confiance) (H/F) | Data Engineering | Issy-les-Moulineaux, IDF, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155764491-data-engineer-plateforme-a-composante-ia-gcp-cloud-de-confiance-h-f-) |
-| Iliad / Free | Fullstack Software Engineer PHP / Javascript / TypeScript  - Paris - H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | iliad-free | [Apply](https://jobs.smartrecruiters.com/Iliad-Free/744000156583310-fullstack-software-engineer-php-javascript-typescript-paris-h-f) |
