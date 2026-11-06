@@ -1,8 +1,8 @@
 # Potential matches — verify requirements
 
-Last pipeline run: 2026-11-05 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
+Last pipeline run: 2026-11-06 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
-Showing 100 of 197 candidates (limit: 100). Region: france.
+Showing 100 of 200 candidates (limit: 100). Region: france.
 
 [Home](../README.md)
 
@@ -10,9 +10,13 @@ Showing 100 of 197 candidates (limit: 100). Region: france.
 
 | Company | Role | Categories | Location | Experience | Review reason | Sources | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Scalian | Développeur Java / Spring Boot – Banque &amp; Paiements - Annecy F/H | Software Engineering | Annecy, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000159819029-developpeur-java-spring-boot-banque-paiements-annecy-f-h) |
+| NEXTON | Développeur Full Stack Java / React H/F | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000159894319-developpeur-full-stack-java-react-h-f) |
+| Iliad / Free | Golang Backend Developer  - Paris - H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | iliad-free | [Apply](https://jobs.smartrecruiters.com/Iliad-Free/744000159886900-golang-backend-developer-paris-h-f) |
+| INFINIT | Full Stack Software Engineer | Software Engineering | Paris | unknown | Experience level not confirmed | infinit | [Apply](https://jobs.lever.co/infinit/87b3ab76-0efd-4b4c-a00e-f9e39981999e/apply) |
+| BPCE Solutions Informatiques | Développeur (F/H) - Produit Souscriptions Digitales | Software Engineering | Caen, Normandie, France \| Aix-en-provence, Provence-Alpes-Côte d'Azur, France \| Villeurbanne, AUVERGNE-RHÔNE-ALPES, France \| Reims, Grand Est, France \| Paris, Ile de France, France \| Saint-Herblain, Pays de la Loire, France \| BALMA, Occitanie, France \| Bois-Guillaume, Normandie, France \| Saint-Jean-de-la-Ruelle, Centre-Val de Loire, France \| Montigny-le-Bretonneux, Ile de France, France \| Villeneuve-d'Ascq, Hauts-de-France, France | unknown | Experience level not confirmed | bpce-open-data | [Apply](https://recrutement.bpce.fr/job/developpeur-f-h-produit-souscriptions-digitales) |
 | NEXTON | Dev/Data engineer DataLake (IP) H/F | Data Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000159622849-dev-data-engineer-datalake-ip-h-f) |
 | Meritis | Développeur IT Quant-DevOps H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000159579409-developpeur-it-quant-devops-h-f) |
-| Iliad / Free | Développeur GO - Paris - H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | iliad-free | [Apply](https://jobs.smartrecruiters.com/Iliad-Free/744000159571630-developpeur-go-paris-h-f) |
 | Sia | DevOps / Platform Engineer | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | sia | [Apply](https://jobs.smartrecruiters.com/Sia/744000159440890-devops-platform-engineer) |
 | Scalian | Développeur Java - Confirmé(e) (F/H) | Software Engineering | ANNECY, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000159412360-developpeur-java-confirme-e-f-h-) |
 | Scalian | Développeur Full Stack GO / React H/F | Software Engineering | Bruz, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000159389374-developpeur-full-stack-go-react-h-f) |
@@ -93,7 +97,6 @@ Showing 100 of 197 candidates (limit: 100). Region: france.
 | NEXTON | Développeur Java / Angular H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000154673509-developpeur-java-angular-h-f) |
 | NEXTON | Développeur Java / Angular H/F | Software Engineering | Lyon, Auvergne-Rhône-Alpes, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000157997029-developpeur-java-angular-h-f) |
 | NEXTON | Développeur FullStack Java / Vue.js H/F | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000155743559-developpeur-fullstack-java-vue-js-h-f) |
-| NEXTON | Développeur FullStack H/F | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000157480212-developpeur-fullstack-h-f) |
 | NEXTON | Développeur C# Pricing Pre Trade Axone H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000158107454-developpeur-c-pricing-pre-trade-axone-h-f) |
 | NEXTON | Développeur C# - IT Quant Pricing Pre Trade (+ API Sophis) H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000158108039-developpeur-c-it-quant-pricing-pre-trade-api-sophis-h-f) |
 | NEXTON | Developpeur java/angular H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000147260389-developpeur-java-angular-h-f) |
@@ -107,6 +110,3 @@ Showing 100 of 197 candidates (limit: 100). Region: france.
 | Magellan | Développeur Fullstack Java Vues.js (H/F) | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155427872-developpeur-fullstack-java-vues-js-h-f-) |
 | Magellan | Développeur Fullstack Java React.js (H/F) | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155424360-developpeur-fullstack-java-react-js-h-f-) |
 | Magellan | Développeur Fullstack Java React.js (H/F) | Software Engineering | Issy-les-Moulineaux, IDF, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155714409-developpeur-fullstack-java-react-js-h-f-) |
-| Magellan | Développeur Fullstack .Net/React (H/F) | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155432850-developpeur-fullstack-net-react-h-f-) |
-| Magellan | Développeur / Salesforce (H/F) | Software Engineering | Troyes, Grand Est, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155005813-developpeur-salesforce-h-f-) |
-| Magellan | Data Engineer Plateforme à Composante IA (GCP / Cloud de Confiance) (H/F) | Data Engineering | Issy-les-Moulineaux, IDF, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155764491-data-engineer-plateforme-a-composante-ia-gcp-cloud-de-confiance-h-f-) |

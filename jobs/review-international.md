@@ -1,8 +1,8 @@
 # Potential matches — verify requirements
 
-Last pipeline run: 2026-11-05 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
+Last pipeline run: 2026-11-06 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
-Showing 28 of 28 candidates (limit: 100). Region: international.
+Showing 29 of 29 candidates (limit: 100). Region: international.
 
 [Home](../README.md)
 
@@ -10,6 +10,7 @@ Showing 28 of 28 candidates (limit: 100). Region: international.
 
 | Company | Role | Categories | Location | Experience | Review reason | Sources | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| INFINIT | Full Stack Software Engineer | Software Engineering | Madrid | unknown | Experience level not confirmed | infinit | [Apply](https://jobs.lever.co/infinit/68acdfdd-68af-4b84-aa1c-61d13435a9db/apply) |
 | Scalian | Embedded Software Developer | Software Engineering | Roma, , Italy | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000159336440-embedded-software-developer) |
 | Scalian | SOFTWARE DEVELOPER - CATEGORIE PROTETTE L68/99 | Software Engineering | Roma, , Italy | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000158796997-software-developer-categorie-protette-l68-99) |
 | Scalian | Software Developer | Software Engineering | Charleroi, , Belgium | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000158466250-software-developer) |
