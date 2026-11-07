@@ -1,8 +1,8 @@
 # Potential matches — verify requirements
 
-Last pipeline run: 2026-11-06 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
+Last pipeline run: 2026-11-07 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
-Showing 100 of 240 candidates (limit: 100). France appears first, followed by international and unknown locations.
+Showing 100 of 235 candidates (limit: 100). France appears first, followed by international and unknown locations.
 
 [Home](../README.md)
 
@@ -10,6 +10,8 @@ Showing 100 of 240 candidates (limit: 100). France appears first, followed by in
 
 | Company | Role | Categories | Location | Experience | Review reason | Sources | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Scalian | Ingénieur logiciel embarqué C/C++ H/F | Software Engineering | Vitrolles, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000160147000-ingenieur-logiciel-embarque-c-c-h-f) |
+| Scalian | Développeur logiciel embarqué  H/F | Software Engineering | Vitrolles, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000160147901-developpeur-logiciel-embarque-h-f) |
 | Scalian | Développeur Java / Spring Boot – Banque &amp; Paiements - Annecy F/H | Software Engineering | Annecy, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000159819029-developpeur-java-spring-boot-banque-paiements-annecy-f-h) |
 | NEXTON | Développeur Full Stack Java / React H/F | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000159894319-developpeur-full-stack-java-react-h-f) |
 | Iliad / Free | Golang Backend Developer  - Paris - H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | iliad-free | [Apply](https://jobs.smartrecruiters.com/Iliad-Free/744000159886900-golang-backend-developer-paris-h-f) |
@@ -35,7 +37,6 @@ Showing 100 of 240 candidates (limit: 100). France appears first, followed by in
 | Sia | Data Engineer | Data Engineering | Paris, IDF, France | unknown | Experience level not confirmed | sia | [Apply](https://jobs.smartrecruiters.com/Sia/744000158018449-data-engineer) |
 | Sia | Applied AI Engineer | AI Engineering | Paris, IDF, France | unknown | Experience level not confirmed | sia | [Apply](https://jobs.smartrecruiters.com/Sia/744000157435810-applied-ai-engineer) |
 | Scalian | Need - CILAS Orléans (Siège) - AT - CILAS - IHM V2 - Développeur C# | Software Engineering | Neuilly sur seine, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000034181572-need-cilas-orleans-siege-at-cilas-ihm-v2-developpeur-c-) |
-| Scalian | Ingénieur logiciel embarqué C/C++ H/F | Software Engineering | Vitrolles, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000156502929-ingenieur-logiciel-embarque-c-c-h-f) |
 | Scalian | Ingénieur logiciel embarqué - Pascal / DO-178 (H/F) | Software Engineering | Toulouse, Occitanie, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000158057909-ingenieur-logiciel-embarque-pascal-do-178-h-f-) |
 | Scalian | Ingénieur logiciel C++ - Bureau d'études Drones (H/F) | Software Engineering | Toulouse, Occitanie, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000155523187-ingenieur-logiciel-c-bureau-d-etudes-drones-h-f-) |
 | Scalian | Ingénieur Logiciel Embarqué C++ / Qt – Linux Temps Réel (H/F) | Software Engineering | Le Haillan, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000151773359-ingenieur-logiciel-embarque-c-qt-linux-temps-reel-h-f-) |
@@ -43,7 +44,6 @@ Showing 100 of 240 candidates (limit: 100). France appears first, followed by in
 | Scalian | Développeur/se Rust - F/H | Software Engineering | Ollioules, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000149581099-developpeur-se-rust-f-h) |
 | Scalian | Développeur/se Python - F/H | Software Engineering | Ollioules, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000132360645-developpeur-se-python-f-h) |
 | Scalian | Développeur python H/F | Software Engineering | Vitrolles, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000156499336-developpeur-python-h-f) |
-| Scalian | Développeur logiciel embarqué  H/F | Software Engineering | Vitrolles, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000127899110-developpeur-logiciel-embarque-h-f) |
 | Scalian | Développeur java angular - F/H | Software Engineering | Ollioules, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000110201066-developpeur-java-angular-f-h) |
 | Scalian | Développeur java - F/H  | Software Engineering | Ollioules, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000158250289-developpeur-java-f-h-) |
 | Scalian | Développeur iOS expérimenté (H/F) | Software Engineering | montpellier, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000132882959-developpeur-ios-experimente-h-f-) |

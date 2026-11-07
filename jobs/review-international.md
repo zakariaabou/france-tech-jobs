@@ -1,8 +1,8 @@
 # Potential matches — verify requirements
 
-Last pipeline run: 2026-11-06 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
+Last pipeline run: 2026-11-07 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
-Showing 29 of 29 candidates (limit: 100). Region: international.
+Showing 28 of 28 candidates (limit: 100). Region: international.
 
 [Home](../README.md)
 
@@ -10,6 +10,7 @@ Showing 29 of 29 candidates (limit: 100). Region: international.
 
 | Company | Role | Categories | Location | Experience | Review reason | Sources | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| INFINIT | Full Stack Software Engineer | Software Engineering | London | unknown | Experience level not confirmed | infinit | [Apply](https://jobs.lever.co/infinit/92090d39-0235-4729-a52a-a7ccacfdada7/apply) |
 | INFINIT | Full Stack Software Engineer | Software Engineering | Madrid | unknown | Experience level not confirmed | infinit | [Apply](https://jobs.lever.co/infinit/68acdfdd-68af-4b84-aa1c-61d13435a9db/apply) |
 | Scalian | Embedded Software Developer | Software Engineering | Roma, , Italy | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000159336440-embedded-software-developer) |
 | Scalian | SOFTWARE DEVELOPER - CATEGORIE PROTETTE L68/99 | Software Engineering | Roma, , Italy | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000158796997-software-developer-categorie-protette-l68-99) |
@@ -20,12 +21,10 @@ Showing 29 of 29 candidates (limit: 100). Region: international.
 | Scalian | Ingénieur Logiciel Embarqué | Software Engineering | Bruxelles, , Belgium | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000149309978-ingenieur-logiciel-embarque) |
 | Scalian | Fullstack developer (node.js y angular) | Software Engineering | Madrid, , Spain | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000131700279-fullstack-developer-node-js-y-angular-) |
 | Scalian | Frontend developer | Software Engineering | Madrid, , Spain | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000131704471-frontend-developer) |
-| Scalian | Embedded Software Engineer | Software Engineering | Roma, , Italy | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000151339288-embedded-software-engineer) |
 | Scalian | Embedded Software Engineer | Software Engineering | MI, , Italy | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000155936809-embedded-software-engineer) |
 | Scalian | Embedded Software Developer – Aerospace | Software Engineering | Madrid, , Spain | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000152675659-embedded-software-developer-aerospace) |
 | Scalian | Data Engineer  | Data Engineering | Liège, , Belgium | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000158084899-data-engineer-) |
 | Scalian | Data Engineer | Data Engineering | Madrid, , Spain | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000131864749-data-engineer) |
-| Scalian | AI &amp; Data Engineer  | Data Engineering | Milano, , Italy | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000158070854-ai-data-engineer-) |
 | Mendix | Front-end Developer | Software Engineering | Rotterdam | unknown | Experience level not confirmed | mendix | [Apply](https://jobs.lever.co/mendix/2643ddd1-54c6-4d74-af53-164449e07af5/apply) |
 | Theodo | Full Stack Engineer - London - Theodo UK | Software Engineering | London | unknown | Experience level not confirmed | theodo | [Apply](https://jobs.lever.co/theodo/1592b48f-9207-46f2-908e-d835cc6121ad/apply) |
 | SFEIR | 🧠 AI Engineer | AI Engineering | Bruxelles | unknown | Experience level not confirmed | sfeir | [Apply](https://jobs.lever.co/sfeir/70b39ef5-29c1-4da4-9e36-75fe74cf5812/apply) |
