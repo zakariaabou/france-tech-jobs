@@ -1,8 +1,8 @@
 # Potential matches — verify requirements
 
-Last pipeline run: 2026-11-07 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
+Last pipeline run: 2026-11-08 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
-Showing 100 of 198 candidates (limit: 100). Region: france.
+Showing 100 of 196 candidates (limit: 100). Region: france.
 
 [Home](../README.md)
 
@@ -91,9 +91,7 @@ Showing 100 of 198 candidates (limit: 100). Region: france.
 | Scalian |  Développeur Front H/F | Software Engineering | Bordeaux, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000107019955--developpeur-front-h-f) |
 | Scalian |  Développeur Android Kotlin Multiplatform KMP - CDI (F/H)  | Software Engineering | Annecy, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000138814282--developpeur-android-kotlin-multiplatform-kmp-cdi-f-h-) |
 | ONEY | Data Engineer F/H | Data Engineering | CROIX, Hauts-de-France, France | unknown | Experience level not confirmed | bpce-open-data | [Apply](https://recrutement.bpce.fr/job/data-engineer-f-h) |
-| NEXTON | Machine Learning Engineer H/F | AI Engineering | Bordeaux, Nouvelle-Aquitaine, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000154022179-machine-learning-engineer-h-f) |
 | NEXTON | Machine Learning Engineer H/F | AI Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000156295449-machine-learning-engineer-h-f) |
-| NEXTON | Développeur Java H/F | Software Engineering | Bordeaux, Nouvelle-Aquitaine, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000153508789-developpeur-java-h-f) |
 | NEXTON | Développeur Java / Angular H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000154673509-developpeur-java-angular-h-f) |
 | NEXTON | Développeur Java / Angular H/F | Software Engineering | Lyon, Auvergne-Rhône-Alpes, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000157997029-developpeur-java-angular-h-f) |
 | NEXTON | Développeur FullStack Java / Vue.js H/F | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000155743559-developpeur-fullstack-java-vue-js-h-f) |
@@ -110,3 +108,5 @@ Showing 100 of 198 candidates (limit: 100). Region: france.
 | Magellan | Développeur Fullstack Java Vues.js (H/F) | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155427872-developpeur-fullstack-java-vues-js-h-f-) |
 | Magellan | Développeur Fullstack Java React.js (H/F) | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155424360-developpeur-fullstack-java-react-js-h-f-) |
 | Magellan | Développeur Fullstack Java React.js (H/F) | Software Engineering | Issy-les-Moulineaux, IDF, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155714409-developpeur-fullstack-java-react-js-h-f-) |
+| Magellan | Développeur Fullstack .Net/React (H/F) | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155432850-developpeur-fullstack-net-react-h-f-) |
+| Magellan | Développeur / Salesforce (H/F) | Software Engineering | Troyes, Grand Est, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155005813-developpeur-salesforce-h-f-) |
