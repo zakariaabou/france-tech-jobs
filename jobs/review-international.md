@@ -1,8 +1,8 @@
 # Potential matches — verify requirements
 
-Last pipeline run: 2026-11-09 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
+Last pipeline run: 2026-11-10 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
-Showing 28 of 28 candidates (limit: 100). Region: international.
+Showing 27 of 27 candidates (limit: 100). Region: international.
 
 [Home](../README.md)
 
@@ -32,7 +32,6 @@ Showing 28 of 28 candidates (limit: 100). Region: international.
 | SFEIR | 📊 Data Engineer | Data Engineering | Bruxelles | unknown | Experience level not confirmed | sfeir | [Apply](https://jobs.lever.co/sfeir/aec0872a-77f7-40c7-be9c-714c37235979/apply) |
 | Meritis | Data Engineer (M/W) | Data Engineering | Porto, Porto, Portugal | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000034456836-data-engineer-m-w-) |
 | Mendix | Software Engineer- AI Platform Tooling | AI Engineering, Software Engineering | Rotterdam | unknown | Experience level not confirmed | mendix | [Apply](https://jobs.lever.co/mendix/094c4c2b-1e57-47da-b1d9-b71b778f1528/apply) |
-| Mendix | Frontend Engineer | Software Engineering | Rotterdam | unknown | Experience level not confirmed | mendix | [Apply](https://jobs.lever.co/mendix/c0de3331-2a9c-4e23-a807-dd2ccf860198/apply) |
 | Kpler | Fullstack Engineer | Software Engineering | United Kingdom | unknown | Experience level not confirmed | kpler | [Apply](https://jobs.lever.co/kpler/23e9e7db-ca92-4663-8b60-eed96c3859f1/apply) |
 | Kpler | Fullstack Engineer | Software Engineering | United Kingdom | unknown | Experience level not confirmed | kpler | [Apply](https://jobs.lever.co/kpler/bc4338ab-5392-4b2b-bdc7-13ad466ad911/apply) |
 | Kpler | Full Stack Engineer | Software Engineering | United Kingdom | unknown | Experience level not confirmed | kpler | [Apply](https://jobs.lever.co/kpler/2601aa33-d727-4ca1-bfbb-92bfb4e9776b/apply) |
