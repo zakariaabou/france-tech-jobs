@@ -1,8 +1,8 @@
 # Potential matches — verify requirements
 
-Last pipeline run: 2026-11-12 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
+Last pipeline run: 2026-11-13 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
-Showing 100 of 232 candidates (limit: 100). France appears first, followed by international and unknown locations.
+Showing 100 of 230 candidates (limit: 100). France appears first, followed by international and unknown locations.
 
 [Home](../README.md)
 
@@ -10,6 +10,8 @@ Showing 100 of 232 candidates (limit: 100). France appears first, followed by in
 
 | Company | Role | Categories | Location | Experience | Review reason | Sources | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Scalian | Développeur angular H/F  | Software Engineering | Aix-en-Provence, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000161313509-developpeur-angular-h-f-) |
+| NEXTON | AI Engineer H/F | AI Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000161342419-ai-engineer-h-f) |
 | Scalian | Développeur Java - Confirmé(e) (F/H) | Software Engineering | LYON, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000160824085-developpeur-java-confirme-e-f-h-) |
 | NEXTON | Ingénieur Intelligence Artificielle H/F | AI Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000160820136-ingenieur-intelligence-artificielle-h-f) |
 | NEXTON | Data Engineer H/F | Data Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000160899389-data-engineer-h-f) |
@@ -41,8 +43,6 @@ Showing 100 of 232 candidates (limit: 100). France appears first, followed by in
 | Sia | Data Engineer | Data Engineering | Paris, IDF, France | unknown | Experience level not confirmed | sia | [Apply](https://jobs.smartrecruiters.com/Sia/744000158018449-data-engineer) |
 | Sia | Applied AI Engineer | AI Engineering | Paris, IDF, France | unknown | Experience level not confirmed | sia | [Apply](https://jobs.smartrecruiters.com/Sia/744000157435810-applied-ai-engineer) |
 | Scalian | Need - CILAS Orléans (Siège) - AT - CILAS - IHM V2 - Développeur C# | Software Engineering | Neuilly sur seine, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000034181572-need-cilas-orleans-siege-at-cilas-ihm-v2-developpeur-c-) |
-| Scalian | Ingénieur logiciel embarqué - Pascal / DO-178 (H/F) | Software Engineering | Toulouse, Occitanie, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000158057909-ingenieur-logiciel-embarque-pascal-do-178-h-f-) |
-| Scalian | Ingénieur logiciel C++ - Bureau d'études Drones (H/F) | Software Engineering | Toulouse, Occitanie, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000155523187-ingenieur-logiciel-c-bureau-d-etudes-drones-h-f-) |
 | Scalian | Ingénieur Logiciel Embarqué C++ / Qt – Linux Temps Réel (H/F) | Software Engineering | Le Haillan, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000151773359-ingenieur-logiciel-embarque-c-qt-linux-temps-reel-h-f-) |
 | Scalian | Développeur/se java - F/H  | Software Engineering | Ollioules, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000132358871-developpeur-se-java-f-h-) |
 | Scalian | Développeur/se Rust - F/H | Software Engineering | Ollioules, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000149581099-developpeur-se-rust-f-h) |
@@ -52,7 +52,6 @@ Showing 100 of 232 candidates (limit: 100). France appears first, followed by in
 | Scalian | Développeur java - F/H  | Software Engineering | Ollioules, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000158250289-developpeur-java-f-h-) |
 | Scalian | Développeur iOS expérimenté (H/F) | Software Engineering | montpellier, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000132882959-developpeur-ios-experimente-h-f-) |
 | Scalian | Développeur embarqué - F/H | Software Engineering | Vitrolles, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000115844397-developpeur-embarque-f-h) |
-| Scalian | Développeur angular H/F  | Software Engineering | Aix-en-Provence, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000152413887-developpeur-angular-h-f-) |
 | Scalian | Développeur NodeJS (TypeScript) / AWS spécialisé Authentification (H/F) | Software Engineering | Neuilly-sur-Seine, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000136829279-developpeur-nodejs-typescript-aws-specialise-authentification-h-f-) |
 | Scalian | Développeur NodeJS (TypeScript) / AWS (H/F) | Software Engineering | Neuilly-sur-Seine, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000136827970-developpeur-nodejs-typescript-aws-h-f-) |
 | Scalian | Développeur Java/React H/F | Software Engineering | Rennes, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000135959379-developpeur-java-react-h-f) |
@@ -110,3 +109,4 @@ Showing 100 of 232 candidates (limit: 100). France appears first, followed by in
 | Magellan | Développeur Fullstack Java React.js (H/F) | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155424360-developpeur-fullstack-java-react-js-h-f-) |
 | Magellan | Développeur Fullstack Java React.js (H/F) | Software Engineering | Issy-les-Moulineaux, IDF, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155714409-developpeur-fullstack-java-react-js-h-f-) |
 | Magellan | Développeur Fullstack .Net/React (H/F) | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155432850-developpeur-fullstack-net-react-h-f-) |
+| Magellan | Développeur / Salesforce (H/F) | Software Engineering | Troyes, Grand Est, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155005813-developpeur-salesforce-h-f-) |
