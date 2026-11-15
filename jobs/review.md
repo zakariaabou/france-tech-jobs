@@ -1,8 +1,8 @@
 # Potential matches — verify requirements
 
-Last pipeline run: 2026-11-14 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
+Last pipeline run: 2026-11-15 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
-Showing 100 of 232 candidates (limit: 100). France appears first, followed by international and unknown locations.
+Showing 100 of 231 candidates (limit: 100). France appears first, followed by international and unknown locations.
 
 [Home](../README.md)
 
@@ -98,7 +98,6 @@ Showing 100 of 232 candidates (limit: 100). France appears first, followed by in
 | ONEY | Data Engineer F/H | Data Engineering | CROIX, Hauts-de-France, France | unknown | Experience level not confirmed | bpce-open-data | [Apply](https://recrutement.bpce.fr/job/data-engineer-f-h) |
 | NEXTON | Machine Learning Engineer H/F | AI Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000156295449-machine-learning-engineer-h-f) |
 | NEXTON | Développeur Java / Angular H/F | Software Engineering | Lyon, Auvergne-Rhône-Alpes, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000157997029-developpeur-java-angular-h-f) |
-| NEXTON | Développeur FullStack Java / Vue.js H/F | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000155743559-developpeur-fullstack-java-vue-js-h-f) |
 | NEXTON | Développeur C# Pricing Pre Trade Axone H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000158107454-developpeur-c-pricing-pre-trade-axone-h-f) |
 | NEXTON | Développeur C# - IT Quant Pricing Pre Trade (+ API Sophis) H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000158108039-developpeur-c-it-quant-pricing-pre-trade-api-sophis-h-f) |
 | NEXTON | Developpeur java/angular H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000147260389-developpeur-java-angular-h-f) |
@@ -110,3 +109,4 @@ Showing 100 of 232 candidates (limit: 100). France appears first, followed by in
 | Magellan | Développeur Fullstack Java/ Angular (H/F) | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155432518-developpeur-fullstack-java-angular-h-f-) |
 | Magellan | Développeur Fullstack Java Vues.js (H/F) | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155427872-developpeur-fullstack-java-vues-js-h-f-) |
 | Magellan | Développeur Fullstack Java React.js (H/F) | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155424360-developpeur-fullstack-java-react-js-h-f-) |
+| Magellan | Développeur Fullstack Java React.js (H/F) | Software Engineering | Issy-les-Moulineaux, IDF, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155714409-developpeur-fullstack-java-react-js-h-f-) |
