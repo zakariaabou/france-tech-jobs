@@ -1,6 +1,6 @@
 # France: AI Engineering
 
-Last pipeline run: 2026-11-17 (UTC). Only currently confirmed listings are shown.
+Last pipeline run: 2026-11-18 (UTC). Only currently confirmed listings are shown.
 
 [Home](../README.md)
 

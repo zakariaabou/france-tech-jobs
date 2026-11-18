@@ -1,8 +1,8 @@
 # Potential matches — verify requirements
 
-Last pipeline run: 2026-11-17 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
+Last pipeline run: 2026-11-18 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
-Showing 100 of 231 candidates (limit: 100). France appears first, followed by international and unknown locations.
+Showing 100 of 239 candidates (limit: 100). France appears first, followed by international and unknown locations.
 
 [Home](../README.md)
 
@@ -10,10 +10,21 @@ Showing 100 of 231 candidates (limit: 100). France appears first, followed by in
 
 | Company | Role | Categories | Location | Experience | Review reason | Sources | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Scalian | Ingénieur logiciel embarqué  H/F | Software Engineering | Vitrolles, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000162041239-ingenieur-logiciel-embarque-h-f) |
+| Scalian | Développeur logiciel embarqué  H/F | Software Engineering | Vitrolles, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000162039376-developpeur-logiciel-embarque-h-f) |
+| Scalian | Développeur C++ / Rust H/F  | Software Engineering | Vitrolles, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000162041690-developpeur-c-rust-h-f-) |
+| Scalian |  Ingénieur Logiciel Embarqué C/C++ (H/F) | Software Engineering | Toulouse, Occitanie, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000162044140--ingenieur-logiciel-embarque-c-c-h-f-) |
+| Scaleway | Software Engineer AI Agents | Software Engineering | Paris | unknown | Experience level not confirmed | scaleway | [Apply](https://jobs.lever.co/scaleway/b3d95e02-d56d-41d1-a225-a01f264b781f/apply) |
+| NEXTON | Developpeur Backend H/F | Software Engineering | Montpellier, Occitanie, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000162103533-developpeur-backend-h-f) |
+| Mirakl Labs | Data Engineer | Data Engineering | Bordeaux, France | unknown | Experience level not confirmed | mirakl-labs | [Apply](https://job-boards.greenhouse.io/mirakllabs/jobs/4467661004) |
+| Meritis | Développeur Java fullstack &amp; IA (H/F) | Software Engineering | Valbonne, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000162010549-developpeur-java-fullstack-ia-h-f-) |
+| Meritis | Développeur Java - IA Générative (H/F) | AI Engineering, Software Engineering | Valbonne, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000162009769-developpeur-java-ia-generative-h-f-) |
+| Meritis | Développeur C/C++ - Logiciel embarqué (H/F) | Software Engineering | Valbonne, , France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000162018080-developpeur-c-c-logiciel-embarque-h-f-) |
+| Meritis | Développeur C++ / Go - Embarqué (H/F) | Software Engineering | Valbonne, , France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000162023079-developpeur-c-go-embarque-h-f-) |
+| Doctrine | Experienced Data Engineer (squad Thémis) | Data Engineering | Paris | unknown | Experience level not confirmed | doctrine | [Apply](https://jobs.lever.co/doctrine/e5f86424-e6de-4e1f-84ab-526be83d474b/apply) |
 | Scaleway | Software Engineer AI Inference | Software Engineering | Paris | unknown | Experience level not confirmed | scaleway | [Apply](https://jobs.lever.co/scaleway/7153d3ba-739e-453d-bc12-fb35462be691/apply) |
 | NEXTON | Data Engineer H/F | Data Engineering | Bordeaux, Nouvelle-Aquitaine, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000161857649-data-engineer-h-f) |
 | Meritis | Développeur Java Expérimenté (H/F) | Software Engineering | Montpellier, Occitanie, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000161862214-developpeur-java-experimente-h-f-) |
-| Decathlon Digital | Analytics Engineer/BI Engineer Confirmé | Data Engineering | Paris, Paris, France | unknown | Experience level not confirmed | decathlon-digital | [Apply](https://job-boards.eu.greenhouse.io/decathlontechnology/jobs/5031843101) |
 | Sia | Data Engineer | Data Engineering | Paris, IDF, France | unknown | Experience level not confirmed | sia | [Apply](https://jobs.smartrecruiters.com/Sia/744000161494024-data-engineer) |
 | Sia | Applied AI Engineer | AI Engineering | Paris, IDF, France | unknown | Experience level not confirmed | sia | [Apply](https://jobs.smartrecruiters.com/Sia/744000161494629-applied-ai-engineer) |
 | Scalian | Data Engineer  H/F | Data Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000112213189-data-engineer-h-f) |
@@ -32,8 +43,6 @@ Showing 100 of 231 candidates (limit: 100). France appears first, followed by in
 | Magellan | Ingénieur IA Générative AWS (H/F) | AI Engineering | Massy, IDF, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000160927959-ingenieur-ia-generative-aws-h-f-) |
 | Scalian | Développeur Fullstack - Portail Collaborateurs F/H – CDI – Annecy | Software Engineering | Annecy, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000160571001-developpeur-fullstack-portail-collaborateurs-f-h-cdi-annecy) |
 | NEXTON | Développeur Java H/F | Software Engineering | Bordeaux, Nouvelle-Aquitaine, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000160580584-developpeur-java-h-f) |
-| Scalian | Ingénieur logiciel embarqué C/C++ H/F | Software Engineering | Vitrolles, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000160147000-ingenieur-logiciel-embarque-c-c-h-f) |
-| Scalian | Développeur logiciel embarqué  H/F | Software Engineering | Vitrolles, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000160147901-developpeur-logiciel-embarque-h-f) |
 | Scalian | Développeur Java / Spring Boot – Banque &amp; Paiements - Annecy F/H | Software Engineering | Annecy, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000159819029-developpeur-java-spring-boot-banque-paiements-annecy-f-h) |
 | NEXTON | Développeur Full Stack Java / React H/F | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000159894319-developpeur-full-stack-java-react-h-f) |
 | Iliad / Free | Golang Backend Developer  - Paris - H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | iliad-free | [Apply](https://jobs.smartrecruiters.com/Iliad-Free/744000159886900-golang-backend-developer-paris-h-f) |
@@ -71,7 +80,6 @@ Showing 100 of 231 candidates (limit: 100). France appears first, followed by in
 | Scalian | Développeur Fullstack Vue.js / PHP (H/F) | Software Engineering | Rennes, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000142109309-developpeur-fullstack-vue-js-php-h-f-) |
 | Scalian | Développeur Fullstack - Angular / Node (H/F) | Software Engineering | Montpellier, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000130241169-developpeur-fullstack-angular-node-h-f-) |
 | Scalian | Développeur C++ H/F | Software Engineering | Ollioules, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000082687426-developpeur-c-h-f) |
-| Scalian | Développeur C++ / Rust H/F  | Software Engineering | Vitrolles, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000150065460-developpeur-c-rust-h-f-) |
 | Scalian | Développeur C# / .NET - Strasbourg (H/F) | Software Engineering | Strasbourg, Grand Est, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000155044968-developpeur-c-net-strasbourg-h-f-) |
 | Scalian | Développeur C# - VITROLLES (H/F) | Software Engineering | Vitrolles, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000082267015-developpeur-c-vitrolles-h-f-) |
 | Scalian | Développeur C# - MARTIGUES (H/F) | Software Engineering | Martigues, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000082281515-developpeur-c-martigues-h-f-) |
@@ -102,11 +110,3 @@ Showing 100 of 231 candidates (limit: 100). France appears first, followed by in
 | NEXTON | Developpeur java/angular H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000147260389-developpeur-java-angular-h-f) |
 | NEXTON | Data Engineer (ArangoDB) H/F | Data Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000157160535-data-engineer-arangodb-h-f) |
 | Meritis | Développeur C# .net - H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000155751779-developpeur-c-net-h-f) |
-| Meritis | Développeur C# (H/F) | Software Engineering | Montpellier, Occitanie, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000153714414-developpeur-c-h-f-) |
-| Magellan | Ingénieur IA (H/F)  | AI Engineering | Valbonne, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155742309-ingenieur-ia-h-f-) |
-| Magellan | Développeur Java confirmé (H/F) | Software Engineering | Limoges, Nouvelle-Aquitaine, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155287497-developpeur-java-confirme-h-f-) |
-| Magellan | Développeur Fullstack Java/ Angular (H/F) | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155432518-developpeur-fullstack-java-angular-h-f-) |
-| Magellan | Développeur Fullstack Java Vues.js (H/F) | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155427872-developpeur-fullstack-java-vues-js-h-f-) |
-| Magellan | Développeur Fullstack Java React.js (H/F) | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155424360-developpeur-fullstack-java-react-js-h-f-) |
-| Magellan | Développeur Fullstack Java React.js (H/F) | Software Engineering | Issy-les-Moulineaux, IDF, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155714409-developpeur-fullstack-java-react-js-h-f-) |
-| Magellan | Développeur Fullstack .Net/React (H/F) | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155432850-developpeur-fullstack-net-react-h-f-) |
