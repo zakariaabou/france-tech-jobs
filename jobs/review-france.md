@@ -1,8 +1,8 @@
 # Potential matches — verify requirements
 
-Last pipeline run: 2026-11-18 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
+Last pipeline run: 2026-11-19 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
-Showing 100 of 202 candidates (limit: 100). Region: france.
+Showing 100 of 201 candidates (limit: 100). Region: france.
 
 [Home](../README.md)
 
@@ -10,6 +10,7 @@ Showing 100 of 202 candidates (limit: 100). Region: france.
 
 | Company | Role | Categories | Location | Experience | Review reason | Sources | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| VO2 Group | \[VO2 Finance\] - Développeur junior C# .net Front-Office | Software Engineering | Paris, France | unknown | Experience level not confirmed | vo2-group | [Apply](https://jobs.lever.co/vo2-group/a6da88e6-c45d-47eb-aa3b-3c13648eaa25/apply) |
 | Scalian | Ingénieur logiciel embarqué  H/F | Software Engineering | Vitrolles, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000162041239-ingenieur-logiciel-embarque-h-f) |
 | Scalian | Développeur logiciel embarqué  H/F | Software Engineering | Vitrolles, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000162039376-developpeur-logiciel-embarque-h-f) |
 | Scalian | Développeur C++ / Rust H/F  | Software Engineering | Vitrolles, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000162041690-developpeur-c-rust-h-f-) |
@@ -103,7 +104,6 @@ Showing 100 of 202 candidates (limit: 100). Region: france.
 | Scalian |  Développeur Front H/F | Software Engineering | Bordeaux, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000107019955--developpeur-front-h-f) |
 | Scalian |  Développeur Android Kotlin Multiplatform KMP - CDI (F/H)  | Software Engineering | Annecy, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000138814282--developpeur-android-kotlin-multiplatform-kmp-cdi-f-h-) |
 | ONEY | Data Engineer F/H | Data Engineering | CROIX, Hauts-de-France, France | unknown | Experience level not confirmed | bpce-open-data | [Apply](https://recrutement.bpce.fr/job/data-engineer-f-h) |
-| NEXTON | Machine Learning Engineer H/F | AI Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000156295449-machine-learning-engineer-h-f) |
 | NEXTON | Développeur Java / Angular H/F | Software Engineering | Lyon, Auvergne-Rhône-Alpes, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000157997029-developpeur-java-angular-h-f) |
 | NEXTON | Développeur C# Pricing Pre Trade Axone H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000158107454-developpeur-c-pricing-pre-trade-axone-h-f) |
 | NEXTON | Développeur C# - IT Quant Pricing Pre Trade (+ API Sophis) H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000158108039-developpeur-c-it-quant-pricing-pre-trade-api-sophis-h-f) |

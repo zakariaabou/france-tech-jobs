@@ -1,8 +1,8 @@
 # Potential matches — verify requirements
 
-Last pipeline run: 2026-11-18 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
+Last pipeline run: 2026-11-19 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
-Showing 28 of 28 candidates (limit: 100). Region: international.
+Showing 29 of 29 candidates (limit: 100). Region: international.
 
 [Home](../README.md)
 
@@ -10,6 +10,7 @@ Showing 28 of 28 candidates (limit: 100). Region: international.
 
 | Company | Role | Categories | Location | Experience | Review reason | Sources | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Scalian | Software Developer | Software Engineering | Modena, , Italy | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000162324190-software-developer) |
 | INFINIT | Full Stack Software Engineer | Software Engineering | London | unknown | Experience level not confirmed | infinit | [Apply](https://jobs.lever.co/infinit/92090d39-0235-4729-a52a-a7ccacfdada7/apply) |
 | INFINIT | Full Stack Software Engineer | Software Engineering | Madrid | unknown | Experience level not confirmed | infinit | [Apply](https://jobs.lever.co/infinit/68acdfdd-68af-4b84-aa1c-61d13435a9db/apply) |
 | Scalian | Embedded Software Developer | Software Engineering | Roma, , Italy | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000159336440-embedded-software-developer) |
