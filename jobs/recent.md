@@ -1,6 +1,6 @@
 # Recently added
 
-Last pipeline run: 2026-11-19 (UTC). Only currently confirmed listings are shown.
+Last pipeline run: 2026-11-20 (UTC). Only currently confirmed listings are shown.
 
 [Home](../README.md)
 
@@ -17,5 +17,4 @@ Last pipeline run: 2026-11-19 (UTC). Only currently confirmed listings are shown
 | Sia | Consultant Data Engineer | Antwerp, , Belgium | junior-mid | Unknown | Full-time | hybrid | 2026-11-18 | [Apply](https://jobs.smartrecruiters.com/Sia/744000162253357-consultant-data-engineer) |
 | Sia | Consultant Data Engineer | Amsterdam, , Netherlands | junior-mid | Unknown | Full-time | hybrid | 2026-11-18 | [Apply](https://jobs.smartrecruiters.com/Sia/744000162254644-consultant-data-engineer) |
 | Sia | Consultant Data Engineer | Brussels, , Belgium | junior-mid | Unknown | Full-time | hybrid | 2026-11-18 | [Apply](https://jobs.smartrecruiters.com/Sia/744000162254959-consultant-data-engineer) |
-| Mirakl Labs | Junior Software Engineer Java | Paris, France | junior | Unknown | Unknown | Unknown | 2026-11-18 | [Apply](https://job-boards.greenhouse.io/mirakllabs/jobs/6264862004) |
 | Meritis | Développeur C++ (H/F) | Valbonne, Provence-Alpes-Côte d'Azur, France | junior-mid | Unknown | Full-time | hybrid | 2026-11-17 | [Apply](https://jobs.smartrecruiters.com/Meritis/744000162009819-developpeur-c-h-f-) |
