@@ -1,8 +1,8 @@
 # Potential matches — verify requirements
 
-Last pipeline run: 2026-11-20 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
+Last pipeline run: 2026-11-21 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
-Showing 100 of 236 candidates (limit: 100). France appears first, followed by international and unknown locations.
+Showing 100 of 238 candidates (limit: 100). France appears first, followed by international and unknown locations.
 
 [Home](../README.md)
 
@@ -10,6 +10,10 @@ Showing 100 of 236 candidates (limit: 100). France appears first, followed by in
 
 | Company | Role | Categories | Location | Experience | Review reason | Sources | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Scalian | Développeur Angular / Node.js - Annecy F/H | Software Engineering | Annecy, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000162681169-developpeur-angular-node-js-annecy-f-h) |
+| Mirakl Labs | MLOps Engineer (CDI) | AI Engineering | Paris, France | unknown | Experience level not confirmed | mirakl-labs | [Apply](https://job-boards.greenhouse.io/mirakllabs/jobs/6267144004) |
+| Mirakl Labs | MLOps Engineer (CDI) | AI Engineering | Bordeaux, France | unknown | Experience level not confirmed | mirakl-labs | [Apply](https://job-boards.greenhouse.io/mirakllabs/jobs/6267146004) |
+| Caisse d'Epargne Hauts de France | IA Engineer (H/F) | AI Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | bpce-open-data | [Apply](https://recrutement.bpce.fr/job/ia-engineer-h-f) |
 | Magellan | Ingénieur IA Générative / Agentique (H/F) | AI Engineering | Issy-les-Moulineaux, IDF, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000162516548-ingenieur-ia-generative-agentique-h-f-) |
 | VO2 Group | \[VO2 Finance\] - Développeur junior C# .net Front-Office | Software Engineering | Paris, France | unknown | Experience level not confirmed | vo2-group | [Apply](https://jobs.lever.co/vo2-group/a6da88e6-c45d-47eb-aa3b-3c13648eaa25/apply) |
 | Scalian | Ingénieur logiciel embarqué  H/F | Software Engineering | Vitrolles, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000162041239-ingenieur-logiciel-embarque-h-f) |
@@ -18,7 +22,7 @@ Showing 100 of 236 candidates (limit: 100). France appears first, followed by in
 | Scalian |  Ingénieur Logiciel Embarqué C/C++ (H/F) | Software Engineering | Toulouse, Occitanie, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000162044140--ingenieur-logiciel-embarque-c-c-h-f-) |
 | Scaleway | Software Engineer AI Agents | Software Engineering | Paris | unknown | Experience level not confirmed | scaleway | [Apply](https://jobs.lever.co/scaleway/b3d95e02-d56d-41d1-a225-a01f264b781f/apply) |
 | NEXTON | Developpeur Backend H/F | Software Engineering | Montpellier, Occitanie, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000162103533-developpeur-backend-h-f) |
-| Mirakl Labs | Data Engineer | Data Engineering | Bordeaux, France | unknown | Experience level not confirmed | mirakl-labs | [Apply](https://job-boards.greenhouse.io/mirakllabs/jobs/4467661004) |
+| Mirakl Labs | Data Engineer (CDI) | Data Engineering | Bordeaux, France | unknown | Experience level not confirmed | mirakl-labs | [Apply](https://job-boards.greenhouse.io/mirakllabs/jobs/4467661004) |
 | Meritis | Développeur Java fullstack &amp; IA (H/F) | Software Engineering | Valbonne, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000162010549-developpeur-java-fullstack-ia-h-f-) |
 | Meritis | Développeur Java - IA Générative (H/F) | AI Engineering, Software Engineering | Valbonne, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000162009769-developpeur-java-ia-generative-h-f-) |
 | Doctrine | Experienced Data Engineer (squad Thémis) | Data Engineering | Paris | unknown | Experience level not confirmed | doctrine | [Apply](https://jobs.lever.co/doctrine/e5f86424-e6de-4e1f-84ab-526be83d474b/apply) |
@@ -28,7 +32,7 @@ Showing 100 of 236 candidates (limit: 100). France appears first, followed by in
 | Sia | Data Engineer | Data Engineering | Paris, IDF, France | unknown | Experience level not confirmed | sia | [Apply](https://jobs.smartrecruiters.com/Sia/744000161494024-data-engineer) |
 | Sia | Applied AI Engineer | AI Engineering | Paris, IDF, France | unknown | Experience level not confirmed | sia | [Apply](https://jobs.smartrecruiters.com/Sia/744000161494629-applied-ai-engineer) |
 | Scalian | Data Engineer  H/F | Data Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000112213189-data-engineer-h-f) |
-| Mirakl Labs | Data Engineer | Data Engineering | Paris, France | unknown | Experience level not confirmed | mirakl-labs | [Apply](https://job-boards.greenhouse.io/mirakllabs/jobs/6261076004) |
+| Mirakl Labs | Data Engineer (CDI) | Data Engineering | Paris, France | unknown | Experience level not confirmed | mirakl-labs | [Apply](https://job-boards.greenhouse.io/mirakllabs/jobs/6261076004) |
 | Meritis | Développeur IA (H/F) | Software Engineering | Aix-en-Provence, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000161541069-developpeur-ia-h-f-) |
 | Iliad / Free | Platform Engineer / SRE - Paris - H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | iliad-free | [Apply](https://jobs.smartrecruiters.com/Iliad-Free/744000149547384-platform-engineer-sre-paris-h-f) |
 | Iliad / Free | Platform Engineer / SRE  - Montpellier - H/F | Software Engineering | Montpellier, Occitanie, France | unknown | Experience level not confirmed | iliad-free | [Apply](https://jobs.smartrecruiters.com/Iliad-Free/744000149549209-platform-engineer-sre-montpellier-h-f) |
@@ -45,7 +49,6 @@ Showing 100 of 236 candidates (limit: 100). France appears first, followed by in
 | NEXTON | Développeur Java H/F | Software Engineering | Bordeaux, Nouvelle-Aquitaine, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000160580584-developpeur-java-h-f) |
 | Scalian | Développeur Java / Spring Boot – Banque &amp; Paiements - Annecy F/H | Software Engineering | Annecy, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000159819029-developpeur-java-spring-boot-banque-paiements-annecy-f-h) |
 | NEXTON | Développeur Full Stack Java / React H/F | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000159894319-developpeur-full-stack-java-react-h-f) |
-| Iliad / Free | Golang Backend Developer  - Paris - H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | iliad-free | [Apply](https://jobs.smartrecruiters.com/Iliad-Free/744000159886900-golang-backend-developer-paris-h-f) |
 | INFINIT | Full Stack Software Engineer | Software Engineering | Paris | unknown | Experience level not confirmed | infinit | [Apply](https://jobs.lever.co/infinit/87b3ab76-0efd-4b4c-a00e-f9e39981999e/apply) |
 | BPCE Solutions Informatiques | Développeur (F/H) - Produit Souscriptions Digitales | Software Engineering | Caen, Normandie, France \| Aix-en-provence, Provence-Alpes-Côte d'Azur, France \| Villeurbanne, AUVERGNE-RHÔNE-ALPES, France \| Reims, Grand Est, France \| Paris, Ile de France, France \| Saint-Herblain, Pays de la Loire, France \| BALMA, Occitanie, France \| Bois-Guillaume, Normandie, France \| Saint-Jean-de-la-Ruelle, Centre-Val de Loire, France \| Montigny-le-Bretonneux, Ile de France, France \| Villeneuve-d'Ascq, Hauts-de-France, France | unknown | Experience level not confirmed | bpce-open-data | [Apply](https://recrutement.bpce.fr/job/developpeur-f-h-produit-souscriptions-digitales) |
 | NEXTON | Dev/Data engineer DataLake (IP) H/F | Data Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000159622849-dev-data-engineer-datalake-ip-h-f) |
@@ -106,7 +109,4 @@ Showing 100 of 236 candidates (limit: 100). France appears first, followed by in
 | NEXTON | Développeur C# Pricing Pre Trade Axone H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000158107454-developpeur-c-pricing-pre-trade-axone-h-f) |
 | NEXTON | Développeur C# - IT Quant Pricing Pre Trade (+ API Sophis) H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000158108039-developpeur-c-it-quant-pricing-pre-trade-api-sophis-h-f) |
 | NEXTON | Developpeur java/angular H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000147260389-developpeur-java-angular-h-f) |
-| NEXTON | Data Engineer (ArangoDB) H/F | Data Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000157160535-data-engineer-arangodb-h-f) |
 | Meritis | Développeur C# .net - H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000155751779-developpeur-c-net-h-f) |
-| Meritis | Développeur C# (H/F) | Software Engineering | Montpellier, Occitanie, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000153714414-developpeur-c-h-f-) |
-| Magellan | Ingénieur IA (H/F)  | AI Engineering | Valbonne, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000155742309-ingenieur-ia-h-f-) |
