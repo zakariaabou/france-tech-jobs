@@ -1,6 +1,6 @@
 # Potential matches — verify requirements
 
-Last pipeline run: 2026-11-21 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
+Last pipeline run: 2026-11-22 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
 Showing 100 of 238 candidates (limit: 100). France appears first, followed by international and unknown locations.
 

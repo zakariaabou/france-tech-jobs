@@ -1,6 +1,6 @@
 # International: Software Engineering
 
-Last pipeline run: 2026-11-21 (UTC). Only currently confirmed listings are shown.
+Last pipeline run: 2026-11-22 (UTC). Only currently confirmed listings are shown.
 
 [Home](../README.md)
 
