@@ -1,8 +1,8 @@
 # Potential matches — verify requirements
 
-Last pipeline run: 2026-11-22 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
+Last pipeline run: 2026-11-23 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
-Showing 8 of 8 candidates (limit: 100). Region: unknown.
+Showing 7 of 7 candidates (limit: 100). Region: unknown.
 
 [Home](../README.md)
 
@@ -10,7 +10,6 @@ Showing 8 of 8 candidates (limit: 100). Region: unknown.
 
 | Company | Role | Categories | Location | Experience | Review reason | Sources | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Teads | Junior Software Engineer - DR Delivery Team | Software Engineering | Ljubljana | junior | Location not confirmed | teads | [Apply](https://job-boards.eu.greenhouse.io/teads1/jobs/4999828101) |
 | Scalian | Software Engineer – Expert Migration &amp; Automation | Software Engineering | Casablanca, Casablanca-Settat, Morocco | unknown | Experience level not confirmed; Location not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000112695326-software-engineer-expert-migration-automation) |
 | Magellan | Développeur / Salesforce (H/F) | Software Engineering | Quatre Bornes, Maurice, Mauritius | unknown | Experience level not confirmed; Location not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000139230779-developpeur-salesforce-h-f-) |
 | Theodo | Full Stack Software Engineer  - Cape Town | Software Engineering | Cape Town | mid | Location not confirmed | theodo | [Apply](https://jobs.lever.co/theodo/31633ba7-be82-4389-9eec-f045bf258bf8/apply) |
