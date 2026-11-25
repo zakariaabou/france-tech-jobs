@@ -1,8 +1,8 @@
 # Potential matches — verify requirements
 
-Last pipeline run: 2026-11-24 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
+Last pipeline run: 2026-11-25 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
-Showing 100 of 203 candidates (limit: 100). Region: france.
+Showing 100 of 201 candidates (limit: 100). Region: france.
 
 [Home](../README.md)
 
@@ -10,10 +10,13 @@ Showing 100 of 203 candidates (limit: 100). Region: france.
 
 | Company | Role | Categories | Location | Experience | Review reason | Sources | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Scalian | Développeur Java F/H \| Secteur Énergie - Lyon | Software Engineering | Lyon, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000163407624-developpeur-java-f-h-secteur-energie-lyon) |
+| Meritis | Développeur Java/Angular Collatéral (H/F) | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000163474528-developpeur-java-angular-collateral-h-f-) |
+| Meritis | Développeur C++ / Go - Embarqué (H/F) | Software Engineering | Valbonne, , France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000163500900-developpeur-c-go-embarque-h-f-) |
+| Iliad / Free | Développeur Java – Montpellier – H/F | Software Engineering | Montpellier, Occitanie, France | unknown | Experience level not confirmed | iliad-free | [Apply](https://jobs.smartrecruiters.com/Iliad-Free/744000163502742-developpeur-java-montpellier-h-f) |
 | NEXTON | Développeur Fullstack Node.js H/F | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000163254660-developpeur-fullstack-node-js-h-f) |
 | Mirakl Labs | Software Engineer Java Freelance | Software Engineering | Paris, France | unknown | Experience level not confirmed | mirakl-labs | [Apply](https://job-boards.greenhouse.io/mirakllabs/jobs/6268395004) |
 | Mirakl Labs | Software Engineer Java Freelance | Software Engineering | Bordeaux, France | unknown | Experience level not confirmed | mirakl-labs | [Apply](https://job-boards.greenhouse.io/mirakllabs/jobs/6268399004) |
-| Meritis | Ingénieur Data Analyst H/F) | Data Engineering | Sophia-Antipolis, , France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000163266299-ingenieur-data-analyst-h-f-) |
 | Magellan | Ingénieur IA Générative AWS (H/F) | AI Engineering | Massy, IDF, France | unknown | Experience level not confirmed | magellan | [Apply](https://jobs.smartrecruiters.com/Magellan/744000163181859-ingenieur-ia-generative-aws-h-f-) |
 | Scalian | Développeur Angular / Node.js - Annecy F/H | Software Engineering | Annecy, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000162681169-developpeur-angular-node-js-annecy-f-h) |
 | Mirakl Labs | MLOps Engineer (CDI) | AI Engineering | Paris, France | unknown | Experience level not confirmed | mirakl-labs | [Apply](https://job-boards.greenhouse.io/mirakllabs/jobs/6267144004) |
@@ -107,6 +110,3 @@ Showing 100 of 203 candidates (limit: 100). Region: france.
 | Scalian |  Développeur Android Kotlin Multiplatform KMP - CDI (F/H)  | Software Engineering | Annecy, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000138814282--developpeur-android-kotlin-multiplatform-kmp-cdi-f-h-) |
 | ONEY | Data Engineer F/H | Data Engineering | CROIX, Hauts-de-France, France | unknown | Experience level not confirmed | bpce-open-data | [Apply](https://recrutement.bpce.fr/job/data-engineer-f-h) |
 | NEXTON | Développeur Java / Angular H/F | Software Engineering | Lyon, Auvergne-Rhône-Alpes, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000157997029-developpeur-java-angular-h-f) |
-| NEXTON | Développeur C# Pricing Pre Trade Axone H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000158107454-developpeur-c-pricing-pre-trade-axone-h-f) |
-| NEXTON | Développeur C# - IT Quant Pricing Pre Trade (+ API Sophis) H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000158108039-developpeur-c-it-quant-pricing-pre-trade-api-sophis-h-f) |
-| NEXTON | Developpeur java/angular H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000147260389-developpeur-java-angular-h-f) |
