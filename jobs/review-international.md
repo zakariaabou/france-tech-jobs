@@ -1,8 +1,8 @@
 # Potential matches — verify requirements
 
-Last pipeline run: 2026-11-25 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
+Last pipeline run: 2026-11-26 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
-Showing 28 of 28 candidates (limit: 100). Region: international.
+Showing 29 of 29 candidates (limit: 100). Region: international.
 
 [Home](../README.md)
 
@@ -10,6 +10,8 @@ Showing 28 of 28 candidates (limit: 100). Region: international.
 
 | Company | Role | Categories | Location | Experience | Review reason | Sources | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Scalian | Software Engineer | Software Engineering | MI, , Italy | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000163685959-software-engineer) |
+| Kpler | Data Engineer | Data Engineering | United Kingdom | unknown | Experience level not confirmed | kpler | [Apply](https://jobs.lever.co/kpler/b00e4198-1c2d-4862-8b97-f0d14a125237/apply) |
 | Scalian | Software Developer | Software Engineering | Modena, , Italy | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000162324190-software-developer) |
 | INFINIT | Full Stack Software Engineer | Software Engineering | London | unknown | Experience level not confirmed | infinit | [Apply](https://jobs.lever.co/infinit/92090d39-0235-4729-a52a-a7ccacfdada7/apply) |
 | INFINIT | Full Stack Software Engineer | Software Engineering | Madrid | unknown | Experience level not confirmed | infinit | [Apply](https://jobs.lever.co/infinit/68acdfdd-68af-4b84-aa1c-61d13435a9db/apply) |
@@ -22,7 +24,6 @@ Showing 28 of 28 candidates (limit: 100). Region: international.
 | Scalian | Ingénieur Logiciel Embarqué | Software Engineering | Bruxelles, , Belgium | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000149309978-ingenieur-logiciel-embarque) |
 | Scalian | Fullstack developer (node.js y angular) | Software Engineering | Madrid, , Spain | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000131700279-fullstack-developer-node-js-y-angular-) |
 | Scalian | Frontend developer | Software Engineering | Madrid, , Spain | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000131704471-frontend-developer) |
-| Scalian | Embedded Software Engineer | Software Engineering | MI, , Italy | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000155936809-embedded-software-engineer) |
 | Scalian | Embedded Software Developer – Aerospace | Software Engineering | Madrid, , Spain | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000152675659-embedded-software-developer-aerospace) |
 | Scalian | Data Engineer  | Data Engineering | Liège, , Belgium | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000158084899-data-engineer-) |
 | Scalian | Data Engineer | Data Engineering | Madrid, , Spain | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000131864749-data-engineer) |

@@ -1,8 +1,8 @@
 # Potential matches — verify requirements
 
-Last pipeline run: 2026-11-25 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
+Last pipeline run: 2026-11-26 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
-Showing 100 of 236 candidates (limit: 100). France appears first, followed by international and unknown locations.
+Showing 100 of 239 candidates (limit: 100). France appears first, followed by international and unknown locations.
 
 [Home](../README.md)
 
@@ -10,6 +10,10 @@ Showing 100 of 236 candidates (limit: 100). France appears first, followed by in
 
 | Company | Role | Categories | Location | Experience | Review reason | Sources | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| NEXTON | Machine Learning Engineer H/F | AI Engineering | Bordeaux, Nouvelle-Aquitaine, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000163695652-machine-learning-engineer-h-f) |
+| Meritis | Ingénieur Data Analyst H/F) | Data Engineering | Sophia-Antipolis, , France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000163623601-ingenieur-data-analyst-h-f-) |
+| Meritis | Développeur python Banque (H/F) | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000163706019-developpeur-python-banque-h-f-) |
+| Meritis | Développeur C# Finance (H/F) | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000163683538-developpeur-c-finance-h-f-) |
 | Scalian | Développeur Java F/H \| Secteur Énergie - Lyon | Software Engineering | Lyon, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000163407624-developpeur-java-f-h-secteur-energie-lyon) |
 | Meritis | Développeur Java/Angular Collatéral (H/F) | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000163474528-developpeur-java-angular-collateral-h-f-) |
 | Meritis | Développeur C++ / Go - Embarqué (H/F) | Software Engineering | Valbonne, , France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000163500900-developpeur-c-go-embarque-h-f-) |
@@ -49,7 +53,6 @@ Showing 100 of 236 candidates (limit: 100). France appears first, followed by in
 | NEXTON | Ingénieur Intelligence Artificielle H/F | AI Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000160820136-ingenieur-intelligence-artificielle-h-f) |
 | NEXTON | Data Engineer H/F | Data Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000160899389-data-engineer-h-f) |
 | Meritis | Développeur C#/Angular (H/F) | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000160904458-developpeur-c-angular-h-f-) |
-| Meritis | Développeur C# Finance (H/F) | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000160902765-developpeur-c-finance-h-f-) |
 | Scalian | Développeur Fullstack - Portail Collaborateurs F/H – CDI – Annecy | Software Engineering | Annecy, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000160571001-developpeur-fullstack-portail-collaborateurs-f-h-cdi-annecy) |
 | NEXTON | Développeur Java H/F | Software Engineering | Bordeaux, Nouvelle-Aquitaine, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000160580584-developpeur-java-h-f) |
 | Scalian | Développeur Java / Spring Boot – Banque &amp; Paiements - Annecy F/H | Software Engineering | Annecy, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000159819029-developpeur-java-spring-boot-banque-paiements-annecy-f-h) |
@@ -107,6 +110,3 @@ Showing 100 of 236 candidates (limit: 100). France appears first, followed by in
 | Scalian | Concepteur Développeur expérimenté (H/F) | Software Engineering | Montpellier, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000145928530-concepteur-developpeur-experimente-h-f-) |
 | Scalian | Analyste Développeur C# Cloud Confirmé H/F | Software Engineering | Cergy, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000148306758-analyste-developpeur-c-cloud-confirme-h-f) |
 | Scalian |  Développeur Front H/F | Software Engineering | Bordeaux, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000107019955--developpeur-front-h-f) |
-| Scalian |  Développeur Android Kotlin Multiplatform KMP - CDI (F/H)  | Software Engineering | Annecy, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000138814282--developpeur-android-kotlin-multiplatform-kmp-cdi-f-h-) |
-| ONEY | Data Engineer F/H | Data Engineering | CROIX, Hauts-de-France, France | unknown | Experience level not confirmed | bpce-open-data | [Apply](https://recrutement.bpce.fr/job/data-engineer-f-h) |
-| NEXTON | Développeur Java / Angular H/F | Software Engineering | Lyon, Auvergne-Rhône-Alpes, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000157997029-developpeur-java-angular-h-f) |
