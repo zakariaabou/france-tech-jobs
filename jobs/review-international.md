@@ -1,8 +1,8 @@
 # Potential matches — verify requirements
 
-Last pipeline run: 2026-11-26 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
+Last pipeline run: 2026-11-27 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
-Showing 29 of 29 candidates (limit: 100). Region: international.
+Showing 30 of 30 candidates (limit: 100). Region: international.
 
 [Home](../README.md)
 
@@ -10,6 +10,7 @@ Showing 29 of 29 candidates (limit: 100). Region: international.
 
 | Company | Role | Categories | Location | Experience | Review reason | Sources | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Scalian | Software Developer | Software Engineering | Rome, , Italy | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000163908139-software-developer) |
 | Scalian | Software Engineer | Software Engineering | MI, , Italy | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000163685959-software-engineer) |
 | Kpler | Data Engineer | Data Engineering | United Kingdom | unknown | Experience level not confirmed | kpler | [Apply](https://jobs.lever.co/kpler/b00e4198-1c2d-4862-8b97-f0d14a125237/apply) |
 | Scalian | Software Developer | Software Engineering | Modena, , Italy | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000162324190-software-developer) |
