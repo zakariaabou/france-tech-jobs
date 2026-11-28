@@ -1,8 +1,8 @@
 # Potential matches — verify requirements
 
-Last pipeline run: 2026-11-27 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
+Last pipeline run: 2026-11-28 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
-Showing 30 of 30 candidates (limit: 100). Region: international.
+Showing 32 of 32 candidates (limit: 100). Region: international.
 
 [Home](../README.md)
 
@@ -10,6 +10,8 @@ Showing 30 of 30 candidates (limit: 100). Region: international.
 
 | Company | Role | Categories | Location | Experience | Review reason | Sources | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Mendix | Enterprise AI Engineer - EMEA - Intelligence Center X | AI Engineering | Rotterdam | unknown | Experience level not confirmed | mendix | [Apply](https://jobs.lever.co/mendix/3be1cbcf-1ab4-4309-a764-2c336d1f7f37/apply) |
+| Kpler | Data Engineer (Natural Gas) | Data Engineering | United States | unknown | Experience level not confirmed | kpler | [Apply](https://jobs.lever.co/kpler/e61ceaf6-c5b2-4eff-a38e-93922cc5d373/apply) |
 | Scalian | Software Developer | Software Engineering | Rome, , Italy | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000163908139-software-developer) |
 | Scalian | Software Engineer | Software Engineering | MI, , Italy | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000163685959-software-engineer) |
 | Kpler | Data Engineer | Data Engineering | United Kingdom | unknown | Experience level not confirmed | kpler | [Apply](https://jobs.lever.co/kpler/b00e4198-1c2d-4862-8b97-f0d14a125237/apply) |

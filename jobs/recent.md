@@ -1,11 +1,13 @@
 # Recently added
 
-Last pipeline run: 2026-11-27 (UTC). Only currently confirmed listings are shown.
+Last pipeline run: 2026-11-28 (UTC). Only currently confirmed listings are shown.
 
 [Home](../README.md)
 
 | Company | Role | Location | Experience | Contract | Schedule | Work mode | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Sia | Consultant - Analytics Engineer | Paris, IDF, France | junior-mid | Unknown | Full-time | Unknown | 2026-11-27 | [Apply](https://jobs.smartrecruiters.com/Sia/744000164068239-consultant-analytics-engineer) |
+| NEXTON | Développeur Salesforce H/F | Paris, IDF, France | mid | Unknown | Full-time | Unknown | 2026-11-27 | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000164065219-developpeur-salesforce-h-f) |
 | Sia | Machine learning Engineer | Maastricht, , Netherlands | junior-mid | Unknown | Full-time | hybrid | 2026-11-25 | [Apply](https://jobs.smartrecruiters.com/Sia/744000163695810-machine-learning-engineer) |
 | Sia | Machine learning Engineer | Rotterdam, , Netherlands | junior-mid | Unknown | Full-time | hybrid | 2026-11-25 | [Apply](https://jobs.smartrecruiters.com/Sia/744000163701111-machine-learning-engineer) |
 | Sia | Machine learning Engineer | Amsterdam, NH, Netherlands | junior-mid | Unknown | Full-time | hybrid | 2026-11-25 | [Apply](https://jobs.smartrecruiters.com/Sia/744000163702259-machine-learning-engineer) |

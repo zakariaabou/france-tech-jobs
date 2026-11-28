@@ -1,8 +1,8 @@
 # Potential matches — verify requirements
 
-Last pipeline run: 2026-11-27 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
+Last pipeline run: 2026-11-28 (UTC). These active listings require review; eligibility and work authorization are not confirmed.
 
-Showing 100 of 237 candidates (limit: 100). France appears first, followed by international and unknown locations.
+Showing 100 of 241 candidates (limit: 100). France appears first, followed by international and unknown locations.
 
 [Home](../README.md)
 
@@ -10,15 +10,19 @@ Showing 100 of 237 candidates (limit: 100). France appears first, followed by in
 
 | Company | Role | Categories | Location | Experience | Review reason | Sources | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| Scaleway | Storage - Software Engineer - Block | Software Engineering | Paris | unknown | Experience level not confirmed | scaleway | [Apply](https://jobs.lever.co/scaleway/3987b419-9c8e-4633-a688-d8d93749d348/apply) |
+| NEXTON | Développeur Java / Angular H/F | Software Engineering | Lyon, Auvergne-Rhône-Alpes, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000164066005-developpeur-java-angular-h-f) |
+| NEXTON | Développeur Full Stack Java / React H/F | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000164066614-developpeur-full-stack-java-react-h-f) |
+| Meritis | Développeur IA (H/F) | Software Engineering | Aix-en-Provence, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000164011399-developpeur-ia-h-f-) |
+| Iliad / Free | Java Software Engineer – Montpellier – H/F | Software Engineering | Montpellier, Occitanie, France | unknown | Experience level not confirmed | iliad-free | [Apply](https://jobs.smartrecruiters.com/Iliad-Free/744000164078929-java-software-engineer-montpellier-h-f) |
+| Iliad / Free |  Go Backend Developer - Paris - H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | iliad-free | [Apply](https://jobs.smartrecruiters.com/Iliad-Free/744000164077260--go-backend-developer-paris-h-f) |
 | NEXTON | Développeur Java / Angular H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000163883189-developpeur-java-angular-h-f) |
 | Meritis | Ingénieur Data Analyst H/F) | Data Engineering | Sophia-Antipolis, , France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000163903300-ingenieur-data-analyst-h-f-) |
-| Iliad / Free |  Go Backend Developer - Paris - H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | iliad-free | [Apply](https://jobs.smartrecruiters.com/Iliad-Free/744000163835705--go-backend-developer-paris-h-f) |
 | NEXTON | Machine Learning Engineer H/F | AI Engineering | Bordeaux, Nouvelle-Aquitaine, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000163695652-machine-learning-engineer-h-f) |
 | Meritis | Développeur python Banque (H/F) | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000163706019-developpeur-python-banque-h-f-) |
 | Meritis | Développeur C# Finance (H/F) | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000163683538-developpeur-c-finance-h-f-) |
 | Scalian | Développeur Java F/H \| Secteur Énergie - Lyon | Software Engineering | Lyon, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000163407624-developpeur-java-f-h-secteur-energie-lyon) |
 | Meritis | Développeur Java/Angular Collatéral (H/F) | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000163474528-developpeur-java-angular-collateral-h-f-) |
-| Iliad / Free | Développeur Java – Montpellier – H/F | Software Engineering | Montpellier, Occitanie, France | unknown | Experience level not confirmed | iliad-free | [Apply](https://jobs.smartrecruiters.com/Iliad-Free/744000163502742-developpeur-java-montpellier-h-f) |
 | NEXTON | Développeur Fullstack Node.js H/F | Software Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | nexton | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000163254660-developpeur-fullstack-node-js-h-f) |
 | Mirakl Labs | Software Engineer Java Freelance | Software Engineering | Paris, France | unknown | Experience level not confirmed | mirakl-labs | [Apply](https://job-boards.greenhouse.io/mirakllabs/jobs/6268395004) |
 | Mirakl Labs | Software Engineer Java Freelance | Software Engineering | Bordeaux, France | unknown | Experience level not confirmed | mirakl-labs | [Apply](https://job-boards.greenhouse.io/mirakllabs/jobs/6268399004) |
@@ -44,7 +48,6 @@ Showing 100 of 237 candidates (limit: 100). France appears first, followed by in
 | Sia | Applied AI Engineer | AI Engineering | Paris, IDF, France | unknown | Experience level not confirmed | sia | [Apply](https://jobs.smartrecruiters.com/Sia/744000161494629-applied-ai-engineer) |
 | Scalian | Data Engineer  H/F | Data Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000112213189-data-engineer-h-f) |
 | Mirakl Labs | Data Engineer (CDI) | Data Engineering | Paris, France | unknown | Experience level not confirmed | mirakl-labs | [Apply](https://job-boards.greenhouse.io/mirakllabs/jobs/6261076004) |
-| Meritis | Développeur IA (H/F) | Software Engineering | Aix-en-Provence, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | meritis | [Apply](https://jobs.smartrecruiters.com/Meritis/744000161541069-developpeur-ia-h-f-) |
 | Iliad / Free | Platform Engineer / SRE - Paris - H/F | Software Engineering | Paris, IDF, France | unknown | Experience level not confirmed | iliad-free | [Apply](https://jobs.smartrecruiters.com/Iliad-Free/744000149547384-platform-engineer-sre-paris-h-f) |
 | Iliad / Free | Platform Engineer / SRE  - Montpellier - H/F | Software Engineering | Montpellier, Occitanie, France | unknown | Experience level not confirmed | iliad-free | [Apply](https://jobs.smartrecruiters.com/Iliad-Free/744000149549209-platform-engineer-sre-montpellier-h-f) |
 | Iliad / Free | Développeur Full stack | Software Engineering | Marseille, Provence-Alpes-Côte d'Azur, France | unknown | Experience level not confirmed | iliad-free | [Apply](https://jobs.smartrecruiters.com/Iliad-Free/744000103324862-developpeur-full-stack) |
@@ -107,6 +110,3 @@ Showing 100 of 237 candidates (limit: 100). France appears first, followed by in
 | Scalian | Data Engineer H/F | Data Engineering | Marseille, Sélectionnez..., France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000122639689-data-engineer-h-f) |
 | Scalian | Data Engineer H/F | Data Engineering | Nantes, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000155052052-data-engineer-h-f) |
 | Scalian | Data Engineer ETL / Apache Airflow (H/F) - Consulting | Data Engineering | Neuilly-sur-Seine, IDF, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000152432289-data-engineer-etl-apache-airflow-h-f-consulting) |
-| Scalian | Data Engineer (H/F) - Lille | Data Engineering | Lille, Hauts-de-France, France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000151568934-data-engineer-h-f-lille) |
-| Scalian | Concepteur Développeur expérimenté (H/F) | Software Engineering | Montpellier, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000145928530-concepteur-developpeur-experimente-h-f-) |
-| Scalian | Analyste Développeur C# Cloud Confirmé H/F | Software Engineering | Cergy, , France | unknown | Experience level not confirmed | scalian | [Apply](https://jobs.smartrecruiters.com/Scalian/744000148306758-analyste-developpeur-c-cloud-confirme-h-f) |

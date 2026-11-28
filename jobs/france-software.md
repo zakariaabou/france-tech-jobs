@@ -1,11 +1,12 @@
 # France: Software Engineering
 
-Last pipeline run: 2026-11-27 (UTC). Only currently confirmed listings are shown.
+Last pipeline run: 2026-11-28 (UTC). Only currently confirmed listings are shown.
 
 [Home](../README.md)
 
 | Company | Role | Location | Experience | Contract | Schedule | Work mode | Posted | Apply |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| NEXTON | Développeur Salesforce H/F | Paris, IDF, France | mid | Unknown | Full-time | Unknown | 2026-11-27 | [Apply](https://jobs.smartrecruiters.com/NEXTON/744000164065219-developpeur-salesforce-h-f) |
 | Meritis | Développeur C++ (H/F) | Valbonne, Provence-Alpes-Côte d'Azur, France | junior-mid | Unknown | Full-time | hybrid | 2026-11-17 | [Apply](https://jobs.smartrecruiters.com/Meritis/744000162009819-developpeur-c-h-f-) |
 | Sia | Junior Software Engineer | Paris, IDF, France | junior | Unknown | Full-time | Unknown | 2026-10-27 | [Apply](https://jobs.smartrecruiters.com/Sia/744000158018397-junior-software-engineer) |
 | Scalian | Ingénieur logiciel embarqué (H/F) | Valence, Auvergne-Rhône-Alpes, France | mid | Unknown | Full-time | Unknown | 2026-07-01 | [Apply](https://jobs.smartrecruiters.com/Scalian/744000135307535-ingenieur-logiciel-embarque-h-f-) |
